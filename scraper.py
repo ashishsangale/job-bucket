@@ -40,11 +40,18 @@ DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 NOTION_TOKEN        = os.environ.get("NOTION_TOKEN", "")
 NOTION_DATABASE_ID  = os.environ.get("NOTION_DATABASE_ID", "")
 
+# "greenhouse", "ashby", or "all" (default — runs both, useful for local testing)
+SCRAPER_MODE = os.environ.get("SCRAPER_MODE", "all").lower()
+
 # ── Concurrency & rate limiting ───────────────────────────────────────────────
-MAX_WORKERS       = 10    # simultaneous requests — safe for public APIs
-REQUEST_DELAY_S   = 0.1   # small pause between each worker request (seconds)
-REQUEST_TIMEOUT   = 15    # seconds per request
-MAX_RETRIES       = 2     # retry on transient failures
+MAX_WORKERS           = 5     # reduced from 10 — Ashby rate limits aggressively
+MAX_RETRIES           = 1     # bad/rate-limited slugs don't improve on retry
+
+GREENHOUSE_DELAY_S    = 0.1   # Greenhouse handles concurrency fine
+GREENHOUSE_TIMEOUT    = 15    # seconds
+
+ASHBY_DELAY_S         = 0.5   # Ashby needs more breathing room between requests
+ASHBY_TIMEOUT         = 90    # seconds — Ashby boards can take 60-90s to respond
 
 # ── Optional Filters ──────────────────────────────────────────────────────────
 INCLUDE_KEYWORDS: list[str] = []   # e.g. ["engineer", "software", "backend"]
@@ -134,10 +141,10 @@ def save_seen(seen: set[str]) -> None:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def fetch_greenhouse(slug: str, session: requests.Session) -> list[dict]:
-    time.sleep(REQUEST_DELAY_S)
+    time.sleep(GREENHOUSE_DELAY_S)
     url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true"
     try:
-        r = session.get(url, timeout=REQUEST_TIMEOUT)
+        r = session.get(url, timeout=GREENHOUSE_TIMEOUT)
         r.raise_for_status()
     except requests.RequestException as e:
         log.debug(f"Greenhouse [{slug}]: {e}")
@@ -159,10 +166,10 @@ def fetch_greenhouse(slug: str, session: requests.Session) -> list[dict]:
 
 
 def fetch_ashby(slug: str, session: requests.Session) -> list[dict]:
-    time.sleep(REQUEST_DELAY_S)
+    time.sleep(ASHBY_DELAY_S)
     url = f"https://api.ashbyhq.com/posting-api/job-board/{slug}"
     try:
-        r = session.get(url, timeout=REQUEST_TIMEOUT)
+        r = session.get(url, timeout=ASHBY_TIMEOUT)
         r.raise_for_status()
     except requests.RequestException as e:
         log.debug(f"Ashby [{slug}]: {e}")
@@ -424,11 +431,11 @@ def main() -> None:
     log.info("─── Job Scraper Starting ───")
     start = time.time()
 
-    # Load company lists from JSON files
-    greenhouse_slugs = load_slugs(GREENHOUSE_FILE)
-    ashby_slugs      = load_slugs(ASHBY_FILE)
+    # Load company lists based on mode
+    greenhouse_slugs = load_slugs(GREENHOUSE_FILE) if SCRAPER_MODE in ("greenhouse", "all") else []
+    ashby_slugs      = load_slugs(ASHBY_FILE)      if SCRAPER_MODE in ("ashby", "all")      else []
 
-    log.info(f"Companies: {len(greenhouse_slugs)} Greenhouse, {len(ashby_slugs)} Ashby")
+    log.info(f"Mode: {SCRAPER_MODE} — {len(greenhouse_slugs)} Greenhouse, {len(ashby_slugs)} Ashby slugs")
     log.info(f"Freshness filter: {'disabled' if not MAX_AGE_DAYS else f'last {MAX_AGE_DAYS} days'}")
 
     if not greenhouse_slugs and not ashby_slugs:
