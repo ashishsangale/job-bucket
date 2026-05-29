@@ -100,11 +100,15 @@ class TestPassesFilters:
 
     def test_remote_only_passes_remote(self):
         with patch.multiple(scraper, INCLUDE_KEYWORDS=[], EXCLUDE_KEYWORDS=[], REMOTE_ONLY=True, MAX_AGE_DAYS=0):
-            assert passes_filters(fresh_job(location="Remote")) is True
+            assert passes_filters(fresh_job(location="Remote - San Francisco, CA")) is True
 
     def test_remote_only_drops_onsite(self):
         with patch.multiple(scraper, INCLUDE_KEYWORDS=[], EXCLUDE_KEYWORDS=[], REMOTE_ONLY=True, MAX_AGE_DAYS=0):
             assert passes_filters(fresh_job(location="New York, NY")) is False
+
+    def test_remote_only_drops_non_us_remote(self):
+        with patch.multiple(scraper, INCLUDE_KEYWORDS=[], EXCLUDE_KEYWORDS=[], REMOTE_ONLY=True, MAX_AGE_DAYS=0):
+            assert passes_filters(fresh_job(location="Remote - EMEA")) is False
 
     def test_stale_job_fails(self):
         old = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
