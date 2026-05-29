@@ -152,7 +152,7 @@ def fetch_greenhouse(slug: str, session: requests.Session) -> list[dict]:
 
     jobs = []
     for job in r.json().get("jobs", []):
-        location = job.get("location", {}).get("name", "Unknown")
+        location = (job.get("location") or {}).get("name") or "Unknown"
         jobs.append({
             "id":        f"gh-{slug}-{job['id']}",
             "title":     job.get("title", ""),
@@ -177,7 +177,7 @@ def fetch_ashby(slug: str, session: requests.Session) -> list[dict]:
 
     jobs = []
     for job in r.json().get("jobPostings", []):
-        location = job.get("locationName") or job.get("location", "Unknown")
+        location = job.get("locationName") or job.get("location") or "Unknown"
         jobs.append({
             "id":        f"ashby-{slug}-{job['id']}",
             "title":     job.get("title", ""),
@@ -267,8 +267,8 @@ def is_fresh(job: dict) -> bool:
 
 
 def passes_filters(job: dict) -> bool:
-    title    = job["title"].lower()
-    location = job["location"].lower()
+    title    = (job.get("title") or "").lower()
+    location = (job.get("location") or "").lower()
 
     if not is_fresh(job):
         return False
