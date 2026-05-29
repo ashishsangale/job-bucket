@@ -75,10 +75,56 @@ INCLUDE_KEYWORDS: list[str] = [
     "llm",
     "research scientist",
 ]   # e.g. ["engineer", "software", "backend"]
-EXCLUDE_KEYWORDS: list[str] = []   # e.g. ["senior", "staff", "principal", "intern"]
+EXCLUDE_KEYWORDS: list[str] = [
+    "manager",
+    "Principal",
+    "account manager",
+    "sales",
+    "maintainence",
+    "technician",
+    "personal",
+    "trainer",
+    "editor",
+    "freelance",
+    "mechanical",
+    "physical",
+    "hardware",
+    "packaging",
+    "asic",
+    "director",
+    "broadcast",
+    "accountant",
+    "account executive",
+    "actuarial",
+    "campaign manager",
+    "clinical",
+    "commercial",
+    "compliance",
+    "consultant",
+    "counsel",
+    "customer success",
+    "customer support",
+    "designer",
+    "electrical engineer",
+    "enrollment",
+    "finance",
+    "firmware",
+    "gastroenterology",
+    "head of",
+    "legal",
+    "liaison",
+    "marketing",
+    "medical",
+    "propulsion",
+    "vice president",
+    "vp",
+    "training",
+    "supply chain"
+]   # e.g. ["senior", "staff", "principal", "intern"]
 REMOTE_ONLY: bool = False
 
-# If True, only include jobs located in the US (or remote).
+# If True, only include jobs located in t
+# he US (or remote).
 # Matches against common US indicators in the location field.
 US_ONLY: bool = True
 
@@ -341,6 +387,12 @@ def _is_us_or_remote(location: str) -> bool:
     # Blank / unknown — let through rather than silently drop
     if not loc or loc == "unknown":
         return True
+
+    # Remote jobs must still look US-based; otherwise we would accept
+    # remote roles for other regions like EMEA, Canada, or APAC.
+    if "remote" in loc:
+        return any(indicator in loc for indicator in _US_INDICATORS if indicator != "remote")
+
     return any(indicator in loc for indicator in _US_INDICATORS)
 
 
@@ -451,6 +503,8 @@ def _deliver_notion(jobs: list[dict]) -> set[str]:
     headers = notion_headers()
 
     for job in jobs:
+        posted_at = job.get("posted_at", "")
+
         # ── Adjust property names to match YOUR Notion database schema ──
         properties = {
             "Name": {
@@ -471,7 +525,15 @@ def _deliver_notion(jobs: list[dict]) -> set[str]:
             "Status": {
                 "select": {"name": "Inbox"}
             },
+            "Date Posted": {
+                "date": {"start": posted_at}
+            }
         }
+
+        # if posted_at:
+        #     properties["Posted Date"] = {
+        #         "date": {"start": posted_at}
+        #     }
 
         payload = {
             "parent":     {"database_id": NOTION_DATABASE_ID},
