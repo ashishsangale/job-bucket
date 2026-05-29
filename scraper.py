@@ -54,9 +54,33 @@ ASHBY_DELAY_S         = 0.5   # Ashby needs more breathing room between requests
 ASHBY_TIMEOUT         = 90    # seconds — Ashby boards can take 60-90s to respond
 
 # ── Optional Filters ──────────────────────────────────────────────────────────
-INCLUDE_KEYWORDS: list[str] = []   # e.g. ["engineer", "software", "backend"]
+INCLUDE_KEYWORDS: list[str] = [
+    "software",
+    "engineer",
+    "engineering",
+    "developer",
+    "machine learning",
+    "ml",
+    "ai",
+    "data scientist",
+    "data engineer",
+    "backend",
+    "frontend",
+    "full stack",
+    "fullstack",
+    "platform",
+    "infrastructure",
+    "devops",
+    "mlops",
+    "llm",
+    "research scientist",
+]   # e.g. ["engineer", "software", "backend"]
 EXCLUDE_KEYWORDS: list[str] = []   # e.g. ["senior", "staff", "principal", "intern"]
 REMOTE_ONLY: bool = False
+
+# If True, only include jobs located in the US (or remote).
+# Matches against common US indicators in the location field.
+US_ONLY: bool = True
 
 # Max age in days. Jobs older than this are ignored.
 # Greenhouse: filters on updated_at (last time the post was edited)
@@ -278,7 +302,46 @@ def passes_filters(job: dict) -> bool:
         return False
     if REMOTE_ONLY and "remote" not in location:
         return False
+    if US_ONLY and not _is_us_or_remote(location):
+        return False
     return True
+
+
+# US state abbreviations + common US city names to match against location strings
+_US_INDICATORS = {
+    "remote", "united states", "u.s.", "us", "usa",
+    # states
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
+    "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana",
+    "maine", "maryland", "massachusetts", "michigan", "minnesota",
+    "mississippi", "missouri", "montana", "nebraska", "nevada",
+    "new hampshire", "new jersey", "new mexico", "new york", "north carolina",
+    "north dakota", "ohio", "oklahoma", "oregon", "pennsylvania",
+    "rhode island", "south carolina", "south dakota", "tennessee", "texas",
+    "utah", "vermont", "virginia", "washington", "west virginia",
+    "wisconsin", "wyoming", "district of columbia", "washington d.c.",
+    # state abbreviations
+    " al", " ak", " az", " ar", " ca", " co", " ct", " de", " fl", " ga",
+    " hi", " id", " il", " in", " ia", " ks", " ky", " la", " me", " md",
+    " ma", " mi", " mn", " ms", " mo", " mt", " ne", " nv", " nh", " nj",
+    " nm", " ny", " nc", " nd", " oh", " ok", " or", " pa", " ri", " sc",
+    " sd", " tn", " tx", " ut", " vt", " va", " wa", " wv", " wi", " wy",
+    " dc",
+    # major cities (partial list — catches most job postings)
+    "san francisco", "new york", "los angeles", "seattle", "austin",
+    "boston", "chicago", "denver", "atlanta", "miami", "dallas",
+    "houston", "portland", "san jose", "san diego", "phoenix",
+    "minneapolis", "detroit", "philadelphia", "brooklyn", "manhattan",
+}
+
+
+def _is_us_or_remote(location: str) -> bool:
+    loc = location.lower()
+    # Blank / unknown — let through rather than silently drop
+    if not loc or loc == "unknown":
+        return True
+    return any(indicator in loc for indicator in _US_INDICATORS)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -302,6 +365,8 @@ def _deliver_discord(jobs: list[dict]) -> set[str]:
         return delivered
 
     session = make_session()
+    total_chunks = (len(jobs) + 9) // 10
+    log.info(f"Discord: sending {len(jobs)} jobs in {total_chunks} chunks")
 
     for i, chunk in enumerate(_chunks(jobs, 10)):
         embeds = [
@@ -328,13 +393,31 @@ def _deliver_discord(jobs: list[dict]) -> set[str]:
             "embeds":     embeds,
         }
 
-        try:
-            r = session.post(DISCORD_WEBHOOK_URL, json=payload, timeout=10)
-            r.raise_for_status()
-            delivered.update(job["id"] for job in chunk)
-            time.sleep(0.5)   # avoid Discord rate limit (50 req/s global)
-        except requests.RequestException as e:
-            log.error(f"Discord post failed (chunk {i}): {e}")
+        # Retry loop — respect Discord's retry_after on 429
+        for attempt in range(5):
+            try:
+                r = session.post(DISCORD_WEBHOOK_URL, json=payload, timeout=10)
+
+                if r.status_code == 429:
+                    retry_after = float(r.json().get("retry_after", 5))
+                    log.warning(f"Discord rate limited — waiting {retry_after:.1f}s (chunk {i})")
+                    time.sleep(retry_after + 0.5)   # +0.5s buffer
+                    continue
+
+                r.raise_for_status()
+                delivered.update(job["id"] for job in chunk)
+
+                if i % 50 == 0:
+                    log.info(f"Discord: {i}/{total_chunks} chunks sent")
+
+                time.sleep(2)   # 2s between chunks = 30 req/min max, under Discord's limit
+                break
+
+            except requests.RequestException as e:
+                log.error(f"Discord post failed (chunk {i}, attempt {attempt+1}): {e}")
+                time.sleep(5)
+        else:
+            log.error(f"Discord chunk {i} failed after 5 attempts — skipping")
 
     log.info(f"Discord: {len(delivered)}/{len(jobs)} jobs delivered")
     return delivered
