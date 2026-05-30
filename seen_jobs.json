@@ -1663,6 +1663,8 @@
     "gh-andurilindustries-5150952007",
     "gh-andurilindustries-5150953007",
     "gh-andurilindustries-5150954007",
+    "gh-andurilindustries-5150957007",
+    "gh-andurilindustries-5150958007",
     "gh-anellophotonics-4577563006",
     "gh-anthropic-4502508008",
     "gh-anthropic-4673416008",
@@ -3597,6 +3599,8 @@
     "gh-coupang-7439550",
     "gh-coupang-7441419",
     "gh-coupang-7528580",
+    "gh-coupang-7774291",
+    "gh-coupang-7793770",
     "gh-coupang-7822518",
     "gh-coupang-7871809",
     "gh-coupang-7901611",
@@ -3607,6 +3611,7 @@
     "gh-coupang-7962133",
     "gh-coupang-7965062",
     "gh-coupanginternal-7528581",
+    "gh-coupanginternal-7774292",
     "gh-coupanginternal-7868368",
     "gh-coupanginternal-7871810",
     "gh-coupanginternal-7901612",
@@ -8892,6 +8897,7 @@
     "gh-simplisafe-7261534",
     "gh-simplisafe-7950288",
     "gh-simplisafe-7950325",
+    "gh-simplisafe-7966867",
     "gh-simpplr-5988322004",
     "gh-simtrabps-5037830007",
     "gh-singlestore-7776421",
@@ -8967,6 +8973,7 @@
     "gh-smartsheet-7960582",
     "gh-smcp-8558696002",
     "gh-smcp-8572080002",
+    "gh-smcp-8572137002",
     "gh-smxtech-7643157003",
     "gh-smxtech-7668039003",
     "gh-smxtech-7677256003",
@@ -12151,5 +12158,5 @@
     "gh-yoodliinc-4249021009",
     "gh-yoodliinc-4253943009"
   ],
-  "updated_at": "2026-05-30T19:06:13.814255+00:00"
+  "updated_at": "2026-05-30T20:50:39.930895+00:00"
 }
