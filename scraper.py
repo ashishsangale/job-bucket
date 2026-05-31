@@ -563,6 +563,12 @@ def main() -> None:
         log.info("Nothing new. Done.")
         return
 
+    # Sort newest first so the cap always takes the most recently posted jobs
+    new_jobs.sort(
+        key=lambda j: _parse_date(j.get("posted_at", "")) or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
+
     if MAX_JOBS_PER_RUN and len(new_jobs) > MAX_JOBS_PER_RUN:
         log.info(f"Capping at {MAX_JOBS_PER_RUN} jobs ({len(new_jobs)-MAX_JOBS_PER_RUN} deferred)")
         new_jobs = new_jobs[:MAX_JOBS_PER_RUN]
