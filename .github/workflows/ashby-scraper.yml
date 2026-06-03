@@ -2,7 +2,7 @@ name: Ashby Scraper
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # once daily at 2am UTC (7pm PT / 10pm ET)
+    - cron: "0 */2 * * *"   # every 2 hours
   workflow_dispatch:
 
 jobs:

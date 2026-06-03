@@ -54,7 +54,7 @@ INCLUDE_KEYWORDS: list[str] = [
     "software", "engineer", "engineering", "developer", "machine learning",
     "ml", " ai ", "data scientist", "data engineer", "backend", "frontend",
     "full stack", "fullstack", "platform", "infrastructure", "devops",
-    "mlops", "llm", "research scientist", "applied scientist",
+    "mlops", "llm", "research scientist", "applied scientist", "forward deployed"
 ]
 
 EXCLUDE_KEYWORDS: list[str] = [
@@ -66,13 +66,15 @@ EXCLUDE_KEYWORDS: list[str] = [
     "customer success", "customer support", "designer", "electrical engineer",
     "enrollment", "finance", "firmware", "gastroenterology", "head of",
     "legal", "liaison", "marketing", "medical", "propulsion", "vice president",
-    "vp", "training", "supply chain",
+    "vp", "training", "supply chain", "facilities", "manufacturing", "senior",
+    "construction", "civil", "embedded", "architect", "chief", "design", "lead",
+    "fulfillment"
 ]
 
 REMOTE_ONLY: bool = False
 US_ONLY:     bool = True
-MAX_AGE_DAYS: int = 14
-MAX_JOBS_PER_RUN: int = 100
+MAX_AGE_DAYS: int = 7
+MAX_JOBS_PER_RUN: int = 200
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -110,7 +112,8 @@ _NON_US = {
     "argentina", "buenos aires",
     "israel", "tel aviv",
     "uae", "dubai", "abu dhabi",
-    "emea", "apac", "latam", "worldwide", "global", "international", "anywhere",
+    "emea", "apac", "latam", "worldwide", "global", "international", "anywhere", "pakistan",
+    "prague", "valencia", ""
 }
 
 # Step 2 — accept if any of these appear
