@@ -113,7 +113,7 @@ _NON_US = {
     "israel", "tel aviv",
     "uae", "dubai", "abu dhabi",
     "emea", "apac", "latam", "worldwide", "global", "international", "anywhere", "pakistan",
-    "prague", "valencia", ""
+    "prague", "valencia"
 }
 
 # Step 2 — accept if any of these appear
