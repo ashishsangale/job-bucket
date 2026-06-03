@@ -1,5 +1,5 @@
 """
-Job Board Scraper — Greenhouse + Ashby
+Job Board Scraper — Greenhouse + Ashby + Lever
 Fetches new jobs, deduplicates, posts to Discord & Notion.
 Supports large company lists (7k+ slugs) via concurrent requests.
 """
@@ -32,6 +32,7 @@ SEEN_JOBS_PATH = BASE_DIR / "seen_jobs.json"
 
 GREENHOUSE_FILE = BASE_DIR / "greenhouse_companies.json"
 ASHBY_FILE      = BASE_DIR / "ashby_companies.json"
+LEVER_FILE      = BASE_DIR / "lever_companies.json"
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 NOTION_TOKEN        = os.environ.get("NOTION_TOKEN", "")
@@ -48,6 +49,8 @@ GREENHOUSE_TIMEOUT = 15
 
 ASHBY_DELAY_S      = 0.5
 ASHBY_TIMEOUT      = 90
+LEVER_DELAY_S      = 0.2
+LEVER_TIMEOUT      = 20
 
 # ── Filters ───────────────────────────────────────────────────────────────────
 INCLUDE_KEYWORDS: list[str] = [
@@ -113,7 +116,7 @@ _NON_US = {
     "israel", "tel aviv",
     "uae", "dubai", "abu dhabi",
     "emea", "apac", "latam", "worldwide", "global", "international", "anywhere", "pakistan",
-    "prague", "valencia"
+    "prague", "valencia", "europe", "johannesburg"
 }
 
 # Step 2 — accept if any of these appear
@@ -318,15 +321,60 @@ def fetch_ashby(slug: str, session: requests.Session) -> list[dict]:
     return jobs
 
 
-def fetch_all_concurrent(greenhouse_slugs: list[str], ashby_slugs: list[str]) -> list[dict]:
+def _normalize_posted_at(value) -> str:
+    if value in (None, ""):
+        return ""
+    if isinstance(value, (int, float)):
+        if value > 10**12:
+            value = value / 1000
+        return datetime.fromtimestamp(value, tz=timezone.utc).isoformat()
+    return str(value)
+
+
+def fetch_lever(slug: str, session: requests.Session) -> list[dict]:
+    time.sleep(LEVER_DELAY_S)
+    url = f"https://api.lever.co/v0/postings/{slug}?mode=json"
+    try:
+        r = session.get(url, timeout=LEVER_TIMEOUT)
+        r.raise_for_status()
+    except requests.RequestException as e:
+        log.debug(f"Lever [{slug}]: {e}")
+        return []
+
+    data = r.json()
+    postings = data.get("postings") if isinstance(data, dict) else data
+    if postings is None:
+        postings = []
+
+    jobs = []
+    for job in postings:
+        categories = job.get("categories") or {}
+        location = categories.get("location") or job.get("location") or "Unknown"
+        hosted_url = job.get("hostedUrl") or job.get("hosted_url") or job.get("applyUrl") or job.get("apply_url") or ""
+        posted_at = _normalize_posted_at(job.get("createdAt") or job.get("created_at") or job.get("updatedAt") or job.get("updated_at"))
+        job_id = job.get("id") or job.get("leverId") or hosted_url or job.get("text") or ""
+        jobs.append({
+            "id":        f"lever-{slug}-{job_id}",
+            "title":     job.get("text", job.get("title", "")),
+            "company":   slug.replace("-", " ").title(),
+            "location":  location,
+            "url":       hosted_url,
+            "source":    "Lever",
+            "posted_at": posted_at,
+        })
+    return jobs
+
+
+def fetch_all_concurrent(greenhouse_slugs: list[str], ashby_slugs: list[str], lever_slugs: list[str]) -> list[dict]:
     all_jobs: list[dict] = []
-    total = len(greenhouse_slugs) + len(ashby_slugs)
+    total = len(greenhouse_slugs) + len(ashby_slugs) + len(lever_slugs)
     completed = 0
     failed = 0
     session = make_session()
     tasks = (
         [(fetch_greenhouse, slug) for slug in greenhouse_slugs]
         + [(fetch_ashby, slug) for slug in ashby_slugs]
+        + [(fetch_lever, slug) for slug in lever_slugs]
     )
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {executor.submit(fn, slug, session): slug for fn, slug in tasks}
@@ -392,7 +440,7 @@ def passes_filters(job: dict) -> bool:
 # Discord
 # ─────────────────────────────────────────────────────────────────────────────
 
-DISCORD_COLOR = {"Greenhouse": 0x23A559, "Ashby": 0x5865F2}
+DISCORD_COLOR = {"Greenhouse": 0x23A559, "Ashby": 0x5865F2, "Lever": 0xF59E0B}
 
 
 def _deliver_discord(jobs: list[dict]) -> set[str]:
@@ -540,18 +588,22 @@ def main() -> None:
 
     greenhouse_slugs = load_slugs(GREENHOUSE_FILE) if SCRAPER_MODE in ("greenhouse", "all") else []
     ashby_slugs      = load_slugs(ASHBY_FILE)      if SCRAPER_MODE in ("ashby", "all")      else []
+    lever_slugs      = load_slugs(LEVER_FILE)      if SCRAPER_MODE in ("lever", "all")      else []
 
-    log.info(f"Mode: {SCRAPER_MODE} — {len(greenhouse_slugs)} Greenhouse, {len(ashby_slugs)} Ashby slugs")
+    log.info(
+        f"Mode: {SCRAPER_MODE} — {len(greenhouse_slugs)} Greenhouse, "
+        f"{len(ashby_slugs)} Ashby, {len(lever_slugs)} Lever slugs"
+    )
     log.info(f"Filters: age={MAX_AGE_DAYS}d, US_ONLY={US_ONLY}, REMOTE_ONLY={REMOTE_ONLY}, cap={MAX_JOBS_PER_RUN}")
 
-    if not greenhouse_slugs and not ashby_slugs:
-        log.error(f"No slugs loaded. Check that {GREENHOUSE_FILE} and/or {ASHBY_FILE} exist.")
+    if not greenhouse_slugs and not ashby_slugs and not lever_slugs:
+        log.error(f"No slugs loaded. Check that {GREENHOUSE_FILE}, {ASHBY_FILE}, and/or {LEVER_FILE} exist.")
         sys.exit(1)
 
     seen = load_seen()
     log.info(f"Loaded {len(seen)} previously seen job IDs")
 
-    all_jobs = fetch_all_concurrent(greenhouse_slugs, ashby_slugs)
+    all_jobs = fetch_all_concurrent(greenhouse_slugs, ashby_slugs, lever_slugs)
 
     unseen   = [j for j in all_jobs if j["id"] not in seen]
     fresh    = [j for j in unseen if is_fresh(j)]

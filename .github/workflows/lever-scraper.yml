@@ -1,8 +1,8 @@
-name: Greenhouse Scraper
+name: Lever Scraper
 
 on:
   schedule:
-    - cron: "7 * * * *"   # every hour, offset from the top of the hour for reliability
+    - cron: "27 * * * *" # every hour, offset from the other scraper jobs
   workflow_dispatch:
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           NOTION_TOKEN:        ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID:  ${{ secrets.NOTION_DATABASE_ID }}
-          SCRAPER_MODE:        greenhouse
+          SCRAPER_MODE:        lever
         run: python scraper.py
 
       - name: Commit updated seen_jobs.json
