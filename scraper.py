@@ -74,7 +74,7 @@ EXCLUDE_KEYWORDS: list[str] = [
 REMOTE_ONLY: bool = False
 US_ONLY:     bool = True
 MAX_AGE_DAYS: int = 7
-MAX_JOBS_PER_RUN: int = 200
+MAX_JOBS_PER_RUN: int = 500
 
 
 # ─────────────────────────────────────────────────────────────────────────────
