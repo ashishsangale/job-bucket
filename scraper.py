@@ -488,7 +488,7 @@ def _deliver_notion(jobs: list[dict]) -> set[str]:
             "Status":   {"select": {"name": "Inbox"}},
         }
         if posted_at:
-            properties["Date Posted"] = {"date": {"start": posted_at[:10]}}
+            properties["Date Posted"] = {"date": {"start": posted_at}}
 
         payload = {"parent": {"database_id": NOTION_DATABASE_ID}, "properties": properties}
 
