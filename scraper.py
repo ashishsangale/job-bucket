@@ -71,7 +71,9 @@ EXCLUDE_KEYWORDS: list[str] = [
     "legal", "liaison", "marketing", "medical", "propulsion", "vice president",
     "vp", "training", "supply chain", "facilities", "manufacturing", "senior",
     "construction", "civil", "embedded", "architect", "chief", "design", "lead",
-    "fulfillment"
+    "fulfillment", "controls", "process", "cae", "connectivity", "copv", "electrical",
+    "wastewater", "water", "avionics", "structural", "roadway", "transportation",
+    "roadway", "hydraulics", "bridge", "controls", "electromagnetic",
 ]
 
 REMOTE_ONLY: bool = False
@@ -116,7 +118,8 @@ _NON_US = {
     "israel", "tel aviv",
     "uae", "dubai", "abu dhabi",
     "emea", "apac", "latam", "worldwide", "global", "international", "anywhere", "pakistan",
-    "prague", "valencia", "europe", "johannesburg"
+    "prague", "valencia", "europe", "johannesburg", "latvia", "romania", "bulgaria", "estonia",
+    "lithuania"
 }
 
 # Step 2 — accept if any of these appear
