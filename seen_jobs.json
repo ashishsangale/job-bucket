@@ -15608,6 +15608,7 @@
     "lever-aircall-cee775a1-2ac3-4ed3-8fac-72b87a602dc3",
     "lever-ana-corp-1b3ae1fa-e7f3-4cc4-936c-2fc17ef1b7f7",
     "lever-ana-corp-99298b34-6331-4d96-9a4e-df125cb02cf5",
+    "lever-anavationllc-5540f02a-0bb4-4fdc-9575-4b6c9e0c5777",
     "lever-anavationllc-95d50b3c-4bd8-41cf-96e3-2deeb7bf33a5",
     "lever-anavationllc-a1c8ac01-a158-485b-9c32-e94eb0f73423",
     "lever-anchorage-75cea559-66cf-4e60-9d3b-6a0efa67c748",
@@ -15669,6 +15670,7 @@
     "lever-grailbio-a021470e-6a55-42d2-8a0c-492a9deae2ba",
     "lever-h1-4dd86c61-7c25-4ce1-806c-efd12a601cdd",
     "lever-h1-812a0b29-ce83-405d-9438-3073f969936f",
+    "lever-hatchit-8c3ac4cd-aa72-449c-bbdb-acd0db2160cd",
     "lever-hermeus-7e1e720e-dc9d-45b3-92fe-0bc000a30116",
     "lever-ifm-us-1f5c0611-5364-4155-91f8-6884e6757385",
     "lever-ifm-us-4c44a0f8-5179-41b3-a0b1-fd0902da9e5b",
@@ -15681,6 +15683,7 @@
     "lever-investorflow-a9aceafb-6fcf-49fd-8f2a-1e059324e1ae",
     "lever-investorflow-f4541fc0-6f31-44c0-9eed-572b49251e12",
     "lever-kariusdx-b461f3e4-c5b3-496d-9d30-0a9c655c0ba7",
+    "lever-kitware-7dfd7771-609e-4f24-bc54-158cc62c12be",
     "lever-leantaas-70de62be-0028-4b9e-8013-12aa594b699b",
     "lever-lendbuzz-07a1f425-fe31-4028-b902-235c4de32a47",
     "lever-life-34a14720-0d19-452a-86eb-8cb021426381",
@@ -15703,6 +15706,7 @@
     "lever-palantir-e9aecd15-c7e9-4803-9928-fc0b67e70f5b",
     "lever-patchmypc-a71b827b-c926-4966-9207-dcc4dff7719a",
     "lever-patsnap-0e0f5286-41c2-4292-90f8-41768fb50de4",
+    "lever-penumbrainc-3a2507b0-7ed6-4385-8262-fee3ac0104a5",
     "lever-perforce-000e5faa-188d-45e7-a046-b01fb6cce9ee",
     "lever-picklerobot-153b0294-90cf-4caf-a5b6-508e9a96d9b7",
     "lever-promenade-d5121093-233c-4331-802e-603b8512cebf",
@@ -15722,6 +15726,7 @@
     "lever-revinate-05e16a93-bad4-4d32-8e91-78adc348534e",
     "lever-shieldai-1039fc07-1b3c-4e72-870a-494cd0f1d5a8",
     "lever-shieldai-4a1f3320-4044-4bef-befa-7e6f9905bdf2",
+    "lever-shieldai-4cdda6f8-a132-431b-910e-8dfc1d1fec24",
     "lever-shieldai-ca142049-83c4-40bf-9522-3e323d4c3672",
     "lever-shieldai-e136857b-1cd9-4fea-9ff5-ad7587ff1835",
     "lever-shieldai-f56dc368-862d-46fe-afe5-899f225547b5",
@@ -15765,5 +15770,5 @@
     "lever-zoox-bc11276c-8db7-426e-9d00-d41c2097723a",
     "lever-zoox-c8ca7105-5044-49ee-88d3-cf6b7145a2ec"
   ],
-  "updated_at": "2026-06-08T18:08:12.939549+00:00"
+  "updated_at": "2026-06-08T18:15:13.044510+00:00"
 }
