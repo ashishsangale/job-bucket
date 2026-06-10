@@ -2781,6 +2781,7 @@
     "gh-andurilindustries-5158043007",
     "gh-andurilindustries-5158089007",
     "gh-andurilindustries-5158195007",
+    "gh-andurilindustries-5158245007",
     "gh-andurilindustries-5158726007",
     "gh-andurilindustries-5158758007",
     "gh-andurilindustries-5158808007",
@@ -2790,6 +2791,7 @@
     "gh-andurilindustries-5160360007",
     "gh-andurilindustries-5160388007",
     "gh-andurilindustries-5160407007",
+    "gh-andurilindustries-5160667007",
     "gh-anellophotonics-4577563006",
     "gh-anellophotonics-4674748006",
     "gh-anteriad-6011799004",
@@ -4857,6 +4859,9 @@
     "gh-chaosindustries-5148482007",
     "gh-chaosindustries-5153191007",
     "gh-chaosindustries-5159089007",
+    "gh-chaosindustries-5160652007",
+    "gh-chaosindustries-5160654007",
+    "gh-chaosindustries-5160655007",
     "gh-chargepoint-8304028002",
     "gh-chargepoint-8499263002",
     "gh-chargepoint-8499268002",
@@ -7337,6 +7342,7 @@
     "gh-goodfire-4746990008",
     "gh-goodfire-4924131008",
     "gh-goodfire-5019847008",
+    "gh-goodfire-5253335008",
     "gh-goodinside-5049043007",
     "gh-goodinside-5139875007",
     "gh-googlefiber-5969945004",
@@ -7408,6 +7414,7 @@
     "gh-govini-4116290009",
     "gh-govini-4120379009",
     "gh-govini-4163985009",
+    "gh-govini-4280882009",
     "gh-gr8tech-4794607101",
     "gh-gradial-4006977009",
     "gh-gradial-4245923009",
@@ -12225,6 +12232,8 @@
     "gh-skhynixmemorysolutionsamericainc-4251633009",
     "gh-skhynixmemorysolutionsamericainc-4264591009",
     "gh-skhynixmemorysolutionsamericainc-4266950009",
+    "gh-skildai-careers-4136353008",
+    "gh-skildai-careers-4136372008",
     "gh-skildai-careers-5222931008",
     "gh-skildai-careers-5228757008",
     "gh-skildai-careers-5228768008",
@@ -16304,5 +16313,5 @@
     "lever-zoox-bc11276c-8db7-426e-9d00-d41c2097723a",
     "lever-zoox-c8ca7105-5044-49ee-88d3-cf6b7145a2ec"
   ],
-  "updated_at": "2026-06-10T01:16:36.551932+00:00"
+  "updated_at": "2026-06-10T04:45:48.807859+00:00"
 }
