@@ -43,6 +43,7 @@
     "ashby-anyscale-1466478e-9797-4318-bdca-bb1ae5798d52",
     "ashby-anyscale-1cf38233-8aa0-47f8-9d85-65ce27bc3047",
     "ashby-anyscale-b7b17d3c-5b5e-4f02-80a5-5449bc6764ca",
+    "ashby-apex-technology-inc-22e8fdb5-1ebb-455a-9b52-93871a310a4c",
     "ashby-apex-technology-inc-2606cf38-986c-4dc6-a6a6-e89f9c2c30eb",
     "ashby-apex-technology-inc-341655a8-c02f-4163-abef-4f4238a83eb5",
     "ashby-apex-technology-inc-3f7fc185-965a-42f0-8950-4d9e7bfbfb2b",
@@ -50,6 +51,8 @@
     "ashby-apex-technology-inc-56db9eb9-6122-4889-a5ac-1c3d3d366968",
     "ashby-apex-technology-inc-6fb5d648-03ae-44be-a5d5-85d439f7246a",
     "ashby-apex-technology-inc-7c3d14a1-e44a-4ccc-81ad-3cbc9914a646",
+    "ashby-apex-technology-inc-a9db4ffa-3e36-495e-b413-92097800e0f0",
+    "ashby-apex-technology-inc-ab6b7b22-4264-418b-8145-232c6589e7a0",
     "ashby-apex-technology-inc-af9ebffc-6901-4ce1-a7a1-6b96a00aee03",
     "ashby-apex-technology-inc-b14b559f-f540-4762-b327-af9a9f12e364",
     "ashby-apex-technology-inc-e0dcbd0f-ef84-4412-baee-d327a90ff8d3",
@@ -136,6 +139,7 @@
     "ashby-camunda-987fb6e0-1e22-45e5-b152-57acbcb59cb2",
     "ashby-candidhealth-a916ce1b-a86b-49d8-ab44-21beab4d502c",
     "ashby-candidhealth-f111d46b-4efb-4b41-9cc2-a6bd49b71cfa",
+    "ashby-candidhealth-f1fd4e32-e35a-4e6b-8fb5-e49f2031365b",
     "ashby-cantina-7061225a-6116-4d95-b556-fb6f95b0ebb8",
     "ashby-cantina-fe6f588d-70c4-4699-8c95-e20b472e2432",
     "ashby-cape-8ea483bd-4753-45e3-933f-075412844a02",
@@ -257,6 +261,7 @@
     "ashby-fluidstack-6e80b03c-a90a-4ba7-8dc2-5eef073228fe",
     "ashby-fluidstack-7a527b3f-0f4e-4c98-a67f-4a95437ac7c8",
     "ashby-fluidstack-81146388-5f71-486e-ba24-a16b672f5dd7",
+    "ashby-fluidstack-835e6b2c-bf7a-41e8-a308-71ecf4adad07",
     "ashby-fluidstack-837e9fae-d5b9-46eb-954c-ada98fbf7a38",
     "ashby-fluidstack-872febc6-b254-49a8-b93b-7fb76f6a2a41",
     "ashby-fluidstack-8af3aafa-1c3a-4366-92be-efd2ec3f488a",
@@ -300,6 +305,7 @@
     "ashby-goteleport-1ba6cde6-8090-48eb-a5b7-436e36366332",
     "ashby-goteleport-25829c59-961a-46f6-a452-11af68e2e19a",
     "ashby-govdash-4b275301-77c7-4a45-aa8b-acdad45624d1",
+    "ashby-gridcare-ed076579-3cdf-445e-a70c-fb9470adfbfd",
     "ashby-gt-hq-4b8cef68-09eb-4308-b6fc-49b15b772e3e",
     "ashby-gt-hq-69edb441-c93d-4e02-800b-c27303476c05",
     "ashby-hackerone-62c0d421-71f7-43c0-989d-dc89782041d7",
@@ -415,6 +421,7 @@
     "ashby-mach-cb0d3a46-3ebe-4926-a348-cf0c956b1091",
     "ashby-mach-d3b1aba8-ab98-4c17-9353-a6d560e5462c",
     "ashby-mach9-51061973-9726-4e8e-bba4-4bfa9e3ef004",
+    "ashby-mach9-d417fcf4-f9c2-46f9-a081-1d408cd109ca",
     "ashby-magicschool-a52c722c-20fb-43aa-882d-c6ecb08d35b4",
     "ashby-mariner-careers-5cef14b8-bc5c-4491-92a4-a9913da0801e",
     "ashby-mariner-careers-77ad0423-599d-46a7-b165-71261fcb94cc",
@@ -16284,5 +16291,5 @@
     "lever-zoox-bc11276c-8db7-426e-9d00-d41c2097723a",
     "lever-zoox-c8ca7105-5044-49ee-88d3-cf6b7145a2ec"
   ],
-  "updated_at": "2026-06-09T23:48:03.995137+00:00"
+  "updated_at": "2026-06-10T00:55:22.543123+00:00"
 }
