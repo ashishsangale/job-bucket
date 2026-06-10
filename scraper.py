@@ -403,6 +403,32 @@ def fetch_lever(slug: str, session: requests.Session) -> list[dict]:
     return jobs
 
 
+def _parse_workday_posted_on(posted_on: str) -> str:
+    """Convert Workday's human-readable 'postedOn' to an ISO date string.
+
+    Examples: "Posted 3 Days Ago", "Posted 30+ Days Ago", "Posted Yesterday",
+              "Posted Today", "Posted 1 Day Ago"
+    Returns an ISO date string (YYYY-MM-DD) or empty string if unparseable.
+    """
+    if not posted_on:
+        return ""
+    text = posted_on.lower().strip()
+    today = datetime.now(timezone.utc).date()
+
+    if "today" in text:
+        return today.isoformat()
+    if "yesterday" in text:
+        return (today - timedelta(days=1)).isoformat()
+
+    # Match patterns like "3 days ago", "30+ days ago", "1 day ago"
+    m = _re.search(r"(\d+)\+?\s*days?\s*ago", text)
+    if m:
+        days = int(m.group(1))
+        return (today - timedelta(days=days)).isoformat()
+
+    return ""
+
+
 def fetch_workday(entry: tuple[str, str, str], session: requests.Session) -> list[dict]:
     """Fetch job postings from Workday API for a single company/site with pagination."""
     company, version, site_id = entry
@@ -435,6 +461,7 @@ def fetch_workday(entry: tuple[str, str, str], session: requests.Session) -> lis
 
         for posting in postings:
             external_path = posting.get("externalPath", "")
+            posted_at = posting.get("startDate", "") or _parse_workday_posted_on(posting.get("postedOn", ""))
             jobs.append({
                 "id":        f"wd-{company}-{site_id}-{external_path}",
                 "title":     posting.get("title", ""),
@@ -442,7 +469,7 @@ def fetch_workday(entry: tuple[str, str, str], session: requests.Session) -> lis
                 "location":  posting.get("locationsText", "Unknown"),
                 "url":       f"https://{company}.{version}.myworkdayjobs.com/{site_id}{external_path}",
                 "source":    "Workday",
-                "posted_at": posting.get("startDate", ""),
+                "posted_at": posted_at,
             })
 
         total = data.get("total", 0)
