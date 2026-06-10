@@ -34,6 +34,14 @@ GREENHOUSE_FILE = BASE_DIR / "greenhouse_companies.json"
 ASHBY_FILE      = BASE_DIR / "ashby_companies.json"
 LEVER_FILE      = BASE_DIR / "lever_companies.json"
 
+WORKDAY_FILE         = BASE_DIR / "workday.json"
+WORKDAY_DELAY_S      = 0.5
+WORKDAY_TIMEOUT      = 30
+WORKDAY_MAX_PAGES    = 5
+WORKDAY_SEARCH_TEXT  = "software engineer"
+WORKDAY_BATCH_SIZE   = int(os.environ.get("BATCH_SIZE", "1000"))
+WORKDAY_BATCH_OFFSET = int(os.environ.get("BATCH_OFFSET", "0"))
+
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 NOTION_TOKEN        = os.environ.get("NOTION_TOKEN", "")
 NOTION_DATABASE_ID  = os.environ.get("NOTION_DATABASE_ID", "")
@@ -119,7 +127,7 @@ _NON_US = {
     "uae", "dubai", "abu dhabi",
     "emea", "apac", "latam", "worldwide", "global", "international", "anywhere", "pakistan",
     "prague", "valencia", "europe", "johannesburg", "latvia", "romania", "bulgaria", "estonia",
-    "lithuania"
+    "lithuania", "jerusalem",
 }
 
 # Step 2 — accept if any of these appear
@@ -209,7 +217,7 @@ def make_session() -> requests.Session:
         total=MAX_RETRIES,
         backoff_factor=1,
         status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["GET"],
+        allowed_methods=["GET", "POST"],
     )
     adapter = HTTPAdapter(max_retries=retry)
     session.mount("https://", adapter)
@@ -235,6 +243,33 @@ def load_slugs(filepath: Path) -> list[str]:
             return [item[key] for item in data if item.get(key)]
     log.warning(f"Could not detect slug key in {filepath}. Keys found: {list(data[0].keys())}")
     return []
+
+
+def load_workday_entries(filepath: Path) -> list[tuple[str, str, str]]:
+    """Load Workday company entries from a JSON file of pipe-delimited strings."""
+    if not filepath.exists():
+        log.warning(f"Workday file not found: {filepath} — returning empty list")
+        return []
+    try:
+        data = json.loads(filepath.read_text())
+    except (json.JSONDecodeError, ValueError) as exc:
+        log.warning(f"Failed to parse JSON from {filepath}: {exc}")
+        return []
+    if not data:
+        log.warning(f"Workday file is empty: {filepath}")
+        return []
+    entries: list[tuple[str, str, str]] = []
+    for raw in data:
+        parts = str(raw).split("|")
+        if len(parts) != 3:
+            log.warning(f"Malformed workday entry (expected 2 pipes): {raw!r}")
+            continue
+        company, version, site_id = (p.strip() for p in parts)
+        if not company or not version or not site_id:
+            log.warning(f"Workday entry has blank field: {raw!r}")
+            continue
+        entries.append((company, version, site_id))
+    return entries
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -368,9 +403,69 @@ def fetch_lever(slug: str, session: requests.Session) -> list[dict]:
     return jobs
 
 
-def fetch_all_concurrent(greenhouse_slugs: list[str], ashby_slugs: list[str], lever_slugs: list[str]) -> list[dict]:
+def fetch_workday(entry: tuple[str, str, str], session: requests.Session) -> list[dict]:
+    """Fetch job postings from Workday API for a single company/site with pagination."""
+    company, version, site_id = entry
+    url = f"https://{company}.{version}.myworkdayjobs.com/wday/cxs/{company}/{site_id}/jobs"
+    jobs: list[dict] = []
+
+    for page in range(WORKDAY_MAX_PAGES):
+        if page > 0:
+            time.sleep(WORKDAY_DELAY_S)
+
+        offset = page * 20
+        body = {"limit": 20, "offset": offset, "searchText": WORKDAY_SEARCH_TEXT}
+
+        try:
+            r = session.post(url, json=body, timeout=WORKDAY_TIMEOUT)
+            r.raise_for_status()
+        except requests.RequestException as e:
+            if page == 0:
+                log.debug(f"Workday [{company}/{site_id}]: {e}")
+                return []
+            else:
+                log.warning(f"Workday [{company}/{site_id}] page {page} failed: {e}")
+                return jobs  # Return partial results from successful pages
+
+        data = r.json()
+        postings = data.get("jobPostings", [])
+
+        if not postings:
+            break
+
+        for posting in postings:
+            external_path = posting.get("externalPath", "")
+            jobs.append({
+                "id":        f"wd-{company}-{site_id}-{external_path}",
+                "title":     posting.get("title", ""),
+                "company":   company.replace("-", " ").title(),
+                "location":  posting.get("locationsText", "Unknown"),
+                "url":       f"https://{company}.{version}.myworkdayjobs.com/{site_id}{external_path}",
+                "source":    "Workday",
+                "posted_at": posting.get("startDate", ""),
+            })
+
+        total = data.get("total", 0)
+        if total <= offset + 20:
+            break
+
+        if page == WORKDAY_MAX_PAGES - 1:
+            log.warning(
+                f"Workday [{company}/{site_id}]: max pages ({WORKDAY_MAX_PAGES}) reached"
+            )
+
+    return jobs
+
+
+def fetch_all_concurrent(
+    greenhouse_slugs: list[str],
+    ashby_slugs: list[str],
+    lever_slugs: list[str],
+    workday_entries: list[tuple[str, str, str]] | None = None,
+) -> list[dict]:
     all_jobs: list[dict] = []
-    total = len(greenhouse_slugs) + len(ashby_slugs) + len(lever_slugs)
+    workday_entries = workday_entries or []
+    total = len(greenhouse_slugs) + len(ashby_slugs) + len(lever_slugs) + len(workday_entries)
     completed = 0
     failed = 0
     session = make_session()
@@ -378,6 +473,12 @@ def fetch_all_concurrent(greenhouse_slugs: list[str], ashby_slugs: list[str], le
         [(fetch_greenhouse, slug) for slug in greenhouse_slugs]
         + [(fetch_ashby, slug) for slug in ashby_slugs]
         + [(fetch_lever, slug) for slug in lever_slugs]
+        + [(fetch_workday, entry) for entry in workday_entries]
+    )
+    log.info(
+        f"Starting concurrent fetch: {len(greenhouse_slugs)} Greenhouse, "
+        f"{len(ashby_slugs)} Ashby, {len(lever_slugs)} Lever, "
+        f"{len(workday_entries)} Workday — {total} total"
     )
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {executor.submit(fn, slug, session): slug for fn, slug in tasks}
@@ -443,7 +544,12 @@ def passes_filters(job: dict) -> bool:
 # Discord
 # ─────────────────────────────────────────────────────────────────────────────
 
-DISCORD_COLOR = {"Greenhouse": 0x23A559, "Ashby": 0x5865F2, "Lever": 0xF59E0B}
+DISCORD_COLOR = {
+    "Greenhouse": 0x23A559,
+    "Ashby":      0x5865F2,
+    "Lever":      0xF59E0B,
+    "Workday":    0xE34F26,  # Orange — Workday brand color
+}
 
 
 def _deliver_discord(jobs: list[dict]) -> set[str]:
@@ -589,24 +695,46 @@ def main() -> None:
     log.info("─── Job Scraper Starting ───")
     start = time.time()
 
+    # Validate SCRAPER_MODE
+    valid_modes = ("workday", "greenhouse", "ashby", "lever", "all")
+    if SCRAPER_MODE not in valid_modes:
+        log.error(f"Unrecognized SCRAPER_MODE={SCRAPER_MODE!r}. Must be one of: {', '.join(valid_modes)}")
+        sys.exit(1)
+
     greenhouse_slugs = load_slugs(GREENHOUSE_FILE) if SCRAPER_MODE in ("greenhouse", "all") else []
     ashby_slugs      = load_slugs(ASHBY_FILE)      if SCRAPER_MODE in ("ashby", "all")      else []
     lever_slugs      = load_slugs(LEVER_FILE)      if SCRAPER_MODE in ("lever", "all")      else []
 
+    # Load workday entries when mode is "workday" or "all"
+    workday_entries = load_workday_entries(WORKDAY_FILE) if SCRAPER_MODE in ("workday", "all") else []
+
+    # Apply batch slicing with wrap-around
+    if workday_entries:
+        total_entries = len(workday_entries)
+        offset = WORKDAY_BATCH_OFFSET % total_entries if total_entries > 0 else 0
+        end = offset + WORKDAY_BATCH_SIZE
+        if end <= total_entries:
+            workday_entries = workday_entries[offset:end]
+        else:
+            workday_entries = workday_entries[offset:] + workday_entries[:end - total_entries]
+        # Cap to WORKDAY_BATCH_SIZE in case wrap-around gives more
+        workday_entries = workday_entries[:WORKDAY_BATCH_SIZE]
+
     log.info(
         f"Mode: {SCRAPER_MODE} — {len(greenhouse_slugs)} Greenhouse, "
-        f"{len(ashby_slugs)} Ashby, {len(lever_slugs)} Lever slugs"
+        f"{len(ashby_slugs)} Ashby, {len(lever_slugs)} Lever slugs, "
+        f"{len(workday_entries)} Workday entries"
     )
     log.info(f"Filters: age={MAX_AGE_DAYS}d, US_ONLY={US_ONLY}, REMOTE_ONLY={REMOTE_ONLY}, cap={MAX_JOBS_PER_RUN}")
 
-    if not greenhouse_slugs and not ashby_slugs and not lever_slugs:
-        log.error(f"No slugs loaded. Check that {GREENHOUSE_FILE}, {ASHBY_FILE}, and/or {LEVER_FILE} exist.")
+    if not greenhouse_slugs and not ashby_slugs and not lever_slugs and not workday_entries:
+        log.error(f"No slugs/entries loaded. Check that {GREENHOUSE_FILE}, {ASHBY_FILE}, {LEVER_FILE}, and/or {WORKDAY_FILE} exist.")
         sys.exit(1)
 
     seen = load_seen()
     log.info(f"Loaded {len(seen)} previously seen job IDs")
 
-    all_jobs = fetch_all_concurrent(greenhouse_slugs, ashby_slugs, lever_slugs)
+    all_jobs = fetch_all_concurrent(greenhouse_slugs, ashby_slugs, lever_slugs, workday_entries=workday_entries)
 
     unseen   = [j for j in all_jobs if j["id"] not in seen]
     fresh    = [j for j in unseen if is_fresh(j)]

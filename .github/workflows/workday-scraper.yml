@@ -1,0 +1,58 @@
+name: Workday Scraper
+
+on:
+  schedule:
+    - cron: "37 */3 * * *"   # every 3 hours at minute 37
+  workflow_dispatch:
+    inputs:
+      batch_offset:
+        description: "Starting offset into the Workday company list"
+        required: false
+        default: "0"
+      batch_size:
+        description: "Number of companies to process per run"
+        required: false
+        default: "1000"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+
+      - name: Run tests
+        run: pytest tests/ -v
+
+      - name: Run scraper
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          NOTION_TOKEN:        ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID:  ${{ secrets.NOTION_DATABASE_ID }}
+          SCRAPER_MODE:        workday
+          BATCH_OFFSET:        ${{ inputs.batch_offset || '0' }}
+          BATCH_SIZE:          ${{ inputs.batch_size || '1000' }}
+        run: python scraper.py
+
+      - name: Commit updated seen_jobs.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin master
+          git add seen_jobs.json
+          git diff --staged --quiet || git commit -m "chore: update seen_jobs [skip ci]"
+          git push
