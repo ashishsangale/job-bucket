@@ -16676,6 +16676,7 @@
     "lever-ableserve-7923e012-115f-4cd0-9707-33e7e117ab08",
     "lever-ableserve-cfa91218-3100-4aca-a4e7-fa7b96444638",
     "lever-adventus-95e71147-7641-4c17-8942-dc5d62f495b0",
+    "lever-aeva-786936ab-943b-4c22-82ed-89d3e5675b56",
     "lever-agile-defense-28fd5016-63ef-4975-91d5-be4ee4ba36ae",
     "lever-agile-defense-4ed002ee-ad91-4bda-8d5e-e15139240f26",
     "lever-agile-defense-6e78413c-adc0-402a-ba04-c5a57cfd48bc",
@@ -16745,6 +16746,7 @@
     "lever-extremenetworks-2ae69db1-c9f0-4740-9d47-fd4df33c9d9c",
     "lever-extremenetworks-f8473428-837c-4837-bb54-1d0738bb51ec",
     "lever-fehrandpeers-371fc35e-1351-4d1a-a319-2c56f33199ba",
+    "lever-field-ai-3ef4046f-19d3-4f50-a424-860affbb373f",
     "lever-field-ai-5f45ac28-5c30-46ec-adaf-8482c9469cea",
     "lever-field-ai-703971d8-ec63-492d-bf8a-d35afbcb2d88",
     "lever-field-ai-94897802-d3d0-4d3f-b5bb-5b2869663605",
@@ -16772,6 +16774,7 @@
     "lever-hermeus-7e1e720e-dc9d-45b3-92fe-0bc000a30116",
     "lever-hophr-1989e002-bfc4-4b63-ada3-fe41ec59de5f",
     "lever-hophr-a7016e1a-2f71-41f7-88ff-565637ab365f",
+    "lever-humanetech-bece16a3-7ce0-4c46-8fd3-5db5576dcd10",
     "lever-ifm-us-0c35ae92-1edc-4fc1-923b-9697c76b275a",
     "lever-ifm-us-1f5c0611-5364-4155-91f8-6884e6757385",
     "lever-ifm-us-4c44a0f8-5179-41b3-a0b1-fd0902da9e5b",
@@ -16814,8 +16817,10 @@
     "lever-noblereach-10259191-bf92-4b05-a05e-f1c6f1cd310d",
     "lever-onceuponafarm-2a214f1d-30d8-46cc-91a7-ab0f3e74114c",
     "lever-openx-76945c66-dfbc-4902-bd67-7f38d8fc1214",
+    "lever-palantir-3b4ae28e-c4f2-4654-83b4-64366bfe72fa",
     "lever-palantir-4df4cca5-e361-498b-806d-05f21638c93a",
     "lever-palantir-7a9600be-cdcb-4311-bb5c-65b6939b5956",
+    "lever-palantir-c288bb43-3c63-4557-bd96-600ef0d1b7a6",
     "lever-palantir-e9aecd15-c7e9-4803-9928-fc0b67e70f5b",
     "lever-patchmypc-a71b827b-c926-4966-9207-dcc4dff7719a",
     "lever-patsnap-0e0f5286-41c2-4292-90f8-41768fb50de4",
@@ -17607,5 +17612,5 @@
     "wd-clarios-clarioscareers-/job/United-States-Missouri-Saint-Joseph/Automation-Engineer_WD48831",
     "wd-clark-clarkexternal-/job/Washington-DC/Field-Engineer_R5023296"
   ],
-  "updated_at": "2026-06-11T22:16:08.514064+00:00"
+  "updated_at": "2026-06-11T22:24:46.157861+00:00"
 }
