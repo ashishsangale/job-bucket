@@ -44,6 +44,7 @@
     "ashby-antares-a182a44d-d261-4c03-8963-5418f29d6eab",
     "ashby-antares-da50eea6-78ae-4195-b168-34445e751b38",
     "ashby-antares-db1007f9-0138-415c-800b-458f6b6d54a4",
+    "ashby-antares-f9c1158a-55db-4a6c-91a0-36a6f7f57869",
     "ashby-anyscale-1466478e-9797-4318-bdca-bb1ae5798d52",
     "ashby-anyscale-1cf38233-8aa0-47f8-9d85-65ce27bc3047",
     "ashby-anyscale-b7b17d3c-5b5e-4f02-80a5-5449bc6764ca",
@@ -329,6 +330,7 @@
     "ashby-genmo-9b5477f4-97af-4aaa-b855-910c982ce191",
     "ashby-gigaml-cbe0ddad-a47c-420b-bf77-73721959d4fa",
     "ashby-gigaml-ea4abfde-77d8-4a80-878b-c5132163c7f0",
+    "ashby-gimlet-187f53a3-a1d2-4704-a866-f32817390e07",
     "ashby-gimlet-9aebe281-68e8-4610-a33a-fe5a45e45ad7",
     "ashby-goteleport-1ba6cde6-8090-48eb-a5b7-436e36366332",
     "ashby-goteleport-25829c59-961a-46f6-a452-11af68e2e19a",
@@ -615,6 +617,7 @@
     "ashby-perplexity-4ab39122-1d15-4874-8ab7-c6a241472743",
     "ashby-perplexity-6e328b72-9f57-49e0-a1a8-4428abf8ff81",
     "ashby-perplexity-7795683f-6c5f-40cd-af2d-51294edddd4b",
+    "ashby-perplexity-7f2b3619-5ffa-467b-be6f-7a6b7d487892",
     "ashby-perplexity-8fd01227-a933-4319-a281-fa6e3ce8d8ca",
     "ashby-perplexity-affd3040-91e4-4e0c-bd2f-4b022c613f91",
     "ashby-perplexity-b404e73c-5aff-4151-a1a8-6593fb6ccabf",
@@ -18621,5 +18624,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-12T23:02:34.626868+00:00"
+  "updated_at": "2026-06-12T23:57:38.338308+00:00"
 }
