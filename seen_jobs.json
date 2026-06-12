@@ -9,6 +9,7 @@
     "ashby-42dot-c4a01530-4d2d-49d0-88de-68c337e585b8",
     "ashby-9-mothers-0ef2b8c3-a414-4432-b048-944ceaba0b51",
     "ashby-abby-care-c0627c30-1abd-4d26-8b44-1379728de82f",
+    "ashby-adaption-df86cb98-a1cf-445f-a80b-eeca448749f7",
     "ashby-adaption-ed60d392-f14d-4bdc-87c0-c96906f728e5",
     "ashby-adaptyv-13ec6b5a-b759-4260-8eb8-373ab9d6b31a",
     "ashby-adaptyv-3377f1b8-10b8-45c3-b03c-1c065b4f8608",
@@ -552,6 +553,7 @@
     "ashby-openai-e7a4ee23-138a-4004-916e-72a452e7d115",
     "ashby-openai-f6278b60-dd42-4aa8-a3cd-c105f75ae8ae",
     "ashby-openai-fabfc6c5-57b5-49ba-aae9-e7dd5d7030ca",
+    "ashby-openai-fbefd5d2-affe-47e1-9e87-d2b5de317b40",
     "ashby-opengov-2c59a892-84e0-4dd1-9464-70610ca1d54f",
     "ashby-openrouter-1b26f0a2-4aab-4bef-8c21-0f8de9a059e3",
     "ashby-oscilar-7eaa0609-5f3c-4ecb-9bd9-c1c0763b547c",
@@ -580,6 +582,7 @@
     "ashby-perplexity-2e73bc78-684c-47c5-95df-e9973a10e0b6",
     "ashby-perplexity-33a48d64-ba8c-444f-a41d-9c77c6c00320",
     "ashby-perplexity-3f800e42-7c48-4f9a-9b12-43ee23e52516",
+    "ashby-perplexity-4ab39122-1d15-4874-8ab7-c6a241472743",
     "ashby-perplexity-6e328b72-9f57-49e0-a1a8-4428abf8ff81",
     "ashby-perplexity-7795683f-6c5f-40cd-af2d-51294edddd4b",
     "ashby-perplexity-8fd01227-a933-4319-a281-fa6e3ce8d8ca",
@@ -711,6 +714,7 @@
     "ashby-sanity-11b54218-44f5-4cec-bc66-9abfb140f3c5",
     "ashby-sardine-4ff32b5d-13c6-4024-826c-04ed2881d688",
     "ashby-sardine-6c3dd41c-0ca6-47c5-86fb-bd5114f2a5ac",
+    "ashby-scribe-145eab73-2c0b-498f-8d7f-209b99ac959c",
     "ashby-scribe-d119ae32-6979-4e40-80a9-ff6f39fc636a",
     "ashby-second-front-systems-6843c7b8-d088-4b51-9522-df89a7bb56bb",
     "ashby-second-front-systems-e6f63253-1271-4762-ac95-d57d1153b2b2",
@@ -17653,5 +17657,5 @@
     "wd-clarios-clarioscareers-/job/United-States-Missouri-Saint-Joseph/Automation-Engineer_WD48831",
     "wd-clark-clarkexternal-/job/Washington-DC/Field-Engineer_R5023296"
   ],
-  "updated_at": "2026-06-12T01:40:38.556560+00:00"
+  "updated_at": "2026-06-12T05:08:54.693746+00:00"
 }
