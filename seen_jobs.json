@@ -154,6 +154,7 @@
     "ashby-cambio-62416b62-7d8a-4f43-a7be-adfee42343ac",
     "ashby-camunda-374ab2cf-206a-4587-9415-700d52f60690",
     "ashby-camunda-987fb6e0-1e22-45e5-b152-57acbcb59cb2",
+    "ashby-candidhealth-23e88d6b-b9ff-4033-97d5-1e9e42958a66",
     "ashby-candidhealth-a916ce1b-a86b-49d8-ab44-21beab4d502c",
     "ashby-candidhealth-f111d46b-4efb-4b41-9cc2-a6bd49b71cfa",
     "ashby-candidhealth-f1fd4e32-e35a-4e6b-8fb5-e49f2031365b",
@@ -208,6 +209,7 @@
     "ashby-creditgenie-2385c5a6-7f15-483e-9a30-2b8f66eb4a90",
     "ashby-creditgenie-ecff45ce-f688-4109-b545-8b3e1c47bb38",
     "ashby-crusoe-0e20425d-d3e9-4bff-a2bb-12f86dffba14",
+    "ashby-crusoe-3dffdca3-5f70-4857-aa5f-225c89fae144",
     "ashby-crusoe-7081cd4c-dda9-44d0-a4aa-41d4a5b7ddb9",
     "ashby-crusoe-96d29d17-1357-486e-bf87-ca315d59b344",
     "ashby-crusoe-9e569e68-2026-4c5d-98d3-2b7579182299",
@@ -360,6 +362,7 @@
     "ashby-handshake-1e3a9711-d13c-4b79-8599-34dfb3133621",
     "ashby-handshake-56cb1fa6-2309-441e-a323-05671f09e523",
     "ashby-handshake-747bd14b-b957-4fca-b5bd-12d571f6886e",
+    "ashby-handshake-dd1fd4fc-6f6d-4a3d-8c54-dd91ed48dd70",
     "ashby-handshake-ec4ec9c6-dcf6-4ef8-8e8c-64c564837077",
     "ashby-handshake-fe8df0f9-97d3-4501-8c87-5113aaa16645",
     "ashby-harmattan-ai-bca1e42e-74c9-4284-99b5-2eceded962e8",
@@ -516,6 +519,7 @@
     "ashby-metriport-c530f024-c1fb-44f1-9504-f4e41f65e35a",
     "ashby-metriport-d502577a-9cbf-4100-ab85-6b40d2206877",
     "ashby-metriport-d89fa823-9872-460b-a322-809e69e08598",
+    "ashby-mia-labs-097eb56a-9bfe-4041-b403-55ab5adceafb",
     "ashby-mia-labs-b7388e15-6ffb-4414-8a86-cf724c11a00a",
     "ashby-middesk-7fd5aeb2-c33c-4f0a-ad3d-2161201bc174",
     "ashby-mindrobotics-dc99eff5-34e5-4595-bb80-ba5b5b9eea16",
@@ -18794,5 +18798,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-15T18:05:32.079863+00:00"
+  "updated_at": "2026-06-15T18:54:32.510298+00:00"
 }
