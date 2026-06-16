@@ -450,6 +450,7 @@
     "ashby-langchain-25d40647-c821-46ff-bf25-bacf21fa38b5",
     "ashby-langchain-34083fce-1e80-4595-9ce9-76387b735c70",
     "ashby-langchain-60d3bd4f-e80f-45fb-9801-725d8b681d54",
+    "ashby-langchain-b8dead31-212a-4b92-82a7-c42df16ae877",
     "ashby-langfuse-190c710e-c00c-4b76-82ce-9033b51b7086",
     "ashby-langfuse-80474cd1-71ad-425e-bfb3-3fca13fda0ca",
     "ashby-lapel-27f7ad54-00cd-46d1-b6d3-21d3a1cd974e",
@@ -464,6 +465,7 @@
     "ashby-lavendo-7cde5829-05a3-44f3-848f-05ce7bbfa56d",
     "ashby-lavendo-a9187058-ea1d-47a7-b21e-2f3135ae9ab2",
     "ashby-lavendo-e5cf20c8-5beb-4ef8-82d7-d7c053454010",
+    "ashby-lavendo-e93d70ff-ea61-496b-9201-1f76317a3025",
     "ashby-leantechniques-15dc8663-89a1-457b-ad0f-fa019ed229a6",
     "ashby-legora-a7d29888-3159-4651-915a-d1a4814d1916",
     "ashby-lendable-e4232014-a03d-4b1c-8e1a-1f845150d952",
@@ -695,6 +697,7 @@
     "ashby-polymarket-8da10c0d-4624-43f3-bd6d-c0b11df74292",
     "ashby-polymarket-c7bd210e-02a8-4363-a186-9e18069d56b0",
     "ashby-polymarket-e0a33d0c-1ef9-406f-ac85-449cb27684ef",
+    "ashby-polymarket-e22d45ae-c68d-40d2-997a-1139121fcb6a",
     "ashby-popl-5dda8b68-dcba-41fe-aad8-522619e0cfc5",
     "ashby-poshmark-0781cc6c-be09-4075-9628-3fafa9fef00f",
     "ashby-poshmark-1ad97af4-ef83-4e6d-be50-f966d4520f58",
@@ -884,6 +887,7 @@
     "ashby-swap-644b345e-cefe-42d7-ac11-2764817b14b6",
     "ashby-sweatpals-45d01293-c1d1-4aec-b4ac-d87a0c5cc3c2",
     "ashby-tabs-ef91f17f-8cef-475f-a75d-f9f1fbb02f92",
+    "ashby-taekus-fb2e022e-c2e6-447b-9517-6d569473c8fa",
     "ashby-taktile-f6d97bef-99d0-43b7-9ce4-94e00fe05744",
     "ashby-tapcart-41c0ce3a-a90e-440e-9c9d-fc3c58339a80",
     "ashby-tapcart-dc4b02cf-1349-4bd0-9d59-35a6a1def67c",
@@ -19349,5 +19353,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-16T05:30:28.264615+00:00"
+  "updated_at": "2026-06-16T05:38:45.675560+00:00"
 }
