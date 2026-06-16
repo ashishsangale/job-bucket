@@ -172,6 +172,7 @@
     "ashby-clarium-c7be2c03-bab6-413c-a9c1-8c74ee317939",
     "ashby-clasp-group-2bcb2aa7-b4c5-4b64-ad4a-599be47f7326",
     "ashby-claylabs-242be863-2f62-44a7-909d-6c351dee81d1",
+    "ashby-claylabs-37d8354d-a379-4d1e-b098-2d8740c8bae3",
     "ashby-claylabs-d5c7f612-10e7-4080-8b8a-d51e70fff9c5",
     "ashby-claylabs-e43101dd-4e98-4c60-bc1b-adbbb38c7b15",
     "ashby-claylabs-f90028b7-6c35-4392-824c-105967ccd406",
@@ -384,6 +385,7 @@
     "ashby-helion-eb9a8d09-05ab-4f6a-a896-848deeec6f65",
     "ashby-helion-fde04dc8-a20c-4e0a-b5df-d9904befece3",
     "ashby-hellobrightline-a7045ea9-e08b-4d2d-bd8b-25cf6088f0ff",
+    "ashby-helpscout-d10ab692-52f3-4c13-8108-8a16477237d9",
     "ashby-higgsfieldai-c6ab1b04-6ec6-411e-afe0-6f97040925a9",
     "ashby-hims-and-hers-1065d3a6-83ad-4b5e-a474-2d24cfb8c865",
     "ashby-hims-and-hers-3d680ecd-1684-46a3-bf2a-d1a2a564e355",
@@ -583,9 +585,11 @@
     "ashby-openai-130a5389-83e1-493f-9205-542d3ff53afb",
     "ashby-openai-23662a5c-43c3-4754-a6e0-30f8cbf6d681",
     "ashby-openai-287cb9c7-fb16-4413-b4cd-1ed541e7ad32",
+    "ashby-openai-3124e8f0-e9e7-4c8b-8541-13cbbc5d1f4a",
     "ashby-openai-348ac6bf-a5c3-43d1-a14a-5f1a3c8d90fa",
     "ashby-openai-39a709f3-6e9e-45e9-94eb-43a1c2aaaeaf",
     "ashby-openai-3c67f712-697d-48d8-b05c-01be896e61da",
+    "ashby-openai-3fe77c71-1f20-45b5-8291-62f0d2104989",
     "ashby-openai-4070d52e-0263-4cd5-9107-052b4ecc1209",
     "ashby-openai-57f0728b-7747-471e-a8d5-9d0f763b057c",
     "ashby-openai-5b75027a-a5eb-4d28-a608-aa6bebcb079f",
@@ -951,6 +955,7 @@
     "ashby-tribe-ai-deed1f20-92fe-43ca-8de7-356fc19c1de5",
     "ashby-trustlab-1e59f2d7-68dd-4775-8abf-ef0648ea33e4",
     "ashby-turion-space-8518748c-734a-4310-a8a3-656cdadf1478",
+    "ashby-turion-space-978aada1-c3c8-458f-8d41-436cb204e235",
     "ashby-turion-space-a29bc0d7-5c0f-4f09-b060-3ff3d5dccfec",
     "ashby-turion-space-a83185ae-0b5b-48cf-929e-73883e2d1bd6",
     "ashby-turion-space-e7ef2952-6699-4061-b5b6-058cdc5acadd",
@@ -19062,5 +19067,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-16T00:11:25.798839+00:00"
+  "updated_at": "2026-06-16T00:18:22.189740+00:00"
 }
