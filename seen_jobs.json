@@ -17802,6 +17802,7 @@
     "lever-cagents-b7c896ed-839d-4783-bc0d-d2b2f695803c",
     "lever-cagents-ee202bc2-7710-44ca-bdf8-785afb12430c",
     "lever-catalist-895910da-e20a-4e17-930e-da550af343a9",
+    "lever-celaralabs-307056c3-3edd-43d6-beed-5cf34b834dc9",
     "lever-cfsenergy-0ba3ba76-efe5-48a7-b757-557786f569f5",
     "lever-cfsenergy-1c5352d0-5384-4f03-8832-8342f3176e89",
     "lever-charmindustrial-4219d25c-896a-46a1-a0a6-01f1c91c6937",
@@ -17974,7 +17975,10 @@
     "lever-shieldai-e136857b-1cd9-4fea-9ff5-ad7587ff1835",
     "lever-shieldai-eb93d8dc-40fa-4a11-a06f-87b3436bf85d",
     "lever-shieldai-f56dc368-862d-46fe-afe5-899f225547b5",
+    "lever-skywarditsolutions-36bff103-2113-400f-bac8-d47465dfc3df",
+    "lever-skywarditsolutions-c2d736e3-b156-4c1c-8414-192fc74cd520",
     "lever-skywarditsolutions-d29d395a-7d9c-4f6c-9cef-7d5fd3b2baea",
+    "lever-skywarditsolutions-e8dcad57-e7e2-4a14-af48-69322c016adc",
     "lever-solopulseco-00fbde18-a387-4c9f-97d4-77059aec7b56",
     "lever-solopulseco-1847aeec-f19d-46ee-812b-be16c8505753",
     "lever-solutiondesign-55b77b9b-8468-4d47-8817-0040b39a60b3",
@@ -17994,9 +17998,12 @@
     "lever-sqaservices-dd3c9da4-fd62-47e2-83f1-50ec8b297735",
     "lever-symplicity-592604c1-09c4-4fb2-a3b2-08d8a3e90bb4",
     "lever-synergyecp-24fe1741-c6c6-4265-8059-873f6c00d4b4",
+    "lever-synergyecp-2c0bcfbe-65d4-4f14-9b5b-0feda0c45763",
     "lever-synergyecp-557b8ef5-5c5e-449d-b7eb-4f8e82a44bb2",
+    "lever-synergyecp-baab0ce1-6407-483b-9501-3b472bb22173",
     "lever-synergyecp-da23f594-a1cf-4978-8770-3f8f31e7b00e",
     "lever-synergyecp-ea249105-93f5-48c9-bab9-6b666eaf3208",
+    "lever-thinkahead-29dace68-0327-4689-a9d6-fad54472b185",
     "lever-thinkahead-e7ad3413-bcb6-4c19-9632-89ad7b5e5146",
     "lever-tkda-7744c993-62af-464d-a187-eb19dc1c7222",
     "lever-tovala-c0e5c6c9-ebc0-4767-8612-9feb83861a54",
@@ -18023,6 +18030,7 @@
     "lever-verygoodsecurity-a9c9ae14-c48a-41de-a0d4-4ad8a720e7ee",
     "lever-wachter-8f14d444-b784-4c3f-9db5-120cec1b2171",
     "lever-wachter-e1d93481-118f-4e63-ba2e-daffe7d631c7",
+    "lever-wadetrim-96c817b6-56d8-49fc-baa5-ec62725e9039",
     "lever-wadetrim-dc2cfd2f-ba6e-4004-9825-115b53f91136",
     "lever-wellfit-25b33341-2937-4ee5-906a-d179315a45ff",
     "lever-whoop-55fac0f0-c1ff-4836-90f1-7140feaf0c86",
@@ -19883,5 +19891,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-17T16:28:49.065073+00:00"
+  "updated_at": "2026-06-17T16:49:43.378552+00:00"
 }
