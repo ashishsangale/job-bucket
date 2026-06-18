@@ -18151,6 +18151,8 @@
     "lever-ableserve-8a764995-6e6b-4345-932d-cad5e76fbd4e",
     "lever-ableserve-c99616fd-c9be-4b85-8043-8f48829f2d83",
     "lever-ableserve-cfa91218-3100-4aca-a4e7-fa7b96444638",
+    "lever-acds-079308f9-11b0-4ca0-93a8-c6fb6ed70a23",
+    "lever-acds-b59f2570-51bf-48ff-9ec2-f5548e068e34",
     "lever-advancedagrilytics-d811cb7f-75fa-46ea-a2c4-7d7c6fbaaaa5",
     "lever-adventus-95e71147-7641-4c17-8942-dc5d62f495b0",
     "lever-aeva-786936ab-943b-4c22-82ed-89d3e5675b56",
@@ -18234,7 +18236,9 @@
     "lever-datalabusa-b36ba5ac-4247-4d90-ac90-6df3e9d46885",
     "lever-datalabusa-b5726a27-e348-4936-89f2-ab0bab5a9841",
     "lever-deltasands-0675abfd-03c9-4b7a-95a8-12b4797173b9",
+    "lever-deltasands-7b0ba81e-2c93-4450-8116-addeb2e62894",
     "lever-deltasands-e7531f40-3fac-48fc-a98e-da6f4d552e83",
+    "lever-deltasands-fb046e81-16a7-4909-ac89-6cec4019ac2b",
     "lever-disher-0a074bce-9f0d-4406-85ad-4d7adb8c214d",
     "lever-disher-59662b85-c10e-4a7f-b8c0-c9de61534f45",
     "lever-disher-c1fdcadf-ac80-40e8-9bca-feafd7278d70",
@@ -18257,6 +18261,7 @@
     "lever-field-ai-c72ae1ae-cbb1-4071-a967-ae78412553eb",
     "lever-field-ai-ea242e33-2bef-42c8-a20f-05c57c702e37",
     "lever-field-ai-f6523302-bb5f-452a-bc77-2205b1956064",
+    "lever-field-ai-f93989e6-a29d-4411-a79b-ce6c949ffdec",
     "lever-findigs-24ac89b0-8090-48a5-8501-666cb566d736",
     "lever-finquery-09533ec9-0b8d-44a1-b71f-6b20256c3d55",
     "lever-finquery-d545ab4f-8c02-41c5-aed7-5f1d8a03efb7",
@@ -18311,6 +18316,7 @@
     "lever-life-34a14720-0d19-452a-86eb-8cb021426381",
     "lever-lightedge-a6bda155-e9fe-4943-a140-eb57badde34d",
     "lever-lightedge-b05a50ae-0b1c-4335-ae40-5f4cd199e158",
+    "lever-lindblad-expeditions-6d709d43-209c-4a59-b541-694b97be7c06",
     "lever-lochgroup-10a21b19-f8f0-41cf-bf43-a62e3d2076f1",
     "lever-loftorbital-0cd7d294-4d8a-4381-a004-3d5cdf02a4b7",
     "lever-loftorbital-11167f36-08f3-4997-a99e-7a85423d16d7",
@@ -20373,5 +20379,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-18T23:05:52.416770+00:00"
+  "updated_at": "2026-06-18T23:18:15.901087+00:00"
 }
