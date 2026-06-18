@@ -8108,7 +8108,10 @@
     "gh-generalmatter-5082193008",
     "gh-generalmatter-5223997008",
     "gh-generalmatter-5247621008",
+    "gh-genevatrading-5022971007",
     "gh-genevatrading-5085231007",
+    "gh-genevatrading-5088592007",
+    "gh-genevatrading-5104132007",
     "gh-genezenlabs-5832028004",
     "gh-genezenlabs-5993594004",
     "gh-geniussports-7765006003",
@@ -8583,6 +8586,13 @@
     "gh-headway-6013134004",
     "gh-healthesystems-7708794003",
     "gh-healthlink-5227387008",
+    "gh-heartaerospace-4007362009",
+    "gh-heartaerospace-4008982009",
+    "gh-heartaerospace-4008983009",
+    "gh-heartaerospace-4013303009",
+    "gh-heartaerospace-4013408009",
+    "gh-heartaerospace-4013531009",
+    "gh-heartaerospace-4034474009",
     "gh-heartflowinc-5834814004",
     "gh-heartflowinc-5984786004",
     "gh-heartflowinc-5993454004",
@@ -11503,6 +11513,7 @@
     "gh-opentable-8563540002",
     "gh-openzeppelin-7739179003",
     "gh-openzeppelin-7742510003",
+    "gh-operantai-5269140008",
     "gh-operationscareers-6009117004",
     "gh-ophelia-4785252008",
     "gh-oportun-4645260005",
@@ -13363,6 +13374,7 @@
     "gh-scaleai-4699458005",
     "gh-scaleai-4699572005",
     "gh-scaleai-4704551005",
+    "gh-scaleai-4706566005",
     "gh-schonfeld-7653520",
     "gh-schonfeld-7957507",
     "gh-schonfeld-7958141",
@@ -20122,5 +20134,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-18T05:23:25.854543+00:00"
+  "updated_at": "2026-06-18T06:18:20.118602+00:00"
 }
