@@ -17974,6 +17974,7 @@
     "lever-celaralabs-307056c3-3edd-43d6-beed-5cf34b834dc9",
     "lever-cfsenergy-0ba3ba76-efe5-48a7-b757-557786f569f5",
     "lever-cfsenergy-1c5352d0-5384-4f03-8832-8342f3176e89",
+    "lever-cfsenergy-e71ffb1c-e82f-4931-95dd-e22201198e4c",
     "lever-charmindustrial-4219d25c-896a-46a1-a0a6-01f1c91c6937",
     "lever-cimgroup-4ef9ad24-1d87-4a9f-93d6-652be3962766",
     "lever-civitech-15ab6999-436f-468c-bfe1-bfb1d20000f9",
@@ -18063,6 +18064,7 @@
     "lever-kgroupcompanies-cd0a6e90-372d-4c9b-b3b9-945154a9e4e0",
     "lever-kitware-7dfd7771-609e-4f24-bc54-158cc62c12be",
     "lever-kobie-99ade2d5-fe66-459b-a6f7-bd41c3d5be70",
+    "lever-kobie-d14582bd-64a2-439e-a7e3-a50ce7270a3d",
     "lever-kochava-17a2e105-f486-4c8c-8bc4-b3c2516bd004",
     "lever-leantaas-70de62be-0028-4b9e-8013-12aa594b699b",
     "lever-lendbuzz-07a1f425-fe31-4028-b902-235c4de32a47",
@@ -18135,6 +18137,7 @@
     "lever-rocketcommunications-d8cf4b6f-cd78-4562-96e0-c1c4f0bd27b5",
     "lever-rws-6488833f-86c3-480c-9dd1-1667f27a372c",
     "lever-rws-b6ae34f4-57e5-4bb8-8f29-4c69cf25ecbd",
+    "lever-scanifly-c9878e40-4cb3-42a3-95cc-499c22866520",
     "lever-serotonin-eca20c47-3b04-44e9-a45e-34882833015b",
     "lever-shieldai-1039fc07-1b3c-4e72-870a-494cd0f1d5a8",
     "lever-shieldai-173aa386-c87c-4b7e-9a3f-eb99c7943fbc",
@@ -18203,8 +18206,11 @@
     "lever-wachter-e1d93481-118f-4e63-ba2e-daffe7d631c7",
     "lever-wadetrim-96c817b6-56d8-49fc-baa5-ec62725e9039",
     "lever-wadetrim-dc2cfd2f-ba6e-4004-9825-115b53f91136",
+    "lever-webfx-3c850193-9429-43fd-9afb-052adea191b3",
     "lever-wellfit-25b33341-2937-4ee5-906a-d179315a45ff",
     "lever-whoop-55fac0f0-c1ff-4836-90f1-7140feaf0c86",
+    "lever-whoop-681be6ac-fddb-4305-a0cb-3c60864a5875",
+    "lever-whoop-717c0cc4-a400-43a8-a0ed-d5bddcbf3a07",
     "lever-whoop-d8b1c557-bf1a-40ca-850a-74d4e91728fe",
     "lever-windfalldata-4b214e29-a517-4e72-bfd4-9bd0ccfc38fb",
     "lever-woodardcurran-a0421781-8c5f-493d-8009-0f467a7eb648",
@@ -20088,5 +20094,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-17T23:52:19.104756+00:00"
+  "updated_at": "2026-06-18T00:00:42.335637+00:00"
 }
