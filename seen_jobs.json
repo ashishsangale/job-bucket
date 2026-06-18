@@ -20,6 +20,7 @@
     "ashby-adaptyv-d15ab16a-2a89-43e5-b8c1-46e1badef5f2",
     "ashby-aerovect-03772f32-3641-4e60-b7b6-e7ce721ff50e",
     "ashby-aerovect-041ae29d-2731-4c7c-8f3f-7974f0ac01dc",
+    "ashby-aerovect-17b667e6-4010-46f6-ad8e-ea8684e5804e",
     "ashby-agi-inc-3b1547bf-6f67-444d-8516-584bce59ff20",
     "ashby-agi-inc-d9465f93-b206-4d76-b736-02b3c639edde",
     "ashby-airwallex-0c33f286-3f00-4b2b-8f8b-70e1fd7ff7ff",
@@ -334,6 +335,7 @@
     "ashby-focused-dc334a0e-df76-4a91-b7ec-14240c36a0b1",
     "ashby-focused-dd822e67-8c90-4618-abbc-d7c80dabd184",
     "ashby-focused-f194307f-e88d-4137-bd0f-f571fc3b2731",
+    "ashby-foley-579ca5af-d168-4bbb-886d-622d4fabec9a",
     "ashby-foresight-af79b094-2d9b-4d8d-9d28-009acfa6df86",
     "ashby-formal-655536d5-5f3b-46d9-938d-b18bd54ff3c3",
     "ashby-formenergy-087e88c6-897f-47bb-9469-10d1dd65638d",
@@ -507,6 +509,7 @@
     "ashby-light-inc-fca81df7-0641-4f7d-90f0-4776bc802e8b",
     "ashby-lightfield-9f86d67e-44c9-491d-a1ae-777461e288d4",
     "ashby-lilt-corporate-671f981c-61bf-4c0b-be8f-afbb121b761d",
+    "ashby-limble-32efb93f-fc98-434f-8068-36d64710f816",
     "ashby-limble-5d5a5755-1859-44c6-bcd7-566a63c9f0ad",
     "ashby-livekit-48047d78-919e-435a-87a9-2c4fd8e04629",
     "ashby-livekit-ca47c69a-36eb-48cb-b61b-4134eff78030",
@@ -545,6 +548,7 @@
     "ashby-mariner-careers-77ad0423-599d-46a7-b165-71261fcb94cc",
     "ashby-mariner-careers-b2c70552-20cf-4c6c-b6b6-464090f7e6c1",
     "ashby-maticrobots-8f91de7e-64bc-4530-94b4-1f115d921639",
+    "ashby-maybern-37f186e1-5509-4eea-b0af-d2a589965816",
     "ashby-mechanism-ventures-c110dab1-4bb8-473d-bb0e-428221a29792",
     "ashby-medal-73b6e5c2-371e-4558-b010-2578a1305bb0",
     "ashby-medely-87daae5d-f4b6-42a6-9cc9-113b250408d8",
@@ -999,6 +1003,7 @@
     "ashby-tensorwave-83fccd48-0587-4f82-8041-d75062f172e1",
     "ashby-tensorwave-9254d2d0-2a1f-4e20-ae97-6b58752d6025",
     "ashby-tensorwave-b2aeb755-b488-4fc0-9734-6283e964ec31",
+    "ashby-tensorwave-d6727e83-5955-4ae6-baee-6d8ed34ee825",
     "ashby-tensorwave-e10b179f-c569-46ff-a0d9-01d20f731d30",
     "ashby-terac-4bef8805-4a29-4cc5-b9bd-e2023216d29e",
     "ashby-terac-7a6f566e-5d82-4516-9e33-43616ec62b5f",
@@ -1038,6 +1043,7 @@
     "ashby-tradeify-cc39df67-b400-4d97-8645-60690b0e8104",
     "ashby-tribe-ai-deed1f20-92fe-43ca-8de7-356fc19c1de5",
     "ashby-trustlab-1e59f2d7-68dd-4775-8abf-ef0648ea33e4",
+    "ashby-tryalma-e689e2f9-33bc-40f1-b40d-6de98ccd605a",
     "ashby-turion-space-10f9fa0d-4975-4420-9764-f9ca2723045e",
     "ashby-turion-space-8518748c-734a-4310-a8a3-656cdadf1478",
     "ashby-turion-space-978aada1-c3c8-458f-8d41-436cb204e235",
@@ -20151,5 +20157,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-18T13:43:36.369126+00:00"
+  "updated_at": "2026-06-18T15:58:28.670517+00:00"
 }
