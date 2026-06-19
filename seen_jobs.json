@@ -1249,6 +1249,7 @@
     "gh-9thwayinsignia-5032205008",
     "gh-9thwayinsignia-5222572008",
     "gh-a16z-7619570003",
+    "gh-a16z-7639684003",
     "gh-a16z-7724142003",
     "gh-a16z-7738658003",
     "gh-a16z-7738659003",
@@ -1903,6 +1904,7 @@
     "gh-alarmcom-8435354002",
     "gh-alarmcom-8451470002",
     "gh-alarmcom-8505983002",
+    "gh-alarmcom-8567187002",
     "gh-alarmcom-8594546002",
     "gh-alayacare-8459704002",
     "gh-alayacare-8477500002",
@@ -3265,6 +3267,8 @@
     "gh-andurilindustries-5166320007",
     "gh-andurilindustries-5166741007",
     "gh-andurilindustries-5166743007",
+    "gh-andurilindustries-5169845007",
+    "gh-andurilindustries-5169846007",
     "gh-anellophotonics-4577563006",
     "gh-anellophotonics-4674748006",
     "gh-anteriad-6011799004",
@@ -4916,6 +4920,7 @@
     "gh-bugcrowd-8016582",
     "gh-buildops-5620208004",
     "gh-buildops-5993814004",
+    "gh-builtinintegrationsandbox-5505632004",
     "gh-builtinintegrationsandbox-6016311004",
     "gh-builtinintegrationsandbox-6017729004",
     "gh-builtinintegrationsandbox-6020189004",
@@ -6457,6 +6462,7 @@
     "gh-defenseunicorns-4661526007",
     "gh-defenseunicorns-4725864007",
     "gh-defenseunicorns-4951114007",
+    "gh-defenseunicorns-5049314007",
     "gh-defenseunicorns-5076453007",
     "gh-defenseunicorns-5086802007",
     "gh-defenseunicorns-5096305007",
@@ -14651,6 +14657,7 @@
     "gh-spacex-8599244002",
     "gh-spacex-8599246002",
     "gh-spacex-8600005002",
+    "gh-spacex-8601223002",
     "gh-spade-4646791005",
     "gh-spade-4686049005",
     "gh-sparkfund-4683331006",
@@ -17445,6 +17452,7 @@
     "gh-vianttechnology-4255150009",
     "gh-vibesllc-7748243002",
     "gh-vim-7866863",
+    "gh-vipvermontinformationprocessing2-5169804007",
     "gh-virtru-4698446005",
     "gh-virtru-4698468005",
     "gh-virtru-4698470005",
@@ -20520,5 +20528,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-19T20:20:26.549224+00:00"
+  "updated_at": "2026-06-19T20:49:43.864135+00:00"
 }
