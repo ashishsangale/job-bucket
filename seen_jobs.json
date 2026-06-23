@@ -1964,6 +1964,7 @@
     "gh-airbnb-7962101",
     "gh-airbnb-8024262",
     "gh-airbnb-8024267",
+    "gh-airbnb-8024316",
     "gh-aircapture-4687916006",
     "gh-aircompany-4596283005",
     "gh-aircompany-4703884005",
@@ -2248,6 +2249,7 @@
     "gh-amplitude-8575936002",
     "gh-amplitude-8583053002",
     "gh-amplitude-8600045002",
+    "gh-amplitude-8605063002",
     "gh-amylyx-6002935004",
     "gh-analyticservicesinc-4631894008",
     "gh-analyticservicesinc-5223141008",
@@ -3389,6 +3391,9 @@
     "gh-andurilindustries-5170941007",
     "gh-andurilindustries-5170942007",
     "gh-andurilindustries-5171114007",
+    "gh-andurilindustries-5171883007",
+    "gh-andurilindustries-5172163007",
+    "gh-andurilindustries-5172166007",
     "gh-anellophotonics-4577563006",
     "gh-anellophotonics-4674748006",
     "gh-anteriad-6011799004",
@@ -9428,6 +9433,7 @@
     "gh-impact-8423393002",
     "gh-impact-8459601002",
     "gh-impact-8461461002",
+    "gh-impact-8465082002",
     "gh-impact-8504180002",
     "gh-impact-8532453002",
     "gh-impact-8557055002",
@@ -12982,6 +12988,7 @@
     "gh-qualtrics-8017422",
     "gh-qualtrics-8017515",
     "gh-qualtrics-8017523",
+    "gh-qualtrics-8018763",
     "gh-quanata-6008106004",
     "gh-quanata-6087868004",
     "gh-quanata-6098708004",
@@ -14813,6 +14820,7 @@
     "gh-spacex-8377056002",
     "gh-spacex-8382088002",
     "gh-spacex-8384699002",
+    "gh-spacex-8385191002",
     "gh-spacex-8390105002",
     "gh-spacex-8392967002",
     "gh-spacex-8395053002",
@@ -21185,5 +21193,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-23T22:05:10.730383+00:00"
+  "updated_at": "2026-06-23T22:40:30.375620+00:00"
 }
