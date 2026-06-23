@@ -257,6 +257,7 @@
     "ashby-crosby-a3c23aa9-8aa7-440e-aa19-798ca54474e3",
     "ashby-crosby-a49ac6e4-4baa-4980-b9e8-8aa6b8dcde86",
     "ashby-crusoe-0e20425d-d3e9-4bff-a2bb-12f86dffba14",
+    "ashby-crusoe-20dbc9d0-1de8-45ed-80c5-5e27d8f2e92e",
     "ashby-crusoe-2c0c11b9-b791-4c4b-9ec5-cc302522b5d5",
     "ashby-crusoe-3dffdca3-5f70-4857-aa5f-225c89fae144",
     "ashby-crusoe-7081cd4c-dda9-44d0-a4aa-41d4a5b7ddb9",
@@ -562,6 +563,7 @@
     "ashby-light-inc-190d691a-1bf6-4755-8932-35c8b8fd43af",
     "ashby-light-inc-fca81df7-0641-4f7d-90f0-4776bc802e8b",
     "ashby-lightfield-9f86d67e-44c9-491d-a1ae-777461e288d4",
+    "ashby-lilt-corporate-55971c15-9633-482e-92f2-b80dffa4f256",
     "ashby-lilt-corporate-671f981c-61bf-4c0b-be8f-afbb121b761d",
     "ashby-limble-32efb93f-fc98-434f-8068-36d64710f816",
     "ashby-limble-5d5a5755-1859-44c6-bcd7-566a63c9f0ad",
@@ -745,6 +747,7 @@
     "ashby-openai-e57d196b-4fa0-4463-bd33-d8189f0d3541",
     "ashby-openai-e7a4ee23-138a-4004-916e-72a452e7d115",
     "ashby-openai-f6278b60-dd42-4aa8-a3cd-c105f75ae8ae",
+    "ashby-openai-f827e381-91a0-40b7-8ae9-b56540642a74",
     "ashby-openai-fabfc6c5-57b5-49ba-aae9-e7dd5d7030ca",
     "ashby-openai-fbefd5d2-affe-47e1-9e87-d2b5de317b40",
     "ashby-opengov-1b77433f-6659-4960-ad8a-f32e03274f32",
@@ -898,6 +901,7 @@
     "ashby-radai-2697a7e4-b706-4f91-884d-2f2d87b7009a",
     "ashby-radai-67267484-919c-40be-950c-1237cfe017dc",
     "ashby-radiant-industries-2735f07f-0e07-44f8-bf3c-309710e1b6c2",
+    "ashby-radiant-industries-3d7b9506-25a5-4e40-b63e-8a54acc6c961",
     "ashby-radiant-industries-9658e0e7-b93f-4370-98bf-db422750a563",
     "ashby-radiant-industries-a078f0fe-56dd-4add-a8ff-f0dd4fe7ce43",
     "ashby-radiant-industries-d275a515-4c88-406c-bc76-9d15bf8ebc1d",
@@ -21112,5 +21116,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-23T18:18:24.023616+00:00"
+  "updated_at": "2026-06-23T20:27:44.593332+00:00"
 }
