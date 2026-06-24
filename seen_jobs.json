@@ -304,6 +304,7 @@
     "ashby-decagon-a4796fbc-b45c-4e1b-b1d2-1a17c0b4fa7a",
     "ashby-decagon-c15c3dc8-6df7-43ca-aeeb-dc2beed2668e",
     "ashby-decagon-d400020b-2f97-4316-a8c2-9dc70f254cdd",
+    "ashby-deepgram-4a873ede-8555-42ae-9ddc-ac89afdd7278",
     "ashby-deepl-4fe3ffe8-da25-4b84-addc-8dd06aba9e2e",
     "ashby-deepl-8d258c9c-f3d2-40cc-ba19-1be287445141",
     "ashby-deepl-b14178e6-7ad2-4195-8934-1f94503a4918",
@@ -336,6 +337,7 @@
     "ashby-duckbill-1e7683e5-6c00-4525-8687-a056d57c3d45",
     "ashby-dyna-robotics-869b09e4-33cd-48a7-b937-3f3cbcec6b92",
     "ashby-echo-f94af00e-4700-441f-a2e0-3ce3bf1b0a8a",
+    "ashby-edlink-cd12f830-f61e-44ac-b75b-dbead2a82de7",
     "ashby-eightsleep-5d26a418-240e-4db2-9e4e-f4ac81fd61b8",
     "ashby-element84-008e7a74-06c5-4020-b165-103921002e17",
     "ashby-element84-864f3447-eb6b-4bd3-928f-939b8bd86849",
@@ -875,6 +877,7 @@
     "ashby-plasmidsaurus-59839823-a05f-43a8-aec6-9f26ef193a98",
     "ashby-plaud-284468e5-ef86-4c8a-b458-2ba68bff17d2",
     "ashby-plaud-4d8d319c-e5cf-47e8-b0eb-007d24f84850",
+    "ashby-plaud-c4b99f9b-1436-458b-809f-fdfe3fa1bd14",
     "ashby-plaud-e0b1ba1a-01c9-494e-b622-cb8eb95aa6ab",
     "ashby-pod-network-b350711f-2c1e-49aa-b66c-4813da4425c9",
     "ashby-polymarket-169a8495-0244-406b-b999-6ebb3e66e8ce",
@@ -1072,6 +1075,7 @@
     "ashby-snowflake-073c91f2-0758-4544-9297-3f48a81fb04d",
     "ashby-snowflake-1bad12df-f443-426f-9d09-e96fc780d698",
     "ashby-snowflake-33cd51f6-fe99-45d5-9c03-d3fc2dd5e86e",
+    "ashby-snowflake-44ca2f15-1af0-49e3-92f1-1f96a9f6a616",
     "ashby-snowflake-52925922-7cfc-4ee5-bcd2-a52850a7c067",
     "ashby-snowflake-9bbafaf2-240d-4cfb-8e95-b289f0350be5",
     "ashby-snowflake-e9269d2e-f5c1-48e1-bfbb-1214ef18e318",
@@ -21875,5 +21879,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-24T18:09:46.808750+00:00"
+  "updated_at": "2026-06-24T18:29:47.511617+00:00"
 }
