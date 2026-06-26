@@ -20220,6 +20220,7 @@
     "wd-abbott-abbottcareers-/job/United-States---California---Sylmar/Analytics-Engineer_31148507-1",
     "wd-abbott-abbottcareers-/job/United-States---California---Sylmar/Cloud-Software-Engineer-II_31142817",
     "wd-abbott-abbottcareers-/job/United-States---California---Sylmar/Software-Quality-Engineer-I_31145613-2",
+    "wd-abbott-abbottcareers-/job/United-States---Illinois---Lake-Forest/Software-Engineer-in-Test--SET-_31154542-1",
     "wd-abbott-abbottcareers-/job/United-States---Massachusetts---Burlington/Associate-Staff-DevOps-Engineer_31152198",
     "wd-abbott-abbottcareers-/job/United-States---Minnesota---St-Paul/Sr-Human-Factors-Engineer_31148915-2",
     "wd-abbott-abbottcareers-/job/United-States---Minnesota---St-Paul/Staff-Software-Engineer_31153214",
@@ -20235,6 +20236,7 @@
     "wd-abbott-abbottcareers2-/job/United-States---California---Sylmar/Analytics-Engineer_31148507",
     "wd-abbott-abbottcareers2-/job/United-States---California---Sylmar/Cloud-Software-Engineer-II_31142817-2",
     "wd-abbott-abbottcareers2-/job/United-States---California---Sylmar/Software-Quality-Engineer-I_31145613-1",
+    "wd-abbott-abbottcareers2-/job/United-States---Illinois---Lake-Forest/Software-Engineer-in-Test--SET-_31154542",
     "wd-abbott-abbottcareers2-/job/United-States---Massachusetts---Burlington/Associate-Staff-DevOps-Engineer_31152198-2",
     "wd-abbott-abbottcareers2-/job/United-States---Minnesota---St-Paul/Sr-Human-Factors-Engineer_31148915-1",
     "wd-abbott-abbottcareers2-/job/United-States---Minnesota---St-Paul/Staff-Software-Engineer_31153214-2",
@@ -20335,7 +20337,9 @@
     "wd-ace-careers-/job/Coppell-TX/Associate-Guidewire-ClaimCenter-Developer_JR202637028",
     "wd-ace-careers-/job/Coppell-TX/Associate-Guidewire-Developer_JR202637291",
     "wd-ace-careers-/job/Coppell-TX/Guidewire-PolicyCenter-Developer_JR202637227",
+    "wd-ace-careers-/job/Costa-Mesa-CA/Dev-Ops-Engineer---ITSM-Tools-Developer_JR202532073",
     "wd-ace-careers-/job/Costa-Mesa-CA/ITSM-Tools-Developer_JR202636474",
+    "wd-ace-careers-/job/Costa-Mesa-CA/Support-Services-Automation-Engineer_JR202637503",
     "wd-acehardware-external-/job/IL---Oak-Brook/Cost-Engineering---Sourcing-Strategy-Analyst_REQ-31741",
     "wd-acrisure-acrisure-/job/2385-Northside-Drive-Ste-200-San-Diego-CA/Application-Developer_JR113537",
     "wd-acrisure-acrisure-/job/816-Congress-Ave-Ste-1800----AUSTIN-TX/Software-Engineer--Data_JR113546",
@@ -20345,6 +20349,7 @@
     "wd-adient-external-/job/Plymouth-MI/Automation-Applications-Engineer_R-27710",
     "wd-adient-external-/job/Plymouth-MI/Product-Engineer_R-28255",
     "wd-adient-external-/job/San-Antonio-TX/Quality-Engineer_R-28078",
+    "wd-adobe-external_experienced-/job/San-Francisco/Full-Stack-Software-Engineer_R169422",
     "wd-adobe-external_experienced-/job/San-Jose/Senior-Machine-Learning-Engineer_R165365",
     "wd-adobe-external_experienced-/job/San-Jose/Software-Development-Engineer_R159512",
     "wd-adobe-external_experienced-/job/San-Jose/Software-Development-Engineer_R163228-1",
@@ -20553,6 +20558,7 @@
     "wd-ameriprise-ameriprise-/job/47070-Charlotte---300-South-Tryon-Street/XMLNAME-Net-Software-Engineer_R26_1194-1",
     "wd-ameriprise-ameriprise-/job/Minneapolis-Minnesota/Systems-Engineer_R26_1802",
     "wd-ameriprise-ameriprise-/job/Minneapolis-Minnesota/Systems-Engineer_R26_2245",
+    "wd-ameriprise-ameriprise-/job/Minneapolis-Minnesota/Systems-Engineer_R26_2454",
     "wd-amerisbank-ameris_bank_careers-/job/GA-Atlanta-3500PiedmontRd/Networking-Engineer_JR100395",
     "wd-amerisbank-ameris_bank_careers-/job/GA-Atlanta-3500PiedmontRd/Sr-Systems-Engineer_JR100128",
     "wd-amerisbank-ameris_bank_careers-/job/GA-Atlanta-3500PiedmontRd/USPF-Full-Stack-Developer_JR100509",
@@ -21173,6 +21179,7 @@
     "wd-caci-external-/job/San-Antonio-TX-US/Embedded-Systems-Engineer_325151-1",
     "wd-caci-external-/job/San-Antonio-TX-US/Full-Stack-Web-Developer_327982",
     "wd-caci-external-/job/Santa-Maria-CA-US/Full-Stack-Software-Engineer_326752",
+    "wd-caci-external-/job/Sarasota-FL-US/Junior-Software-Engineer_328326",
     "wd-caci-external-/job/Springfield-VA-US/Data-Scientist_327753",
     "wd-caci-external-/job/Springfield-VA-US/Systems-Engineer-Project-Integrator_328008-1",
     "wd-caci-external-/job/Springfield-VA-US/Systems-Engineer_328263",
@@ -23108,5 +23115,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-26T21:48:30.078893+00:00"
+  "updated_at": "2026-06-26T22:50:17.643296+00:00"
 }
