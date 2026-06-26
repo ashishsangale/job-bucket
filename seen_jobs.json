@@ -19721,6 +19721,7 @@
     "lever-ableserve-c5bd23d3-f5dc-44bc-807d-08461308ad06",
     "lever-ableserve-c99616fd-c9be-4b85-8043-8f48829f2d83",
     "lever-ableserve-cfa91218-3100-4aca-a4e7-fa7b96444638",
+    "lever-ableserve-f051d6af-5dd9-4877-9010-13d760a27591",
     "lever-acds-079308f9-11b0-4ca0-93a8-c6fb6ed70a23",
     "lever-acds-b59f2570-51bf-48ff-9ec2-f5548e068e34",
     "lever-actionlife-439f1ecd-d746-4209-b8c5-7d0697d801b7",
@@ -19737,6 +19738,7 @@
     "lever-agile-defense-757c4aa4-e3c0-4f52-9ff9-70b9dee47e28",
     "lever-agile-defense-7798d63a-674f-4e35-829c-3852505c40bc",
     "lever-agile-defense-b7bf2a2e-2e85-4116-92da-470eb4be3672",
+    "lever-agile-defense-d4f95504-6ad7-44dc-9daa-6383ba4be5b5",
     "lever-agile-defense-ddfcab25-8c72-4558-b29c-43976506ab13",
     "lever-agile-defense-f0182eae-0254-49b1-bcc1-2b7aa2a4713a",
     "lever-agile-defense-f674a127-fec6-45ec-8e9c-f4616fc89b7a",
@@ -19910,6 +19912,7 @@
     "lever-intersect-6b87bbee-f303-4561-9abf-6e84b6a8ac3f",
     "lever-intersect-90c87430-c8ff-4bba-bc57-ee9d9f923cfe",
     "lever-intrafi-77ff4301-9baa-4d03-90b7-7d6944171169",
+    "lever-intrafi-e0697cb2-31d3-488f-8520-14b742413e55",
     "lever-investorflow-a13aa61f-b9c0-4968-bb46-3e3319100a67",
     "lever-investorflow-a40f9e8d-06a3-4de7-8d7a-8d1b17be0027",
     "lever-investorflow-a9aceafb-6fcf-49fd-8f2a-1e059324e1ae",
@@ -19921,6 +19924,8 @@
     "lever-kgroupcompanies-4d471434-0dad-4dee-b9af-2dbc064da975",
     "lever-kgroupcompanies-60e7c4f4-7d90-44ee-abcf-4ba1a91941fa",
     "lever-kgroupcompanies-8734fe8b-08a7-4557-bea9-8bc54f024e74",
+    "lever-kgroupcompanies-91b7cdcd-a481-43ef-a7fa-2746d5a33ede",
+    "lever-kgroupcompanies-aa308573-ffef-4510-bf4c-6c60ccb99f5f",
     "lever-kgroupcompanies-cd0a6e90-372d-4c9b-b3b9-945154a9e4e0",
     "lever-kickmaker-a3133f4c-d000-4a03-bba6-30412fbb5417",
     "lever-kickmaker-ae61366b-0de5-436c-ab37-570cb74f7ffa",
@@ -19957,6 +19962,7 @@
     "lever-mantisinnovation-e9005a9c-5e62-4f72-839c-253ef3d00da3",
     "lever-mantisinnovation-eb912682-5897-4faa-a967-d8039092c603",
     "lever-mantisinnovation-f48861f3-0d84-46d1-a499-0396caf2defd",
+    "lever-mantisinnovation-fb986504-e508-49fb-a4a5-6ee9a5b7d0a2",
     "lever-mashgin-f30c59d0-f9b2-4a7c-9b0d-895add86aeec",
     "lever-massschoolbuildings-f52fb20f-972a-4f5f-8996-114415c218f5",
     "lever-masterborn-2-332ac8c0-01bb-44f6-b7e3-f9260ea1f532",
@@ -20169,6 +20175,7 @@
     "lever-zoox-2bfdc02e-41f1-40f2-a748-4aaae3831d21",
     "lever-zoox-2f731f68-74fa-4214-87bd-30155a0baff5",
     "lever-zoox-37530bfc-55ec-4913-a27b-478ad0e3f8e7",
+    "lever-zoox-44136143-ba13-4839-bdc5-26a7633080a3",
     "lever-zoox-5ab0cc36-0d91-4acd-9cf3-c38a273293cb",
     "lever-zoox-8102c816-7ce1-49c8-8093-f46c8074652c",
     "lever-zoox-89410e34-6554-4d41-89e3-35f403d72fe8",
@@ -23076,5 +23083,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-26T20:10:17.603297+00:00"
+  "updated_at": "2026-06-26T20:18:18.072923+00:00"
 }
