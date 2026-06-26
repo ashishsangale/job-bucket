@@ -118,6 +118,7 @@
     "ashby-aurelian-16b937fd-2c63-4bec-a94c-1c588d814c37",
     "ashby-aurelian-54fc4ac1-cc14-4001-8454-a906c1aa4b93",
     "ashby-aurelian-c4a0d04e-56c3-483b-8286-da8fd3e71ae2",
+    "ashby-aurorasolar-cb19a432-dd91-46cb-8fc7-5ac367f423a0",
     "ashby-authzed-21eac6be-fca2-4937-b308-94da334a8a72",
     "ashby-authzed-37f620ee-db46-40b8-97a9-c7c5b0c072fe",
     "ashby-axelera-fcdc2f2e-b77f-427c-ac7a-6eed809432b9",
@@ -358,6 +359,7 @@
     "ashby-elevenlabs-db88ce4f-44a0-425c-88c4-1951c467c627",
     "ashby-ello-f843ac3e-8106-4cb0-bb77-72caa489ab23",
     "ashby-envoy-50af5e24-e841-4ac9-9ab8-bab95fbcf02f",
+    "ashby-etched-0e70938e-685a-46e9-98a5-8ec3198d92cc",
     "ashby-etched-2eff3af0-ef7d-4dea-9e56-02227fb75edf",
     "ashby-etched-56400dde-55ea-43c8-862c-cb0b14eb063c",
     "ashby-etched-5cc7effb-c1d8-4cb8-a0c3-0bd4f7045fe5",
@@ -548,6 +550,7 @@
     "ashby-imprint-2f3d2105-4aa4-4182-a405-1d8faf17d6f5",
     "ashby-imprint-ab4a78db-fe0c-42c3-b6b5-bfaf7454ddb0",
     "ashby-incident-56f5c0a0-9da0-44fb-ac99-082ac5a403d5",
+    "ashby-inferact-1d87c80a-0e58-4745-a51f-8bd48bc73ca8",
     "ashby-inferact-24ea1266-bc29-4838-9a61-8adc1d5bb2c6",
     "ashby-inferact-e1a91db5-1cd4-4688-863b-33ab88b40a4d",
     "ashby-infinity-constellation-135ae1c1-8665-484c-99a4-7086b05d20b5",
@@ -984,6 +987,7 @@
     "ashby-radiant-industries-e3f53c50-3f67-497f-ba34-4376fae95391",
     "ashby-radiant-industries-fe8b40ca-6a1f-42e4-8650-dcef5f6a74d9",
     "ashby-rainforest-pay-8c1702bc-70c9-4631-9c7b-ae0019e9ec14",
+    "ashby-ramp-0ed80a29-6cca-42d7-b7e0-066d4fa7b37f",
     "ashby-ramp-6a7e382f-240a-4952-b9e5-7fe2b3856bc9",
     "ashby-ramp-8d61885c-0f08-4267-8ace-69e28b1d3f38",
     "ashby-ramp-d818443f-d4c5-4eab-892d-3715a935c165",
@@ -1143,6 +1147,7 @@
     "ashby-speakeasy-43904ba3-3792-4cc4-b097-6e98ca9a1b4b",
     "ashby-speakeasy-7994e807-4a8f-4f2b-b16e-f1147a396a7b",
     "ashby-speakeasy-df5263bd-c529-4563-9d93-136a5d5b1dd5",
+    "ashby-sphere-c64eb572-bb43-4cb8-9724-df7abbdf640b",
     "ashby-spoton-527d8cdc-4b9b-436e-a99f-f8dbd33ae99a",
     "ashby-spoton-5486eb73-f6f7-473c-a0c1-f26b58aaedb1",
     "ashby-spoton-9ca9e080-2f75-4ac3-9b74-575a4a5d453f",
@@ -22699,5 +22704,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-26T01:37:11.575130+00:00"
+  "updated_at": "2026-06-26T04:45:23.562086+00:00"
 }
