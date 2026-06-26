@@ -1442,8 +1442,12 @@
     "gh-6sense-8009157",
     "gh-6sense-8010760",
     "gh-8thlightrebuild-7685620003",
+    "gh-9thwayinsignia-4521589008",
     "gh-9thwayinsignia-5032201008",
     "gh-9thwayinsignia-5032205008",
+    "gh-9thwayinsignia-5222560008",
+    "gh-9thwayinsignia-5222565008",
+    "gh-9thwayinsignia-5222568008",
     "gh-9thwayinsignia-5222572008",
     "gh-a16z-7619570003",
     "gh-a16z-7639684003",
@@ -7342,6 +7346,7 @@
     "gh-doordashusa-7994290",
     "gh-doordashusa-8001229",
     "gh-doordashusa-8001494",
+    "gh-doordashusa-8010827",
     "gh-doordashusa-8013249",
     "gh-doordashusa-8017150",
     "gh-doordashusa-8024644",
@@ -7809,6 +7814,7 @@
     "gh-eqvilentjobs-4656669101",
     "gh-eqvilentjobs-4780181101",
     "gh-eqvilentjobs-4880217101",
+    "gh-eqvilentjobs-4908964101",
     "gh-eqvilentjobs-4908995101",
     "gh-eridan-4606705005",
     "gh-eridan-4695046005",
@@ -12018,6 +12024,7 @@
     "gh-nubank-7615798",
     "gh-nubank-7617420",
     "gh-nubank-7645958",
+    "gh-nubank-7724202",
     "gh-nubank-7729825",
     "gh-nubank-7732512",
     "gh-nubank-7881141",
@@ -17058,6 +17065,7 @@
     "gh-squarespace-7743370",
     "gh-squarespace-7789058",
     "gh-squarespace-8015630",
+    "gh-squarespace-8019329",
     "gh-squarespace-8023376",
     "gh-srsacquiom-5057379007",
     "gh-srsacquiom-5167615007",
@@ -22721,5 +22729,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-06-26T09:52:06.608985+00:00"
+  "updated_at": "2026-06-26T12:27:46.809040+00:00"
 }
