@@ -21520,6 +21520,7 @@
     "wd-apexcapitalcorp-apex_external-/job/US-TX-Fort-Worth/iOS-Software-Engineer_R841",
     "wd-apog-apogee-/job/Bloomington-MN/Solutions-Developer_JR110685",
     "wd-apog-apogee-/job/Faribault-MN/Quality-Engineer_JR110573-1",
+    "wd-apog-apogee-/job/Faribault-MN/Quality-Engineer_JR110620",
     "wd-appliedis-ais_careers-/job/Client-Site---Alexandria-VA/Data-Scientist_JR2026001103-1",
     "wd-appliedis-ais_careers-/job/Client-Site---Alexandria-VA/Software-Engineer---Front-End_JR2026001267-1",
     "wd-appliedis-ais_careers-/job/Client-Site---Washington-DC/Cloud-Developer--Sr_JR2026001240",
@@ -21640,6 +21641,7 @@
     "wd-asurion-asurioncareers_us-/job/US-Nashville/Test-Platform-Software-Developer---Integrator_ASU0017708",
     "wd-atd-american_tire_distributors-/job/Huntersville-NC/Industrial-Engineer_R35353",
     "wd-atd-american_tire_distributors-/job/Roanoke-TX/Industrial-Engineer_R35353",
+    "wd-atd-american_tire_distributors-/job/United-States-Remote/Industrial-Engineer_R35353",
     "wd-athene-apollononpubliccareersite-/job/New-York-New-York/SRE-Developer_R254310",
     "wd-athene-apollononpubliccareersite-/job/New-York-New-York/XMLNAME-2026-Sophomore-Summer-Analyst--Engineering_R254078",
     "wd-athene-athene_careers-/job/West-Des-Moines-Iowa/AI-Engineer_R253849",
@@ -22167,6 +22169,7 @@
     "wd-caci-external-/job/Sterling-VA-US/Network-Testing-Lab-Infrastructure-Engineer_311743-1",
     "wd-caci-external-/job/Sterling-VA-US/Software-Engineer_327292",
     "wd-caci-external-/job/Sterling-VA-US/Systems-Engineer---Product-Owner_324522-1",
+    "wd-caci-external-/job/Sterling-VA-US/Systems-Engineer---Product-Owner_328488-1",
     "wd-caci-external-/job/Sterling-VA-US/Systems-Engineer_327990",
     "wd-caci-external-/job/Suitland-MD-US/Systems-Data-Engineering-and--Integrator_328139",
     "wd-caci-external-/job/Tobyhanna-PA-US/Microelectronics--ME--Surface-Mount-Technology--SMT--Circuit-Card-Assembly--CCA--Engineer_327372",
@@ -22224,6 +22227,7 @@
     "wd-carrier-jobs-/job/CAP25-Pittsburgh-1011-Alcon-Street-Pittsburgh-PA-15220-USA/Building-Automation-Software-Engineer_30208894",
     "wd-carrier-jobs-/job/CAV20-ALC---Virginia-4948-Dominion-Boulevard-Glen-Allen-VA-23060-USA/Project-Engineer_30205234",
     "wd-carrier-jobs-/job/Capital-Cyberscape-2nd-Floor-Ullahwas-Sector-59-Gurugram-Haryana-122102/Application-Engineer_30206246",
+    "wd-carrier-jobs-/job/GA18-1150-Roberts-Boulevard-Kennesaw-GA-30144-USA/Site-Reliability-Engineer_30206686",
     "wd-carrier-jobs-/job/NY97-85-Broad-Street-New-York-NY-10004-USA/Commissioning-Engineer-II--NORESCO-_30209028",
     "wd-cars-cars-/job/Chicago-IL/Sr-Software-Engineer_JR11131",
     "wd-cartech-ctcexternal-/job/McBee-SC/Engineer-II_26390",
@@ -24469,5 +24473,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-02T14:40:47.292311+00:00"
+  "updated_at": "2026-07-02T14:44:24.014884+00:00"
 }
