@@ -21323,6 +21323,7 @@
     "wd-ace-careers-/job/Coppell-TX-Remote/Guidewire-Developer_JR202636281",
     "wd-ace-careers-/job/Coppell-TX-Remote/Guidewire-Developer_JR202637121-1",
     "wd-ace-careers-/job/Coppell-TX-Remote/Sr-Guidewire-BillingCenter-Developer_JR202636120",
+    "wd-ace-careers-/job/Coppell-TX-Remote/Sr-Guidewire-Policy-Center-Developer_JR202637609",
     "wd-ace-careers-/job/Coppell-TX/Associate-Guidewire-ClaimCenter-Developer_JR202637028",
     "wd-ace-careers-/job/Coppell-TX/Associate-Guidewire-Developer_JR202637291",
     "wd-ace-careers-/job/Coppell-TX/Guidewire-PolicyCenter-Developer_JR202637227",
@@ -21497,6 +21498,7 @@
     "wd-allstate-allstate_careers-/job/US---Remote/Adobe-Creative-Cloud-Administrator---Collaboration-Platform-Support-Engineer_R31627",
     "wd-allstate-allstate_careers-/job/US---Remote/Cloud-Product-Security-Engineer_R29721",
     "wd-allstate-allstate_careers-/job/US---Remote/Managing-Engineer----Cyber-Platform-Engineering--Remote--US-_R31082",
+    "wd-allstate-allstate_careers-/job/US---Remote/Managing-Engineer---Risk-Insights-and-Risk-Engineering--Remote--US-_R31605-1",
     "wd-allstate-allstate_careers-/job/US---Remote/Managing-Engineer---Security_R29718",
     "wd-allstate-allstate_careers-/job/US---Remote/Product-Engineer---Java-Spring-Boot-w--Full-Stack-Option_R31310",
     "wd-allstate-allstate_careers-/job/US---Remote/Product-Engineer-Java-Spring-Boot_R29644",
@@ -21536,6 +21538,7 @@
     "wd-amainc-ama_careers-/job/Hampton-VA/Computational-Fluid-Dynamics-Software-Engineer_R-100502",
     "wd-amainc-ama_careers-/job/Hampton-VA/Research--Science-and-Engineering-Professionals---All-levels-of-Experience_R-100630",
     "wd-amainc-ama_careers-/job/Hampton-VA/Research-Scientist_R-100641",
+    "wd-amainc-ama_careers-/job/Hampton-VA/Software-Developer---Geospatial--GIS_R-100681",
     "wd-amainc-ama_careers-/job/Hampton-VA/Windows-and-Infrastructure-Systems-Administrator_R-100678",
     "wd-amainc-ama_careers-/job/Huntsville-AL/Rotorcraft-Flight-Dynamics-Modeling-and-Simulation-Engineer_R-100582",
     "wd-amat-external-/job/AustinTX/Software-Engineer-II_R2619180",
@@ -21702,6 +21705,7 @@
     "wd-assetmark-assetmark_careers-/job/Austin-TX/Director--Backend-Engineering_Req-003785",
     "wd-assetmark-assetmark_careers-/job/Austin-TX/Financial-Calculations-Developer_Req-003278",
     "wd-assetmark-assetmark_careers-/job/Austin-TX/Junior-AWS-Operations-Engineer_Req-003729",
+    "wd-assetmark-assetmark_careers-/job/Charlotte-NC/Associate-Data-Engineer_Req-003889",
     "wd-assetmark-assetmark_careers-/job/Charlotte-NC/Associate-Quality-Assurance-Engineer_Req-003788",
     "wd-assetmark-assetmark_careers-/job/Charlotte-NC/Engineer--Platform---DevEx_Req-003677",
     "wd-assetmark-assetmark_careers-/job/Charlotte-NC/Platform-Software-Engineer_Req-003754",
@@ -22158,6 +22162,7 @@
     "wd-caci-external-/job/Ashburn-VA-US/Oracle-HCM-Cloud-Platform---DevOps-Engineer_323230",
     "wd-caci-external-/job/Aurora-CO-US/Full-Stack-Software-Engineer_324432",
     "wd-caci-external-/job/Aurora-CO-US/Software-Engineer---Full-Stack_325772",
+    "wd-caci-external-/job/Aurora-CO-US/Staff-Computer-Vision-AI-ML-Engineer_326979",
     "wd-caci-external-/job/Austin-TX-US/Cyber-Security-Engineer_328249",
     "wd-caci-external-/job/Austin-TX-US/Front-End-Developer---React_327198",
     "wd-caci-external-/job/Austin-TX-US/Front-End-Developer---React_327314",
@@ -22196,6 +22201,7 @@
     "wd-caci-external-/job/Denver-CO-US/Systems-Engineer_327991",
     "wd-caci-external-/job/Dulles-VA-US/Wireless-Protocols-Software-Engineer_328496",
     "wd-caci-external-/job/Fairfax-VA-US/RF-Antenna-Engineer_327433",
+    "wd-caci-external-/job/Fairfax-VA-US/Software-Test-Engineer_328464",
     "wd-caci-external-/job/Fayetteville-NC-US/AI-and-Workflow-Automation-Developer_328176",
     "wd-caci-external-/job/Florham-Park-NJ-US/Cyber-Software-Engineer_327694-1",
     "wd-caci-external-/job/Florham-Park-NJ-US/Cyber-Software-Engineer_328376",
@@ -22383,6 +22389,7 @@
     "wd-chrobinson-chrobinson-/job/Minnesota-Remote/Software-Engineer-III_R47894",
     "wd-chrobinson-chrobinson-/job/Minnesota-Remote/Software-Engineer-III_R48382",
     "wd-cigna-cignacareers-/job/Austin-TX/Software-Engineering-Advisor---Hybrid_26006927",
+    "wd-cigna-cignacareers-/job/Franklin-TN/Software-Engineering-Advisor---eviCore_26006638",
     "wd-cigna-cignacareers-/job/Morris-Plains-NJ/Software-Engineering-Advisor--Hybrid_26007118",
     "wd-cigna-cignacareers-/job/Overland-Park-KS/Software-Engineering-Advisor--Hybrid_26007967",
     "wd-circles-circles-/job/IN-Gurgaon/Data-Engineer---Platform_R-100376",
@@ -24740,5 +24747,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-02T20:03:10.539823+00:00"
+  "updated_at": "2026-07-02T20:07:35.792803+00:00"
 }
