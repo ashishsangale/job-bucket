@@ -21895,6 +21895,7 @@
     "wd-bcbsaz-bcbsazcareers-/job/AZ-Blue-Phoenix-AZ-85021/HVAC-Building-Engineer---Onsite_R6025",
     "wd-bcbskc-bcbs_external_career_site-/job/1400-Baltimore-Kansas-City-MO-64105/End-User-Computing-Engineer-III_R6887",
     "wd-bcbsla-external-/job/Remote-LA/Software-Quality-Assurance-Engineer--Remote---Louisiana-Only-_R11771",
+    "wd-bcbst-external-/job/USA-TN-Chattanooga-Remote/Applications-Developer_R-50234",
     "wd-bcbst-external-/job/USA-TN-Chattanooga-Remote/Associate-Data-Engineer-I_R-49848",
     "wd-bcbst-external-/job/USA-TN-Chattanooga-Remote/Associate-Software-Engineer-I_R-50280",
     "wd-bcbst-external-/job/USA-TN-Chattanooga-Remote/Software-Engineer---Integrations_R-49802",
@@ -22082,6 +22083,7 @@
     "wd-broadcom-external_career-/job/USA-IL-Lisle-Warrenville-Road/Mainframe-Software-Development-Engineer_R025616",
     "wd-broadcom-external_career-/job/USA-IL-Lisle-Warrenville-Road/Software-Development-Engineer-in-Test--SDET-_R024872",
     "wd-broadcom-external_career-/job/USA-Pennsylvania-Breinigsville-9999-Hamilton-Blvd/MES-Software-Engineer-Data-Analyst_R026173",
+    "wd-broadcom-external_career-/job/USA-Pennsylvania-Breinigsville-9999-Hamilton-Blvd/Test-Engineer---Silicon-Photonics_R026421",
     "wd-broadcom-external_career-/job/USA-TX-Plano-Legacy-Drive-Suite-700/Mainframe-Software-Engineer_R026231",
     "wd-broadcom-external_career-/job/USA-WA-Bellevue---108th-Ave/Staff-Software-Engineer---Intelligent-Applications-team_R025548-1",
     "wd-broadridge-careers-/job/Texas-Home-Office/FIX-Onboarding-Engineer--On-Site---Dallas-_JR1079555",
@@ -22150,6 +22152,7 @@
     "wd-caci-external-/job/Columbia-MD-US/Splunk-Software-Engineer-TS-SCI-with-Poly_327588",
     "wd-caci-external-/job/Crane-IN-US/Data-Scientist_328191",
     "wd-caci-external-/job/Dahlgren-VA-US/Container-Platform-Infrastructure-Engineer_328228",
+    "wd-caci-external-/job/Denver-CO-US/Data-Engineer-Software-Integrator_328545",
     "wd-caci-external-/job/Denver-CO-US/Front-End-Developer_327919",
     "wd-caci-external-/job/Denver-CO-US/Misson-Operation-Engineer_328010",
     "wd-caci-external-/job/Denver-CO-US/Network-Engineer-III_324414",
@@ -22220,6 +22223,7 @@
     "wd-caci-external-/job/Sterling-VA-US/Field-Service-Engineer_327823",
     "wd-caci-external-/job/Sterling-VA-US/Network-Testing-Lab-Infrastructure-Engineer_311743-1",
     "wd-caci-external-/job/Sterling-VA-US/Software-Engineer_327292",
+    "wd-caci-external-/job/Sterling-VA-US/Software-Engineer_328511",
     "wd-caci-external-/job/Sterling-VA-US/Systems-Engineer---Product-Owner_324522-1",
     "wd-caci-external-/job/Sterling-VA-US/Systems-Engineer---Product-Owner_328488-1",
     "wd-caci-external-/job/Sterling-VA-US/Systems-Engineer_327990",
@@ -22315,6 +22319,7 @@
     "wd-cdk-cdk-/job/Austin-TX-USA/Staff-Software-Engineer_JR9111",
     "wd-cengage-cengagenorthamericacareers-/job/Independence-KY-USA/Advanced-Software-Development-Engineer-in-Test_R2026-780",
     "wd-cengage-cengagenorthamericacareers-/job/Kentucky-USA/Software-Development-Engineer-in-Test_R2026-779",
+    "wd-cengage-cengagenorthamericacareers-/job/United-States/AI-ML-Engineer---School_R2026-555",
     "wd-cengage-cengagenorthamericacareers-/job/United-States/Software-Engineer_R2026-749",
     "wd-cenovus-careers-/job/CA-SK-Lloydminster/Unit-Contact-Engineer_R-410736",
     "wd-centific-centific_global-/job/Remote-Work-USA/Applied-Reinforcement-Learning-Engineer_JR106877",
@@ -24525,5 +24530,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-02T17:11:00.187097+00:00"
+  "updated_at": "2026-07-02T17:15:17.505500+00:00"
 }
