@@ -42,11 +42,17 @@ WORKDAY_SEARCH_TEXT  = "software engineer"
 WORKDAY_BATCH_SIZE   = int(os.environ.get("BATCH_SIZE", "1000"))
 WORKDAY_BATCH_OFFSET = int(os.environ.get("BATCH_OFFSET", "0"))
 
-DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
-NOTION_TOKEN        = os.environ.get("NOTION_TOKEN", "")
-NOTION_DATABASE_ID  = os.environ.get("NOTION_DATABASE_ID", "")
+DISCORD_WEBHOOK_URL          = os.environ.get("DISCORD_WEBHOOK_URL", "")
+PRIORITY_DISCORD_WEBHOOK_URL = os.environ.get("PRIORITY_DISCORD_WEBHOOK_URL", "")
+NOTION_TOKEN                 = os.environ.get("NOTION_TOKEN", "")
+NOTION_DATABASE_ID           = os.environ.get("NOTION_DATABASE_ID", "")
 
 SCRAPER_MODE = os.environ.get("SCRAPER_MODE", "all").lower()
+
+PRIORITY_FILE = BASE_DIR / "priority_companies.json"
+AMAZON_DELAY_S = 0.5
+AMAZON_TIMEOUT = 30
+AMAZON_MAX_RESULTS = 100
 
 # ── Concurrency & rate limiting ───────────────────────────────────────────────
 MAX_WORKERS        = 5
@@ -82,7 +88,8 @@ EXCLUDE_KEYWORDS: list[str] = [
     "fulfillment", "controls", "process", "cae", "connectivity", "copv", "electrical",
     "wastewater", "water", "avionics", "structural", "roadway", "transportation",
     "roadway", "hydraulics", "bridge", "controls", "electromagnetic", "thermal",
-    "part-time", "thermo", "buyer", "supplier", "electronics", "fire", 
+    "part-time", "thermo", "buyer", "supplier", "electronics", "fire", "building",
+    "environmental", "bioinformetics", "ts/sci", "fluid"
 ]
 
 REMOTE_ONLY: bool = False
@@ -129,7 +136,7 @@ _NON_US = {
     "emea", "apac", "latam", "worldwide", "global", "international", "anywhere", "pakistan",
     "prague", "valencia", "europe", "johannesburg", "latvia", "romania", "bulgaria", "estonia",
     "lithuania", "jerusalem", "quebec", "nigeria", "deutschland", "bogota", "colombia", "cyprus",
-    "armenia", "turkey", "serbia", 
+    "armenia", "turkey", "serbia", "costa rica", 
 }
 
 # Step 2 — accept if any of these appear
@@ -486,6 +493,155 @@ def fetch_workday(entry: tuple[str, str, str], session: requests.Session) -> lis
     return jobs
 
 
+def fetch_amazon(session: requests.Session) -> list[dict]:
+    """Fetch software engineering jobs from Amazon's public JSON API."""
+    time.sleep(AMAZON_DELAY_S)
+    url = "https://www.amazon.jobs/en/search.json"
+    params = {
+        "base_query": "software development engineer",
+        "country": "USA",
+        "offset": 0,
+        "result_limit": AMAZON_MAX_RESULTS,
+    }
+    try:
+        r = session.get(url, params=params, timeout=AMAZON_TIMEOUT, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+        })
+        r.raise_for_status()
+    except requests.RequestException as e:
+        log.debug(f"Amazon: {e}")
+        return []
+
+    data = r.json()
+    jobs = []
+    for job in data.get("jobs", []):
+        posted_date = job.get("posted_date", "")
+        # Parse human-readable date like "September 25, 2025" to ISO
+        parsed_date = ""
+        if posted_date:
+            try:
+                from dateutil import parser as dtparser
+                dt = dtparser.parse(posted_date)
+                parsed_date = dt.strftime("%Y-%m-%d")
+            except Exception:
+                parsed_date = posted_date
+
+        job_path = job.get("job_path", "")
+        job_id = job.get("id_icims") or job.get("id", "")
+        jobs.append({
+            "id":        f"amzn-{job_id}",
+            "title":     job.get("title", ""),
+            "company":   "Amazon",
+            "location":  job.get("normalized_location") or job.get("location") or "Unknown",
+            "url":       f"https://www.amazon.jobs{job_path}" if job_path else "",
+            "source":    "Amazon",
+            "posted_at": parsed_date,
+        })
+    log.info(f"Amazon: fetched {len(jobs)} jobs")
+    return jobs
+
+
+def load_priority_companies(filepath: Path) -> list[dict]:
+    """Load priority company entries from JSON file."""
+    if not filepath.exists():
+        log.warning(f"Priority file not found: {filepath}")
+        return []
+    try:
+        data = json.loads(filepath.read_text())
+    except (json.JSONDecodeError, ValueError) as exc:
+        log.warning(f"Failed to parse priority file {filepath}: {exc}")
+        return []
+    return data if isinstance(data, list) else []
+
+
+def fetch_priority(entries: list[dict], session: requests.Session) -> list[dict]:
+    """Fetch jobs for priority companies, dispatching to the correct fetcher."""
+    all_jobs: list[dict] = []
+    for entry in entries:
+        source = entry.get("source", "").lower()
+        slug = entry.get("slug", "")
+        if not slug:
+            continue
+        if source == "ashby":
+            jobs = fetch_ashby(slug, session)
+        elif source == "greenhouse":
+            jobs = fetch_greenhouse(slug, session)
+        elif source == "lever":
+            jobs = fetch_lever(slug, session)
+        elif source == "workday":
+            # Expect slug in pipe-delimited format: "company|version|site_id"
+            parts = slug.split("|")
+            if len(parts) == 3:
+                jobs = fetch_workday(tuple(parts), session)
+            else:
+                log.warning(f"Priority workday entry malformed: {slug}")
+                continue
+        elif source == "amazon":
+            jobs = fetch_amazon(session)
+        else:
+            log.warning(f"Unknown source '{source}' for priority entry: {slug}")
+            continue
+        all_jobs.extend(jobs)
+    return all_jobs
+
+
+def _deliver_priority_discord(jobs: list[dict]) -> set[str]:
+    """Deliver jobs to the priority Discord channel with @here ping."""
+    delivered: set[str] = set()
+    webhook = PRIORITY_DISCORD_WEBHOOK_URL or DISCORD_WEBHOOK_URL
+    if not webhook:
+        log.warning("No Discord webhook set for priority — skipping.")
+        return delivered
+    if not jobs:
+        return delivered
+
+    session = make_session()
+    total_chunks = (len(jobs) + 9) // 10
+    log.info(f"Priority Discord: sending {len(jobs)} jobs in {total_chunks} chunks")
+
+    for i, chunk in enumerate(_chunks(jobs, 10)):
+        embeds = [
+            {
+                "title": f"🚨 {job['title']}",
+                "url":   job["url"],
+                "color": DISCORD_COLOR.get(job["source"], 0xFF4500),
+                "fields": [
+                    {"name": "🏢 Company",  "value": job["company"],  "inline": True},
+                    {"name": "📍 Location", "value": job["location"], "inline": True},
+                    {"name": "🔗 Source",   "value": job["source"],   "inline": True},
+                ],
+                "footer": {"text": f"Posted: {job['posted_at'][:10] if job['posted_at'] else 'Unknown'}"},
+            }
+            for job in chunk
+        ]
+        payload = {
+            "username":   "Priority Job Alert 🚨",
+            "avatar_url": "https://i.imgur.com/4M34hi2.png",
+            "content":    f"@here 🚨 **{len(jobs)} new priority job(s) found!**" if i == 0 else "",
+            "embeds":     embeds,
+        }
+        for attempt in range(5):
+            try:
+                r = session.post(webhook, json=payload, timeout=10)
+                if r.status_code == 429:
+                    retry_after = float(r.json().get("retry_after", 5))
+                    log.warning(f"Priority Discord rate limited — waiting {retry_after:.1f}s")
+                    time.sleep(retry_after + 0.5)
+                    continue
+                r.raise_for_status()
+                delivered.update(job["id"] for job in chunk)
+                time.sleep(2)
+                break
+            except requests.RequestException as e:
+                log.error(f"Priority Discord failed (chunk {i}, attempt {attempt+1}): {e}")
+                time.sleep(5)
+        else:
+            log.error(f"Priority Discord chunk {i} failed after 5 attempts — skipping")
+
+    log.info(f"Priority Discord: {len(delivered)}/{len(jobs)} jobs delivered")
+    return delivered
+
+
 def fetch_all_concurrent(
     greenhouse_slugs: list[str],
     ashby_slugs: list[str],
@@ -578,6 +734,7 @@ DISCORD_COLOR = {
     "Ashby":      0x5865F2,
     "Lever":      0xF59E0B,
     "Workday":    0xE34F26,  # Orange — Workday brand color
+    "Amazon":     0xFF9900,  # Amazon orange
 }
 
 
@@ -725,10 +882,58 @@ def main() -> None:
     start = time.time()
 
     # Validate SCRAPER_MODE
-    valid_modes = ("workday", "greenhouse", "ashby", "lever", "all")
+    valid_modes = ("workday", "greenhouse", "ashby", "lever", "all", "priority")
     if SCRAPER_MODE not in valid_modes:
         log.error(f"Unrecognized SCRAPER_MODE={SCRAPER_MODE!r}. Must be one of: {', '.join(valid_modes)}")
         sys.exit(1)
+
+    # ── Priority mode: fast check for priority companies only ──
+    if SCRAPER_MODE == "priority":
+        priority_entries = load_priority_companies(PRIORITY_FILE)
+        if not priority_entries:
+            log.error(f"No priority companies loaded from {PRIORITY_FILE}")
+            sys.exit(1)
+
+        log.info(f"Priority mode — checking {len(priority_entries)} companies")
+        session = make_session()
+        all_jobs = fetch_priority(priority_entries, session)
+
+        seen = load_seen()
+        log.info(f"Loaded {len(seen)} previously seen job IDs")
+
+        unseen   = [j for j in all_jobs if j["id"] not in seen]
+        fresh    = [j for j in unseen if is_fresh(j)]
+        new_jobs = [j for j in fresh if passes_filters(j)]
+
+        log.info(
+            f"Unseen: {len(unseen)} | Stale: {len(unseen)-len(fresh)} | "
+            f"Filtered: {len(fresh)-len(new_jobs)} | Sending: {len(new_jobs)}"
+        )
+
+        if not new_jobs:
+            log.info("No new priority jobs. Done.")
+            elapsed = time.time() - start
+            log.info(f"─── Done in {elapsed:.0f}s ───")
+            return
+
+        # Sort newest first
+        new_jobs.sort(
+            key=lambda j: _parse_date(j.get("posted_at", "")) or datetime.min.replace(tzinfo=timezone.utc),
+            reverse=True,
+        )
+
+        # Deliver to priority Discord channel
+        discord_ok = _deliver_priority_discord(new_jobs)
+        # Also deliver to Notion
+        notion_ok = _deliver_notion(new_jobs)
+
+        delivered = discord_ok | notion_ok
+        seen.update(delivered)
+        save_seen(seen)
+
+        elapsed = time.time() - start
+        log.info(f"─── Done in {elapsed:.0f}s. {len(new_jobs)} priority job(s) dispatched. ───")
+        return
 
     greenhouse_slugs = load_slugs(GREENHOUSE_FILE) if SCRAPER_MODE in ("greenhouse", "all") else []
     ashby_slugs      = load_slugs(ASHBY_FILE)      if SCRAPER_MODE in ("ashby", "all")      else []
