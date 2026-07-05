@@ -54,6 +54,10 @@ AMAZON_DELAY_S = 0.5
 AMAZON_TIMEOUT = 30
 AMAZON_MAX_RESULTS = 100
 
+APPLE_DELAY_S = 0.5
+APPLE_TIMEOUT = 30
+APPLE_MAX_PAGES = 5
+
 # ── Concurrency & rate limiting ───────────────────────────────────────────────
 MAX_WORKERS        = 5
 MAX_RETRIES        = 1
@@ -493,51 +497,147 @@ def fetch_workday(entry: tuple[str, str, str], session: requests.Session) -> lis
     return jobs
 
 
-def fetch_amazon(session: requests.Session) -> list[dict]:
-    """Fetch software engineering jobs from Amazon's public JSON API."""
-    time.sleep(AMAZON_DELAY_S)
+AMAZON_DEFAULT_QUERIES = ["software engineer", "software development engineer"]
+
+
+def fetch_amazon(session: requests.Session, queries: list[str] | None = None) -> list[dict]:
+    """Fetch software engineering jobs from Amazon's public JSON API.
+
+    Runs one search per query term and merges results, deduplicating by id.
+    Amazon ranks by relevance, so multiple targeted queries (e.g. "software
+    engineer" and "software development engineer") capture role variants that
+    a single query would rank out of the result window.
+    """
+    queries = queries or AMAZON_DEFAULT_QUERIES
     url = "https://www.amazon.jobs/en/search.json"
-    params = {
-        "base_query": "software development engineer",
-        "country": "USA",
-        "offset": 0,
-        "result_limit": AMAZON_MAX_RESULTS,
+    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
+    by_id: dict[str, dict] = {}
+
+    for i, query in enumerate(queries):
+        if i > 0:
+            time.sleep(AMAZON_DELAY_S)
+        params = {
+            "base_query": query,
+            "country": "USA",
+            "offset": 0,
+            "result_limit": AMAZON_MAX_RESULTS,
+        }
+        try:
+            r = session.get(url, params=params, timeout=AMAZON_TIMEOUT, headers=headers)
+            r.raise_for_status()
+        except requests.RequestException as e:
+            log.debug(f"Amazon [{query!r}]: {e}")
+            continue
+
+        data = r.json()
+        for job in data.get("jobs", []):
+            posted_date = job.get("posted_date", "")
+            # Parse human-readable date like "September 25, 2025" to ISO
+            parsed_date = ""
+            if posted_date:
+                try:
+                    from dateutil import parser as dtparser
+                    dt = dtparser.parse(posted_date)
+                    parsed_date = dt.strftime("%Y-%m-%d")
+                except Exception:
+                    parsed_date = posted_date
+
+            job_path = job.get("job_path", "")
+            job_id = job.get("id_icims") or job.get("id", "")
+            record_id = f"amzn-{job_id}"
+            by_id[record_id] = {
+                "id":        record_id,
+                "title":     job.get("title", ""),
+                "company":   "Amazon",
+                "location":  job.get("normalized_location") or job.get("location") or "Unknown",
+                "url":       f"https://www.amazon.jobs{job_path}" if job_path else "",
+                "source":    "Amazon",
+                "posted_at": parsed_date,
+            }
+
+    jobs = list(by_id.values())
+    log.info(f"Amazon: fetched {len(jobs)} jobs across {len(queries)} queries")
+    return jobs
+
+
+APPLE_DEFAULT_QUERIES = ["software engineer"]
+
+
+def fetch_apple(session: requests.Session, queries: list[str] | None = None) -> list[dict]:
+    """Fetch software engineering jobs from Apple's careers site.
+
+    Apple's search page server-renders job data as JSON embedded in
+    `window.__staticRouterHydrationData`. We parse that rather than
+    calling the authenticated API.
+
+    Runs one paginated search per query term and merges results,
+    deduplicating by reqId.
+    """
+    queries = queries or APPLE_DEFAULT_QUERIES
+    base = "https://jobs.apple.com/en-us/search"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
     }
-    try:
-        r = session.get(url, params=params, timeout=AMAZON_TIMEOUT, headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
-        })
-        r.raise_for_status()
-    except requests.RequestException as e:
-        log.debug(f"Amazon: {e}")
-        return []
+    by_id: dict[str, dict] = {}
+    first_request = True
 
-    data = r.json()
-    jobs = []
-    for job in data.get("jobs", []):
-        posted_date = job.get("posted_date", "")
-        # Parse human-readable date like "September 25, 2025" to ISO
-        parsed_date = ""
-        if posted_date:
+    for query in queries:
+        for page in range(1, APPLE_MAX_PAGES + 1):
+            if not first_request:
+                time.sleep(APPLE_DELAY_S)
+            first_request = False
+
+            params = {
+                "search": query,
+                "location": "united-states-USA",
+                "sort": "newest",
+                "page": page,
+            }
             try:
-                from dateutil import parser as dtparser
-                dt = dtparser.parse(posted_date)
-                parsed_date = dt.strftime("%Y-%m-%d")
-            except Exception:
-                parsed_date = posted_date
+                r = session.get(base, params=params, headers=headers, timeout=APPLE_TIMEOUT)
+                r.raise_for_status()
+            except requests.RequestException as e:
+                log.warning(f"Apple [{query!r}] page {page} failed: {e}")
+                break
 
-        job_path = job.get("job_path", "")
-        job_id = job.get("id_icims") or job.get("id", "")
-        jobs.append({
-            "id":        f"amzn-{job_id}",
-            "title":     job.get("title", ""),
-            "company":   "Amazon",
-            "location":  job.get("normalized_location") or job.get("location") or "Unknown",
-            "url":       f"https://www.amazon.jobs{job_path}" if job_path else "",
-            "source":    "Amazon",
-            "posted_at": parsed_date,
-        })
-    log.info(f"Amazon: fetched {len(jobs)} jobs")
+            m = _re.search(r'window\.__staticRouterHydrationData = JSON\.parse\("(.*?)"\);', r.text)
+            if not m:
+                log.warning(f"Apple: could not find embedded job data on page {page}")
+                break
+
+            try:
+                decoded = json.loads('"' + m.group(1) + '"')
+                data = json.loads(decoded)
+                results = data["loaderData"]["search"]["searchResults"]
+            except (json.JSONDecodeError, KeyError, TypeError) as e:
+                log.warning(f"Apple: failed to parse embedded data on page {page}: {e}")
+                break
+
+            if not results:
+                break
+
+            for job in results:
+                req_id = job.get("reqId", "")
+                slug = job.get("transformedPostingTitle", "")
+                team = job.get("team") or {}
+                team_code = team.get("teamCode", "")
+                locations = job.get("locations") or []
+                location = ", ".join(l.get("name", "") for l in locations if l.get("name")) or "Unknown"
+                url = f"https://jobs.apple.com/en-us/details/{req_id}/{slug}"
+                if team_code:
+                    url += f"?team={team_code}"
+                by_id[f"apple-{req_id}"] = {
+                    "id":        f"apple-{req_id}",
+                    "title":     job.get("postingTitle", ""),
+                    "company":   "Apple",
+                    "location":  location,
+                    "url":       url,
+                    "source":    "Apple",
+                    "posted_at": job.get("postDateInGMT", ""),
+                }
+
+    jobs = list(by_id.values())
+    log.info(f"Apple: fetched {len(jobs)} jobs across {len(queries)} queries")
     return jobs
 
 
@@ -577,7 +677,9 @@ def fetch_priority(entries: list[dict], session: requests.Session) -> list[dict]
                 log.warning(f"Priority workday entry malformed: {slug}")
                 continue
         elif source == "amazon":
-            jobs = fetch_amazon(session)
+            jobs = fetch_amazon(session, entry.get("queries"))
+        elif source == "apple":
+            jobs = fetch_apple(session, entry.get("queries"))
         else:
             log.warning(f"Unknown source '{source}' for priority entry: {slug}")
             continue
@@ -735,6 +837,7 @@ DISCORD_COLOR = {
     "Lever":      0xF59E0B,
     "Workday":    0xE34F26,  # Orange — Workday brand color
     "Amazon":     0xFF9900,  # Amazon orange
+    "Apple":      0xA2AAAD,  # Apple silver
 }
 
 

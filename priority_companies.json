@@ -1,4 +1,5 @@
 [
   {"slug": "cerebras", "source": "ashby"},
-  {"slug": "amazon", "source": "amazon"}
+  {"slug": "amazon", "source": "amazon", "queries": ["software engineer", "software development engineer"]},
+  {"slug": "apple", "source": "apple", "queries": ["software engineer", "machine learning engineer"]}
 ]
