@@ -639,6 +639,7 @@
     "ashby-hadrian-automation-44db308b-2d21-409f-8589-3ab6319b02ec",
     "ashby-hadrian-automation-620632cd-94f6-4cb5-8dea-3c62de1f20f7",
     "ashby-hadrian-automation-68286f52-3ea7-412e-a85f-04ab21c91994",
+    "ashby-hadrian-automation-72ebe5de-b705-4dcc-8f9e-955f81219cf6",
     "ashby-hadrian-automation-af629fd3-1162-4a8c-bab6-0083bd7f20fc",
     "ashby-hadrian-automation-cccab6a1-9ed2-4890-b331-5e503cefa799",
     "ashby-hadrian-automation-ec8cc324-bca9-4f27-812b-70416d6340a4",
@@ -672,6 +673,7 @@
     "ashby-hauler-hero-6680d012-006b-433e-830b-6d45cd3a2a31",
     "ashby-haus-e4c1856d-0613-446f-ab12-4abcede28623",
     "ashby-haus-fd78df6a-899e-478e-adae-4f54bb3a33e1",
+    "ashby-havocai-06ef43f0-0d23-4062-a95c-aa9e913844e1",
     "ashby-haydenai-15d9c090-5623-4c7b-be5a-c6d996b061f7",
     "ashby-haydenai-5baa44bf-e5c5-4544-960f-87131bd5b078",
     "ashby-haydenai-6feae49b-8223-4c8d-ae22-c7db174b16f3",
@@ -837,6 +839,7 @@
     "ashby-lm-studio-96f36fd3-b97f-4965-9da4-db2a43129d97",
     "ashby-lm-studio-eef1c19e-d046-410f-a190-bb8ae917eea6",
     "ashby-loancrate-9c4c1f30-e0e2-4533-a91b-8af60dab0bf7",
+    "ashby-lorikeet-551c481b-b278-4e8f-9458-4d8c9d82b407",
     "ashby-lovable-4fef27e2-82f3-4d43-80ae-465e1a9fe4f3",
     "ashby-lpadesignstudios-11e80179-d110-468c-a257-6521a4c4d68d",
     "ashby-lpadesignstudios-15522822-b17a-40eb-bc3f-cc9b55c8c367",
@@ -1080,6 +1083,7 @@
     "ashby-oxio-2f61685c-9fb9-472a-8c6a-f80269567fea",
     "ashby-oxio-47fff1b9-6545-4054-8e3a-9b4cc0460694",
     "ashby-oxio-83962376-f876-4bab-bb5f-69a23ecda7f8",
+    "ashby-paireyewear-ab32bc01-ff2d-4391-9ec1-14b531847da7",
     "ashby-paradigmai-b6d0b95f-e034-4ba0-b682-b4ae2c72315b",
     "ashby-parafin-044237a0-5613-449c-9b69-4454bbc69b6c",
     "ashby-parafin-5f8452ce-853e-4159-bc4b-08b8e9a324b3",
@@ -1389,6 +1393,8 @@
     "ashby-silver-90f1adf9-5090-4ac7-b3e1-1493c78da0e3",
     "ashby-silver-b2a00c9f-850d-4ee6-a27d-c10697911f38",
     "ashby-silver-f69efa5f-3be5-4a6c-addd-6e5f43811e4f",
+    "ashby-simple-ai-9a5f5694-e066-4087-9a13-b1a62d8d8025",
+    "ashby-simple-ai-bc8b4fee-f2df-4c15-9e91-c87cf1afd08c",
     "ashby-simspace-corporation-142e3cb5-e583-4d99-8058-6b8c62f13f90",
     "ashby-skimmer-26347076-0ed6-4886-8f64-d691909e43c4",
     "ashby-skydio-0f71bdbb-a645-49f6-8890-dd5c052772c3",
@@ -25196,5 +25202,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-07T01:10:58.666005+00:00"
+  "updated_at": "2026-07-07T04:22:03.515753+00:00"
 }
