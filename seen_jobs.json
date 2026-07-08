@@ -22627,6 +22627,7 @@
     "wd-bcbst-external-/job/USA-TN-Chattanooga-Remote/Sr-Software-Engineer---Integration_R-50408",
     "wd-bdx-external_career_site_usa-/job/USA---California---Riverside/Field-Service-Engineer--Riverside-California_R-549387-1",
     "wd-bdx-external_career_site_usa-/job/USA---Michigan---Grand-Rapids/Automation-Service-Engineer--West-Michigan--Kalamazoo_R-548835-1",
+    "wd-bdx-external_career_site_usa-/job/USA---North-Carolina---Raleigh/Automation-Service-Engineer--Burlington-NC_R-549857-1",
     "wd-bdx-external_career_site_usa-/job/USA---Texas---Houston/Field-Service-Technician--Houston--Texas-_R-546380-1",
     "wd-bdx-external_career_site_usa-/job/USA-CA---Irvine-Laguna-Canyon/Product-Security-Engineer_R-546847-1",
     "wd-bdx-external_career_site_usa-/job/USA-CA---Irvine-Laguna-Canyon/Software-Development-Engineer-in-Test--SDET-_R-547806-1",
@@ -22814,6 +22815,7 @@
     "wd-broadcom-external_career-/job/USA-CA-San-Jose-Innovation-Drive/Principal-Engineer_R025895",
     "wd-broadcom-external_career-/job/USA-CA-San-Jose-Innovation-Drive/R-D-SW-Quality-Engineer_R025620",
     "wd-broadcom-external_career-/job/USA-CA-San-Jose-Innovation-Drive/Software-Engineer_R025018",
+    "wd-broadcom-external_career-/job/USA-CA-San-Jose-Innovation-Drive/Staff-Applications-Engineer_R025119",
     "wd-broadcom-external_career-/job/USA-Colorado-Fort-Collins-4380-Ziegler-Road/Defect-Engineer_R026257",
     "wd-broadcom-external_career-/job/USA-IL-Lisle-Warrenville-Road/Experienced--Mainframe-Software-Development-Engineer-in-Test_R025301",
     "wd-broadcom-external_career-/job/USA-IL-Lisle-Warrenville-Road/Mainframe-Software-Development-Engineer-in-Test_R026354",
@@ -23035,6 +23037,7 @@
     "wd-carmax-external-/job/8117---Dallas-Technology-Hub/Engineer-II--Private-Cloud--RHEL-_JR-179054",
     "wd-carmax-external-/job/Corporate---Richmond/Engineer-II--Software_JR-174861",
     "wd-carmax-external-/job/Corporate---Richmond/Sr-Cloud-Engineer_JR-174125",
+    "wd-carrier-jobs-/job/CAG10-ALC-HQ-1025-Cobb-Place-Boulevard-Kennesaw-GA-30145-USA/Java-Software-Engineer_30205497",
     "wd-carrier-jobs-/job/CAGAO-Carrier-Home-Georgia-Remote-Location-Remote-City-GA-30303-USA/Web-Application-Full-Stack-Developer_30205640",
     "wd-carrier-jobs-/job/CAP25-Pittsburgh-1011-Alcon-Street-Pittsburgh-PA-15220-USA/Building-Automation-Software-Engineer_30208894",
     "wd-carrier-jobs-/job/CAV20-ALC---Virginia-4948-Dominion-Boulevard-Glen-Allen-VA-23060-USA/Project-Engineer_30205234",
@@ -25466,5 +25469,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-08T03:50:07.853747+00:00"
+  "updated_at": "2026-07-08T03:59:06.240761+00:00"
 }
