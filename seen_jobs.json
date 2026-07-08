@@ -21940,6 +21940,7 @@
     "wd-accenture-accenturecareers-/job/Bengaluru/Custom-Software-Engineer_ATCI-5501229-S2005597-1",
     "wd-accenture-accenturecareers-/job/Bengaluru/Custom-Software-Engineer_ATCI-5501247-S2005594-1",
     "wd-accenture-accenturecareers-/job/Bengaluru/Custom-Software-Engineer_ATCI-5504202-S2011093-1",
+    "wd-accenture-accenturecareers-/job/Bengaluru/Custom-Software-Engineer_ATCI-5592601-S2026342-1",
     "wd-accenture-accenturecareers-/job/Bengaluru/DevOps-Engineer_ATCI-5467441-S1997190-1",
     "wd-accenture-accenturecareers-/job/Bengaluru/Performance-Engineer_ATCI-5466761-S1997517-1",
     "wd-accenture-accenturecareers-/job/Bengaluru/Performance-Engineer_ATCI-5466763-S1997519-1",
@@ -22943,6 +22944,8 @@
     "wd-caci-external-/job/Columbia-MD-US/Splunk-Software-Engineer-TS-SCI-with-Poly_327588",
     "wd-caci-external-/job/Crane-IN-US/Data-Scientist_328191",
     "wd-caci-external-/job/Dahlgren-VA-US/Container-Platform-Infrastructure-Engineer_328228",
+    "wd-caci-external-/job/Dahlgren-VA-US/Container-Platform-Infrastructure-Engineer_328737",
+    "wd-caci-external-/job/Dahlgren-VA-US/Container-Platform-Infrastructure-Engineer_328738",
     "wd-caci-external-/job/Dahlgren-VA-US/Virtual-Systems-Engineer_324645",
     "wd-caci-external-/job/Denver-CO-US/Data-Engineer-Software-Integrator_328545",
     "wd-caci-external-/job/Denver-CO-US/Front-End-Developer_327919",
@@ -22967,6 +22970,7 @@
     "wd-caci-external-/job/Fort-Meade-MD-US/Part-Time-System-Engineer-TS-SCI-with-Poly_327855",
     "wd-caci-external-/job/Fort-Meade-MD-US/Splunk-Software-Engineer_327871",
     "wd-caci-external-/job/Fort-Meade-MD-US/System-Engineer--Multiple-Levels-_281026-1",
+    "wd-caci-external-/job/Fort-Meade-MD-US/Test---Integration-Engineer_328355",
     "wd-caci-external-/job/Hanover-MD-US/Agentic-AI-ICAM-Integration-Software-Engineer_325696",
     "wd-caci-external-/job/Hanover-MD-US/Software-Engineer---Classification---Access-Control_327683",
     "wd-caci-external-/job/Hanover-MD-US/Software-Engineer--Classification-Systems--JavaScript-_327685",
@@ -22984,6 +22988,7 @@
     "wd-caci-external-/job/Laurel-MD-US/Systems-Engineer-TS-SCI-with-Poly_328074-1",
     "wd-caci-external-/job/Linthicum-MD-US/Data-Scientist---Security-Automation_327930",
     "wd-caci-external-/job/Linthicum-MD-US/DevOps-Engineer---Enterprise-Security-Automation_325156",
+    "wd-caci-external-/job/Lisle-IL-US/Software-Engineer_328361",
     "wd-caci-external-/job/Norco-CA-US/Front-End-Developer-Tableau-Python_327792",
     "wd-caci-external-/job/Norco-CA-US/Full-Stack-Developer_327935",
     "wd-caci-external-/job/Norfolk-VA-US/Artificial-Intelligence---Cloud-Engineer_327238",
@@ -23002,6 +23007,7 @@
     "wd-caci-external-/job/Remote-Any-State/Lead-AI-Engineer_324809",
     "wd-caci-external-/job/Remote-Any-State/Power-Apps-Developer_328382",
     "wd-caci-external-/job/Remote-Any-State/ServiceNow-Integration-Engineer_328493",
+    "wd-caci-external-/job/Remote-Any-State/Software-Data-Modeler_328736",
     "wd-caci-external-/job/Remote-Any-State/Test-Engineer_328374",
     "wd-caci-external-/job/Reston-VA-US/Full-Stack-Web-Development-Software-Engineer_326805",
     "wd-caci-external-/job/Reston-VA-US/System-Integration-Engineer_327370",
@@ -25514,5 +25520,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-08T14:46:11.953192+00:00"
+  "updated_at": "2026-07-08T15:00:33.622218+00:00"
 }
