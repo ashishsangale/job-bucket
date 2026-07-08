@@ -310,6 +310,7 @@
     "ashby-camber-d5015285-ff64-4843-b795-ff14aaa2e2d5",
     "ashby-cambio-62416b62-7d8a-4f43-a7be-adfee42343ac",
     "ashby-cambio-931973da-ea4a-4543-94a3-053895839513",
+    "ashby-cambly-2e7dd09c-3678-4324-ade9-486e791322fa",
     "ashby-camunda-374ab2cf-206a-4587-9415-700d52f60690",
     "ashby-camunda-987fb6e0-1e22-45e5-b152-57acbcb59cb2",
     "ashby-camunda-b8fac33b-15a7-4dd9-98e8-69c0e5f4dbfb",
@@ -475,6 +476,8 @@
     "ashby-docker-fcbea485-42fe-459a-b016-509686e6c7be",
     "ashby-doctronic-9efeb330-851c-445b-a346-27bd57b9ff5b",
     "ashby-doji-f454c07c-95c7-41b9-8c27-359f63c7184d",
+    "ashby-doppel-bae7bcc9-afff-4f50-91e4-2c8d3580cd23",
+    "ashby-doppel-ce74284a-bfb8-4c3f-a2e6-2cdac32cb5f7",
     "ashby-drata-03b2d32a-b1af-4a67-8239-5ae3abcc2118",
     "ashby-drata-475934cf-a528-4c6e-a1e1-d6bcfc10d460",
     "ashby-drata-55d4b2bb-4015-4db2-b11b-366e49b1de49",
@@ -714,6 +717,7 @@
     "ashby-helion-fde04dc8-a20c-4e0a-b5df-d9904befece3",
     "ashby-hellobrightline-a7045ea9-e08b-4d2d-bd8b-25cf6088f0ff",
     "ashby-helpscout-d10ab692-52f3-4c13-8108-8a16477237d9",
+    "ashby-helpscout-f000b241-7974-4a2d-a80d-07fb807b2f90",
     "ashby-higgsfieldai-c6ab1b04-6ec6-411e-afe0-6f97040925a9",
     "ashby-higharc-fe1d6538-2ac1-4ff8-aada-3fa7b202adc1",
     "ashby-hims-and-hers-03409df3-5d56-4cb0-9c33-8c28832d0ed0",
@@ -895,6 +899,7 @@
     "ashby-mach-1998d2a2-6124-40e8-a0e6-44faccefdf55",
     "ashby-mach-320395b8-b461-4695-b874-ceedaf7f9d7e",
     "ashby-mach-3bcf8bcf-ede0-4b08-85fa-4ea1f3443164",
+    "ashby-mach-838ac7d7-283c-406a-9d46-780a811336f6",
     "ashby-mach-83d31704-8c45-4cbc-b6c0-db0ca96e1130",
     "ashby-mach-cb0d3a46-3ebe-4926-a348-cf0c956b1091",
     "ashby-mach-d3b1aba8-ab98-4c17-9353-a6d560e5462c",
@@ -1440,6 +1445,7 @@
     "ashby-simple-ai-9a5f5694-e066-4087-9a13-b1a62d8d8025",
     "ashby-simple-ai-bc8b4fee-f2df-4c15-9e91-c87cf1afd08c",
     "ashby-simspace-corporation-142e3cb5-e583-4d99-8058-6b8c62f13f90",
+    "ashby-simspace-corporation-21ab3ede-89f0-4f94-b773-2743766c686a",
     "ashby-skimmer-26347076-0ed6-4886-8f64-d691909e43c4",
     "ashby-skydio-0f71bdbb-a645-49f6-8890-dd5c052772c3",
     "ashby-skydio-417e884e-6760-41c6-ada4-db09dd7fd1c2",
@@ -25460,5 +25466,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-08T01:01:00.739340+00:00"
+  "updated_at": "2026-07-08T03:50:07.853747+00:00"
 }
