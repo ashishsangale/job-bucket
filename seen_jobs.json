@@ -23186,6 +23186,7 @@
     "wd-bdx-external_career_site_usa-/job/USA-CA---San-Jose---Montecito/Field-Service-Engineer---San-Jose--CA_R-547748",
     "wd-bdx-external_career_site_usa-/job/USA-GA---Covington-BMD/Sr-Quality-Engineer_R-545688-1",
     "wd-bdx-external_career_site_usa-/job/USA-MA---Woburn/Associate-Quality-Engineer_R-546836-1",
+    "wd-bdx-external_career_site_usa-/job/USA-MD---Sparks---39-Loveton-Circle/Automation-Service-Engineer--Lafayette-LA_R-550212-1",
     "wd-bdx-external_career_site_usa-/job/USA-MD---Sparks---7-Loveton-Circle/DevSecOps-Engineer_R-549404-1",
     "wd-bdx-external_career_site_usa-/job/USA-MD---Sparks---7-Loveton-Circle/Software-Developer-in-Test---Software-Test-Engineering_R-549392-1",
     "wd-bdx-external_career_site_usa-/job/USA-MD---Sparks---7-Loveton-Circle/Staff-Industrial-Engineer_R-548457-1",
@@ -23439,6 +23440,7 @@
     "wd-caci-external-/job/Chantilly-VA-US/Network-Engineer--Expert_325639",
     "wd-caci-external-/job/Chantilly-VA-US/Network-Security-Engineer--Expert_321725",
     "wd-caci-external-/job/Chantilly-VA-US/Python-Developer_328404",
+    "wd-caci-external-/job/Chantilly-VA-US/RHEL-STIG-Engineer_328714",
     "wd-caci-external-/job/Chantilly-VA-US/ServiceNow-Software-Development-Engineer--Data---Implementation-_325701",
     "wd-caci-external-/job/Chantilly-VA-US/Software-Engineer---Cloud-Infrastructure_327058",
     "wd-caci-external-/job/Chantilly-VA-US/Software-Engineer--Full-Stack---Python-_328398",
@@ -23554,6 +23556,16 @@
     "wd-caci-external-/job/Washington-DC-US/Littoral-Combat-Ship-Modernization-Engineer_326941",
     "wd-caci-external-/job/Ypsilanti-MI-US/Infrastructure-DevSecOps-Product-Owner_327349",
     "wd-caci-external-/job/Ypsilanti-MI-US/Systems-Engineer_328293-1",
+    "wd-cadence-addl_jobs-/job/AUSTIN/Application-Engineer--Customer-Engagement_R55471",
+    "wd-cadence-addl_jobs-/job/AUSTIN/Product-Engineer_R55461",
+    "wd-cadence-addl_jobs-/job/Burlington-MA/Application-Engineer--Customer-Engagement_R55453",
+    "wd-cadence-addl_jobs-/job/SAN-JOSE/Software-Engineer_R55449",
+    "wd-cadence-addl_jobs-/job/SAN-JOSE/Software-Engineer_R55450",
+    "wd-cadence-addl_jobs-/job/SAN-JOSE/Software-Engineer_R55470",
+    "wd-cadence-addl_jobs-/job/SAN-JOSE/Software-Engineer_R55473",
+    "wd-cadence-addl_jobs-/job/SAN-JOSE/Software-Engineer_R55477",
+    "wd-cadence-addl_jobs-/job/SAN-JOSE/Software-Quality-Engineer_R55474",
+    "wd-cadence-addl_jobs-/job/SAN-JOSE/Staff-Enterprise-Wide-Developer_R55445",
     "wd-cadence-external_careers-/job/SAN-JOSE/Principal-Software-Engineer_R53006",
     "wd-cadence-external_careers-/job/SAN-JOSE/Software-Engineer-II_R51635-1",
     "wd-cadence-external_careers-/job/SAN-JOSE/Software-Engineer-II_R52336-2",
@@ -26037,5 +26049,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-09T22:49:29.709120+00:00"
+  "updated_at": "2026-07-09T22:54:07.041304+00:00"
 }
