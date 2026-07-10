@@ -513,6 +513,7 @@
     "ashby-deepgram-4a873ede-8555-42ae-9ddc-ac89afdd7278",
     "ashby-deepgram-7cf277bc-a192-4007-a77a-fafbf8276a5e",
     "ashby-deepgram-94ae2781-a85f-493a-86c1-ff85a9289355",
+    "ashby-deepgram-d98e6723-3485-4b58-9494-d6bf028fa905",
     "ashby-deepgram-f424ef6a-c27f-4984-9e77-40a1ad16ae28",
     "ashby-deepl-0f8a70b7-d28a-4db6-be61-5886863c22ea",
     "ashby-deepl-4fe3ffe8-da25-4b84-addc-8dd06aba9e2e",
@@ -591,6 +592,7 @@
     "ashby-fiddler-ai-28ca0462-ada3-4c31-b4b9-cefae37d9d52",
     "ashby-fieldguide-14c63171-94c5-4668-b692-689929cf0230",
     "ashby-fieldguide-51f182ea-fd02-4484-a9d2-3c58fb741629",
+    "ashby-fieldguide-aeb595bf-6826-42d0-92df-0de6c2c400e5",
     "ashby-fieldguide-be1e42b6-015f-4a4e-8c8e-a30fd5b26189",
     "ashby-findarbor-1f99ddf6-1d72-46c2-81be-91cede0a4886",
     "ashby-findarbor-7db87c9e-a1c2-482d-862a-061621ef569a",
@@ -700,6 +702,7 @@
     "ashby-garage-dba79415-f4eb-48fd-acf8-9c2086d58a54",
     "ashby-garage-f4018670-2c66-4da9-acac-2aa0af432abb",
     "ashby-gecko-robotics-9fcb98dc-cfb5-4ccb-8930-7e3c2b5ab368",
+    "ashby-gem-technologies-16c5cf8a-009f-49e4-8f9e-ff7b57cacc4e",
     "ashby-gem-technologies-1c582b8c-b308-4a6a-bf5d-c60a367c2d6d",
     "ashby-gem-technologies-3ff5919f-d57e-4315-8821-f182574ad429",
     "ashby-gem-technologies-70b9a8f8-52e2-46a8-9e7b-03d9c36528f3",
@@ -918,6 +921,7 @@
     "ashby-langchain-25d40647-c821-46ff-bf25-bacf21fa38b5",
     "ashby-langchain-34083fce-1e80-4595-9ce9-76387b735c70",
     "ashby-langchain-60d3bd4f-e80f-45fb-9801-725d8b681d54",
+    "ashby-langchain-6f50988c-8e95-4a68-aeea-a94872651ff7",
     "ashby-langchain-b8dead31-212a-4b92-82a7-c42df16ae877",
     "ashby-langfuse-190c710e-c00c-4b76-82ce-9033b51b7086",
     "ashby-langfuse-80474cd1-71ad-425e-bfb3-3fca13fda0ca",
@@ -1896,6 +1900,7 @@
     "ashby-weave-841df1d3-5de6-4099-88c7-6d358fa36dfc",
     "ashby-weave-a74db075-6a6e-4e1c-b756-008d65a1b410",
     "ashby-weave-f0b8c0bf-751a-41db-b19c-1476ce90dfcb",
+    "ashby-webai-3f4040c2-f0b0-41bd-838d-285e88dd7f5e",
     "ashby-webai-9cb245f4-2c27-4262-9067-ae3aae26a404",
     "ashby-wetravel-49316c6b-3c2d-4aba-9d06-4a36a5581f09",
     "ashby-whitecircle-d2c5f461-55d2-4c20-97a6-41a0fa0b51e9",
@@ -26107,5 +26112,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-10T12:11:04.429658+00:00"
+  "updated_at": "2026-07-10T15:05:56.269852+00:00"
 }
