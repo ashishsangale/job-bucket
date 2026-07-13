@@ -23608,6 +23608,7 @@
     "wd-aveva-etap_careers-/job/Irvine-California-United-States-of-America/Software-Engineer_R013323",
     "wd-aveva-etap_careers-/job/Irvine-California-United-States-of-America/Software-Engineer_R013326",
     "wd-avnet-external-/job/Phoenix-Arizona-United-States-Of-America/Sr-Software-Developer_JR-023455",
+    "wd-avnet-external-/job/San-Diego-California-United-States-Of-America/Field-Application-Engineer---AMD-Xilinx_JR-023613",
     "wd-avnet-external-/job/San-Jose-California-United-States-Of-America/Field-Application-Engineer_JR-022674",
     "wd-axcelis-axcelis-/job/Beverly-MA/Eng-Final-Test-I_11250",
     "wd-axcelis-axcelis-/job/Beverly-MA/Quality-Engineer-I_11756",
@@ -23807,6 +23808,7 @@
     "wd-blackrock-blackrock_professional-/job/M11---Commers-III-43-44--45-Fl-Internatl-Business-Park-Oberoi-Garden-City/Full-Stack-Engineer--Aladdin-Engineering--Associate_R261166",
     "wd-blackrock-blackrock_professional-/job/New-York-NY/AI-Enabled-Infrastructure-and-Systems-Engineer_R265146",
     "wd-blackrock-blackrock_professional-/job/New-York-NY/Backend-Java-Engineer---Post-Trade-Accounting--Associate_R264684",
+    "wd-blackrock-blackrock_professional-/job/New-York-NY/BlackRock-Investment-Institute--AI-Solutions--Research-Associate_R265120",
     "wd-blackrock-blackrock_professional-/job/SF4-San-Francisco---400-Howard-Street/Associate--Full-Stack-Engineer_R256801",
     "wd-blackrock-blackrock_professional-/job/San-Francisco-CA/Associate--Application-Engineer_R264894",
     "wd-blackrock-blackrock_professional-/job/San-Francisco-CA/Associate--Software-Engineer--Applications_R264892",
@@ -23990,6 +23992,7 @@
     "wd-btisolutions-external-/job/Lansing-MI/Vision-System-Engineer--TL--Lansing--MI_JR101857",
     "wd-btisolutions-external-/job/Marysville-OH/Korean-Bilingual-Network-Validation-Engineer--TL--Dublin--OH_JR101741-1",
     "wd-btisolutions-external-/job/Plano-TX/Network-Engineer_JR101843-1",
+    "wd-btisolutions-external-/job/Queen-Creek-AZ/Korean-Bilingual-Vision-System-Engineer--TL--Queen-Creek--AZ_JR101909",
     "wd-btisolutions-external-/job/SAVANNAH-GA/Korean-Bilingual-Vision-System-Engineer--TL--Savannah--GA_JR101856",
     "wd-btisolutions-external-/job/San-Diego-CA/Modem-Chipset-Lab-Test-Engineer_JR101849-1",
     "wd-btisolutions-external-/job/Troy-MI/Development-Engineer-II--TL--Troy--MI_JR101731-1",
@@ -24064,8 +24067,10 @@
     "wd-caci-external-/job/Dahlgren-VA-US/Container-Platform-Infrastructure-Engineer_328738",
     "wd-caci-external-/job/Dahlgren-VA-US/Virtual-Systems-Engineer_324645",
     "wd-caci-external-/job/Denver-CO-US/Cloud-Software-Engineer_328854",
+    "wd-caci-external-/job/Denver-CO-US/Cloud-Software-Quality-Engineer_329032",
     "wd-caci-external-/job/Denver-CO-US/Data-Engineer-Software-Integrator_328545",
     "wd-caci-external-/job/Denver-CO-US/Front-End-Developer_327919",
+    "wd-caci-external-/job/Denver-CO-US/Front-End-Software-Developer_329050",
     "wd-caci-external-/job/Denver-CO-US/Full-Stack-Web-Developer_324575",
     "wd-caci-external-/job/Denver-CO-US/Full-Stack-Web-Developer_328780",
     "wd-caci-external-/job/Denver-CO-US/Misson-Operation-Engineer_328010",
@@ -24115,6 +24120,7 @@
     "wd-caci-external-/job/Laurel-MD-US/Systems-Engineer-TS-SCI-with-Poly_328074-1",
     "wd-caci-external-/job/Linthicum-MD-US/Data-Scientist---Security-Automation_327930",
     "wd-caci-external-/job/Linthicum-MD-US/Database-Engineer-3_325354",
+    "wd-caci-external-/job/Linthicum-MD-US/Database-Engineer-3_325372",
     "wd-caci-external-/job/Linthicum-MD-US/DevOps-Engineer---Enterprise-Security-Automation_325156",
     "wd-caci-external-/job/Lisle-IL-US/Software-Engineer_328361",
     "wd-caci-external-/job/Norco-CA-US/Front-End-Developer-Tableau-Python_327792",
@@ -24229,6 +24235,7 @@
     "wd-capgroup-capitalgroupcareers-/job/Los-Angeles/Solutions-Engineer_JR6700-1",
     "wd-capitalone-capital_one-/job/McLean-VA/Sr-Distinguished-Engineer_R233513-1",
     "wd-cardinalhealth-ext-/job/MO-Hazelwood/Sr-R-D-Engineer_20182342",
+    "wd-caresource-caresource-/job/Dayton-OH/Application-Developer-II_R13195",
     "wd-caresource-caresource-/job/Remote/AI-Developer_R10487",
     "wd-caresource-caresource-/job/Remote/AI-Engineer-II_R10919",
     "wd-carmax-external-/job/8117---Dallas-Technology-Hub/Engineer-II--Private-Cloud--RHEL-_JR-179054",
@@ -26677,5 +26684,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-13T22:18:14.608249+00:00"
+  "updated_at": "2026-07-13T22:33:08.947882+00:00"
 }
