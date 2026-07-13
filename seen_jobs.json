@@ -23136,6 +23136,7 @@
     "wd-allstate-allstate_careers-/job/USA---IL-Remote/Applied-Machine-Learning-Engineer--All-Levels-_R27180-1",
     "wd-allstate-allstate_careers-/job/USA---IL-Remote/Cloud-Platform-Engineer-Expert_R27507",
     "wd-allstate-allstate_careers-/job/USA---IL-Remote/Infrastructure-Security-Engineer----Network---Automation-_R30189-1",
+    "wd-allstate-allstate_careers-/job/USA---IL-Remote/Managing-Engineer---Fusion-GRC-Platform_R32583",
     "wd-allstate-allstate_careers-/job/USA---NC-Remote/Cloud-Provisioning-Engineer_R27181-1",
     "wd-alpinephysicians-external-/job/USA-Colorado-Denver/AI-Engineer_R0002108",
     "wd-alpinephysicians-external-/job/USA-Colorado-Denver/Data-Engineer-III_R0002151",
@@ -23486,6 +23487,7 @@
     "wd-axcelis-axcelis-/job/Beverly-MA/Software-Quality-Assurance--SQA--Engineer_11742",
     "wd-axcelis-axcelis-/job/Beverly-MA/Software-Quality-Assurance-Engineer_11735",
     "wd-axcelis-axcelis-/job/Beverly-MA/Software-Quality-Assurance-Engineer_11739",
+    "wd-axcelis-axcelis-/job/Beverly-MA/Software-Quality-Assurance-Engineer_11751",
     "wd-axcelis-axcelis-/job/Portland-OR/Field-Service-Engineer-POROR_11762",
     "wd-axiomspace-external_career_site-/job/Houston/Cybersecurity-Application-Engineer_JR100376",
     "wd-axiomspace-external_career_site-/job/Houston/Flight-Software-Engineer_JR100434",
@@ -23885,6 +23887,7 @@
     "wd-caci-external-/job/Ashburn-VA-US/AI-Prompt-Engineer_328834",
     "wd-caci-external-/job/Ashburn-VA-US/Full-Stack-Developer_326584",
     "wd-caci-external-/job/Ashburn-VA-US/HCM-Cloud-Platform---DevOps-Engineer_321399",
+    "wd-caci-external-/job/Ashburn-VA-US/HCM-Cloud-Test-Automation---Quality-Engineer_322930",
     "wd-caci-external-/job/Ashburn-VA-US/HCM-Data-Migration-Middleware-Developer_322921",
     "wd-caci-external-/job/Ashburn-VA-US/HCM-Data-Migration-Middleware-Developer_322923",
     "wd-caci-external-/job/Ashburn-VA-US/Oracle-HCM-Cloud-Platform---DevOps-Engineer_323230",
@@ -23933,6 +23936,7 @@
     "wd-caci-external-/job/Denver-CO-US/Cloud-Software-Engineer_328854",
     "wd-caci-external-/job/Denver-CO-US/Data-Engineer-Software-Integrator_328545",
     "wd-caci-external-/job/Denver-CO-US/Front-End-Developer_327919",
+    "wd-caci-external-/job/Denver-CO-US/Full-Stack-Web-Developer_324575",
     "wd-caci-external-/job/Denver-CO-US/Full-Stack-Web-Developer_328780",
     "wd-caci-external-/job/Denver-CO-US/Misson-Operation-Engineer_328010",
     "wd-caci-external-/job/Denver-CO-US/Network-Engineer-III_324414",
@@ -24128,6 +24132,8 @@
     "wd-catalent-external-/job/Harmans-MD/Engineer--Automation_0091380",
     "wd-cbh-cherrybekaert-/job/Remote---United-States/Azure-DevSecOps-Engineer--IaC---Terraform---Automation-Support-_JR100698-1",
     "wd-cboe-external_career_cboe-/job/Chicago-IL/Sr-Engineer---Machine-Learning---Regulatory_R-4352",
+    "wd-cboe-external_career_cboe-/job/Kansas-City-MO/Operational-Resilience-Engineer_R-4505",
+    "wd-cboe-external_career_cboe-/job/Kansas-City-MO/Sr-Operations-Resilience-Engineer_R-4513",
     "wd-cboe-external_career_cboe-/job/Kansas-City-MO/Technical-Content-Engineer_R-4455",
     "wd-cboe-external_career_cboe-/job/New-York-NY/Software-Engineer--WebTools_R-4487",
     "wd-cccis-broadbean_external-/job/Chicago-Green-St-IL/C--Net-Software-Engineer_0014664",
@@ -26537,5 +26543,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-13T17:29:20.172148+00:00"
+  "updated_at": "2026-07-13T17:34:50.694118+00:00"
 }
