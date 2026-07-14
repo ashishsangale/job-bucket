@@ -23038,6 +23038,7 @@
     "wd-aaaie-csaacareers-/job/Phoenix-Non-Service/Data-Services-Engineers_R7843",
     "wd-aaaie-csaacareers-/job/Phoenix-Non-Service/Software-Engineers_R7844",
     "wd-aaaie-csaacareers2-/job/Arizona---Home-Teleworkers/API-Microservices-AWS-Software-Engineer---Remote_R7728-1",
+    "wd-aah-external-/job/Atrium-Health-Wake-Forest-Baptist---Medical-Center-Blvd-Winston-Salem-NC/Stationary-Engineer-II_R255085",
     "wd-aah-external-/job/Atrium-Health-Wake-Forest-Baptist---Medical-Center-Blvd-Winston-Salem-NC/Video-Communications-Engineer_R246457-1",
     "wd-aah-external-/job/Charlotte-NC---4435-Golf-Acres-Dr/Systems-Engineer-Sr--Workspace-One_R244133",
     "wd-abb-external_career_page-/job/Remote-Michigan-United-States-of-America/Project-Engineer---Paint-Application_JR00036582-1",
@@ -23425,6 +23426,7 @@
     "wd-altusgroup-altusgroup-/job/301---Home-Office---TX/Forward-Deployed-Engineer_R0013825",
     "wd-amainc-ama_careers-/job/Hampton-VA/Aerospace-Thermal-Engineer_R-100544",
     "wd-amainc-ama_careers-/job/Hampton-VA/Computational-Fluid-Dynamics-Software-Engineer_R-100502",
+    "wd-amainc-ama_careers-/job/Hampton-VA/Flight-Software-Engineer_R-100687",
     "wd-amainc-ama_careers-/job/Hampton-VA/Research--Science-and-Engineering-Professionals---All-levels-of-Experience_R-100630",
     "wd-amainc-ama_careers-/job/Hampton-VA/Research-Scientist_R-100641",
     "wd-amainc-ama_careers-/job/Hampton-VA/Software-Developer---Geospatial--GIS_R-100681",
@@ -23530,6 +23532,7 @@
     "wd-appliedis-ais_careers-/job/Remote---VA/Sr-Full-Stack-Developer_JR2026001183-1",
     "wd-aptiv-aptiv_careers-/job/Troy-MI---USA/Sr-Algorithm-Developer_J000700840",
     "wd-aptiv-aptiv_careers-/job/Troy-MI---USA/Sr-Algorithm-Engineer_J000700839",
+    "wd-aptiv-aptiv_careers-/job/Troy-MI---USA/System-Modeling---Integration-Engineer_J000689157",
     "wd-aptiv-aptiv_careers-/job/USA-Remote-Worksite/Linux-Engineer---Systems--Austin--TX-_J000694061",
     "wd-aptiv-aptiv_careers-/job/USA-Remote-Worksite/Linux-Engineer---Systems--Austin--TX-_J000694066",
     "wd-aptiv-aptiv_careers-/job/USA-Remote-Worksite/Linux-Software-and-Security-Engineer---eLxr_J000693025",
@@ -23888,6 +23891,7 @@
     "wd-bcbst-external-/job/USA-TN-Chattanooga-Remote/Sr-Data-Engineer_R-49454-1",
     "wd-bcbst-external-/job/USA-TN-Chattanooga-Remote/Sr-Identity---Access-Management-Engineer_R-50032",
     "wd-bcbst-external-/job/USA-TN-Chattanooga-Remote/Sr-Software-Engineer---Integration_R-50408",
+    "wd-bcbst-external-/job/USA-TN-Chattanooga-Remote/Sr-Software-Engineer_R-50247",
     "wd-bdx-external_career_site_usa-/job/USA---California---Riverside/Field-Service-Engineer--Riverside-California_R-549387-1",
     "wd-bdx-external_career_site_usa-/job/USA---Michigan---Grand-Rapids/Automation-Service-Engineer--West-Michigan--Kalamazoo_R-548835-1",
     "wd-bdx-external_career_site_usa-/job/USA---North-Carolina---Raleigh/Automation-Service-Engineer--Burlington-NC_R-549857-1",
@@ -24259,6 +24263,7 @@
     "wd-caci-external-/job/Norco-CA-US/Front-End-Developer-Tableau-Python_327792",
     "wd-caci-external-/job/Norco-CA-US/Full-Stack-Developer_327935",
     "wd-caci-external-/job/Norfolk-VA-US/Artificial-Intelligence---Cloud-Engineer_327238",
+    "wd-caci-external-/job/Norfolk-VA-US/Artificial-Intelligence---Cloud-Engineer_329059",
     "wd-caci-external-/job/Norfolk-VA-US/Data-Scientist_328623",
     "wd-caci-external-/job/Norfolk-VA-US/Systems-Engineer_326971",
     "wd-caci-external-/job/Norfolk-VA-US/TMIP-Maritime-Software-Tester_327724",
@@ -24297,6 +24302,7 @@
     "wd-caci-external-/job/St-Louis-MO-US/Network-Engineer-II_327130",
     "wd-caci-external-/job/Sterling-VA-US/DevOps-Engineer_328929",
     "wd-caci-external-/job/Sterling-VA-US/DevOps-Systems-Engineer_326601",
+    "wd-caci-external-/job/Sterling-VA-US/DevOps-Systems-Engineer_329027",
     "wd-caci-external-/job/Sterling-VA-US/Field-Service-Engineer_327823",
     "wd-caci-external-/job/Sterling-VA-US/Network-Testing-Lab-Infrastructure-Engineer_311743-1",
     "wd-caci-external-/job/Sterling-VA-US/Software-Engineer_327292",
@@ -24462,6 +24468,8 @@
     "wd-cigna-cignacareers-/job/Morris-Plains-NJ/Software-Engineering-Advisor---Evernorth_26007758",
     "wd-cigna-cignacareers-/job/Morris-Plains-NJ/Software-Engineering-Advisor--Hybrid_26007118",
     "wd-cigna-cignacareers-/job/Overland-Park-KS/Software-Engineering-Advisor--Hybrid_26007967",
+    "wd-cincinnatichildrens-careersatcincinnatichildrens-/job/Remote/Student-II---Software-Engineering_JR223357",
+    "wd-cincinnatichildrens-careersatcincinnatichildrens-/job/Remote/Student-II---Software-Engineering_JR223359",
     "wd-circles-circles-/job/IN-Gurgaon/Data-Engineer---Platform_R-100376",
     "wd-circles-circles-/job/United-States-of-America/Forward-Deployed-Engineer--FDE----8-15-Years_R-100380",
     "wd-cisco-cisco_careers-/job/Milpitas-California-US/Software-Engineer--Backend--Hybrid-_2016293",
@@ -26817,5 +26825,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-14T14:15:53.689879+00:00"
+  "updated_at": "2026-07-14T14:29:01.683911+00:00"
 }
