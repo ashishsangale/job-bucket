@@ -58,6 +58,10 @@ APPLE_DELAY_S = 0.5
 APPLE_TIMEOUT = 30
 APPLE_MAX_PAGES = 5
 
+ICIMS_FILE = BASE_DIR / "icims_companies.json"
+ICIMS_DELAY_S = 0.5
+ICIMS_TIMEOUT = 30
+
 # ── Concurrency & rate limiting ───────────────────────────────────────────────
 MAX_WORKERS        = 5
 MAX_RETRIES        = 1
@@ -93,7 +97,8 @@ EXCLUDE_KEYWORDS: list[str] = [
     "wastewater", "water", "avionics", "structural", "roadway", "transportation",
     "roadway", "hydraulics", "bridge", "controls", "electromagnetic", "thermal",
     "part-time", "thermo", "buyer", "supplier", "electronics", "fire", "building",
-    "environmental", "bioinformetics", "ts/sci", "fluid"
+    "environmental", "bioinformetics", "ts/sci", "fluid", "welding", "commissioning",
+    "chemical", "purity", 
 ]
 
 REMOTE_ONLY: bool = False
@@ -641,6 +646,71 @@ def fetch_apple(session: requests.Session, queries: list[str] | None = None) -> 
     return jobs
 
 
+def fetch_icims(company: str, session: requests.Session) -> list[dict]:
+    """Fetch jobs from an iCIMS career site via its sitemap.xml.
+
+    iCIMS has no public JSON API, but every board exposes a sitemap listing
+    all job URLs with `lastmod` timestamps. One request yields job id, URL,
+    a title slug, and a posted/updated date — no pagination or per-job
+    detail fetches required.
+
+    `company` is the iCIMS subdomain, e.g. "careers-bcore" for
+    https://careers-bcore.icims.com
+    """
+    import xml.etree.ElementTree as ET
+
+    time.sleep(ICIMS_DELAY_S)
+    url = f"https://{company}.icims.com/sitemap.xml"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "application/xml",
+    }
+    try:
+        r = session.get(url, headers=headers, timeout=ICIMS_TIMEOUT)
+        r.raise_for_status()
+    except requests.RequestException as e:
+        log.debug(f"iCIMS [{company}]: {e}")
+        return []
+
+    try:
+        root = ET.fromstring(r.content)
+    except ET.ParseError as e:
+        log.warning(f"iCIMS [{company}]: failed to parse sitemap: {e}")
+        return []
+
+    ns = {"ns": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    jobs: list[dict] = []
+    # URL pattern: https://{company}.icims.com/jobs/{id}/{title-slug}/job
+    job_re = _re.compile(r"/jobs/(\d+)/([^/]+)/job")
+
+    for url_el in root.findall("ns:url", ns):
+        loc_el = url_el.find("ns:loc", ns)
+        if loc_el is None or not loc_el.text:
+            continue
+        loc = loc_el.text
+        m = job_re.search(loc)
+        if not m:
+            continue  # skip non-job URLs like /jobs/intro
+        job_id, slug = m.group(1), m.group(2)
+        title = slug.replace("-", " ").title()
+
+        lastmod_el = url_el.find("ns:lastmod", ns)
+        posted_at = _normalize_posted_at(lastmod_el.text) if lastmod_el is not None else ""
+
+        jobs.append({
+            "id":        f"icims-{company}-{job_id}",
+            "title":     title,
+            "company":   company.replace("careers-", "").replace("-", " ").title(),
+            "location":  "Unknown",
+            "url":       f"{loc}?in_iframe=1",
+            "source":    "iCIMS",
+            "posted_at": posted_at,
+        })
+
+    log.info(f"iCIMS [{company}]: fetched {len(jobs)} jobs")
+    return jobs
+
+
 def load_priority_companies(filepath: Path) -> list[dict]:
     """Load priority company entries from JSON file."""
     if not filepath.exists():
@@ -680,6 +750,8 @@ def fetch_priority(entries: list[dict], session: requests.Session) -> list[dict]
             jobs = fetch_amazon(session, entry.get("queries"))
         elif source == "apple":
             jobs = fetch_apple(session, entry.get("queries"))
+        elif source == "icims":
+            jobs = fetch_icims(slug, session)
         else:
             log.warning(f"Unknown source '{source}' for priority entry: {slug}")
             continue
@@ -749,10 +821,13 @@ def fetch_all_concurrent(
     ashby_slugs: list[str],
     lever_slugs: list[str],
     workday_entries: list[tuple[str, str, str]] | None = None,
+    icims_slugs: list[str] | None = None,
 ) -> list[dict]:
     all_jobs: list[dict] = []
     workday_entries = workday_entries or []
-    total = len(greenhouse_slugs) + len(ashby_slugs) + len(lever_slugs) + len(workday_entries)
+    icims_slugs = icims_slugs or []
+    total = (len(greenhouse_slugs) + len(ashby_slugs) + len(lever_slugs)
+             + len(workday_entries) + len(icims_slugs))
     completed = 0
     failed = 0
     session = make_session()
@@ -761,11 +836,12 @@ def fetch_all_concurrent(
         + [(fetch_ashby, slug) for slug in ashby_slugs]
         + [(fetch_lever, slug) for slug in lever_slugs]
         + [(fetch_workday, entry) for entry in workday_entries]
+        + [(fetch_icims, slug) for slug in icims_slugs]
     )
     log.info(
         f"Starting concurrent fetch: {len(greenhouse_slugs)} Greenhouse, "
         f"{len(ashby_slugs)} Ashby, {len(lever_slugs)} Lever, "
-        f"{len(workday_entries)} Workday — {total} total"
+        f"{len(workday_entries)} Workday, {len(icims_slugs)} iCIMS — {total} total"
     )
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {executor.submit(fn, slug, session): slug for fn, slug in tasks}
@@ -838,6 +914,7 @@ DISCORD_COLOR = {
     "Workday":    0xE34F26,  # Orange — Workday brand color
     "Amazon":     0xFF9900,  # Amazon orange
     "Apple":      0xA2AAAD,  # Apple silver
+    "iCIMS":      0x00A0DF,  # iCIMS blue
 }
 
 
@@ -985,7 +1062,7 @@ def main() -> None:
     start = time.time()
 
     # Validate SCRAPER_MODE
-    valid_modes = ("workday", "greenhouse", "ashby", "lever", "all", "priority")
+    valid_modes = ("workday", "greenhouse", "ashby", "lever", "icims", "all", "priority")
     if SCRAPER_MODE not in valid_modes:
         log.error(f"Unrecognized SCRAPER_MODE={SCRAPER_MODE!r}. Must be one of: {', '.join(valid_modes)}")
         sys.exit(1)
@@ -1041,6 +1118,7 @@ def main() -> None:
     greenhouse_slugs = load_slugs(GREENHOUSE_FILE) if SCRAPER_MODE in ("greenhouse", "all") else []
     ashby_slugs      = load_slugs(ASHBY_FILE)      if SCRAPER_MODE in ("ashby", "all")      else []
     lever_slugs      = load_slugs(LEVER_FILE)      if SCRAPER_MODE in ("lever", "all")      else []
+    icims_slugs      = load_slugs(ICIMS_FILE)      if SCRAPER_MODE in ("icims", "all")      else []
 
     # Load workday entries when mode is "workday" or "all"
     workday_entries = load_workday_entries(WORKDAY_FILE) if SCRAPER_MODE in ("workday", "all") else []
@@ -1060,18 +1138,18 @@ def main() -> None:
     log.info(
         f"Mode: {SCRAPER_MODE} — {len(greenhouse_slugs)} Greenhouse, "
         f"{len(ashby_slugs)} Ashby, {len(lever_slugs)} Lever slugs, "
-        f"{len(workday_entries)} Workday entries"
+        f"{len(workday_entries)} Workday entries, {len(icims_slugs)} iCIMS"
     )
     log.info(f"Filters: age={MAX_AGE_DAYS}d, US_ONLY={US_ONLY}, REMOTE_ONLY={REMOTE_ONLY}, cap={MAX_JOBS_PER_RUN}")
 
-    if not greenhouse_slugs and not ashby_slugs and not lever_slugs and not workday_entries:
-        log.error(f"No slugs/entries loaded. Check that {GREENHOUSE_FILE}, {ASHBY_FILE}, {LEVER_FILE}, and/or {WORKDAY_FILE} exist.")
+    if not greenhouse_slugs and not ashby_slugs and not lever_slugs and not workday_entries and not icims_slugs:
+        log.error(f"No slugs/entries loaded. Check that {GREENHOUSE_FILE}, {ASHBY_FILE}, {LEVER_FILE}, {WORKDAY_FILE}, and/or {ICIMS_FILE} exist.")
         sys.exit(1)
 
     seen = load_seen()
     log.info(f"Loaded {len(seen)} previously seen job IDs")
 
-    all_jobs = fetch_all_concurrent(greenhouse_slugs, ashby_slugs, lever_slugs, workday_entries=workday_entries)
+    all_jobs = fetch_all_concurrent(greenhouse_slugs, ashby_slugs, lever_slugs, workday_entries=workday_entries, icims_slugs=icims_slugs)
 
     unseen   = [j for j in all_jobs if j["id"] not in seen]
     fresh    = [j for j in unseen if is_fresh(j)]
