@@ -61,6 +61,25 @@ APPLE_MAX_PAGES = 5
 ICIMS_FILE = BASE_DIR / "icims_companies.json"
 ICIMS_DELAY_S = 0.5
 ICIMS_TIMEOUT = 30
+# Detail-page enrichment: the sitemap has no location, so we fetch each
+# candidate job's detail page (which embeds JSON-LD) to resolve the real
+# title + location. These bound the extra request volume per board.
+ICIMS_DETAIL_DELAY_S = 0.3
+ICIMS_MAX_DETAIL_FETCHES = 40
+
+# ISO country codes seen in iCIMS JSON-LD → human-readable name. The name is
+# appended to the location string so the US/non-US filter can act on it.
+ICIMS_COUNTRY_NAMES = {
+    "US": "United States", "CA": "Canada", "GB": "United Kingdom",
+    "IE": "Ireland", "MX": "Mexico", "DE": "Germany", "FR": "France",
+    "NL": "Netherlands", "ES": "Spain", "IT": "Italy", "SE": "Sweden",
+    "NO": "Norway", "DK": "Denmark", "FI": "Finland", "CH": "Switzerland",
+    "AT": "Austria", "BE": "Belgium", "PL": "Poland", "PT": "Portugal",
+    "IN": "India", "SG": "Singapore", "AU": "Australia", "NZ": "New Zealand",
+    "JP": "Japan", "CN": "China", "KR": "South Korea", "BR": "Brazil",
+    "AR": "Argentina", "IL": "Israel", "AE": "UAE", "ZA": "Johannesburg",
+    "CO": "Colombia", "TR": "Turkey", "RO": "Romania",
+}
 
 # ── Concurrency & rate limiting ───────────────────────────────────────────────
 MAX_WORKERS        = 5
@@ -646,18 +665,107 @@ def fetch_apple(session: requests.Session, queries: list[str] | None = None) -> 
     return jobs
 
 
+def _clean_icims_token(value: str) -> str:
+    """Clean an iCIMS address token.
+
+    iCIMS often duplicates values as "Mexico City-Mexico City" or
+    "Remote-Remote" and uses the literal "UNAVAILABLE" for empty fields.
+    """
+    s = (value or "").strip()
+    if not s or s.upper() == "UNAVAILABLE":
+        return ""
+    parts = [p.strip() for p in s.split("-") if p.strip()]
+    deduped: list[str] = []
+    for p in parts:
+        if not deduped or deduped[-1].lower() != p.lower():
+            deduped.append(p)
+    return " ".join(deduped) if deduped else s
+
+
+def _icims_location_from_ld(data: dict) -> str:
+    """Build a human-readable, filterable location from JSON-LD JobPosting data.
+
+    Returns "" when no usable location is present (job stays "Unknown").
+    The country name is appended so the US/non-US filter can act on it, since
+    remote roles frequently list the locality as just "Remote".
+    """
+    places = data.get("jobLocation") or []
+    if isinstance(places, dict):
+        places = [places]
+    if not isinstance(places, list):
+        return ""
+
+    remote = str(data.get("jobLocationType", "")).upper() == "TELECOMMUTE"
+
+    for place in places:
+        addr = (place or {}).get("address") or {}
+        locality = _clean_icims_token(addr.get("addressLocality"))
+        region   = _clean_icims_token(addr.get("addressRegion"))
+        country_code = (addr.get("addressCountry") or "").strip().upper()
+        country = ICIMS_COUNTRY_NAMES.get(country_code, country_code)
+
+        tokens = [t for t in (locality, region, country) if t]
+        if not tokens:
+            continue
+        loc = ", ".join(dict.fromkeys(tokens))  # preserve order, drop dupes
+        if remote and "remote" not in loc.lower():
+            loc = f"Remote, {loc}"
+        return loc
+
+    return "Remote" if remote else ""
+
+
+def _fetch_icims_detail(job_url: str, session: requests.Session) -> dict | None:
+    """Fetch an iCIMS job detail page and return its JSON-LD JobPosting dict."""
+    time.sleep(ICIMS_DETAIL_DELAY_S)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "text/html",
+    }
+    try:
+        r = session.get(f"{job_url}?in_iframe=1", headers=headers, timeout=ICIMS_TIMEOUT)
+        r.raise_for_status()
+    except requests.RequestException:
+        return None
+
+    m = _re.search(
+        r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+        r.text, _re.S,
+    )
+    if not m:
+        return None
+    try:
+        data = json.loads(m.group(1).strip())
+    except (json.JSONDecodeError, ValueError):
+        return None
+    if isinstance(data, list):
+        data = next(
+            (d for d in data if isinstance(d, dict) and d.get("@type") == "JobPosting"),
+            None,
+        )
+    return data if isinstance(data, dict) else None
+
+
 def fetch_icims(company: str, session: requests.Session) -> list[dict]:
     """Fetch jobs from an iCIMS career site via its sitemap.xml.
 
     iCIMS has no public JSON API, but every board exposes a sitemap listing
-    all job URLs with `lastmod` timestamps. One request yields job id, URL,
-    a title slug, and a posted/updated date — no pagination or per-job
-    detail fetches required.
+    all job URLs with `lastmod` timestamps. The sitemap yields job id, URL, a
+    title slug and a posted date — but *no location*. Since our pipeline
+    filters to US roles, a missing location means non-US jobs (e.g. remote
+    Mexico/Ireland) leak through.
+
+    So we do two passes: (1) parse the sitemap and keep only fresh candidates
+    whose slug-derived title matches the keyword filter, then (2) fetch each
+    survivor's detail page, which embeds a JSON-LD `JobPosting` with the real
+    title and a structured location. Pre-filtering keeps the number of detail
+    requests small (capped by ICIMS_MAX_DETAIL_FETCHES per board).
 
     `company` is the iCIMS subdomain, e.g. "careers-bcore" for
     https://careers-bcore.icims.com
     """
     import xml.etree.ElementTree as ET
+    from urllib.parse import unquote
 
     time.sleep(ICIMS_DELAY_S)
     url = f"https://{company}.icims.com/sitemap.xml"
@@ -679,10 +787,12 @@ def fetch_icims(company: str, session: requests.Session) -> list[dict]:
         return []
 
     ns = {"ns": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    jobs: list[dict] = []
+    company_name = company.replace("careers-", "").replace("-", " ").title()
     # URL pattern: https://{company}.icims.com/jobs/{id}/{title-slug}/job
     job_re = _re.compile(r"/jobs/(\d+)/([^/]+)/job")
 
+    # ── Pass 1: parse sitemap, keep fresh candidates matching the keyword filter
+    candidates: list[dict] = []
     for url_el in root.findall("ns:url", ns):
         loc_el = url_el.find("ns:loc", ns)
         if loc_el is None or not loc_el.text:
@@ -692,22 +802,52 @@ def fetch_icims(company: str, session: requests.Session) -> list[dict]:
         if not m:
             continue  # skip non-job URLs like /jobs/intro
         job_id, slug = m.group(1), m.group(2)
-        title = slug.replace("-", " ").title()
+        # Slug is URL-encoded (%28 → "(", %2c → "," etc.) — decode before use.
+        title = _re.sub(r"\s+", " ", unquote(slug).replace("-", " ")).strip().title()
 
         lastmod_el = url_el.find("ns:lastmod", ns)
         posted_at = _normalize_posted_at(lastmod_el.text) if lastmod_el is not None else ""
 
-        jobs.append({
+        candidate = {
             "id":        f"icims-{company}-{job_id}",
             "title":     title,
-            "company":   company.replace("careers-", "").replace("-", " ").title(),
+            "company":   company_name,
             "location":  "Unknown",
-            "url":       f"{loc}?in_iframe=1",
+            "url":       loc,
             "source":    "iCIMS",
             "posted_at": posted_at,
-        })
+        }
+        # Cheap gate before spending a request on the detail page: same keyword
+        # + freshness rules the final filter uses. Location is checked later.
+        if is_fresh(candidate) and title_passes_keywords(title):
+            candidates.append(candidate)
 
-    log.info(f"iCIMS [{company}]: fetched {len(jobs)} jobs")
+    total_seen = len(candidates)
+    if total_seen > ICIMS_MAX_DETAIL_FETCHES:
+        log.info(
+            f"iCIMS [{company}]: {total_seen} candidates exceed cap "
+            f"{ICIMS_MAX_DETAIL_FETCHES} — enriching newest only"
+        )
+        candidates = candidates[:ICIMS_MAX_DETAIL_FETCHES]
+
+    # ── Pass 2: enrich each candidate with real title + location from JSON-LD
+    jobs: list[dict] = []
+    for job in candidates:
+        data = _fetch_icims_detail(job["url"], session)
+        if data:
+            ld_title = (data.get("title") or "").strip()
+            if ld_title:
+                job["title"] = ld_title
+            location = _icims_location_from_ld(data)
+            if location:
+                job["location"] = location
+        job["url"] = f"{job['url']}?in_iframe=1"
+        jobs.append(job)
+
+    log.info(
+        f"iCIMS [{company}]: {total_seen} relevant candidates, "
+        f"{len(jobs)} enriched"
+    )
     return jobs
 
 
@@ -886,15 +1026,27 @@ def is_fresh(job: dict) -> bool:
     return dt >= cutoff
 
 
+def title_passes_keywords(title: str) -> bool:
+    """True if the title matches the include list and avoids the exclude list.
+
+    Extracted so cheap pre-filters (e.g. iCIMS, before fetching detail pages)
+    apply exactly the same keyword rules as the final filter.
+    """
+    t = (title or "").lower()
+    if INCLUDE_KEYWORDS and not any(kw.lower() in t for kw in INCLUDE_KEYWORDS):
+        return False
+    if EXCLUDE_KEYWORDS and any(kw.lower() in t for kw in EXCLUDE_KEYWORDS):
+        return False
+    return True
+
+
 def passes_filters(job: dict) -> bool:
     title    = (job.get("title") or "").lower()
     location = (job.get("location") or "").lower()
 
     if not is_fresh(job):
         return False
-    if INCLUDE_KEYWORDS and not any(kw.lower() in title for kw in INCLUDE_KEYWORDS):
-        return False
-    if EXCLUDE_KEYWORDS and any(kw.lower() in title for kw in EXCLUDE_KEYWORDS):
+    if not title_passes_keywords(title):
         return False
     if REMOTE_ONLY and "remote" not in location:
         return False
