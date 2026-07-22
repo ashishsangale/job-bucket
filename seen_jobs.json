@@ -28116,6 +28116,7 @@
     "wd-avav-avav-/job/Moorpark-CA/Software-QA-Automation-Engineer-III_7977-1",
     "wd-avav-avav-/job/Moorpark-CA/Software-QA-Automation-Engineer-I_7976",
     "wd-avav-avav-/job/Pittsburgh-PA/Software-Engineer--Sr--Apps-_7987",
+    "wd-avav-avav-/job/San-Diego-CA/DevOps-Engineer--II_8202-1",
     "wd-avav-avav-/job/San-Diego-CA/Software-Engineer-II--Applications-_8151",
     "wd-avav-avav-/job/San-Diego-CA/Sr-Staff-Software-Engineer--Applications-_8016",
     "wd-avav-avav-/job/Simi-Valley-CA/Test-Equipment-Engineer-II_7284",
@@ -28278,6 +28279,8 @@
     "wd-bbva-bbva-/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/SOFTWARE-EXPERT-I---COBRANZA---AI-TRANSFORMATION---ENGINEERING-COLOMBIA_JR00109342",
     "wd-bbva-bbva-/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/SOFTWARE-EXPERT-I---COBRANZA---AI-TRANSFORMATION---ENGINEERING-COLOMBIA_JR00109344",
     "wd-bbva-bbva-/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/SOFTWARE-EXPERT-I---CORPORATE-FUNCTIONS-ENGINEERING---SUBSIDIARIES---AI-TRANSFORMATION---ENGINEERING-COLOMBIA_JR00109415-2",
+    "wd-bbva-bbva-/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/SOFTWARE-EXPERT-I---CREDIT-CARDS-PROGRAM---AI-TRANSFORMATION---ENGINEERING-COLOMBIA_JR00109731",
+    "wd-bbva-bbva-/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/SOFTWARE-EXPERT-I---ENTERPRISE-DIGITAL-CHANNELS---AI-TRANSFORMATION---ENGINEERING-COLOMBIA_JR00109487",
     "wd-bbva-bbva-/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/SOFTWARE-EXPERT-I---ENTERPRISE-MOBILE-CHANNELS---AI-TRANSFORMATION---ENGINEERING-COLOMBIA_JR00109043",
     "wd-bbva-bbva-/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/SOFTWARE-EXPERT-I---LOANS-ASSETS-CUSTOMER---ENGINEERING---DATA-COLOMBIA_JR00104286",
     "wd-bbva-bbva-/job/11001-Bogot-DC-Distrito-Capital-de-Bogot/SOFTWARE-EXPERT-I---LOANS-BOOSTERS---ENGINEERING---DATA-COLOMBIA_JR00107232-1",
@@ -28516,6 +28519,7 @@
     "wd-bristolmyerssquibb-bms-/job/Princeton---NJ---US/Software-Engineer--AI-Engineering-and-Enablement_R1604359-1",
     "wd-bristolmyerssquibb-bms-/job/Princeton---NJ---US/Sr-Specialist--Content---Digital-Experience-Capabilities---Web-Product-and-Analytics-Engineer_R1602482",
     "wd-bristolmyerssquibb-bms-/job/Summit-West---NJ---US/Associate-Engineer--IT-Laboratory-Systems_R1600471-1",
+    "wd-bristolmyerssquibb-bms-/job/Summit-West---NJ---US/Associate-Engineer--IT-Laboratory-Systems_R1604614-1",
     "wd-bristolmyerssquibb-bms-/job/Summit-West---NJ---US/ECQ-Engineer_R1603360",
     "wd-broadcom-external_career-/job/USA-CA---Promontory-B/Software-Engineer-2_R026512-1",
     "wd-broadcom-external_career-/job/USA-CA---Promontory-B/Software-Engineer-VMkernel_R026222",
@@ -28652,6 +28656,7 @@
     "wd-caci-external-/job/Denver-CO-US/Cloud-Software-Engineer_328854",
     "wd-caci-external-/job/Denver-CO-US/Cloud-Software-Quality-Engineer_329032",
     "wd-caci-external-/job/Denver-CO-US/Data-Engineer-Software-Integrator_328545",
+    "wd-caci-external-/job/Denver-CO-US/Data-Scientist_329456",
     "wd-caci-external-/job/Denver-CO-US/DevOps-Engineer_329089",
     "wd-caci-external-/job/Denver-CO-US/Front-End-Developer_327919",
     "wd-caci-external-/job/Denver-CO-US/Front-End-Software-Developer_329050",
@@ -28680,6 +28685,7 @@
     "wd-caci-external-/job/Florham-Park-NJ-US/Wireless-Protocols-Software-Engineer_328307",
     "wd-caci-external-/job/Forest-Park-GA-US/Information-Technology-Engineer_327850",
     "wd-caci-external-/job/Fort-Belvoir-VA-US/Cybersecurity-Engineer---Cybersecurity-Subject-Matter-Expert--SME----Army-Tactical-System_328276",
+    "wd-caci-external-/job/Fort-Bragg-NC-US/ACAS-Engineer_329445",
     "wd-caci-external-/job/Fort-Bragg-NC-US/ESRI-Systems-Engineer_328349",
     "wd-caci-external-/job/Fort-Bragg-NC-US/Software-Engineer--GIS-Integration-_316098-1",
     "wd-caci-external-/job/Fort-Detrick-MD-US/System-Engineer-and-Software-Tester_328287",
@@ -28785,6 +28791,7 @@
     "wd-caci-external-/job/Washington-DC-US/Littoral-Combat-Ship-Modernization-Engineer_326941",
     "wd-caci-external-/job/Ypsilanti-MI-US/Infrastructure-DevSecOps-Product-Owner_327349",
     "wd-caci-external-/job/Ypsilanti-MI-US/Software-Engineer_329339",
+    "wd-caci-external-/job/Ypsilanti-MI-US/Systems-Engineer_325904",
     "wd-caci-external-/job/Ypsilanti-MI-US/Systems-Engineer_328293-1",
     "wd-cadence-addl_jobs-/job/AUSTIN/Application-Engineer--Customer-Engagement_R55471",
     "wd-cadence-addl_jobs-/job/AUSTIN/Product-Engineer_R55461",
@@ -31336,5 +31343,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-22T16:56:34.340638+00:00"
+  "updated_at": "2026-07-22T17:00:21.137272+00:00"
 }
