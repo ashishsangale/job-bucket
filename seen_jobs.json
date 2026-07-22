@@ -396,6 +396,7 @@
     "ashby-automat-370d0d2e-e427-40d9-9c13-6da97f8a5650",
     "ashby-axelera-fcdc2f2e-b77f-427c-ac7a-6eed809432b9",
     "ashby-axion-e4eb4db7-1426-4fa3-91d4-5b42de86fe37",
+    "ashby-backflip-1eba42fe-07a5-475a-b3ee-f17c533ee7a3",
     "ashby-basata-e85b68b5-cb2f-4f9b-b816-e5bc0feafd39",
     "ashby-base-power-01d90134-1fc2-4a24-89b9-e79fe5b001ad",
     "ashby-base-power-074434ca-1e44-4902-878b-d045e74b3e31",
@@ -644,6 +645,7 @@
     "ashby-conductorai-53511818-4c7d-406f-b7e8-6d21ab2e86b3",
     "ashby-conductorai-9033a187-9713-44ea-aaa2-efad092673c2",
     "ashby-confluent-47920ccd-db54-4ed4-a865-70857e865fff",
+    "ashby-confluent-80a47c3e-a160-4277-a452-1eef9c689167",
     "ashby-confluent-bef7f6a5-2481-4eb6-a760-86e3746600bb",
     "ashby-console-e01b9c1e-4ae5-4468-a262-01d9ffbe58c8",
     "ashby-console-e3967831-fb81-45ab-a325-4a939f0cc941",
@@ -1118,6 +1120,7 @@
     "ashby-harvey-dc3434da-7be2-4048-a652-7a02c22444ba",
     "ashby-harvey-e736b822-3d24-4c72-bf70-b8f5b2c7fad8",
     "ashby-harvey-ebf00b72-4693-4894-b540-5f82a60fdbdc",
+    "ashby-harvey-ef7616f0-dbf6-456b-8167-a85f1ef9b0e3",
     "ashby-hatch-5ab81d48-df43-4009-a858-5cfa02ebe772",
     "ashby-hatch-8721b14c-a9f9-4c55-938c-5d6efc4933f2",
     "ashby-hatch-ed801333-2dc9-4bba-9bff-0ec38a2b05b1",
@@ -1725,6 +1728,7 @@
     "ashby-oxio-09295592-c52f-4151-a52f-c6718b3ed5b3",
     "ashby-oxio-0af49883-a443-45d4-8f21-c1263ebc28af",
     "ashby-oxio-2f61685c-9fb9-472a-8c6a-f80269567fea",
+    "ashby-oxio-3f068e49-dc21-4121-b7cf-7053598cf071",
     "ashby-oxio-47fff1b9-6545-4054-8e3a-9b4cc0460694",
     "ashby-oxio-83962376-f876-4bab-bb5f-69a23ecda7f8",
     "ashby-paireyewear-ab32bc01-ff2d-4391-9ec1-14b531847da7",
@@ -1803,6 +1807,7 @@
     "ashby-persona-fc9e26c9-0123-4cd1-a8da-c1836ab68a0b",
     "ashby-phantom-1abf3c00-bb38-4590-ae01-098acf510acd",
     "ashby-phantom-454d771f-bf8f-42fe-884f-eb390d24e167",
+    "ashby-phantom-98bf7516-80fc-446f-86a7-2fa275b58f15",
     "ashby-phantom-b746f064-ea9d-4742-a6f2-8d85e7939438",
     "ashby-phantom-b7d0a7f7-c1d0-43c3-936f-c97ff46ee72e",
     "ashby-phantom-e213be58-ba98-486d-93bc-a7716f33003e",
@@ -2041,6 +2046,7 @@
     "ashby-rula-8c24e7ec-3391-4509-93de-105acfd64f53",
     "ashby-rula-960bf1ee-6bd2-45b9-aabe-22001ecf0f16",
     "ashby-rula-a523f461-908f-4527-8611-a72e5544df09",
+    "ashby-rula-b61c33f6-a56a-486b-95c9-f7ef27aacd40",
     "ashby-rula-e239b593-14c6-4bd2-939c-50b58074ed42",
     "ashby-rula-eaf368b3-fc32-4218-b5ae-d9e84c83749b",
     "ashby-rundoo-c1fa53ea-dadf-4dcf-a144-f71bda03c9fa",
@@ -31398,5 +31404,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-22T18:41:03.192418+00:00"
+  "updated_at": "2026-07-22T19:47:56.882740+00:00"
 }
