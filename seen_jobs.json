@@ -692,6 +692,7 @@
     "ashby-crusoe-29c195f9-ef48-4eda-8ebd-ae64beac1044",
     "ashby-crusoe-29e1b9f0-17bc-4567-97b4-6bfb1980320d",
     "ashby-crusoe-2c0c11b9-b791-4c4b-9ec5-cc302522b5d5",
+    "ashby-crusoe-3b59ec6b-769d-4698-9c54-0b53200ab23d",
     "ashby-crusoe-3cb9a23a-9172-4539-8626-bd63faa17443",
     "ashby-crusoe-3dffdca3-5f70-4857-aa5f-225c89fae144",
     "ashby-crusoe-40033c38-88a2-4d77-b172-2f9d9d29ffbe",
@@ -711,6 +712,7 @@
     "ashby-crusoe-b3015b18-7152-4913-9a66-51411f9fe6a0",
     "ashby-crusoe-b75a8937-b187-472f-9472-fbbf1f151495",
     "ashby-crusoe-bd032f33-a62b-472a-bba0-3ce0069ec439",
+    "ashby-crusoe-bd0a5128-8727-4631-ab3b-913249b2ea84",
     "ashby-crusoe-c0f9edbf-7c99-42f7-8ecd-1a5471a23ec8",
     "ashby-crusoe-c16a72bc-d418-4fc0-96dc-9f57f828fe62",
     "ashby-crusoe-ce4b8e24-0beb-4ed6-927d-77634ebaee40",
@@ -822,6 +824,7 @@
     "ashby-element84-ca7bcbbf-a1c3-4a3c-890a-b91be49860f5",
     "ashby-elevenlabs-1f668ed5-49e9-4726-881f-7818733103b1",
     "ashby-elevenlabs-db88ce4f-44a0-425c-88c4-1951c467c627",
+    "ashby-elicit-152b8541-c6d9-4b2f-a4f2-f906b82ec2ed",
     "ashby-ello-a4827212-53cb-463e-a1e5-0f1abcc5646e",
     "ashby-ello-f843ac3e-8106-4cb0-bb77-72caa489ab23",
     "ashby-envoy-50af5e24-e841-4ac9-9ab8-bab95fbcf02f",
@@ -1947,6 +1950,7 @@
     "ashby-radiant-industries-28275b5f-edd9-49b7-b244-01402fe5f66a",
     "ashby-radiant-industries-3d7b9506-25a5-4e40-b63e-8a54acc6c961",
     "ashby-radiant-industries-9658e0e7-b93f-4370-98bf-db422750a563",
+    "ashby-radiant-industries-96d81794-765f-4d35-9370-2f1bba4a4241",
     "ashby-radiant-industries-9e747724-d154-488d-93d6-067ee7d42cf2",
     "ashby-radiant-industries-a078f0fe-56dd-4add-a8ff-f0dd4fe7ce43",
     "ashby-radiant-industries-d275a515-4c88-406c-bc76-9d15bf8ebc1d",
@@ -2127,6 +2131,7 @@
     "ashby-sfcompute-2d723ede-00f6-4353-ae88-531f86dc2db8",
     "ashby-sfcompute-2f72be9e-cdea-4a82-bf73-a1809053f329",
     "ashby-shepherd-af908695-0556-4840-b582-e9c62cee8023",
+    "ashby-shepherd-e6cc505c-f923-436f-88af-909e6e4ee19f",
     "ashby-shiftkey-2d49484b-f266-4250-a24c-013d8e274559",
     "ashby-sierra-000618f7-e0d0-43dc-ae15-2b20d948852f",
     "ashby-sierra-032c8ab4-1911-4477-bc39-9cfcd701d5a9",
@@ -2206,6 +2211,7 @@
     "ashby-snowflake-93e0949a-bf76-467e-a8e1-b771c32ad7fe",
     "ashby-snowflake-9bbafaf2-240d-4cfb-8e95-b289f0350be5",
     "ashby-snowflake-a6292a81-7cf7-4e29-bb77-f7d0935e7bdb",
+    "ashby-snowflake-c392f794-c8f9-42f9-baf1-75eb27c56574",
     "ashby-snowflake-cdcd5c4e-0c62-436d-a168-6ed6dff6dd2b",
     "ashby-snowflake-d655734e-4bad-49b5-b93f-ebe38ea28cc3",
     "ashby-snowflake-dd0b29a3-6bc8-4d6c-8fa6-79da445c70bd",
@@ -31614,5 +31620,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-22T22:38:09.372965+00:00"
+  "updated_at": "2026-07-22T23:20:27.194913+00:00"
 }
