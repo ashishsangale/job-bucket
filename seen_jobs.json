@@ -1017,6 +1017,7 @@
     "ashby-gallatin-ac503640-8392-408c-a821-89f80eb7a167",
     "ashby-gamechanger-299350bd-d128-41e5-8449-cd7e1640c4da",
     "ashby-gamma-1d76bf68-c948-4594-a6f5-b836eaf33c4b",
+    "ashby-gamma-76767d60-e375-456d-a195-984854b256ce",
     "ashby-gamma-ec461546-f994-46ec-a4b1-659dce3e4703",
     "ashby-garage-dba79415-f4eb-48fd-acf8-9c2086d58a54",
     "ashby-garage-f4018670-2c66-4da9-acac-2aa0af432abb",
@@ -1150,6 +1151,7 @@
     "ashby-helion-eb9a8d09-05ab-4f6a-a896-848deeec6f65",
     "ashby-helion-fde04dc8-a20c-4e0a-b5df-d9904befece3",
     "ashby-hellobrightline-a7045ea9-e08b-4d2d-bd8b-25cf6088f0ff",
+    "ashby-helpscout-1873a140-0ab9-408e-a9dd-d3c6106c9819",
     "ashby-helpscout-86132a5a-1909-470d-9f4a-5557b234be07",
     "ashby-helpscout-d10ab692-52f3-4c13-8108-8a16477237d9",
     "ashby-helpscout-f000b241-7974-4a2d-a80d-07fb807b2f90",
@@ -2090,6 +2092,7 @@
     "ashby-second-front-systems-b4445a9e-b3e6-4b78-b4e0-aadbe6ed2818",
     "ashby-second-front-systems-b8dd2cdb-bd5f-468c-94e7-c268d736ce89",
     "ashby-second-front-systems-e6f63253-1271-4762-ac95-d57d1153b2b2",
+    "ashby-second-nature-9bc8e6af-d2bf-4754-b910-467eff1cb32c",
     "ashby-sentra-6974a286-676f-424b-b114-09fbe9ab23e8",
     "ashby-sentry-5e35f663-3021-45a9-8858-c70ce1905fb3",
     "ashby-sentry-a078cfdc-4dcc-47b4-93da-a49e4f39d322",
@@ -2138,6 +2141,8 @@
     "ashby-sift-45b22605-1abb-483e-8ef7-5ceaf04f5868",
     "ashby-sift-77acd877-51ad-4b2f-ba41-da33d8bcc0b4",
     "ashby-sift-adf8c2ef-f9f5-4cef-a9af-c5cf29f51252",
+    "ashby-siftstack-3557ef5f-4d1e-46d3-b82d-fdaed12d0518",
+    "ashby-siftstack-7d3ddb83-d6f1-4c45-be1b-352102fdad5f",
     "ashby-silver-16f39b9b-1b6c-4e88-9d99-dc22bccad5a3",
     "ashby-silver-685e1e4a-4a10-4597-8e3c-89f98ecbc3b1",
     "ashby-silver-7b64258d-c57e-4c35-8f42-aaac598271f7",
@@ -2247,6 +2252,7 @@
     "ashby-sprinter-health-8d0e0761-d1b3-4b31-bff1-4c0860d57ef0",
     "ashby-sprinter-health-ac76c6fa-f3bc-4068-81e4-a0fabbbecce9",
     "ashby-sprinter-health-e9da533c-5af2-448c-b48a-ffb331ee76e2",
+    "ashby-st-labs-87bb0c0e-e8f6-44ae-acf0-df83851d7292",
     "ashby-stack-ai-9d769730-9329-4392-916f-0c1bc84be713",
     "ashby-stack-ai-c4cc37f5-65a8-4df9-aef0-c150c352effc",
     "ashby-standardbots-386e370d-9166-44da-bcf7-c1951a347836",
@@ -2305,6 +2311,7 @@
     "ashby-tapcart-279d1b05-06fe-4348-afda-8d4d72982579",
     "ashby-tapcart-41c0ce3a-a90e-440e-9c9d-fc3c58339a80",
     "ashby-tapcart-7baa9271-c333-4db3-83cd-302ffbedb4d9",
+    "ashby-tapcart-a2be92a5-27fb-443b-93ba-08d53dd7ca09",
     "ashby-tapcart-dc4b02cf-1349-4bd0-9d59-35a6a1def67c",
     "ashby-tapcart-e58347fa-02cd-4804-b776-1b2a850cbb13",
     "ashby-taptapsend-a96ce6ce-0e8c-424d-9870-6efa74d82b85",
@@ -2360,6 +2367,7 @@
     "ashby-terac-4bef8805-4a29-4cc5-b9bd-e2023216d29e",
     "ashby-terac-7a6f566e-5d82-4516-9e33-43616ec62b5f",
     "ashby-terac-9a1ca770-7e2a-4b6d-b003-7ac0b963e4f5",
+    "ashby-terac-a0041d24-7a8f-4c9b-ab9d-e3ddbeafd120",
     "ashby-terac-a7a2dcb8-0637-4c4d-a8b8-7325e5074f88",
     "ashby-terminal-industries-74515be6-7ca2-4399-bb33-bc797b69ece9",
     "ashby-tern-0eec55d6-bfaf-4e5e-9433-1b0377a7857e",
@@ -31443,5 +31451,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Development-Engineer---Zoom-AI-API-Suite_R17822-1",
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196"
   ],
-  "updated_at": "2026-07-22T21:17:30.968210+00:00"
+  "updated_at": "2026-07-22T21:35:35.928218+00:00"
 }
