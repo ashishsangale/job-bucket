@@ -286,6 +286,7 @@
     "ashby-aerovect-17b667e6-4010-46f6-ad8e-ea8684e5804e",
     "ashby-aerovect-198c00e2-16b5-4420-b60d-77201132d7e3",
     "ashby-aerovect-3098e207-9f63-48a9-8da8-610407260ff8",
+    "ashby-aerovect-60a8c274-8bd9-495b-b987-dbc9e744b97c",
     "ashby-aerovect-738ffe0b-2e0b-472b-8e4e-fa9b02a5589a",
     "ashby-aerovect-9f931605-4b79-44c7-82a6-8f41aca37d14",
     "ashby-aerovect-e55fa61b-53ab-4b75-9423-97e875cfe798",
@@ -529,6 +530,7 @@
     "ashby-bjakcareer-cad74f2c-54d1-4c78-adbe-65cb24855d6f",
     "ashby-bjakcareer-dadf10f4-88a9-48f6-ac18-cf6057b505e7",
     "ashby-bjakcareer-dcc2124a-32a0-4a25-95bb-0a5286965b81",
+    "ashby-bjakcareer-eb3d4cbb-2ae6-44b9-a6ab-a567498294bb",
     "ashby-bjakcareer-ec9fd0e9-483a-480e-b325-b7bc6798ba3a",
     "ashby-bjakcareer-f97f4c05-1c27-4b05-980f-9788538a388f",
     "ashby-bland-824f7ebb-6d71-4484-bc7d-a2bcd4441a70",
@@ -1178,6 +1180,7 @@
     "ashby-harvey-e736b822-3d24-4c72-bf70-b8f5b2c7fad8",
     "ashby-harvey-ebf00b72-4693-4894-b540-5f82a60fdbdc",
     "ashby-harvey-ef7616f0-dbf6-456b-8167-a85f1ef9b0e3",
+    "ashby-hatch-302d3f5d-2d99-4962-8ce3-4480cd4330d5",
     "ashby-hatch-5ab81d48-df43-4009-a858-5cfa02ebe772",
     "ashby-hatch-8721b14c-a9f9-4c55-938c-5d6efc4933f2",
     "ashby-hatch-ed801333-2dc9-4bba-9bff-0ec38a2b05b1",
@@ -1612,6 +1615,9 @@
     "ashby-netic-f291394a-f3c5-4f46-9b87-77aea3d487ef",
     "ashby-netic-f2d170eb-c4c3-4715-9d2e-84dd4fe857c8",
     "ashby-netic-ffd6af1a-cebb-41f5-ac1d-e695adfd067c",
+    "ashby-neuralconcept-333c5357-826b-4e60-adc2-b26a9e66329f",
+    "ashby-neuralconcept-3f4532cf-dfb1-4e43-9d30-f2193e7db6e7",
+    "ashby-neuralconcept-534580d2-7848-431e-9a42-b0d53187f4f5",
     "ashby-neuroscale-c5340132-e651-4970-b4f0-3f5741aec79f",
     "ashby-newform-273b2bf4-a4c8-4a25-8340-b87807b97d0c",
     "ashby-newform-75405761-8328-42cf-a767-d613e20f5a71",
@@ -32684,5 +32690,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-24T14:12:14.093987+00:00"
+  "updated_at": "2026-07-24T14:17:39.810511+00:00"
 }
