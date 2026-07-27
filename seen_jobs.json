@@ -28605,6 +28605,7 @@
     "wd-abbott-abbottcareers-/job/United-States---Minnesota---St-Paul/Staff-Software-Engineer_31153214",
     "wd-abbott-abbottcareers-/job/United-States---Minnesota---St-Paul/Staff-Systems-Engineer_31153316-1",
     "wd-abbott-abbottcareers-/job/United-States---Texas---Irving/Software-Test-Engineer-II_31149281-1",
+    "wd-abbott-abbottcareers-/job/United-States---Texas---Irving/Staff-Software-Engineer_31157218-1",
     "wd-abbott-abbottcareers-/job/United-States---Texas---Plano/AI-Engineer_31152145-1",
     "wd-abbott-abbottcareers-/job/United-States---Virginia---Charlottesville/Software-Test-Engineer-II_31149621-1",
     "wd-abbott-abbottcareers-/job/United-States--Pleasanton--5000-Franklin-Dr/Staff-Software-Systems-Engineer_31154454",
@@ -28624,6 +28625,7 @@
     "wd-abbott-abbottcareers2-/job/United-States---Minnesota---St-Paul/Staff-Software-Engineer_31153214-2",
     "wd-abbott-abbottcareers2-/job/United-States---Minnesota---St-Paul/Staff-Systems-Engineer_31153316",
     "wd-abbott-abbottcareers2-/job/United-States---Texas---Irving/Software-Test-Engineer-II_31149281",
+    "wd-abbott-abbottcareers2-/job/United-States---Texas---Irving/Staff-Software-Engineer_31157218",
     "wd-abbott-abbottcareers2-/job/United-States---Texas---Plano/AI-Engineer_31152145",
     "wd-abbott-abbottcareers2-/job/United-States---Virginia---Charlottesville/Software-Test-Engineer-II_31149621",
     "wd-abbott-abbottcareers2-/job/United-States--Pleasanton--5000-Franklin-Dr/Staff-Software-Systems-Engineer_31154454-2",
@@ -29514,6 +29516,8 @@
     "wd-barclays-external_career_site_barclays-/job/New-York-745-7th-Avenue/Release-and-Infrastructure-Engineer_JR-0000119146",
     "wd-barclays-external_career_site_barclays-/job/New-York-745-7th-Avenue/Research---Analytics-Developer_JR-0000120483",
     "wd-barclays-external_career_site_barclays-/job/New-York-745-7th-Avenue/Virtual-Desktop-Operations-Engineer_JR-0000099364-1",
+    "wd-barr-barrcareers-/job/Bismarck-ND/Geotechnical-Engineer---Entry-Level---2--years--Hybrid-_R-102206",
+    "wd-barr-barrcareers-/job/Bismarck-ND/Geotechnical-Engineer---Entry-Level--Hybrid-_R-102205",
     "wd-barr-barrcareers-/job/Jefferson-City-MO/Geologist-Geological-Engineer---Entry-Level--Hybrid-_R-102144",
     "wd-barr-barrcareers-/job/Minneapolis-MN/Platform-Engineer--Hybrid-_R-102140",
     "wd-barryu-barryu-/job/Miami-Shores--Main-Campus/Network-Engineer_R0007712",
@@ -30155,6 +30159,7 @@
     "wd-candescent-hiring-/job/IN---Bengalaru---Office/Software-Quality-Engineer-III---Web-Automation-Playwright--Java-_R0001982-1",
     "wd-candescent-hiring-/job/IN---Bengalaru---Office/Software-Quality-Engineer-III---Web-Automation-Playwright--Java-_R0001983-1",
     "wd-candescent-hiring-/job/US---California---Virtual/Software-DevOps-Engineer_R0001988",
+    "wd-candescent-hiring-/job/US---Georgia---Atlanta-Office/Software-Engineer_R0002037-1",
     "wd-capgroup-capitalgroupcareers-/job/Charlotte/Platform-Engineer-IV---Integration--Messaging-Technologies_JR6139",
     "wd-capgroup-capitalgroupcareers-/job/Los-Angeles/Solutions-Engineer_JR6700-1",
     "wd-capitalhealth-capitalhealthcareers-/job/Pennington-NJ/IT-Software-Engineer-ERP_JR110644",
@@ -30193,6 +30198,7 @@
     "wd-cat-caterpillarcareers-/job/Irving-Texas/Software-Engineer--Autonomy-Services-_R0000380992",
     "wd-cat-caterpillarcareers-/job/Mossville-Illinois/Autonomy-Software-Development-Engineer_R0000335360",
     "wd-cat-caterpillarcareers-/job/Virginia-Beach-Virginia/Software-Engineer_R0000376140",
+    "wd-cat-solarturbines-/job/Desoto-Texas/Test-Software-Systems-Engineer_R0000384827",
     "wd-cat-solarturbines-/job/San-Diego-California/Sr-Mfg-Engineer-CS-PS_R0000377247",
     "wd-cat-solarturbines-/job/San-Diego-California/XMLNAME-2026-SolutionsPlatformsEngineered--SPE--Entry-Level-Rotation-Program_R0000316308",
     "wd-cat-solarturbines-/job/San-Diego-California/XMLNAME-2027-Entry-Level-Gas-Turbine-Product-Engineer--GTPE-_R0000382291",
@@ -33299,5 +33305,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-27T15:22:30.413405+00:00"
+  "updated_at": "2026-07-27T15:28:43.002697+00:00"
 }
