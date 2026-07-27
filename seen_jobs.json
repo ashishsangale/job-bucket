@@ -78,8 +78,10 @@
     "amzn-10481467",
     "amzn-10481469",
     "amzn-10481664",
+    "amzn-10481748",
     "amzn-10481902",
     "amzn-10481932",
+    "amzn-10482153",
     "amzn-10482685",
     "amzn-10482841",
     "amzn-10482848",
@@ -87,6 +89,7 @@
     "amzn-10483895",
     "amzn-10483912",
     "amzn-10483913",
+    "amzn-10483968",
     "amzn-10484904",
     "amzn-10484906",
     "amzn-10485045",
@@ -275,6 +278,8 @@
     "apple-200674174-0157",
     "apple-200674209-3749",
     "apple-200674370-3337",
+    "apple-200674440-3337",
+    "apple-200674440-3956",
     "ashby-1mind-052ca544-28c4-4fcb-a0a2-63140ccf0212",
     "ashby-1password-15524257-904b-4c88-a67a-1b9f55d6fd92",
     "ashby-42dot-3d96a60d-be22-4d72-a50a-320e79d1b21c",
@@ -33562,5 +33567,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-27T22:34:35.896175+00:00"
+  "updated_at": "2026-07-27T22:43:20.982450+00:00"
 }
