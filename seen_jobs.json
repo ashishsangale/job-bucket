@@ -459,6 +459,7 @@
     "ashby-base-power-14254957-3c64-4e0b-9714-7adda026736e",
     "ashby-base-power-143f8b1f-5f25-4ca6-bb52-b3d8d9c6557f",
     "ashby-base-power-1808c00d-7b0e-490c-b102-b9844a8bf4cf",
+    "ashby-base-power-454d2748-2eea-4742-a8a2-329d0b7da6b7",
     "ashby-base-power-484820b3-5bcc-4736-9ce4-f8d956bf4f8c",
     "ashby-base-power-5353ea33-57d4-46fa-9a96-e392a3f841bc",
     "ashby-base-power-53924682-e6c8-4c3b-9a39-19905ea16e5b",
@@ -1115,6 +1116,7 @@
     "ashby-gem-technologies-3ff5919f-d57e-4315-8821-f182574ad429",
     "ashby-gem-technologies-70b9a8f8-52e2-46a8-9e7b-03d9c36528f3",
     "ashby-gem-technologies-d1049142-7ec0-48fa-8165-6798f6db8ba5",
+    "ashby-gem-technologies-e92dccaf-89f6-4031-bd81-da042bd2fe12",
     "ashby-general-medicine-2ee03f06-3ee5-42dd-b6eb-bf91002eedd0",
     "ashby-general-medicine-688e3988-9739-48ad-8e51-25507a236c8e",
     "ashby-general-medicine-6aa26a16-a67b-421b-a843-508e37ab608f",
@@ -1610,7 +1612,9 @@
     "ashby-mintlify-4b5b6945-1a80-49fe-8bcb-64b3075e7b5f",
     "ashby-mirage-08f52314-0d1f-4d43-a74a-ae0ec3a3a1be",
     "ashby-mirage-1108a11f-7974-4b25-87b7-867e406efb2b",
+    "ashby-mirage-1da60933-5bde-4f75-b4e1-351e4e3cfc1a",
     "ashby-mirage-3988e47d-d596-4b5c-8f21-a851b97873ea",
+    "ashby-mirage-3c46a1b6-1f4e-4c03-967b-5e7441950218",
     "ashby-mirage-3cdd0d39-f0b4-4255-837f-bcff17288143",
     "ashby-mirage-425d58ca-97bd-4bf8-a9b6-94a6758f38d8",
     "ashby-mirage-453b6a5b-c1ec-4f1e-8508-c1627caa5907",
@@ -1776,6 +1780,7 @@
     "ashby-openai-3d4ac845-ec9c-43e0-bd79-9fdf5b87da69",
     "ashby-openai-3fe77c71-1f20-45b5-8291-62f0d2104989",
     "ashby-openai-4070d52e-0263-4cd5-9107-052b4ecc1209",
+    "ashby-openai-4948533f-1df6-49f7-af9e-a2da0e02ebca",
     "ashby-openai-57bbaedc-30c1-4f1d-b194-e32a6adf874c",
     "ashby-openai-57f0728b-7747-471e-a8d5-9d0f763b057c",
     "ashby-openai-584fc51a-1107-457c-b499-a94fe5ef02b4",
@@ -2112,6 +2117,7 @@
     "ashby-red-gate-d5f6d081-5c93-4ebb-bb66-7d530b63beb4",
     "ashby-red6-833626e2-644c-4e84-8293-4bec8c2714a6",
     "ashby-reducto-cf1751ef-0b97-4bd3-af10-1f95514b8f8e",
+    "ashby-reflectionai-239d357b-806f-4d36-9eb8-9e95ba05a120",
     "ashby-reflectionai-d5e3d318-79b4-4104-9e72-5a48ddfad114",
     "ashby-reflectionai-d85b167c-10cb-4ae6-b792-09afe8a6d3c2",
     "ashby-reflectionai-ee258570-a3f9-4276-9bf4-35b2b70dbc61",
@@ -2622,6 +2628,7 @@
     "ashby-uipath-3ac89fa7-fc3c-4e7a-ad81-7db5ad211a58",
     "ashby-uipath-e8bcdabc-facc-456d-a09e-f1286f88abcf",
     "ashby-ultralytics-753c6edd-a39b-4fd6-984b-3259610bc46e",
+    "ashby-ultralytics-b11b11d3-f69d-418f-8a1c-f915fe3476ed",
     "ashby-unify-07590b87-dc35-4375-8738-6482ea9998dd",
     "ashby-unify-7e5a6120-df44-4846-9277-7e8f01d7f3e0",
     "ashby-union-c131946e-640c-4885-ace7-f87912034489",
@@ -33285,5 +33292,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-27T12:38:25.280125+00:00"
+  "updated_at": "2026-07-27T15:18:32.176976+00:00"
 }
