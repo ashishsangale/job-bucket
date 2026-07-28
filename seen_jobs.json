@@ -565,6 +565,7 @@
     "ashby-bjakcareer-b7f676af-d663-4477-b4cb-18f5d448229f",
     "ashby-bjakcareer-ba83d9fe-52f8-4342-84b8-37ce76ba37ce",
     "ashby-bjakcareer-c04734b4-e55b-4204-88e8-87dd7136542a",
+    "ashby-bjakcareer-ca12404f-3512-4627-a2b0-7fd805e64181",
     "ashby-bjakcareer-ca27aee9-1732-4056-8a6b-1d7da313ef58",
     "ashby-bjakcareer-cad74f2c-54d1-4c78-adbe-65cb24855d6f",
     "ashby-bjakcareer-d0d62656-9c04-433c-8581-47e4aeff801b",
@@ -609,6 +610,7 @@
     "ashby-browserbase-be6c011e-9bb1-4be0-93c2-ed615ef070d8",
     "ashby-buffer-6ee07995-2738-4cee-b16d-fc8967674346",
     "ashby-builder-prime-8155fbd7-eb36-41e2-acde-0830dcefdf78",
+    "ashby-buildout-5c6f0c68-d925-49fd-b67d-036856886ae0",
     "ashby-butterflymx-4cf27e51-ff48-4d42-b764-6725905c41c0",
     "ashby-butterflymx-92959bb6-9ea3-402b-b55f-39a7d8ad8585",
     "ashby-butterflymx-ed40d382-a526-4a00-82b3-737ac1627961",
@@ -918,8 +920,10 @@
     "ashby-ello-a4827212-53cb-463e-a1e5-0f1abcc5646e",
     "ashby-ello-f843ac3e-8106-4cb0-bb77-72caa489ab23",
     "ashby-embedding-vc-04efadc4-6802-4f31-be18-327c95339042",
+    "ashby-embedding-vc-4b7b35d9-6a2c-43a2-8c36-2bf6974e3b0f",
     "ashby-embedding-vc-53e1a6e9-b422-4b08-b42b-195a050bebcf",
     "ashby-embedding-vc-746ef195-8f9f-41d5-8207-e19346ac1089",
+    "ashby-embedding-vc-930fea63-4fcb-4b84-96ec-9aa5da111329",
     "ashby-envoy-50af5e24-e841-4ac9-9ab8-bab95fbcf02f",
     "ashby-envoy-724fe1ce-e41f-4fce-a386-f1c8fca63a2f",
     "ashby-envoy-775648a2-f908-4285-843b-c5b731626161",
@@ -1701,6 +1705,8 @@
     "ashby-neuralconcept-333c5357-826b-4e60-adc2-b26a9e66329f",
     "ashby-neuralconcept-3f4532cf-dfb1-4e43-9d30-f2193e7db6e7",
     "ashby-neuralconcept-534580d2-7848-431e-9a42-b0d53187f4f5",
+    "ashby-neuralconcept-8ff6699d-0ccc-4782-9069-9c2f4c9caec4",
+    "ashby-neuralconcept-967b27c1-4502-4129-b00a-7a96d0222037",
     "ashby-neuroscale-c5340132-e651-4970-b4f0-3f5741aec79f",
     "ashby-newform-273b2bf4-a4c8-4a25-8340-b87807b97d0c",
     "ashby-newform-75405761-8328-42cf-a767-d613e20f5a71",
@@ -33623,5 +33629,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-28T05:49:24.645277+00:00"
+  "updated_at": "2026-07-28T06:45:23.305297+00:00"
 }
