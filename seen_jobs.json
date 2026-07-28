@@ -29078,6 +29078,7 @@
     "wd-accenture-accenturecareers-/job/Indore/AI---ML-Engineer_ATCI-5531963-S2016373-1",
     "wd-accenture-accenturecareers-/job/Indore/Custom-Software-Engineer_ATCI-5617357-S2027819-1",
     "wd-accenture-accenturecareers-/job/Indore/Performance-Engineer_ATCI-5466771-S1997523-1",
+    "wd-accenture-accenturecareers-/job/Indore/Software-Development-Engineer_ATCI-5635805-S2057356",
     "wd-accenture-accenturecareers-/job/Kolkata/Custom-Software-Engineer_ATCI-5342874-S1949176-1",
     "wd-accenture-accenturecareers-/job/Kolkata/Custom-Software-Engineer_ATCI-5342878-S1949179-1",
     "wd-accenture-accenturecareers-/job/Kolkata/Custom-Software-Engineer_ATCI-5617210-S2027813-1",
@@ -29395,6 +29396,7 @@
     "wd-alteryx-alteryxcareers-/job/US---Remote/Sr-Developer-Platform-Engineer_R12135",
     "wd-alteryx-alteryxcareers-/job/US---Remote/Sr-Engineering-Insights-Analyst_R12087",
     "wd-alteryx-alteryxcareers-/job/US---Remote/Sr-Network-Engineer_R11774",
+    "wd-alteryx-alteryxcareers-/job/US---Remote/Sr-Software-Engineer--Dataplane_R12325",
     "wd-alteryx-alteryxcareers-/job/US---Remote/Sr-Software-Engineer_R11906",
     "wd-alteryx-alteryxcareers-/job/US---Remote/Staff-Python-Software-Engineer_R11467",
     "wd-alteryx-alteryxcareers-/job/US---Remote/Staff-Software-Development-Engineer-in-Test_R12168",
@@ -30578,6 +30580,7 @@
     "wd-cat-caterpillarcareers-/job/Decatur-Illinois/Software-Engineer_R0000379469",
     "wd-cat-caterpillarcareers-/job/Irving-Texas/Software-Engineer--Autonomy-Services-_R0000380992",
     "wd-cat-caterpillarcareers-/job/Mossville-Illinois/Autonomy-Software-Development-Engineer_R0000335360",
+    "wd-cat-caterpillarcareers-/job/Virginia-Beach-Virginia/Software-Engineer---Power-BI---Power-Automate_R0000385012",
     "wd-cat-caterpillarcareers-/job/Virginia-Beach-Virginia/Software-Engineer_R0000376140",
     "wd-cat-solarturbines-/job/Desoto-Texas/Test-Software-Systems-Engineer_R0000384827",
     "wd-cat-solarturbines-/job/San-Diego-California/Sr-Mfg-Engineer-CS-PS_R0000377247",
@@ -33687,5 +33690,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-28T09:18:35.067848+00:00"
+  "updated_at": "2026-07-28T09:21:51.391888+00:00"
 }
