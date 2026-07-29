@@ -125,6 +125,22 @@ US_ONLY:     bool = True
 MAX_AGE_DAYS: int = 7
 MAX_JOBS_PER_RUN: int = 500
 
+# Drop roles that require a US government security clearance. These are common
+# on defense-contractor iCIMS boards (e.g. "TS/SCI with Poly") and the signal
+# usually lives in the job *description*, not the title — so EXCLUDE_KEYWORDS
+# (which only sees titles) misses them. iCIMS enrichment matches these against
+# the full JSON-LD description.
+EXCLUDE_CLEARANCE: bool = True
+CLEARANCE_KEYWORDS: list[str] = [
+    "security clearance", "ts/sci", "ts / sci", "top secret", "secret clearance",
+    "sci clearance", "ts clearance", "dod clearance", "doe clearance",
+    "government clearance", "active clearance", "active secret", "interim secret",
+    "public trust clearance", "polygraph", "full scope poly", "full-scope poly",
+    "ci poly", "counterintelligence poly", "q clearance", "sf-86", "sf86",
+    "must be cleared", "obtain a clearance", "obtain a security clearance",
+    "active security clearance", "current security clearance",
+]
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # US location filter — explicit non-US blocklist + US allowlist
@@ -149,7 +165,7 @@ _NON_US = {
     "poland", "warsaw",
     "portugal", "lisbon",
     "ireland", "dublin",
-    "india", "bangalore", "bengaluru", "mumbai", "delhi", "hyderabad", "pune", "chennai",
+    "india", "bangalore", "bengaluru", "mumbai", "delhi", "hyderabad", "pune", "chennai", "jaipur",
     "singapore",
     "australia", "sydney", "melbourne", "brisbane",
     "new zealand", "auckland",
@@ -818,8 +834,10 @@ def fetch_icims(company: str, session: requests.Session) -> list[dict]:
             "posted_at": posted_at,
         }
         # Cheap gate before spending a request on the detail page: same keyword
-        # + freshness rules the final filter uses. Location is checked later.
-        if is_fresh(candidate) and title_passes_keywords(title):
+        # + freshness rules the final filter uses. Location and the full
+        # clearance check happen later (they need the detail page).
+        if is_fresh(candidate) and title_passes_keywords(title) \
+                and not requires_clearance(title):
             candidates.append(candidate)
 
     total_seen = len(candidates)
@@ -832,6 +850,7 @@ def fetch_icims(company: str, session: requests.Session) -> list[dict]:
 
     # ── Pass 2: enrich each candidate with real title + location from JSON-LD
     jobs: list[dict] = []
+    dropped_clearance = 0
     for job in candidates:
         data = _fetch_icims_detail(job["url"], session)
         if data:
@@ -841,12 +860,18 @@ def fetch_icims(company: str, session: requests.Session) -> list[dict]:
             location = _icims_location_from_ld(data)
             if location:
                 job["location"] = location
+            # Clearance requirements live in the description ("TS/SCI with
+            # Poly", etc.), so this is where we can actually catch them.
+            description = _re.sub(r"<[^>]+>", " ", data.get("description") or "")
+            if requires_clearance(f"{job['title']} {description}"):
+                dropped_clearance += 1
+                continue
         job["url"] = f"{job['url']}?in_iframe=1"
         jobs.append(job)
 
     log.info(
         f"iCIMS [{company}]: {total_seen} relevant candidates, "
-        f"{len(jobs)} enriched"
+        f"{len(jobs)} enriched, {dropped_clearance} dropped (clearance)"
     )
     return jobs
 
@@ -1038,6 +1063,14 @@ def title_passes_keywords(title: str) -> bool:
     if EXCLUDE_KEYWORDS and any(kw.lower() in t for kw in EXCLUDE_KEYWORDS):
         return False
     return True
+
+
+def requires_clearance(text: str) -> bool:
+    """True if the text mentions a US government security-clearance requirement."""
+    if not EXCLUDE_CLEARANCE:
+        return False
+    t = (text or "").lower()
+    return any(kw in t for kw in CLEARANCE_KEYWORDS)
 
 
 def passes_filters(job: dict) -> bool:
