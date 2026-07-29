@@ -29564,6 +29564,7 @@
     "wd-abbott-abbottcareers2-/job/United-States---California---Sylmar/Analytics-Engineer_31148507",
     "wd-abbott-abbottcareers2-/job/United-States---California---Sylmar/Cloud-Software-Engineer-II_31142817-2",
     "wd-abbott-abbottcareers2-/job/United-States---California---Sylmar/Mobile-Software-Engineer-II_31154438",
+    "wd-abbott-abbottcareers2-/job/United-States---California---Sylmar/Senior-Systems-Engineer_31157344",
     "wd-abbott-abbottcareers2-/job/United-States---California---Sylmar/Software-Quality-Engineer-I_31145613-1",
     "wd-abbott-abbottcareers2-/job/United-States---Illinois---Lake-Forest/Software-Engineer-in-Test--SET-_31154542",
     "wd-abbott-abbottcareers2-/job/United-States---Massachusetts---Burlington/Associate-Staff-DevOps-Engineer_31152198-2",
@@ -30350,6 +30351,7 @@
     "wd-avav-avav-/job/Sunrise-FL/Platform-Software-Engineer_8188",
     "wd-avera-avera-careers-/job/Sioux-Falls-SD/IT-Operations-Engineer_R-260024636",
     "wd-avera-avera-careers-/job/Sioux-Falls-SD/Network-Engineer_R-260024612",
+    "wd-aveva-aveva_careers-/job/Lake-Forest-California-United-States-of-America/AI-Software-Engineer_R014320-1",
     "wd-aveva-aveva_careers-/job/Lake-Forest-California-United-States-of-America/CoE-Support-Engineer_R014052",
     "wd-aveva-aveva_careers-/job/Philadelphia-Pennsylvania-United-States-of-America/Experienced-Software-Developer_R013508",
     "wd-aveva-aveva_careers-/job/Philadelphia-Pennsylvania-United-States-of-America/Experienced-Software-Developer_R014546",
@@ -30475,8 +30477,10 @@
     "wd-bakerhughes-bakerhughes-/job/US-OK-OKLAHOMA-CITY-12701-N-SANTA-FE-AVE/Application-Engineer_R165257",
     "wd-bakerhughes-bakerhughes-/job/US-TX-HOUSTON-575-N-DAIRY-ASHFORD-RD-ENERGY-CENTER-II-EC2/Product-Execution-Engineer_R165499-1",
     "wd-baldwin-baldwin-/job/Remote-US/Sr-Engineer--Data-Services---MSI_JR109764-1",
+    "wd-baldwin-baldwin-/job/Remote-US/Sr-Engineer--Data-Services---MSI_JR109849-1",
     "wd-baldwin-baldwin-/job/Remote-US/Sr-Software-Engineer_JR109293",
     "wd-baldwin-msi-/job/Remote-US/Sr-Engineer--Data-Services---MSI_JR109764",
+    "wd-baldwin-msi-/job/Remote-US/Sr-Engineer--Data-Services---MSI_JR109849",
     "wd-bannerhealth-careers-/job/Banner-Health-Corp-Mesa-525-W-Brown-Rd/IT-Systems-Engineer-III_R4446900",
     "wd-bannerhealth-careers-/job/Remote-Arizona/Cybersecurity-Engineer-III_R4428915",
     "wd-bannerhealth-careers-/job/Remote-Arizona/Cybersecurity-Engineer-II_R4441442-1",
@@ -30830,6 +30834,7 @@
     "wd-btisolutions-external-/job/Plano-TX/Java-Back-end-Developer_JR101922-1",
     "wd-btisolutions-external-/job/Plano-TX/Network-Engineer_JR101843-1",
     "wd-btisolutions-external-/job/Queen-Creek-AZ/Korean-Bilingual-Vision-System-Engineer--TL--Queen-Creek--AZ_JR101909",
+    "wd-btisolutions-external-/job/ROCKVILLE-MD/Jr-Network-Engineer_JR101945-1",
     "wd-btisolutions-external-/job/SAVANNAH-GA/Korean-Bilingual-Vision-System-Engineer--TL--Savannah--GA_JR101856",
     "wd-btisolutions-external-/job/SAVANNAH-GA/Korean-Bilingual-Vision-System-Engineer--TL--Savannah-GA_JR101935-1",
     "wd-btisolutions-external-/job/San-Diego-CA/Modem-Chipset-Lab-Test-Engineer_JR101849-1",
@@ -30981,6 +30986,7 @@
     "wd-caci-external-/job/Hanover-MD-US/System-Engineer--GATEKEEPER-_327979-1",
     "wd-caci-external-/job/Hanover-MD-US/Zero-Trust--ZT--ICAM-System-Engineer_328167",
     "wd-caci-external-/job/High-Point-NC-US/Network-Plant-Engineer--ISP-OSP--SR_328394",
+    "wd-caci-external-/job/Houston-TX-US/Early-Career-NASA-Network-and-Computer-Systems-Engineer_329817",
     "wd-caci-external-/job/Houston-TX-US/Engineering-Project-Technical-Writer_325744",
     "wd-caci-external-/job/Houston-TX-US/NASA-Space-Reactor---1-Freedom-Flight-Software-Verification-and-Validation--V-V--Test-Engineer_329369",
     "wd-caci-external-/job/Houston-TX-US/Network-and-Computer-Systems-Engineer_328555",
@@ -31047,6 +31053,7 @@
     "wd-caci-external-/job/Springfield-VA-US/Cyber-Data-Analytics-Engineer_322946",
     "wd-caci-external-/job/Springfield-VA-US/Cybersecurity-Implementation-Engineer_323515",
     "wd-caci-external-/job/Springfield-VA-US/Data-Scientist_327753",
+    "wd-caci-external-/job/Springfield-VA-US/Data-Scientist_329808",
     "wd-caci-external-/job/Springfield-VA-US/Systems-Engineer-Project-Integrator_328008-1",
     "wd-caci-external-/job/Springfield-VA-US/Systems-Engineer_328263",
     "wd-caci-external-/job/St-Louis-MO-US/Network-Engineer-II_327130",
@@ -34606,5 +34613,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-29T22:28:34.344352+00:00"
+  "updated_at": "2026-07-29T22:34:07.260268+00:00"
 }
