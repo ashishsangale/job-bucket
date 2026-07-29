@@ -1243,6 +1243,7 @@
     "ashby-halobraid-cf4db9d9-c705-4d2d-b8d7-bd4f069522ff",
     "ashby-handshake-1e3a9711-d13c-4b79-8599-34dfb3133621",
     "ashby-handshake-56cb1fa6-2309-441e-a323-05671f09e523",
+    "ashby-handshake-669082a2-5e60-4c45-92cc-ecd6228e62ee",
     "ashby-handshake-747bd14b-b957-4fca-b5bd-12d571f6886e",
     "ashby-handshake-823c6e64-714e-4098-8b16-cf1819fc090d",
     "ashby-handshake-99a2dfed-a319-4136-8cd3-5747ab9793c3",
@@ -1471,6 +1472,7 @@
     "ashby-kognitos-a4bc3ebf-b619-4c1b-9c9e-784d16c8b148",
     "ashby-kombo-d8c01f30-eace-4791-8530-e5ed0448a6f7",
     "ashby-kong-20d6b0db-fa5d-41b7-a0f7-c892e7327352",
+    "ashby-kong-5de81b54-fd89-46b2-9e6f-5952ab27887e",
     "ashby-kong-7b52d3f4-85fb-40cc-8985-9cb4cf9a3d08",
     "ashby-kong-9652265e-a50f-4609-83ea-557c4e22c49f",
     "ashby-kong-97ddfb66-083f-4ee9-8d85-7372fe20f2a0",
@@ -1757,6 +1759,7 @@
     "ashby-neuralconcept-534580d2-7848-431e-9a42-b0d53187f4f5",
     "ashby-neuralconcept-8ff6699d-0ccc-4782-9069-9c2f4c9caec4",
     "ashby-neuralconcept-967b27c1-4502-4129-b00a-7a96d0222037",
+    "ashby-neuralconcept-fd812691-d373-47e5-af9b-0964468a1c79",
     "ashby-neuroscale-c5340132-e651-4970-b4f0-3f5741aec79f",
     "ashby-newform-273b2bf4-a4c8-4a25-8340-b87807b97d0c",
     "ashby-newform-75405761-8328-42cf-a767-d613e20f5a71",
@@ -1987,6 +1990,7 @@
     "ashby-parallel-b7c29018-971f-4f7d-8817-66bb7bc24b8a",
     "ashby-parallel-bb00e740-3647-4ce8-b6e7-3dcf611f66b6",
     "ashby-parity-eabc5915-b37f-429b-a182-d7aa205de077",
+    "ashby-parity-f3d33667-f28a-4c93-91cb-b193d02f5dc3",
     "ashby-pariveda-02b65419-9ddb-4156-9112-eed47c61b40c",
     "ashby-passport-f95ef62a-a4b8-43b8-95ed-56f60a2eba7e",
     "ashby-patlytics-15f8c987-b446-44d4-bdd3-8acc56ef5ea2",
@@ -2210,6 +2214,7 @@
     "ashby-ramp-8d61885c-0f08-4267-8ace-69e28b1d3f38",
     "ashby-ramp-b614563f-3ce6-4dca-b5ba-0e5a6c8bda27",
     "ashby-ramp-d818443f-d4c5-4eab-892d-3715a935c165",
+    "ashby-ramp-dbc6e470-3ec3-4605-b511-8ae166fea7b9",
     "ashby-ramp-e577622f-6657-4e53-8941-b3a774b04448",
     "ashby-ramp-f1b3ca8d-d55f-4159-9a3b-f69ad0d981bc",
     "ashby-range-1d0cc15f-c829-4d17-8020-e8870777a0a0",
@@ -34431,5 +34436,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-29T12:30:31.090572+00:00"
+  "updated_at": "2026-07-29T14:36:37.095654+00:00"
 }
