@@ -357,6 +357,7 @@
     "ashby-9-mothers-0ef2b8c3-a414-4432-b048-944ceaba0b51",
     "ashby-9-mothers-2edccc59-a30b-430a-a0b4-c8c26c0be2f5",
     "ashby-9-mothers-32220c7f-c577-475a-9a97-e06f3c28ae47",
+    "ashby-9-mothers-82442837-bbe1-47c4-9f6a-f9da88ddf4bf",
     "ashby-abby-care-36e55afe-b77d-4e5f-84bf-a1fa4ce208a2",
     "ashby-abby-care-b20ec701-4e92-4a95-ab4d-60ee19225779",
     "ashby-abby-care-c0627c30-1abd-4d26-8b44-1379728de82f",
@@ -427,6 +428,7 @@
     "ashby-andotechnologies-e09ddf04-5063-4e87-ab8e-665e27f133de",
     "ashby-andotechnologies-f855e46c-fd27-4608-9ba9-1c80c5c0aeab",
     "ashby-andromeda-2fd13dac-5d18-4b92-8d83-ce783f0be7ac",
+    "ashby-andromeda-9a8cac0b-aec6-4df1-a03e-2cac4b3f9813",
     "ashby-andromeda-ff479ce6-223c-4e78-9ace-ed23a729cd52",
     "ashby-anrok-a11b3600-9820-44af-ac8e-bdafe037f504",
     "ashby-answersnow-77f6d0e2-adb8-47b8-98bd-d0bd2c5d23a2",
@@ -1223,6 +1225,7 @@
     "ashby-fuel-cycle-6366cf03-f29e-417f-bb3f-13e27cf12f6f",
     "ashby-fullstory-953a8753-dede-4507-a482-eabb71a78de1",
     "ashby-fundamentalresearchlabs-8d460b28-233d-4305-a708-cf547ec3285e",
+    "ashby-futurefitai-6a073228-5daa-49d1-89a4-ff6b66be6963",
     "ashby-futurefitai-927b14c7-f105-4bd4-a9e3-92752a570a74",
     "ashby-futurefitai-df12191c-3c81-4750-9a17-4e6f94181599",
     "ashby-g2i-3b4c6968-d357-43d1-925e-7f082bfe0ca6",
@@ -2690,7 +2693,10 @@
     "ashby-sunset-937c1413-4b78-4a5e-a722-dc15be86e5f3",
     "ashby-supabase-0bcf21fd-e24e-4a0b-b393-ca4eb25896ce",
     "ashby-supabase-11beb619-0c25-4b11-9818-3f18e278c65b",
+    "ashby-supabase-3b5d54ca-741b-45ac-bd3f-31605a0d3541",
+    "ashby-supabase-4857bb69-da99-4027-87f1-a6a4d03699b3",
     "ashby-supabase-48950725-e0d9-4025-92d9-f75e1b60ce45",
+    "ashby-supabase-590a0742-97f1-47f4-81a2-567efc939ae2",
     "ashby-supabase-8d05bc85-53f3-4ebf-b5b4-c88cdb922673",
     "ashby-supabase-98ef6a11-9898-4960-9931-1264285849f3",
     "ashby-supabase-b75ba81e-54cc-4393-a575-bc41776b0113",
@@ -35163,5 +35169,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-31T18:47:25.522327+00:00"
+  "updated_at": "2026-07-31T19:57:08.655444+00:00"
 }
