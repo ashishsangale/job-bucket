@@ -622,6 +622,7 @@
     "ashby-bjakcareer-7855121e-f1bf-4591-8227-5a4a0044c66e",
     "ashby-bjakcareer-78b1972f-896b-4bb7-b46f-67a668eea609",
     "ashby-bjakcareer-85a31007-13f3-48a1-b3a7-9be9574e727a",
+    "ashby-bjakcareer-8fab2957-a3ca-41bb-9032-75b3c458c18a",
     "ashby-bjakcareer-950b1dda-8cd9-4138-b612-f4fd30894c61",
     "ashby-bjakcareer-9aa136eb-bc3e-49a1-9219-ecc871a5b439",
     "ashby-bjakcareer-9dbdcce4-2068-4023-9b78-2bd4e8101938",
@@ -820,6 +821,7 @@
     "ashby-console-e01b9c1e-4ae5-4468-a262-01d9ffbe58c8",
     "ashby-console-e3967831-fb81-45ab-a325-4a939f0cc941",
     "ashby-contoro-0f41e38e-ee2b-4abb-b232-7ee72e37509f",
+    "ashby-contoro-5ebaad34-0141-4f91-ad22-68311e58eec0",
     "ashby-contoro-82ee31ed-0418-4fc9-a07b-ebc5998bf5a1",
     "ashby-contoro-9fc73215-d9b2-43c8-8c19-5f2dffd4dea8",
     "ashby-contoro-ad34a874-deb3-4bc0-959b-87650ac1a219",
@@ -984,6 +986,7 @@
     "ashby-dubclub-6d419bb4-96a0-4c2a-b0a0-a726d9fd5692",
     "ashby-dubclub-e5d4b400-1eb5-46aa-a2bc-193b031fe8c9",
     "ashby-duckbill-1e7683e5-6c00-4525-8687-a056d57c3d45",
+    "ashby-duffel-1afeadbe-a05e-49a7-b3f1-ab11ad4cb282",
     "ashby-duna-b6793ba5-383e-406d-9b46-ad1a462ae615",
     "ashby-dyna-robotics-869b09e4-33cd-48a7-b937-3f3cbcec6b92",
     "ashby-e2b-49a87668-9f2a-40dc-bfc3-b262aca62b39",
@@ -1195,6 +1198,7 @@
     "ashby-formenergy-acbe88d1-8cb5-427c-8159-4da04cf74837",
     "ashby-formenergy-acdfae7a-83ec-4321-a49a-3a92625ae586",
     "ashby-formenergy-b0fd55ac-894a-49ac-acbd-fb2e464d61ac",
+    "ashby-formenergy-b420a09e-4381-4d9d-88e3-982bf1a449e0",
     "ashby-formenergy-c7192ece-f2fc-4eba-963a-479f9c5d3e0e",
     "ashby-formenergy-d3fe6cbc-eade-47f4-91f4-08af3e5bdcf3",
     "ashby-formenergy-e1d90b76-609a-455e-a5f2-2091b154d7ac",
@@ -1263,6 +1267,7 @@
     "ashby-goventi-e853d65d-f346-47db-bb93-b0f50e9cb231",
     "ashby-govwell-4d5a429f-5d8c-42b4-a39a-6f1c7868b648",
     "ashby-govwell-81a23971-e007-44db-9812-6d6903ab7688",
+    "ashby-govwell-aaedfff4-c080-4ecc-bd34-2e18d78ee41a",
     "ashby-govworx-7bad3c33-9ad1-45e3-bf15-4c2de306e671",
     "ashby-govworx-b8ee9849-9e0a-4994-829b-0f06913346b2",
     "ashby-graymatter-robotics-02452707-28f3-4fb3-a61d-b9c8c371b1c6",
@@ -2611,6 +2616,7 @@
     "ashby-speakeasy-df5263bd-c529-4563-9d93-136a5d5b1dd5",
     "ashby-spearbio-12a255f7-04e9-4d9e-8bf1-69304f828ec2",
     "ashby-sphere-c64eb572-bb43-4cb8-9724-df7abbdf640b",
+    "ashby-spoton-42ede64b-f325-45db-a274-5272797acd6b",
     "ashby-spoton-4e079b4e-86be-49ee-979c-d219e1d992c7",
     "ashby-spoton-527d8cdc-4b9b-436e-a99f-f8dbd33ae99a",
     "ashby-spoton-5486eb73-f6f7-473c-a0c1-f26b58aaedb1",
@@ -35083,5 +35089,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-07-31T14:34:29.632572+00:00"
+  "updated_at": "2026-07-31T14:40:49.313030+00:00"
 }
