@@ -30232,9 +30232,12 @@
     "wd-accenture-accenturecareers-/job/Bengaluru/Quality-Engineer_ATCI-5624114-S2030087",
     "wd-accenture-accenturecareers-/job/Bhubaneswar/AI---ML-Engineer_ATCI-5532135-S2016449",
     "wd-accenture-accenturecareers-/job/Bhubaneswar/AI---ML-Engineer_ATCI-5532138-S2016452-1",
+    "wd-accenture-accenturecareers-/job/Birmingham/Cloud-DevOps-Engineer_R00347196",
     "wd-accenture-accenturecareers-/job/Bogota-Carrera-7/Agentic-AI-Developer_R00336436",
     "wd-accenture-accenturecareers-/job/Bogota-Carrera-7/Integration-Engineer_R00336438",
     "wd-accenture-accenturecareers-/job/Bogota-Carrera-7/QA-Engineer---GenAI---Sistemas-Conversacionales_R00336437",
+    "wd-accenture-accenturecareers-/job/Braga-Polo-de-Negocios-de-Braga/Junior-AI-Engineer_R00347452",
+    "wd-accenture-accenturecareers-/job/Brussels/Junior-Infrastructure-AI-Specialist_R00341952-1",
     "wd-accenture-accenturecareers-/job/Budapest/Java-developer_R00301827-1",
     "wd-accenture-accenturecareers-/job/Chennai/Custom-Software-Engineer_ATCI-5501228-S2005598-1",
     "wd-accenture-accenturecareers-/job/Chennai/Custom-Software-Engineer_ATCI-5547830-S2020354-1",
@@ -30246,6 +30249,7 @@
     "wd-accenture-accenturecareers-/job/Dublin/AI-Native-SW-Engineer_R00345737",
     "wd-accenture-accenturecareers-/job/Dublin/Forward-Deployed-Engineer_R00345674-1",
     "wd-accenture-accenturecareers-/job/Dublin/Forward-Deployed-Engineer_R00345688",
+    "wd-accenture-accenturecareers-/job/Ebene/Machine-Learning-Engineer_R00347102",
     "wd-accenture-accenturecareers-/job/Gurugram/Custom-Software-Engineer_ATCI-5140675-S1955656-1",
     "wd-accenture-accenturecareers-/job/Gurugram/Custom-Software-Engineer_ATCI-5327389-S1953825-1",
     "wd-accenture-accenturecareers-/job/Gurugram/Custom-Software-Engineer_ATCI-5343044-S1967801",
@@ -30270,6 +30274,10 @@
     "wd-accenture-accenturecareers-/job/Kolkata/Custom-Software-Engineer_ATCI-5617210-S2027813-1",
     "wd-accenture-accenturecareers-/job/Kolkata/Performance-Engineer_ATCI-5466763-S1997519-1",
     "wd-accenture-accenturecareers-/job/Kronberg-Campus-Kronberg-1/AI-Native-Software-Engineering--Junior-_R00345665",
+    "wd-accenture-accenturecareers-/job/Leeds/Software-Engineer---Leeds_R00288598",
+    "wd-accenture-accenturecareers-/job/London/AI-Native-SW-Engineering_R00344633",
+    "wd-accenture-accenturecareers-/job/London/AI-Native-SW-Engineering_R00344691",
+    "wd-accenture-accenturecareers-/job/London/AI-Native-Software-Engineer_R00344645-1",
     "wd-accenture-accenturecareers-/job/Madrid-Castellana-85/AI-Native-Software-Engineer_R00344612-1",
     "wd-accenture-accenturecareers-/job/Madrid-Castellana-85/Forward-Deployed-Engineer-Specialist_R00345180-1",
     "wd-accenture-accenturecareers-/job/Manila/Software-Product-Engineering_ATCP-1132264-S390206",
@@ -30600,6 +30608,7 @@
     "wd-alteryx-alteryxcareers-/job/US---Remote/Staff-Software-Development-Engineer-in-Test_R12168",
     "wd-altusgroup-altusgroup-/job/301---Home-Office---TX/Forward-Deployed-Engineer_R0013825",
     "wd-amainc-ama_careers-/job/Edwards-CA/System-Safety-Engineer_R-100698",
+    "wd-amainc-ama_careers-/job/Edwards-CA/Test-Information-Engineer_R-100726",
     "wd-amainc-ama_careers-/job/Hampton-VA/Aerospace-Thermal-Engineer_R-100544",
     "wd-amainc-ama_careers-/job/Hampton-VA/Computational-Fluid-Dynamics-Software-Engineer_R-100502",
     "wd-amainc-ama_careers-/job/Hampton-VA/Computer-Scientist_R-100721",
@@ -35256,5 +35265,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-01T04:01:20.990652+00:00"
+  "updated_at": "2026-08-01T04:05:15.984166+00:00"
 }
