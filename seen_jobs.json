@@ -1644,6 +1644,7 @@
     "ashby-lgads-d6ad397c-0215-4d75-9f31-31b659e26b8b",
     "ashby-light-inc-190d691a-1bf6-4755-8932-35c8b8fd43af",
     "ashby-light-inc-fca81df7-0641-4f7d-90f0-4776bc802e8b",
+    "ashby-lightfield-4386721e-6c4b-44fd-9a0f-9ba3311cf3d0",
     "ashby-lightfield-9f86d67e-44c9-491d-a1ae-777461e288d4",
     "ashby-lightfield-fc93a467-773d-4805-b342-bf470950732d",
     "ashby-lilt-corporate-55971c15-9633-482e-92f2-b80dffa4f256",
@@ -1804,6 +1805,7 @@
     "ashby-mirage-08f52314-0d1f-4d43-a74a-ae0ec3a3a1be",
     "ashby-mirage-1108a11f-7974-4b25-87b7-867e406efb2b",
     "ashby-mirage-1da60933-5bde-4f75-b4e1-351e4e3cfc1a",
+    "ashby-mirage-26d1cd9c-42f8-40a1-a130-063d499145cb",
     "ashby-mirage-3988e47d-d596-4b5c-8f21-a851b97873ea",
     "ashby-mirage-3c46a1b6-1f4e-4c03-967b-5e7441950218",
     "ashby-mirage-3cdd0d39-f0b4-4255-837f-bcff17288143",
@@ -1820,8 +1822,10 @@
     "ashby-mirage-8a526df3-acbc-4ca3-a38d-7333e9f54e4b",
     "ashby-mirage-992fab87-dea8-401b-9500-c1d3a22ae1eb",
     "ashby-mirage-b441af00-ee73-4cde-94b1-d870ff2b191d",
+    "ashby-mirage-d5b5193e-90e8-4d10-8e01-e8fdd7dad6e1",
     "ashby-mirage-d8b43e0a-3a1a-462a-a845-6ed888c08b57",
     "ashby-mirage-dc97e719-f69a-47bb-812e-1ea9e7693662",
+    "ashby-mirage-ffbda52e-3b05-44a8-ac89-6e87e8e3f757",
     "ashby-miter-16d9f294-ac13-444e-b27d-f378fc59cf93",
     "ashby-miter-c9de399c-f74d-467a-97db-e9e0064c8b4a",
     "ashby-modal-38888294-6bc7-4dab-b072-6d0f0c2ed79a",
@@ -1921,6 +1925,7 @@
     "ashby-notion-def3f337-5593-491c-b34d-e0b53f2a5cac",
     "ashby-novellia-14564018-a3b9-4ee0-951b-47f23db88666",
     "ashby-nox-metals-7f9a5316-8faa-4747-ac6a-5998515a4850",
+    "ashby-nox-metals-c1601b92-be1e-4a2b-af07-6f71cb01cd11",
     "ashby-numeral-e6268363-9291-46e2-b4df-20c3ed0bdeeb",
     "ashby-numeric-27ab9605-e901-41b9-ba19-ddc3d16543a2",
     "ashby-numeric-ab300c31-df75-48a7-937a-d882774be688",
@@ -2498,6 +2503,7 @@
     "ashby-second-front-systems-b4445a9e-b3e6-4b78-b4e0-aadbe6ed2818",
     "ashby-second-front-systems-b8dd2cdb-bd5f-468c-94e7-c268d736ce89",
     "ashby-second-front-systems-e6f63253-1271-4762-ac95-d57d1153b2b2",
+    "ashby-second-nature-2b92ffd7-dd45-45db-8def-8b13d0281c36",
     "ashby-second-nature-9bc8e6af-d2bf-4754-b910-467eff1cb32c",
     "ashby-sent-db6bbfaf-ba52-4cec-87c8-27bf1c5b7ca7",
     "ashby-sentilink-9bc3de0b-1638-4310-8df1-2dd965f0bdf4",
@@ -35429,5 +35435,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-02T19:46:43.335602+00:00"
+  "updated_at": "2026-08-02T21:15:17.169559+00:00"
 }
