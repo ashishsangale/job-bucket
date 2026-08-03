@@ -805,6 +805,11 @@
     "ashby-coframe-5699c4de-9cac-408d-9fdb-7d6e57a000e6",
     "ashby-cogent-security-04908d0f-e437-40e7-9443-43bd8b10435e",
     "ashby-cogent-security-462f6c1c-1575-4bb0-a03b-5f3e0ee8a40c",
+    "ashby-cogent-security-86fbea69-21e9-4115-8674-60c2105079d8",
+    "ashby-cogent-security-8762ddb1-fad6-40e0-90a9-c239d1cbdb17",
+    "ashby-cogent-security-ce972e7a-d724-46a5-873c-9b2ba8397bb8",
+    "ashby-cogent-security-d0b45843-f1d7-4711-8e0d-9cd180d336d7",
+    "ashby-cogent-security-e038692d-ca5c-4df4-8ea2-b472c2a6d99b",
     "ashby-cognition-71165bb4-9bc8-49df-9eca-49c4232f72ff",
     "ashby-cohere-1fa01a03-9253-4f62-8f10-0fe368b38cb9",
     "ashby-cohere-b0bcef37-1d20-414f-aade-c54942d63df9",
@@ -1594,8 +1599,11 @@
     "ashby-lambda-f5fedc12-5566-4a46-974a-b1f7d3c4d58f",
     "ashby-langchain-25d40647-c821-46ff-bf25-bacf21fa38b5",
     "ashby-langchain-34083fce-1e80-4595-9ce9-76387b735c70",
+    "ashby-langchain-385313eb-bff4-4019-8106-42714dc9879a",
     "ashby-langchain-60d3bd4f-e80f-45fb-9801-725d8b681d54",
     "ashby-langchain-6f50988c-8e95-4a68-aeea-a94872651ff7",
+    "ashby-langchain-8b533cc4-6654-44b4-b3fc-004def2a9927",
+    "ashby-langchain-937e131f-1055-4f1f-bd8a-f036e4ba0666",
     "ashby-langchain-b8dead31-212a-4b92-82a7-c42df16ae877",
     "ashby-langfuse-190c710e-c00c-4b76-82ce-9033b51b7086",
     "ashby-langfuse-80474cd1-71ad-425e-bfb3-3fca13fda0ca",
@@ -1778,6 +1786,7 @@
     "ashby-meridianlink-53701439-18f9-438f-a8d2-55287ef576e1",
     "ashby-meridianlink-5648e9ce-fc45-4516-97fd-b037c65bcebe",
     "ashby-meridianlink-a156debb-e8e8-47d5-9f5e-781d7ffe88b7",
+    "ashby-meridianlink-a3b7147c-f9c5-4dd4-9cf2-e8c183b19162",
     "ashby-meridianlink-b569b567-7733-46bf-8aa2-4cd36be1e996",
     "ashby-metal-2e2e8c84-9402-4e33-abce-726c8f4211ea",
     "ashby-metaview-d9f94564-9404-4010-8d9a-413d6a1a6c14",
@@ -2117,6 +2126,7 @@
     "ashby-parity-eabc5915-b37f-429b-a182-d7aa205de077",
     "ashby-parity-f3d33667-f28a-4c93-91cb-b193d02f5dc3",
     "ashby-pariveda-02b65419-9ddb-4156-9112-eed47c61b40c",
+    "ashby-partsbase-60f788d2-5ce1-4e44-aafe-d196fabd2893",
     "ashby-passport-f95ef62a-a4b8-43b8-95ed-56f60a2eba7e",
     "ashby-patlytics-15f8c987-b446-44d4-bdd3-8acc56ef5ea2",
     "ashby-patlytics-9d208a16-c891-4fb1-928e-2bbdc42345f9",
@@ -35459,5 +35469,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-03T13:58:43.165984+00:00"
+  "updated_at": "2026-08-03T15:21:25.427777+00:00"
 }
