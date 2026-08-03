@@ -1184,6 +1184,7 @@
     "ashby-fluidstack-f134128a-29e3-4b5d-88c9-602c479edcbe",
     "ashby-fluidstack-f514878a-d32c-497d-8b7e-d2546c89554e",
     "ashby-fluidstack-f73a9122-d8f7-4733-8165-96984412bac5",
+    "ashby-fluidstack-faab7aee-0b69-4515-a890-5da62ff3ef78",
     "ashby-fluidstack-fdf7e107-e93b-4eff-aa66-713bfe2e1411",
     "ashby-focused-4296a502-ae6e-46f0-8cad-efde97f5b119",
     "ashby-focused-4a0ea280-ea5b-41b8-8911-843909da7daf",
@@ -2101,6 +2102,8 @@
     "ashby-paireyewear-ab32bc01-ff2d-4391-9ec1-14b531847da7",
     "ashby-pano-ai-f0a774bd-d94c-41bc-a657-c85eb625362c",
     "ashby-panoptyc-76f7936f-ac23-4aee-9f3a-afc6d384a8f4",
+    "ashby-paradigm-b85b9094-2467-4f49-9a36-ca93da34a3f5",
+    "ashby-paradigm-c18c1fb4-9ad7-4657-8366-bc0f5078d3ca",
     "ashby-paradigmai-b6d0b95f-e034-4ba0-b682-b4ae2c72315b",
     "ashby-parafin-044237a0-5613-449c-9b69-4454bbc69b6c",
     "ashby-parafin-5f8452ce-853e-4159-bc4b-08b8e9a324b3",
@@ -2406,6 +2409,7 @@
     "ashby-resend-cde17f7c-4c70-435f-be38-ef5abe94ff22",
     "ashby-resend-d5bc5890-847d-4bc5-bbd7-d0d72021ff3c",
     "ashby-retell-ai-19a0b250-5c4a-46b2-972d-9c8f50b743c5",
+    "ashby-retell-ai-1fcd6e82-2a31-4e2f-abcf-be069ebb6e8c",
     "ashby-retell-ai-21cf0117-6b44-40df-96ea-0fb2d1d0892f",
     "ashby-retell-ai-2e3f3930-0949-4b86-8ed1-7f5d9e068c87",
     "ashby-retell-ai-46400d61-feca-45f9-9000-563b8994f60f",
@@ -35442,5 +35446,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-03T04:44:34.545537+00:00"
+  "updated_at": "2026-08-03T07:50:54.899007+00:00"
 }
