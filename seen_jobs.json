@@ -29902,6 +29902,7 @@
     "lever-cin7-b5aa0e4d-339e-49b9-9420-2e1084b0b213",
     "lever-circadiahealth-1138ac93-5ed3-43d3-b0fa-d99a264d6ece",
     "lever-civitech-15ab6999-436f-468c-bfe1-bfb1d20000f9",
+    "lever-clearcapital-ff82c6ec-d9f2-411e-87c3-11165d0cb5d8",
     "lever-clearedge-4ab2d9ab-4399-427b-8f82-87cc6582e50d",
     "lever-clearedge-5c02fd77-ac83-4f0d-9f0a-501d45ee0dfb",
     "lever-clearedge-6d9a36c5-45ac-4a8e-9819-f0a5e1be0d79",
@@ -29975,6 +29976,7 @@
     "lever-exowatt-2623555d-8b81-4f95-8bca-de9fafd2381c",
     "lever-exowatt-46c8f4fd-f059-4ad6-a5f4-4fcd55d84f9c",
     "lever-extremenetworks-0967d505-75aa-48d2-9568-f3d30fb36ea2",
+    "lever-extremenetworks-1a499498-d95e-46c5-8457-500d1a5ba731",
     "lever-extremenetworks-1d156589-3cbc-4df9-9d94-b7da3cc16866",
     "lever-extremenetworks-2ae69db1-c9f0-4740-9d47-fd4df33c9d9c",
     "lever-extremenetworks-515bd060-38da-4273-b75d-f26a90721ca0",
@@ -30153,6 +30155,8 @@
     "lever-kochava-17a2e105-f486-4c8c-8bc4-b3c2516bd004",
     "lever-kpler-2c127e67-55ee-48eb-823e-d49f5fb207ec",
     "lever-lansingschools-4ddf6c49-01ed-49c4-b699-181c2d9658e8",
+    "lever-layup-024d2772-e251-4cdf-9b12-0cd919390b8e",
+    "lever-layup-226baa91-118d-4df3-bdca-2932f8d5cfee",
     "lever-layup-57fd740a-941f-48ba-9318-bf7e48f209a2",
     "lever-layup-aa3a1e09-3874-4e54-a926-1fb570b19628",
     "lever-leantaas-70de62be-0028-4b9e-8013-12aa594b699b",
@@ -30200,6 +30204,7 @@
     "lever-lyrahealth-2ff6d90d-dddb-4578-a56d-057e69cbb01f",
     "lever-lyrahealth-bd796f48-a322-4f0c-bad6-da779e95886b",
     "lever-lyrahealth-d1247fef-2439-4a1e-ab89-2ff980b746cd",
+    "lever-lyrahealth-d6261069-149b-47d6-a101-34e84824f478",
     "lever-magnetforensics-b9398342-bc38-4ade-b37d-2d7f660ffa09",
     "lever-magnopus-b0271ea8-efea-4288-b576-5402079c6472",
     "lever-mainspringenergy-4ab4270a-2869-42f6-ac65-530f4a90e231",
@@ -35910,5 +35915,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-04T18:06:10.904618+00:00"
+  "updated_at": "2026-08-04T19:04:45.911589+00:00"
 }
