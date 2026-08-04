@@ -29870,6 +29870,7 @@
     "lever-anchorage-d6cce695-8d91-4063-b731-43401b0eab5f",
     "lever-appen-a90f4138-faaa-4189-affe-d5119e5d2241",
     "lever-arcadia-3da64d98-72d3-4477-a43f-2277501ac556",
+    "lever-arcadia-de04a85c-78c2-4b90-ad4e-31c94e0987f3",
     "lever-arcadiascience-802b7310-8ef6-4191-ae2e-fa2ba438a265",
     "lever-arootah-307d3206-06fb-4449-8d38-05533ffdc876",
     "lever-arootah-593c2018-b01c-4541-a50c-3867f1772387",
@@ -29995,6 +29996,7 @@
     "lever-conversica-9749af99-df67-458a-8195-9749fe0b9ee0",
     "lever-corebts-2bad3680-2589-4ddd-b088-93897942309d",
     "lever-corebts-99bd33a1-ada4-4c6d-8a0d-385f4509eaea",
+    "lever-corebts-ec5f56cc-c503-4af8-aa0d-bb8a1a1ad62b",
     "lever-crosslaketech-190c7dc6-6797-41dd-938a-9d63c664b24e",
     "lever-crosslaketech-3be942e1-344a-4233-a7e8-7a74b33bfb3b",
     "lever-crumbl-9e5e96c4-3375-44e2-ae8f-654a8dac531d",
@@ -30356,9 +30358,11 @@
     "lever-palantir-3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
     "lever-palantir-4df4cca5-e361-498b-806d-05f21638c93a",
     "lever-palantir-67110929-adea-41c3-851a-8882e222d9e4",
+    "lever-palantir-721fe5ca-73b8-4223-826e-93a528194821",
     "lever-palantir-7a9600be-cdcb-4311-bb5c-65b6939b5956",
     "lever-palantir-8f362a1f-1eff-4327-94c1-ff46e2101c69",
     "lever-palantir-9e40d77f-b07c-437b-98e7-def9b0184d89",
+    "lever-palantir-a80afc2b-2564-4a98-84c2-34cdcc0402df",
     "lever-palantir-c288bb43-3c63-4557-bd96-600ef0d1b7a6",
     "lever-palantir-cf5f44ff-1b0b-4752-bcd4-2dc88798f25b",
     "lever-palantir-e9aecd15-c7e9-4803-9928-fc0b67e70f5b",
@@ -35999,5 +36003,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-04T21:59:18.583683+00:00"
+  "updated_at": "2026-08-04T22:35:40.522534+00:00"
 }
