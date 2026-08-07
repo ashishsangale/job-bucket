@@ -31902,6 +31902,7 @@
     "wd-aes-aes_us-/job/US-Louisville-CO/Wind-Project-Engineer_R1063913",
     "wd-aes-aes_us-/job/US-Louisville-CO/Wind-Project-Engineer_R1064034",
     "wd-aett-versent-/job/Houston-TX/Cloud-Software-Engineer_JR1509",
+    "wd-ag-airbus-/job/Atlanta-Area-GA/Intermediate-Software-Engineer-Full-Stack_JR10430978",
     "wd-ag-airbus-/job/Bingen-WA/UAS-Software-Engineer_JR10420292",
     "wd-ag-airbus-/job/Columbus-MS/Long-term-Internship---Quality-Engineering_JR10428131",
     "wd-ag-airbus-/job/Mobile-Area-AL/Jigs--Tools----Measurements-Systems-QA-Engineer_JR10408660-1",
@@ -32285,6 +32286,7 @@
     "wd-asml-asmlext1-/job/Albany-NY-USA/NTP-Field-Applications-Engineer_J-00341327-1",
     "wd-asml-asmlext1-/job/Austin-TX-USA/Field-Applications-Engineer_J-00336479-1",
     "wd-asml-asmlext1-/job/Austin-TX-USA/Field-Service-Engineer---YieldStar--YS-_J-00346844",
+    "wd-asml-asmlext1-/job/Austin-TX-USA/Field-Service-Engineer_J-00347603-1",
     "wd-asml-asmlext1-/job/Austin-TX-USA/Upgrade-Install-and-Relocation-Engineer_J-00347707",
     "wd-asml-asmlext1-/job/Austin-TX-USA/Upgrade-Install-and-Relocation-Engineer_J-00349541-1",
     "wd-asml-asmlext1-/job/Baltimore-MD-USA/Field-Service-Engineer_J-00345804-1",
@@ -33118,6 +33120,7 @@
     "wd-caci-external-/job/Denver-CO-US/Front-end-Software-Developer_329940",
     "wd-caci-external-/job/Denver-CO-US/Full-Stack-Web-Developer_324575",
     "wd-caci-external-/job/Denver-CO-US/Full-Stack-Web-Developer_328780",
+    "wd-caci-external-/job/Denver-CO-US/Integration-Engineer_330298",
     "wd-caci-external-/job/Denver-CO-US/Mission-Operation-Engineer_329115",
     "wd-caci-external-/job/Denver-CO-US/Misson-Operation-Engineer_328010",
     "wd-caci-external-/job/Denver-CO-US/Network-Engineer-III_324414",
@@ -33158,6 +33161,8 @@
     "wd-caci-external-/job/Fort-Meade-MD-US/Part-Time-System-Engineer-TS-SCI-with-Poly_327855",
     "wd-caci-external-/job/Fort-Meade-MD-US/Splunk-Software-Engineer_327871",
     "wd-caci-external-/job/Fort-Meade-MD-US/System-Engineer--Multiple-Levels-_281026-1",
+    "wd-caci-external-/job/Fort-Meade-MD-US/System-Engineer-1_286843-1",
+    "wd-caci-external-/job/Fort-Meade-MD-US/System-Engineer_286539",
     "wd-caci-external-/job/Fort-Meade-MD-US/Systems-Engineer---Part-Time_329325",
     "wd-caci-external-/job/Fort-Meade-MD-US/Test---Integration-Engineer_328355",
     "wd-caci-external-/job/Hampton-VA-US/Information-Assurance--IA--Cyber-Security-Engineer_328799",
@@ -33327,6 +33332,7 @@
     "wd-cai-computer_aid-/job/IL-CLIENT-STATE/Quality-Assurance-Engineer_R7752",
     "wd-cai-computer_aid-/job/NJ-CLIENT-STATE/Software-Engineer---Health-Enterprise-Web-Applications_R8038",
     "wd-cai-computer_aid-/job/PA-CLIENT-STATE/AI-Software-Developer_R8168",
+    "wd-cai-computer_aid-/job/PA-CLIENT-STATE/COBOL-Software-Developer_R8296",
     "wd-cai-computer_aid-/job/PA-CLIENT-STATE/Sr-Software-Developer_R7902",
     "wd-cai-computer_aid-/job/SC-CLIENT-STATE/Network-Engineer_R8074",
     "wd-cai-computer_aid-/job/VA-CLIENT-STATE/Engineering-Specialist_R7848",
@@ -33440,6 +33446,7 @@
     "wd-cccis-broadbean_external-/job/Chicago-Green-St-IL/C--Net-Software-Engineer_0014664",
     "wd-cccis-broadbean_external-/job/Chicago-Green-St-IL/Senior-Java-Software-Engineer_0014663",
     "wd-cccis-broadbean_external-/job/Chicago-Green-St-IL/Software-Engineers_0014706",
+    "wd-cccis-broadbean_external-/job/Chicago-Green-St-IL/Solutions-Engineer_0014793",
     "wd-cccis-broadbean_external-/job/Chicago-Green-St-IL/Sr-Software-Engineer_0014761",
     "wd-cccis-broadbean_external-/job/Chicago-Green-St-IL/Sr-Software-Engineer_0014763",
     "wd-cccis-broadbean_external-/job/Chicago-Green-St-IL/Sr-Software-Engineers_0014700",
@@ -36941,5 +36948,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-07T16:12:57.013664+00:00"
+  "updated_at": "2026-08-07T16:29:06.264877+00:00"
 }
