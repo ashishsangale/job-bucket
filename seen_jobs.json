@@ -31656,6 +31656,7 @@
     "wd-accenture-accenturecareers-/job/Chennai/Custom-Software-Engineer_ATCI-5547832-S2020356",
     "wd-accenture-accenturecareers-/job/Chennai/Custom-Software-Engineer_ATCI-5551666-S2023133-1",
     "wd-accenture-accenturecareers-/job/Cluj-Napoca/Apriso-MES-Implementation-Engineer_R00335977-1",
+    "wd-accenture-accenturecareers-/job/Cluj-Napoca/QNX-Engineer_R00317388",
     "wd-accenture-accenturecareers-/job/Coimbatore/Custom-Software-Engineer_ATCI-5467559-S1998339",
     "wd-accenture-accenturecareers-/job/Dublin/AI-Native-SW-Engineer_R00345737",
     "wd-accenture-accenturecareers-/job/Dublin/Forward-Deployed-Engineer_R00345674-1",
@@ -31725,6 +31726,7 @@
     "wd-accenture-accenturecareers-/job/Pune/Software-Development-Lead_ATCI-4928362-S1878724-1",
     "wd-accenture-accenturecareers-/job/Riga/LLM-GenAI-engineer_R00344639-1",
     "wd-accenture-accenturecareers-/job/Roma/AI-Native-Software-Engineering-Specialist_R00344641",
+    "wd-accenture-accenturecareers-/job/Roma/AI-Native-Software-Engineering_R00344568",
     "wd-accenture-accenturecareers-/job/Roma/Forward-Deployed-Engineer-Specialist_R00345231",
     "wd-accenture-accenturecareers-/job/Saint-Herblain-Liberty-A/AI-Native-Engineer_R00346086-1",
     "wd-accenture-accenturecareers-/job/Taguig/ServiceNow-Developer-Upskilling---For-Developers-Skilled-in-JavaScript--Python--Angular--or-Similar-Skills_R00323856",
@@ -32100,6 +32102,7 @@
     "wd-americanredcross-american_red_cross_careers-/job/Statewide-DC/Adobe-Analytics---Target-Developer_RC89101",
     "wd-americanredcross-american_red_cross_careers-/job/Statewide-DC/Data-Scientist---Traditional-and-Generative-AI_RC89652",
     "wd-ameriprise-ameriprise-/job/47070-Charlotte---300-South-Tryon-Street/XMLNAME-Net-Software-Engineer_R26_1194-1",
+    "wd-ameriprise-ameriprise-/job/Boston-Massachusetts/Distribution---Analytics-GenAI-Forward-Deployed-Engineer_R26_2943",
     "wd-ameriprise-ameriprise-/job/Boston-Massachusetts/Sr-AI-Automation-Engineer---SDLC---GenAI-Platforms_R26_1771",
     "wd-ameriprise-ameriprise-/job/Boston-Massachusetts/Sr-Full-Stack-AI-Engineer_R26_1770-1",
     "wd-ameriprise-ameriprise-/job/Minneapolis-Minnesota/AV-Operations-Engineer_R26_3094-1",
@@ -32312,6 +32315,7 @@
     "wd-assetmark-assetmark_careers-/job/Charlotte-NC/Staff-DevEx-Engineer_Req-003846-1",
     "wd-assetmark-assetmark_careers-/job/Charlotte-NC/Trading-Solutions-Engineer_Req-003907",
     "wd-assetmark-assetmark_careers-/job/Concord-CA/Platform-Engineer_Req-003856",
+    "wd-assurant-assurant_careers-/job/Irving-TX/Associate-Automation-Engineer_R-114979-2",
     "wd-assurant-assurant_careers-/job/United-States-Virtual/Software-Development-Engineer-in-Test--SDET-_R-114175-2",
     "wd-astrazeneca-broadbean_external-/job/US--Tarzana--CA/Robotic-Operations-Engineer_R-255064",
     "wd-astrazeneca-broadbean_external-/job/US--Tarzana--CA/Robotics-Software-Engineer---Cell-Therapy-Automation_R-255623-2",
@@ -32470,6 +32474,7 @@
     "wd-axalta-axalta-/job/Greater-Detroit/Program-Engineer--Japanese-OEM-Accounts-_2026-18563-1",
     "wd-axcelis-axcelis-/job/Beverly-MA/Eng-Final-Test-I_11250",
     "wd-axcelis-axcelis-/job/Beverly-MA/Quality-Engineer-I_11756",
+    "wd-axcelis-axcelis-/job/Beverly-MA/Reliability-Test-and-Failure-Analysis-Engineer_11933",
     "wd-axcelis-axcelis-/job/Beverly-MA/Software-Architect-I_11477",
     "wd-axcelis-axcelis-/job/Beverly-MA/Software-Quality-Assurance--SQA--Engineer_11741-1",
     "wd-axcelis-axcelis-/job/Beverly-MA/Software-Quality-Assurance--SQA--Engineer_11742",
@@ -32493,8 +32498,10 @@
     "wd-axiomspace-external_career_site-/job/Houston/Software-Quality-Assurance_JR100607",
     "wd-axiomspace-external_career_site-/job/Houston/Software-Safety-Engineer_JR100474",
     "wd-axiomspace-external_career_site-/job/Houston/Software-Systems-Engineer_JR100610",
+    "wd-axis-external_career_site-/job/USA---MA---Chelmsford/Technical-Services-Engineer---Bilingual---Portuguese---English_R-123887",
     "wd-axis-external_career_site-/job/USA---MA---Chelmsford/Technical-Services-Engineer---Bilingual---Spanish-English-OR-Portuguese-English_R-115993",
     "wd-axis-external_career_site-/job/USA---MA---Chelmsford/Technical-Services-Engineer-Tier-II_R-115382",
+    "wd-axis-external_career_site-/job/USA---MA---Chelmsford/Technical-Services-Engineer_R-123886",
     "wd-axos-axos-/job/HQ---San-Diego-CA/Conversational-AI-Engineer_JR4571",
     "wd-axos-axos-/job/HQ---San-Diego-CA/Data-Engineer_JR4922",
     "wd-axos-axos-/job/HQ---San-Diego-CA/JBATA---AI-Automation-Developer_JR4837",
@@ -36902,5 +36909,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-07T13:47:50.840634+00:00"
+  "updated_at": "2026-08-07T13:54:50.972201+00:00"
 }
