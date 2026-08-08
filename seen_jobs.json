@@ -1158,6 +1158,7 @@
     "ashby-duckbill-1e7683e5-6c00-4525-8687-a056d57c3d45",
     "ashby-duffel-1afeadbe-a05e-49a7-b3f1-ab11ad4cb282",
     "ashby-duna-b6793ba5-383e-406d-9b46-ad1a462ae615",
+    "ashby-dyna-robotics-2cdf8c99-54ee-4520-9b76-4806e335b7e9",
     "ashby-dyna-robotics-869b09e4-33cd-48a7-b937-3f3cbcec6b92",
     "ashby-dyna-robotics-942cd530-b2b7-4141-8aaa-d844175e26ac",
     "ashby-e2b-49a87668-9f2a-40dc-bfc3-b262aca62b39",
@@ -1770,6 +1771,7 @@
     "ashby-lambda-764437a8-3d46-4544-9350-ce87bc76f946",
     "ashby-lambda-83e77f46-c393-47ae-83ed-db4b0daf6e18",
     "ashby-lambda-8714b844-7754-429a-a22f-2f849dbf9621",
+    "ashby-lambda-904bd81c-7826-4728-a597-9138cd812c8f",
     "ashby-lambda-c7ecb434-fdc0-434e-a455-9c200055cda0",
     "ashby-lambda-d0a418f5-4dc9-402f-9f12-fb2f3ee36ab6",
     "ashby-lambda-d84c4397-8b15-414b-b488-99ea0180bf18",
@@ -1863,7 +1865,9 @@
     "ashby-llamaindex-36a0249e-a672-44df-a08e-b5a5523dec26",
     "ashby-llamaindex-b0a0e9d0-9826-46c5-b3a6-8ef3feb9cd9d",
     "ashby-llamaindex-e8168e8a-451e-41bb-9c13-8f24b4b84e50",
+    "ashby-lm-studio-87a31fb9-6c5e-4f8a-b226-f3adb44ec7c7",
     "ashby-lm-studio-96f36fd3-b97f-4965-9da4-db2a43129d97",
+    "ashby-lm-studio-ba7b2c29-c2ad-4ad2-98f4-a8ba373b34e0",
     "ashby-lm-studio-bd889236-2c5c-4c78-ad2f-2e7f84fe8717",
     "ashby-lm-studio-eef1c19e-d046-410f-a190-bb8ae917eea6",
     "ashby-loancrate-9c4c1f30-e0e2-4533-a91b-8af60dab0bf7",
@@ -3067,6 +3071,7 @@
     "ashby-tabs-67bdf965-fb8b-4cbd-b852-50e453dfe10d",
     "ashby-tabs-ef91f17f-8cef-475f-a75d-f9f1fbb02f92",
     "ashby-taekus-fb2e022e-c2e6-447b-9517-6d569473c8fa",
+    "ashby-take2-64c5c8d7-480f-4d2b-8e8e-6a8d5ea29bb3",
     "ashby-taktile-52634564-297e-4718-9ff5-20aa5be64cc4",
     "ashby-taktile-e89c4e62-fabf-47e1-95a7-91061b6c0705",
     "ashby-taktile-f6d97bef-99d0-43b7-9ce4-94e00fe05744",
@@ -37341,5 +37346,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-08T02:19:42.285895+00:00"
+  "updated_at": "2026-08-08T02:25:54.787385+00:00"
 }
