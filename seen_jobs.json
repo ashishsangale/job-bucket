@@ -32597,6 +32597,7 @@
     "wd-arcticwolf-external-/job/Remote---IND---Haryana/Python-Backend-Developer_R26_820",
     "wd-arcticwolf-external-/job/Remote-United-States/Senior-Copywriter_R26_220",
     "wd-aresmgmt-external-/job/Los-Angeles-CA---Century-City/Platform-Engineer--Software-Engineering-_R8296",
+    "wd-aresmgmt-external-/job/Los-Angeles-CA---Century-City/Staff-Engineer--Software-Engineering-_R8297",
     "wd-aresmgmt-external-/job/New-York-NY/Engineer-I--Credit-Technology_R8293-1",
     "wd-aresmgmt-external-/job/New-York-NY/Software-Engineer_R7836",
     "wd-aresmgmt-external-/job/New-York-NY/Staff-Engineer--Credit-Technology_R8252",
@@ -33138,6 +33139,7 @@
     "wd-blackrock-blackrock_professional-/job/Chicago-IL/Associate--Software-Engineer_R265963-1",
     "wd-blackrock-blackrock_professional-/job/M11---Commers-III-43-44--45-Fl-Internatl-Business-Park-Oberoi-Garden-City/Full-Stack-Engineer--Aladdin-Engineering--Associate_R261166",
     "wd-blackrock-blackrock_professional-/job/New-York-NY/AI-Enabled-Infrastructure-and-Systems-Engineer_R265146",
+    "wd-blackrock-blackrock_professional-/job/New-York-NY/Associate--Application-Engineer_R265928",
     "wd-blackrock-blackrock_professional-/job/New-York-NY/Backend-Java-Engineer---Post-Trade-Accounting--Associate_R264684",
     "wd-blackrock-blackrock_professional-/job/New-York-NY/BlackRock-Investment-Institute--AI-Solutions--Research-Associate_R265120",
     "wd-blackrock-blackrock_professional-/job/SF4-San-Francisco---400-Howard-Street/Associate--Full-Stack-Engineer_R256801",
@@ -33472,6 +33474,7 @@
     "wd-caci-external-/job/Columbia-MD-US/Network-Engineering_317477",
     "wd-caci-external-/job/Columbia-MD-US/Network-Security-Engineer_326778",
     "wd-caci-external-/job/Columbia-MD-US/Splunk-Software-Engineer-TS-SCI-with-Poly_327588",
+    "wd-caci-external-/job/Crane-IN-US/Computer-Engineer_325280",
     "wd-caci-external-/job/Crane-IN-US/Data-Scientist_328191",
     "wd-caci-external-/job/Dahlgren-VA-US/Container-Platform-Infrastructure-Engineer_328228",
     "wd-caci-external-/job/Dahlgren-VA-US/Container-Platform-Infrastructure-Engineer_328737",
@@ -33860,6 +33863,8 @@
     "wd-chamberlain-chamberlain_group-/job/Oak-Brook-IL/Sr-Engineer--Software---GenAI--Hybrid-_JR30976",
     "wd-chamberlain-chamberlain_group-/job/Oak-Brook-IL/Sr-Software-Engineer---Middleware--Hybrid---Oak-Brook--IL-_JR30749",
     "wd-chamberlain-chamberlain_group-/job/Oak-Brook-IL/Sr-Software-Engineer--Middleware_JR30433",
+    "wd-chamberlain-chamberlain_group-/job/Oak-Brook-IL/Sr-Software-Engineer--Middleware_JR31322",
+    "wd-chamberlain-chamberlain_group-/job/Oak-Brook-IL/Sr-Software-Engineer-Front-End_JR31323-1",
     "wd-chamberlain-chamberlain_group-/job/Oak-Brook-IL/Sr-Software-Engineer-Middleware---Java--Hybrid-Oak-Brook--IL-_JR31078-1",
     "wd-chamberlain-chamberlain_group-/job/Oak-Brook-IL/Staff-Site-Reliability-Engineer_JR30139-1",
     "wd-chamberlain-chamberlain_group-/job/Remote---Illinois/Sr-Software-Engineer---Web_JR31272",
@@ -37478,5 +37483,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-10T16:21:18.038636+00:00"
+  "updated_at": "2026-08-10T16:28:07.103991+00:00"
 }
