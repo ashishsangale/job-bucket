@@ -31591,6 +31591,7 @@
     "lever-ro-0b6ded09-e358-4e39-a428-a2cbf6b15cda",
     "lever-ro-68d2dbb0-7e75-412a-8067-ef0e11ea7f19",
     "lever-ro-aec06f32-3b1d-4dc9-9a4c-a51d095824c8",
+    "lever-robust-ai-93915f3b-cf3a-4e24-85c5-07cb7b4392eb",
     "lever-rocketcommunications-d8cf4b6f-cd78-4562-96e0-c1c4f0bd27b5",
     "lever-rws-6488833f-86c3-480c-9dd1-1667f27a372c",
     "lever-rws-b6ae34f4-57e5-4bb8-8f29-4c69cf25ecbd",
@@ -31765,6 +31766,9 @@
     "lever-valdeseng-bc27b91d-6388-4fb1-942e-b8a6259156f5",
     "lever-valdeseng-c3c20d5d-dbf5-4bfe-9eec-ccbdc447d44b",
     "lever-valkyrietrading-d5d3c739-fc8f-43d7-9076-5263d21f7a91",
+    "lever-veeva-1e141fa7-d296-4e16-ba2d-894da2c26b02",
+    "lever-veeva-383df24e-e549-4889-b5d8-1163eed92bef",
+    "lever-veeva-8e4b8273-783e-420a-8f93-af521a341d1e",
     "lever-veeva-9101c159-13e1-44cd-b37c-3d724130f599",
     "lever-veeva-e38ab928-18d3-4907-901e-e3dc889aab1c",
     "lever-velo3d-3866748d-2fda-435f-832d-151e19709c43",
@@ -31838,6 +31842,7 @@
     "lever-wyetechllc-34c1e88f-fd8a-426d-9f7f-b2f58fbbf174",
     "lever-wyetechllc-370403fd-d3cf-446b-a22c-c7c9246ac6af",
     "lever-wyetechllc-3985087f-ab85-4bff-ae44-65cba12faa59",
+    "lever-wyetechllc-39df34f8-2a29-4c83-ac87-1ff4df1627c5",
     "lever-wyetechllc-3e8cec06-7f35-4af3-b037-c760bd25a69d",
     "lever-wyetechllc-4513fa14-4c37-4fef-8d4c-50b902481d33",
     "lever-wyetechllc-463d4249-51c6-4152-870e-863ea43d7ccb",
@@ -37515,5 +37520,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-10T18:06:16.638862+00:00"
+  "updated_at": "2026-08-10T18:13:11.459499+00:00"
 }
