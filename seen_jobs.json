@@ -33155,7 +33155,9 @@
     "wd-accenture-accenturecareers-/job/London/AI-Native-SW-Engineering_R00344691",
     "wd-accenture-accenturecareers-/job/London/AI-Native-Software-Engineer_R00344645-1",
     "wd-accenture-accenturecareers-/job/Madrid-Castellana-85/AI-Native-Software-Engineer_R00344612-1",
+    "wd-accenture-accenturecareers-/job/Madrid-Castellana-85/AI-Software-Native-Senior-Engineer_R00309569",
     "wd-accenture-accenturecareers-/job/Madrid-Castellana-85/Forward-Deployed-Engineer-Specialist_R00345180-1",
+    "wd-accenture-accenturecareers-/job/Madrid-Torre-Chamartin/AI-Software-Engineer---Spain_R00350617",
     "wd-accenture-accenturecareers-/job/Malaga-Edificio-Hidalgo/AI-Engineer--Junior-Middle-_R00347456",
     "wd-accenture-accenturecareers-/job/Manila/Software-Product-Engineering_ATCP-1132264-S390206",
     "wd-accenture-accenturecareers-/job/Merida/Custom-Software-Engineer_14565123",
@@ -33195,6 +33197,7 @@
     "wd-accenture-accenturecareers-/job/Roma/Forward-Deployed-Engineer-Specialist_R00345231",
     "wd-accenture-accenturecareers-/job/Saint-Herblain-Liberty-A/AI-Native-Engineer_R00346086-1",
     "wd-accenture-accenturecareers-/job/Taguig/ServiceNow-Developer-Upskilling---For-Developers-Skilled-in-JavaScript--Python--Angular--or-Similar-Skills_R00323856",
+    "wd-accenture-accenturecareers-/job/Vienna/Applied-AI-Engineer--all-genders-_R00350621",
     "wd-accenture-accenturecareers-/job/Vilnius/AI-ML-Computational-Scientist_R00344140",
     "wd-accenture-accenturecareers-/job/Vilnius/Junior-AI-Native-Engineer_R00346490",
     "wd-acciona-acciona_employment_channel-/job/Georgia/Junior-Field-Engineer_20093063",
@@ -33305,7 +33308,9 @@
     "wd-aep-aepcareersite-/job/New-Albany-OH/Engineer-Assc---Engineer-Sr--Outage-Planning-_R16344",
     "wd-aep-aepcareersite-/job/New-Albany-OH/Real-Time-Operations-Solutions-Engineer-Principal--Lead_R15926",
     "wd-aero-external-/job/Buckley-SFB-CO/Cyber-Mission-Engineer_R015355",
+    "wd-aero-external-/job/Chantilly-VA/Cloud-Solutions-Engineer_R016084",
     "wd-aero-external-/job/Chantilly-VA/Junior-Software-Integration-Engineer_R015562",
+    "wd-aero-external-/job/Chantilly-VA/Software-Engineer_R016059",
     "wd-aero-external-/job/Chantilly-VA/Software-Integration-Engineer_R015403",
     "wd-aero-external-/job/Chantilly-VA/Software-Integration-Engineer_R015565",
     "wd-aero-external-/job/Chantilly-VA/Software-Integration-Engineer_R015738",
@@ -33360,6 +33365,7 @@
     "wd-agilent-agilent_careers-/job/US-CA-Remote-Location/Field-Service-Engineer_4038199",
     "wd-agilent-agilent_careers-/job/US-CA-Sacramento/Field-Service-Engineer---Pathology_4038467",
     "wd-agilent-agilent_careers-/job/US-CA-Sacramento/Field-Service-Engineer_4038097",
+    "wd-agilent-agilent_careers-/job/US-CA-Santa-Clara/R-D-Software-Engineer--Scientific-Instrumentation_4038566",
     "wd-agilent-agilent_careers-/job/US-CA-Santa-Clara/Software-Quality-Engineer_4036205",
     "wd-agilent-agilent_careers-/job/US-CO-Frederick/Equipment-Service-Engineer_4038210",
     "wd-agilent-agilent_careers-/job/US-CO-Frederick/Reliability-Engineer_4037231-1",
@@ -34235,6 +34241,7 @@
     "wd-bdx-external_career_site_usa-/job/USA-NC---Durham---Roche-Drive/Senior-Staff-Software-Quality-Engineer_R-528862-1",
     "wd-bdx-external_career_site_usa-/job/USA-NE---Columbus-West/EDI-Engineer-3_R-549508-1",
     "wd-bdx-external_career_site_usa-/job/USA-NE---Columbus-West/EDI-Staff-Engineer_R-549513-1",
+    "wd-bdx-external_career_site_usa-/job/USA-NJ---Franklin-Lakes/R-D-Staff-Engineer-I_R-553028",
     "wd-bdx-external_career_site_usa-/job/USA-PR---Anasco/Project-Engineer_R-549257-1",
     "wd-bdx-external_career_site_usa-/job/USA-PR---Humacao/Associate-Reliability-Engineer_R-544976-1",
     "wd-bdx-external_career_site_usa-/job/USA-PR---Humacao/Quality-Engineer_R-540873-1",
@@ -34460,6 +34467,7 @@
     "wd-broadcom-external_career-/job/USA-CA---Promontory-B/Virtual-Platform-Developer---Staff_R025019",
     "wd-broadcom-external_career-/job/USA-CA---Promontory-D/R-D-Engineer-Software-4_R026077",
     "wd-broadcom-external_career-/job/USA-CA---Promontory-D/Staff-Software-Engineer_R026679",
+    "wd-broadcom-external_career-/job/USA-CA---Promontory-E/R-D-Software-Engineer_R026809",
     "wd-broadcom-external_career-/job/USA-CA---Promontory-E/R-D-Staff-Software-Engineer_R026508",
     "wd-broadcom-external_career-/job/USA-CA-Irvine-Alton-Parkway-Bldg-1/Software-Engineer_R026019",
     "wd-broadcom-external_career-/job/USA-CA-San-Jose-Innovation-Drive/ATE-Test-Development-Engineer_R026666",
@@ -38665,5 +38673,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-14T03:07:03.361217+00:00"
+  "updated_at": "2026-08-14T03:11:38.623827+00:00"
 }
