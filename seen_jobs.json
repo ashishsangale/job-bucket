@@ -32373,6 +32373,7 @@
     "lever-field-ai-a0045ab4-a931-4012-b1fb-c29c364d20bc",
     "lever-field-ai-b25116fc-e172-4016-80ad-3b2ce10da08b",
     "lever-field-ai-b6a02c7e-8726-47b7-b0b0-899644613c47",
+    "lever-field-ai-bb127cde-930c-446f-908d-52e2c6f24cc9",
     "lever-field-ai-c56e6bc4-23d9-4ed1-9349-fee74e35c264",
     "lever-field-ai-c72ae1ae-cbb1-4071-a967-ae78412553eb",
     "lever-field-ai-ca422caa-46b7-4ede-8116-e85909bdadbb",
@@ -32523,6 +32524,7 @@
     "lever-kgroupcompanies-09939718-102d-474b-a753-1657d1bba45a",
     "lever-kgroupcompanies-16e003fb-491e-49a5-880c-f9bbe814d3df",
     "lever-kgroupcompanies-23807659-a035-425a-8787-cb24630b2c60",
+    "lever-kgroupcompanies-26491a9f-ac14-4f12-a1ff-a2b96bf0356e",
     "lever-kgroupcompanies-2d9e7757-c73a-4c7f-8437-ea12a1583793",
     "lever-kgroupcompanies-4d471434-0dad-4dee-b9af-2dbc064da975",
     "lever-kgroupcompanies-4feb6aa3-829b-45ae-a46a-c1e3f34117a3",
@@ -32534,6 +32536,7 @@
     "lever-kgroupcompanies-aa308573-ffef-4510-bf4c-6c60ccb99f5f",
     "lever-kgroupcompanies-cd0a6e90-372d-4c9b-b3b9-945154a9e4e0",
     "lever-kgroupcompanies-f5fbd3d3-c9c4-49b7-b78e-ae60cd42ef0b",
+    "lever-kgroupcompanies-fdfd9429-3c06-4eb7-b48f-0b287ebde425",
     "lever-kickmaker-a3133f4c-d000-4a03-bba6-30412fbb5417",
     "lever-kickmaker-ae61366b-0de5-436c-ab37-570cb74f7ffa",
     "lever-kitware-1d458d7b-da76-4323-84cf-9708020b9ca2",
@@ -32715,6 +32718,8 @@
     "lever-pivotal-b05be1f0-20ff-4264-8839-4f18f97cbfb7",
     "lever-planettechnologies-f5024816-5805-402f-b738-c2aee95a5d93",
     "lever-plus-2-0c342721-601c-4466-b503-5b18438064c2",
+    "lever-plus-2-8f5bccee-4cf5-435a-9673-16e546686050",
+    "lever-plus-2-cd1e5dca-104e-4429-af74-ee6da17596cb",
     "lever-pmaconsultants-42238a5a-e416-41fc-896a-c3a705204735",
     "lever-pmaconsultants-6ba48761-3979-43f8-abd3-834b244da6e3",
     "lever-pmaconsultants-77f53ea8-9be3-40a4-9d75-26bdeed0ee4f",
@@ -32981,7 +32986,12 @@
     "lever-truetandem-93dbdddb-bfc0-4f4f-a90a-894a48d9e044",
     "lever-truetandem-a7450ff0-7005-4d45-80b9-6dc09951f198",
     "lever-truetandem-e10d6604-4acf-469f-899e-5628f15225d1",
+    "lever-truezerotech-1263d3a9-e5e4-4ea9-b433-dbd6933a9c5f",
     "lever-truezerotech-444d4ec5-1379-4251-bbc3-f0269ad98a5d",
+    "lever-truezerotech-665e2bbb-69b8-400e-853f-aa25d09f3974",
+    "lever-truezerotech-69f748f9-f6af-4ed4-bddb-05c138102c47",
+    "lever-truezerotech-6f4ca55a-2a9d-4f53-a017-c018f40e0b85",
+    "lever-truezerotech-78996335-091d-4f4b-af3a-29ebe9528fd9",
     "lever-truezerotech-b659a381-cf8e-4a69-8bcf-188d4d8de4b1",
     "lever-truezerotech-c78c5657-8c46-4e72-a6ad-6fba2fbb6729",
     "lever-truezerotech-ff3b029e-b1f5-46f4-8184-46d3b9605a21",
@@ -38897,5 +38907,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-14T19:37:53.801416+00:00"
+  "updated_at": "2026-08-14T20:04:59.474358+00:00"
 }
