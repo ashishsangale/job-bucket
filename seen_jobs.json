@@ -16978,6 +16978,7 @@
     "gh-minio-5257237008",
     "gh-minitab-7767160003",
     "gh-minitab-7784361003",
+    "gh-minitab-7887218003",
     "gh-mirakllabs-5998019004",
     "gh-miris-4023685009",
     "gh-misfitsmarket-7663397003",
@@ -18667,6 +18668,8 @@
     "gh-optiverus-8672685002",
     "gh-optoinvest-7491448003",
     "gh-optoinvest-7850073003",
+    "gh-optoinvest-7887376003",
+    "gh-optoinvest-7887481003",
     "gh-orchard-8562309002",
     "gh-orchard-8562768002",
     "gh-orchard-8562770002",
@@ -21460,6 +21463,8 @@
     "gh-securityscorecard-7960884",
     "gh-securityscorecard-7960892",
     "gh-securityscorecard-7960915",
+    "gh-securityscorecard-8137517",
+    "gh-securityscorecard-8137884",
     "gh-securly13-7872503",
     "gh-securly13-7874606",
     "gh-securly13-7874674",
@@ -21720,6 +21725,7 @@
     "gh-simplepractice55-6000292004",
     "gh-simplepractice55-6016672004",
     "gh-simplepractice55-6135636004",
+    "gh-simplepractice55-6145436004",
     "gh-simplesense-4157874009",
     "gh-simplesense-4184654009",
     "gh-simplesense-4231000009",
@@ -22170,6 +22176,7 @@
     "gh-sonyinteractiveentertainmentglobal-6133926004",
     "gh-sonyinteractiveentertainmentglobal-6141163004",
     "gh-sonyinteractiveentertainmentglobal-6141164004",
+    "gh-sonyinteractiveentertainmentglobal-6145759004",
     "gh-sonymusicentertainment-8239876002",
     "gh-sonymusicentertainment-8582511002",
     "gh-sonypicturesimageworks-4363743003",
@@ -26729,6 +26736,7 @@
     "gh-voyagertechnologiesinc-4355120009",
     "gh-voyagertechnologiesinc-4356977009",
     "gh-voyagertechnologiesinc-4356982009",
+    "gh-voyagertechnologiesinc-4356989009",
     "gh-voyagertechnologiesinc-4362647009",
     "gh-voyagertechnologiesinc-4364405009",
     "gh-voyagertechnologiesinc-4368872009",
@@ -39380,5 +39388,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-17T20:57:42.642903+00:00"
+  "updated_at": "2026-08-17T21:40:10.671692+00:00"
 }
