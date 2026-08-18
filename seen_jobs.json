@@ -10928,6 +10928,7 @@
     "gh-datadog-8105372",
     "gh-datadog-8109441",
     "gh-datadog-8128450",
+    "gh-datadog-8130723",
     "gh-datagrail-7722435003",
     "gh-dataiku-5420293004",
     "gh-dataiku-5420296004",
@@ -13872,6 +13873,9 @@
     "gh-gofasti-6107350004",
     "gh-gofasti-6129214004",
     "gh-gofasti-6141249004",
+    "gh-gofasti-6145935004",
+    "gh-gofasti-6145936004",
+    "gh-gofasti-6145937004",
     "gh-gofundme-7183511",
     "gh-gofundme-7183520",
     "gh-gofundme-7494744",
@@ -16994,6 +16998,7 @@
     "gh-metrostarsystems-7871442003",
     "gh-metrostarsystems-7876339003",
     "gh-metrostarsystems-7886461003",
+    "gh-metrostarsystems-7887205003",
     "gh-mettel-4644820006",
     "gh-mettel-4677171006",
     "gh-mettel-4677618006",
@@ -19037,6 +19042,7 @@
     "gh-pathward-6009455004",
     "gh-pathward-6017821004",
     "gh-pathward-6094448004",
+    "gh-pathward-6142160004",
     "gh-patientpoint-4694351005",
     "gh-patientpoint-4710210005",
     "gh-patientpoint-4722426005",
@@ -21516,6 +21522,7 @@
     "gh-securityscorecard-7960915",
     "gh-securityscorecard-8137517",
     "gh-securityscorecard-8137884",
+    "gh-securityscorecard-8138869",
     "gh-securly13-7872503",
     "gh-securly13-7874606",
     "gh-securly13-7874674",
@@ -24649,6 +24656,7 @@
     "gh-stripe-8075469",
     "gh-stripe-8075570",
     "gh-stripe-8076151",
+    "gh-stripe-8080454",
     "gh-stripe-8080614",
     "gh-stripe-8084193",
     "gh-stripe-8084195",
@@ -39510,5 +39518,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-18T13:28:27.226392+00:00"
+  "updated_at": "2026-08-18T14:06:06.567805+00:00"
 }
