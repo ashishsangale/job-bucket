@@ -34816,6 +34816,7 @@
     "wd-bakerhughes-bakerhughes-/job/US-OK-PURCELL-1739-HARDCASTLE-BLVD/Applications-Engineer_R167032-1",
     "wd-bakerhughes-bakerhughes-/job/US-TX-HOUSTON-575-N-DAIRY-ASHFORD-RD-ENERGY-CENTER-II-EC2/Product-Execution-Engineer_R165499-1",
     "wd-bakerhughes-bakerhughes-/job/US-TX-LUFKIN-409-ELLIS-AVENUE/Sr-Application-Engineer---Technology-Specialist_R167868",
+    "wd-baldwin-baldwin-/job/Remote-US/Sr-Data-Engineer_JR110062",
     "wd-baldwin-baldwin-/job/Remote-US/Sr-Engineer--Data-Services---MSI_JR109764-1",
     "wd-baldwin-baldwin-/job/Remote-US/Sr-Engineer--Data-Services---MSI_JR109849-1",
     "wd-baldwin-baldwin-/job/Remote-US/Sr-Software-Engineer_JR109293",
@@ -35186,6 +35187,7 @@
     "wd-broadcom-external_career-/job/USA-CA-San-Jose-Innovation-Drive/System-Software-Engineer_R026604",
     "wd-broadcom-external_career-/job/USA-CO-Broomfield/R-D-Engineer-SW-Quality-3_R026523",
     "wd-broadcom-external_career-/job/USA-CO-Broomfield/R-D-Engineer-SW-Quality-3_R026557",
+    "wd-broadcom-external_career-/job/USA-California--San-Jose---1730-Fox-Drive/NPI-Test-Development-Engineer_R026437-1",
     "wd-broadcom-external_career-/job/USA-Colorado-Fort-Collins-4380-Ziegler-Road/AI-Software-Engineer_R026268",
     "wd-broadcom-external_career-/job/USA-Colorado-Fort-Collins-4380-Ziegler-Road/ATE-Test-Development-Engineer_R026769-1",
     "wd-broadcom-external_career-/job/USA-Colorado-Fort-Collins-4380-Ziegler-Road/Defect-Engineer_R026257",
@@ -35264,6 +35266,7 @@
     "wd-caci-external-/job/Aberdeen-Proving-Ground-MD-US/Signals-Engineer_326982",
     "wd-caci-external-/job/Aberdeen-Proving-Ground-MD-US/Software-Engineer_327998",
     "wd-caci-external-/job/Aberdeen-Proving-Ground-MD-US/Software-Engineer_328248",
+    "wd-caci-external-/job/Albuquerque-NM-US/NAVWAR-Engineer_325913",
     "wd-caci-external-/job/Albuquerque-NM-US/NAVWAR-Engineer_329978-1",
     "wd-caci-external-/job/Alexandria-VA-US/Cybersecurity-Engineer---JIATF_328934",
     "wd-caci-external-/job/Alexandria-VA-US/Data-Scientist_328342",
@@ -35495,6 +35498,7 @@
     "wd-caci-external-/job/Remote-Any-State/ServiceNow-Integration-Engineer_328493",
     "wd-caci-external-/job/Remote-Any-State/Software-Data-Modeler_328736",
     "wd-caci-external-/job/Remote-Any-State/Software-Developer_329237",
+    "wd-caci-external-/job/Remote-Any-State/Software-Developer_330722",
     "wd-caci-external-/job/Remote-Any-State/Test-Engineer-Analyst_330681",
     "wd-caci-external-/job/Remote-Any-State/Test-Engineer_328374",
     "wd-caci-external-/job/Reston-VA-US/Full-Stack-Java-Developer_330525",
@@ -35591,6 +35595,7 @@
     "wd-cae-career-/job/Altus-OK-USA/Visual-Database-Engineer_122980",
     "wd-cae-career-/job/Arlington-TX/Field-Engineer_118948",
     "wd-cae-career-/job/Arlington-TX/Network-Engineer_122704",
+    "wd-cae-career-/job/Binghamton-NY/Associate-Software-Engineer_123243",
     "wd-cae-career-/job/Binghamton-NY/Software-Engineer_122487",
     "wd-cae-career-/job/Binghamton-NY/Software-Engineer_123090-1",
     "wd-cae-career-/job/Binghamton-NY/Systems-Engineer_122490-1",
@@ -35623,6 +35628,7 @@
     "wd-calistacorp-yulista-/job/Huntsville-AL/Data-Engineer-I_JR109200",
     "wd-calistacorp-yulista-/job/Huntsville-AL/Database-Developer_JR108970",
     "wd-calistacorp-yulista-/job/Huntsville-AL/STSY---DevSecOps-Engineer_JR109457",
+    "wd-calistacorp-yulista-/job/Huntsville-AL/Software-Developer---Mid_JR109633",
     "wd-calistacorp-yulista-/job/QMA03---AL---Redstone/Quality-Assurance-Engineer--Advanced-_JR109060",
     "wd-calix-external-/job/Remote---USA/Staff-Cloud-Security-Engineer_R-11313",
     "wd-calix-external-/job/Remote---USA/Staff-Site-Reliability-Operations-Engineer_R-11773",
@@ -39504,5 +39510,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-18T13:18:40.188031+00:00"
+  "updated_at": "2026-08-18T13:28:27.226392+00:00"
 }
