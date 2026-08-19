@@ -34449,6 +34449,7 @@
     "wd-airliquidehr-airgasexternalcareer-/job/Tucson-AZ-AMG/Plant-Engineer_R10091993",
     "wd-airliquidehr-airliquideexternalcareer-/job/Fremont-CA---46401-Landing-Pkwy/Production-Engineer_R10096041",
     "wd-airliquidehr-airliquideexternalcareer-/job/Houston-TX-HO---NAM-Corporate/Reliability-Engineer_R10094732",
+    "wd-airliquidehr-airliquideexternalcareer-/job/Mount-Bethel-PA---Advanced-materials---PA2/Production-Engineer_R10097595-1",
     "wd-airproducts-ap0001-/job/Allentown-Pennsylvania/Equipment-Technology-Project-Product-Engineer_JR-2026-20797",
     "wd-akamerica-aka-/job/Concord-NC/Quality-Engineer_R5582-1",
     "wd-aksteel-careers-/job/Cleveland-Works/Operations-Technology-Engineer_R12430-1",
@@ -35228,6 +35229,7 @@
     "wd-baxter-baxter-/job/Raleigh-North-Carolina/Sr-Implementation-Engineer_JR-201648",
     "wd-baxter-baxter-/job/Round-Lake-Illinois/Engineering-Specialist--Software_JR-204963-1",
     "wd-baxter-baxter-/job/Skaneateles-NY/SW-Engineer---Test-Automation_JR-201773-1",
+    "wd-baxter-baxter-/job/Skaneateles-NY/Software-Engineer--Test-Automation_JR-207707-1",
     "wd-baxter-baxter-/job/St-Paul-Minnesota/Sr-Quality-Engineer_JR-206422",
     "wd-baxter-baxter-/job/United-States-of-America---Remote/Sr-Implementation-Engineer_JR-201648",
     "wd-bbh-bbh-/job/Boston/Mainframe-Programmer---SWIFT---Financial-Messaging-Platform_71927-1",
@@ -35648,6 +35650,7 @@
     "wd-caci-external-/job/999-REMOTE/RHEL-STIG-Engineer_328709",
     "wd-caci-external-/job/Aberdeen-Proving-Ground-MD-US/Cloud-Development-Engineer_329522",
     "wd-caci-external-/job/Aberdeen-Proving-Ground-MD-US/Information-System-Security-Officer--ISSO----Security-Engineer--ISSE-_327831",
+    "wd-caci-external-/job/Aberdeen-Proving-Ground-MD-US/Infrastructure-Operations-Engineer_330733",
     "wd-caci-external-/job/Aberdeen-Proving-Ground-MD-US/Junior-Reverse-Engineer_329484",
     "wd-caci-external-/job/Aberdeen-Proving-Ground-MD-US/Signals-Engineer_326982",
     "wd-caci-external-/job/Aberdeen-Proving-Ground-MD-US/Software-Engineer_327998",
@@ -35718,6 +35721,7 @@
     "wd-caci-external-/job/Chantilly-VA-US/Software-Engineer---Cloud-Infrastructure_327058",
     "wd-caci-external-/job/Chantilly-VA-US/Software-Engineer--Full-Stack---Python-_328398",
     "wd-caci-external-/job/Chantilly-VA-US/Test-Automation---DevOps-Engineer_329216",
+    "wd-caci-external-/job/Chantilly-VA-US/Windows-Infrastructure-Engineer_330806",
     "wd-caci-external-/job/Colorado-Springs-CO-US/DSP-Communications-Engineer_325505-1",
     "wd-caci-external-/job/Colorado-Springs-CO-US/Infrastructure-Systems-Administrator_327749",
     "wd-caci-external-/job/Colorado-Springs-CO-US/Integrated-Logistics-Support--ILS--Engineer_326597",
@@ -35792,6 +35796,7 @@
     "wd-caci-external-/job/Florham-Park-NJ-US/Wireless-Protocols-Software-Engineer_328307",
     "wd-caci-external-/job/Forest-Park-GA-US/Information-Technology-Engineer_327850",
     "wd-caci-external-/job/Fort-Belvoir-VA-US/Cybersecurity-Engineer---Cybersecurity-Subject-Matter-Expert--SME----Army-Tactical-System_328276",
+    "wd-caci-external-/job/Fort-Belvoir-VA-US/Test-Engineer---Scientist_330813",
     "wd-caci-external-/job/Fort-Bragg-NC-US/ACAS-Engineer_329445",
     "wd-caci-external-/job/Fort-Bragg-NC-US/ESRI-Systems-Engineer_328349",
     "wd-caci-external-/job/Fort-Bragg-NC-US/ESRI-Systems-Engineer_329752",
@@ -35893,6 +35898,7 @@
     "wd-caci-external-/job/Remote-Any-State/Test-Engineer_328374",
     "wd-caci-external-/job/Reston-VA-US/Full-Stack-Java-Developer_330525",
     "wd-caci-external-/job/Reston-VA-US/Full-Stack-Web-Development-Software-Engineer_326805",
+    "wd-caci-external-/job/Reston-VA-US/Power-Platform-Developer-Engineer_330711",
     "wd-caci-external-/job/Reston-VA-US/System-Integration-Engineer_327370",
     "wd-caci-external-/job/Reston-VA-US/Systems-Engineer_328066",
     "wd-caci-external-/job/Reston-VA-US/Systems-Engineer_328208",
@@ -39909,5 +39915,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-19T13:24:49.007871+00:00"
+  "updated_at": "2026-08-19T13:29:30.951091+00:00"
 }
