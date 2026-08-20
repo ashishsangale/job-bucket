@@ -5379,6 +5379,7 @@
     "gh-amplitude-8583053002",
     "gh-amplitude-8600045002",
     "gh-amplitude-8605063002",
+    "gh-amplitude-8635752002",
     "gh-amplitude-8700618002",
     "gh-amplitude-8709009002",
     "gh-amplitude-8709027002",
@@ -13880,6 +13881,7 @@
     "gh-gemini-7951238",
     "gh-gemini-8074978",
     "gh-gemini-8076855",
+    "gh-gemini-8142658",
     "gh-generalmatter-4487695008",
     "gh-generalmatter-4487697008",
     "gh-generalmatter-4489047008",
@@ -14680,6 +14682,7 @@
     "gh-hellbenderinc-5224816008",
     "gh-hellbenderinc-5224820008",
     "gh-hellbenderinc-5376809008",
+    "gh-hellbenderinc-5396832008",
     "gh-hellofresh-7304212",
     "gh-hellofresh-7404963",
     "gh-hellofresh-7408822",
@@ -14763,6 +14766,8 @@
     "gh-hevenaerotech-4308367009",
     "gh-hevenaerotech-4332131009",
     "gh-hevenaerotech-4336306009",
+    "gh-hevenaerotech-4373929009",
+    "gh-hevenaerotech-4374801009",
     "gh-hextechnologies-5659531004",
     "gh-hextechnologies-5730885004",
     "gh-hextechnologies-5733375004",
@@ -15326,6 +15331,7 @@
     "gh-instead-7773418003",
     "gh-instride-4949443007",
     "gh-instridehealth-4698824005",
+    "gh-insurify-6148212004",
     "gh-intecrowd-4695894005",
     "gh-inter-4664774005",
     "gh-inter-4668841005",
@@ -26843,8 +26849,10 @@
     "gh-veeamsoftware-4873237101",
     "gh-veeamsoftware-4876895101",
     "gh-veeamsoftware-4892885101",
+    "gh-veeamsoftware-4939102101",
     "gh-veeamsoftware-4943054101",
     "gh-veeamsoftware-4948666101",
+    "gh-veeamsoftware-4955960101",
     "gh-vegaamericas-4686663006",
     "gh-vegaamericas-4686664006",
     "gh-veir-5025393008",
@@ -40265,5 +40273,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-20T14:03:12.568876+00:00"
+  "updated_at": "2026-08-20T14:57:16.233433+00:00"
 }
