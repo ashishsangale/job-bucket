@@ -33395,8 +33395,10 @@
     "lever-datalabusa-dd9a80d9-a296-4ea9-a231-b68bf268e8ea",
     "lever-delfidiagnostics-ba759fc2-7ee3-4538-8af6-13e26de3c458",
     "lever-deltasands-0675abfd-03c9-4b7a-95a8-12b4797173b9",
+    "lever-deltasands-2e2bd1ab-7562-4ac3-8b55-29c60a1bf468",
     "lever-deltasands-7b0ba81e-2c93-4450-8116-addeb2e62894",
     "lever-deltasands-8bdf0157-7473-42c8-aecf-aa8c44286e59",
+    "lever-deltasands-ddb4ba73-3ba7-4ea4-9bf7-3fa8f5ced96d",
     "lever-deltasands-e7531f40-3fac-48fc-a98e-da6f4d552e83",
     "lever-deltasands-fb046e81-16a7-4909-ac89-6cec4019ac2b",
     "lever-dexterity-0630d2f1-586c-4819-a111-a6188462af3b",
@@ -33893,6 +33895,7 @@
     "lever-rai-395d3fb0-d03d-41d5-b0e0-56300f5b48a9",
     "lever-rainfocus-6ef919ee-6b66-4794-944e-59e2e8a38363",
     "lever-rainfocus-ab450966-6298-4b67-9416-239a5a28c719",
+    "lever-rainfocus-fe76fef3-6226-4048-98ea-5036a50594bf",
     "lever-rapidmicrobio-57dbdf7e-70e0-4481-b46c-0c6e3d8f831b",
     "lever-rapidmicrobio-65768de2-1e77-4e5b-a8a4-1c6e96777c1e",
     "lever-raya-626369c1-c9ba-414b-a94d-f311c18e8db7",
@@ -40273,5 +40276,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-20T14:57:16.233433+00:00"
+  "updated_at": "2026-08-20T15:04:46.468841+00:00"
 }
