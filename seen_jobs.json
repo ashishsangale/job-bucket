@@ -33257,6 +33257,7 @@
     "lever-arbitalhealth-609c9994-ccdc-4a2e-b34d-c25cfdccb0c6",
     "lever-arbitalhealth-7a592c84-6306-4ee6-b24b-cdf44361e9cd",
     "lever-arcadia-3da64d98-72d3-4477-a43f-2277501ac556",
+    "lever-arcadia-67cc8e4a-92bc-4d3b-a158-1098c15939e0",
     "lever-arcadia-de04a85c-78c2-4b90-ad4e-31c94e0987f3",
     "lever-arcadiascience-802b7310-8ef6-4191-ae2e-fa2ba438a265",
     "lever-arootah-307d3206-06fb-4449-8d38-05533ffdc876",
@@ -33618,6 +33619,7 @@
     "lever-hatchit-95c68858-5f01-43f7-b038-ac251dcbd393",
     "lever-hatchit-a23a592b-edc0-498a-b90e-a521a706120e",
     "lever-hatchit-b485a1f2-e641-4d07-aaa7-bc11565cfbac",
+    "lever-hatchit-d31d3688-ad7e-41be-81b0-035e3d67858c",
     "lever-hcvt-6010f901-a663-4619-a70b-358137dbe382",
     "lever-hcvt-8027d28c-107b-4803-8eaa-47da6ee56158",
     "lever-hcvt-8c9c7fff-5aca-4c2f-8f20-0240a98c77af",
@@ -33749,6 +33751,7 @@
     "lever-loftorbital-7a866d4c-7c79-4a0e-ab85-d090126150ca",
     "lever-loftorbital-7e444994-afab-443b-b7eb-4ed6f745bf6a",
     "lever-loftorbital-82b97af9-b18a-4862-b56c-58906e0605e9",
+    "lever-loftorbital-f20a9d15-39b8-410d-887b-071b0b9058cf",
     "lever-logrocket-6d7fc949-6d48-4781-a0e4-77b4c48b5be8",
     "lever-loopreturns-4fc9603b-95c6-4d05-8d5a-4247fa108418",
     "lever-loopreturns-5c2746a2-176f-40ae-8187-7acc91332e63",
@@ -33832,6 +33835,8 @@
     "lever-modulate-5128ae96-bd1f-4d50-82c6-8c5bbfb58c52",
     "lever-modulate-8329440c-0665-4a29-a388-7e67d755d3fa",
     "lever-moonpay-48ec667e-9cfb-415f-9228-7bbd3049f000",
+    "lever-mulliganfunding-1eee966d-c798-4b4f-937d-7e2f73b00287",
+    "lever-mulliganfunding-53531dc7-9593-44ea-8b42-2995664968a3",
     "lever-muttdata-e13eeedf-2620-40d1-9e47-fb343966c06c",
     "lever-neighbor-282d287f-4564-4fbd-a394-7df9301235b6",
     "lever-nevados-113f670d-497c-432c-bd56-947cc0bf573c",
@@ -40331,5 +40336,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-20T17:44:41.202719+00:00"
+  "updated_at": "2026-08-20T17:56:39.852894+00:00"
 }
