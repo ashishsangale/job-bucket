@@ -4662,6 +4662,7 @@
     "gh-accenturefederalservices-4706511006",
     "gh-accenturefederalservices-4706596006",
     "gh-accenturefederalservices-4706625006",
+    "gh-accenturefederalservices-4707091006",
     "gh-accordion-7808814",
     "gh-accordion-8044436",
     "gh-accordion-8076844",
@@ -10189,6 +10190,8 @@
     "gh-clarityinnovates-5186362007",
     "gh-clarityinnovates-5199763007",
     "gh-clarityinnovates-5208090007",
+    "gh-clarityinnovates-5214696007",
+    "gh-clarityinnovates-5216077007",
     "gh-classpass-4644939006",
     "gh-classpass-4668565006",
     "gh-clear-7694634",
@@ -12990,6 +12993,7 @@
     "gh-extrahopnetworks-6141938004",
     "gh-ezcaterinc-5160456007",
     "gh-ezcaterinc-5163244007",
+    "gh-ezcaterinc-5218386007",
     "gh-factored-5326168008",
     "gh-faire-8227562002",
     "gh-faire-8400765002",
@@ -13270,6 +13274,7 @@
     "gh-financialtechnologypartners-8716369002",
     "gh-fingerprint-5829407004",
     "gh-fingerprint-5998226004",
+    "gh-fingerprint-6149778004",
     "gh-finitestate-5740621004",
     "gh-finitestate-5971222004",
     "gh-finitestate-5993232004",
@@ -17388,6 +17393,7 @@
     "gh-metrostarsystems-7812640003",
     "gh-metrostarsystems-7813300003",
     "gh-metrostarsystems-7813320003",
+    "gh-metrostarsystems-7813324003",
     "gh-metrostarsystems-7813654003",
     "gh-metrostarsystems-7813735003",
     "gh-metrostarsystems-7814522003",
@@ -20154,6 +20160,7 @@
     "gh-praxisprecisionmedicines-5238052008",
     "gh-praxisprecisionmedicines-5251113008",
     "gh-praxisprecisionmedicines-5369035008",
+    "gh-praxisprecisionmedicines-5381254008",
     "gh-preciselyusjobs-4673029005",
     "gh-preciselyusjobs-4702062005",
     "gh-preciselyusjobs-4710160005",
@@ -24879,6 +24886,7 @@
     "gh-spoileralert-6037661004",
     "gh-spotme-7642495003",
     "gh-spotme-7657657003",
+    "gh-spotme-7927352003",
     "gh-spotter-4707750005",
     "gh-sprengnetter-7795678",
     "gh-springhealth66-4671390005",
@@ -41036,5 +41044,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-21T13:30:15.364122+00:00"
+  "updated_at": "2026-08-21T14:00:00.442271+00:00"
 }
