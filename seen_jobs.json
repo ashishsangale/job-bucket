@@ -722,6 +722,7 @@
     "ashby-andromeda-ff479ce6-223c-4e78-9ace-ed23a729cd52",
     "ashby-anrok-a11b3600-9820-44af-ac8e-bdafe037f504",
     "ashby-answersnow-77f6d0e2-adb8-47b8-98bd-d0bd2c5d23a2",
+    "ashby-answersnow-f070f56f-255f-4a7a-87ad-122d8c2dace8",
     "ashby-antares-2b9ec162-7ea9-45f9-8407-a2cafe547f1c",
     "ashby-antares-561ed849-c132-4bd8-9621-78686fddc9c7",
     "ashby-antares-6ba9f183-881c-4cc0-8e25-0e27cc6ffabd",
@@ -2150,6 +2151,7 @@
     "ashby-lassie-5a16b995-9ce2-4c8b-885d-6adce3df25fb",
     "ashby-lassie-9b8258f2-996e-414d-b7c5-01109d227fb6",
     "ashby-lassie-f4269e1a-328b-4cec-8960-f398a68ac64f",
+    "ashby-laurel-01c650a8-48b5-4baa-bd54-041b1f92f664",
     "ashby-laurel-1f181f7d-e3d1-4a28-b3e0-4de80520ddd8",
     "ashby-laurel-449bafbb-6cf1-4361-b6ef-6d0ef79933a0",
     "ashby-laurel-4578640b-7cef-4cf5-ac68-c7ebaabeede5",
@@ -2621,6 +2623,7 @@
     "ashby-openai-0c0fe7aa-24fb-4bad-aa30-3f68f1418e37",
     "ashby-openai-0f887fe6-39f4-44f6-8ee5-230c3002f0d7",
     "ashby-openai-130a5389-83e1-493f-9205-542d3ff53afb",
+    "ashby-openai-1b268692-70d8-46c2-a347-2f7705b5c174",
     "ashby-openai-1b86ec8e-fe34-452d-bbff-6619579e7385",
     "ashby-openai-1bb1f351-41a2-43a5-bac1-259859886cb3",
     "ashby-openai-1eb32675-b1a0-4c0a-9b57-19ceab07e9e0",
@@ -2746,6 +2749,7 @@
     "ashby-oscilar-4326a0be-8156-4485-bb2e-3513331c6866",
     "ashby-oscilar-7985e0ac-bcf8-4417-98e1-82c2b2a466c9",
     "ashby-oscilar-7eaa0609-5f3c-4ecb-9bd9-c1c0763b547c",
+    "ashby-oscilar-a83cfe5b-5a34-4aa7-9e4d-52ca6428efc6",
     "ashby-ostium-1365374e-3f97-401f-acb2-f419ac25014d",
     "ashby-ostium-4c9da186-3e40-49e7-babc-0b73d82376ec",
     "ashby-ostium-e1af7af0-d314-4985-bc86-6e0836da25d8",
@@ -3038,6 +3042,7 @@
     "ashby-pylon-labs-fcfbf014-3af8-4a45-a31b-4931e469468c",
     "ashby-quanta-bdbee896-e05d-4e0c-b2f1-996dd01db800",
     "ashby-quartermaster-212f2ef2-9892-47e9-a975-52ee82cd00bd",
+    "ashby-quartermaster-9d219fca-591d-48e8-92e6-e823d1476bcc",
     "ashby-quartermaster-dd9ebc75-1850-498c-9472-ac33ed9c3a34",
     "ashby-quartermaster-e005c743-c98b-4f2d-8c98-ef70bd32615e",
     "ashby-quicknode-ec8872a3-d44c-4970-a376-0c4e7729ce7a",
@@ -3587,6 +3592,7 @@
     "ashby-supabase-590a0742-97f1-47f4-81a2-567efc939ae2",
     "ashby-supabase-8229db66-dc3f-4ffe-8d86-90ce9ffb4c90",
     "ashby-supabase-8d05bc85-53f3-4ebf-b5b4-c88cdb922673",
+    "ashby-supabase-98ae5c78-eab7-4879-b143-96b98e4d0dbb",
     "ashby-supabase-98ef6a11-9898-4960-9931-1264285849f3",
     "ashby-supabase-b75ba81e-54cc-4393-a575-bc41776b0113",
     "ashby-supabase-c59d03d5-60c4-43ce-9556-04acab8d87cb",
@@ -40522,5 +40528,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-21T03:15:46.653411+00:00"
+  "updated_at": "2026-08-21T03:21:02.178426+00:00"
 }
