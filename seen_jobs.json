@@ -34848,6 +34848,7 @@
     "wd-abb-external_career_page-/job/USA-OH-Cleveland/R-D-Associate-Engineer_JR00024853",
     "wd-abbott-abbottcareers-/job/United-States---California---Alameda/Staff-Software-Test-Engineer_31147399-1",
     "wd-abbott-abbottcareers-/job/United-States---California---Pleasanton/Staff-Software-Systems-Engineer_31141284-1",
+    "wd-abbott-abbottcareers-/job/United-States---California---San-Diego/Software-Cyber-Security-Engineer_31159447-1",
     "wd-abbott-abbottcareers-/job/United-States---California---San-Diego/Staff-Software-Engineer_35000134-2",
     "wd-abbott-abbottcareers-/job/United-States---California---Santa-Clara/Senior-Principal-Engineer---Imaging--Digital-Solutions_31149060-2",
     "wd-abbott-abbottcareers-/job/United-States---California---Sylmar/Analytics-Engineer_31148507-1",
@@ -34871,6 +34872,7 @@
     "wd-abbott-abbottcareers2-/job/United-States---California---Alameda/Decision-Support-Tools-Engineer_31144056",
     "wd-abbott-abbottcareers2-/job/United-States---California---Alameda/Staff-Software-Test-Engineer_31147399",
     "wd-abbott-abbottcareers2-/job/United-States---California---Pleasanton/Staff-Software-Systems-Engineer_31141284",
+    "wd-abbott-abbottcareers2-/job/United-States---California---San-Diego/Software-Cyber-Security-Engineer_31159447",
     "wd-abbott-abbottcareers2-/job/United-States---California---San-Diego/Staff-Software-Engineer_35000134-1",
     "wd-abbott-abbottcareers2-/job/United-States---California---Santa-Clara/Senior-Principal-Engineer---Imaging--Digital-Solutions_31149060-1",
     "wd-abbott-abbottcareers2-/job/United-States---California---Sylmar/Analytics-Engineer_31148507",
@@ -35081,6 +35083,7 @@
     "wd-ace-careers-/job/Coppell-TX-Remote/Sr-Guidewire-Policy-Center-Developer_JR202637609",
     "wd-ace-careers-/job/Coppell-TX/Associate-Guidewire-ClaimCenter-Developer_JR202637028",
     "wd-ace-careers-/job/Coppell-TX/Associate-Guidewire-Developer_JR202637291",
+    "wd-ace-careers-/job/Coppell-TX/Guidewire-Developer_JR202637121-1",
     "wd-ace-careers-/job/Coppell-TX/Guidewire-PolicyCenter-Developer_JR202637227",
     "wd-ace-careers-/job/Coppell-TX/Software-Engineer---Hybrid_JR202638112",
     "wd-ace-careers-/job/Coppell-TX/Software-Engineer_JR202638320-1",
@@ -35391,6 +35394,7 @@
     "wd-alsacstjude-careersalsacstjude-/job/Memphis-TN/Engineer-II---Software--Memphis--TN-_R0011076",
     "wd-alsacstjude-careersalsacstjude-/job/Memphis-TN/Software-Engineer-IV---Data-Platforms--Memphis--TN-or-Remote-in-USA-_R0010721",
     "wd-alsglobal-external-/job/Reno-Nevada-United-States-of-America/Metallurgical-Engineer---Junior_R6435-3",
+    "wd-altera-altera-/job/San-Jose-California-United-States/AI-Engineer---Cloud-Software---AI-Platforms---Contract_R03022-1",
     "wd-altera-altera-/job/San-Jose-California-United-States/AI-Engineer---Cloud-Software---AI-Platforms_R02859",
     "wd-altera-altera-/job/San-Jose-California-United-States/AI-Engineer_R02788",
     "wd-altera-altera-/job/San-Jose-California-United-States/AI-Software-Development-Engineer---Intern_R02707",
@@ -35954,6 +35958,7 @@
     "wd-axos-axos-/job/HQ---San-Diego-CA/JBATA--AI-Engineer_JR5108-1",
     "wd-axos-axos-/job/HQ---San-Diego-CA/JBATA--Data-Engineer_JR5192-1",
     "wd-axos-axos-/job/HQ---San-Diego-CA/Software-Engineer_JR4491",
+    "wd-axos-axos-/job/HQ---San-Diego-CA/Software-Engineer_JR5286",
     "wd-axos-axos-/job/HQ---San-Diego-CA/Sr-Software-Developer--NET_JR3219",
     "wd-azenta-azentajobs-/job/US---Boston/Field-Service-Engineer_R20260050",
     "wd-azenta-azentajobs-/job/US---South-Plainfield-NJ/Software-Developer_R20260491",
@@ -36377,6 +36382,7 @@
     "wd-bostondynamics-boston_dynamics-/job/Waltham-MA/Staff-Software-Engineer_R2645",
     "wd-bostondynamics-boston_dynamics-/job/Waltham-MA/Staff-Systems-Engineer---Spot_R2576",
     "wd-bouldercolorado-external-/job/Boulder-CO/Radio-Systems-Engineer_JR9277",
+    "wd-bouldercolorado-external-/job/Boulder-CO/Radio-Systems-Engineer_JR9501",
     "wd-boystown-boystowncareers-/job/Omaha-NE/Sr-Systems-Engineer_REQ-2026-9177-1",
     "wd-bozemanhealth-bozemanhealthcareers-/job/Bozeman-MT/Infrastructure-Engineer-ONSITE-Only--FT--10-FTE--Day-Shift-_R13712",
     "wd-bpinternational-bpcareers-/job/United-States-of-America---Illinois---Chicago/Enterprise-Technology-Engineer_RQ114130",
@@ -41282,5 +41288,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-22T03:07:20.897578+00:00"
+  "updated_at": "2026-08-22T04:10:17.326559+00:00"
 }
