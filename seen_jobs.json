@@ -5252,6 +5252,8 @@
     "gh-allenintegratedsolutions-7788660003",
     "gh-allenintegratedsolutions-7793142003",
     "gh-allenintegratedsolutions-7821531003",
+    "gh-allenintegratedsolutions-7964859003",
+    "gh-allenintegratedsolutions-7964871003",
     "gh-allinc-8568594002",
     "gh-alloy-8316068002",
     "gh-alloy-8494881002",
@@ -6989,6 +6991,7 @@
     "gh-anthropic-5397319008",
     "gh-anthropic-5398218008",
     "gh-anthropic-5398227008",
+    "gh-anthropic-5400012008",
     "gh-antora-6114987004",
     "gh-antora-6114994004",
     "gh-antora-6118945004",
@@ -18567,6 +18570,7 @@
     "gh-ninjatrader-4697345006",
     "gh-ninjatrader-4698792006",
     "gh-ninjatrader-4701635006",
+    "gh-ninjatrader-4703039006",
     "gh-ninjatrader-4703089006",
     "gh-ninjatrader-4705860006",
     "gh-ninjatrader-4706283006",
@@ -19674,6 +19678,7 @@
     "gh-parachutehealth-4716063007",
     "gh-parachutehealth-5149037007",
     "gh-parachutehealth-5152203007",
+    "gh-parachutehealth-5220321007",
     "gh-parallel-5147933007",
     "gh-parallel-5173338007",
     "gh-paretocaptiveservicesllc-4705491006",
@@ -22575,6 +22580,7 @@
     "gh-singlestore-7868658",
     "gh-singlestore-7868684",
     "gh-singlestore-8036022",
+    "gh-singlestore-8142139",
     "gh-sironamedical-4710808005",
     "gh-siteline-4702447006",
     "gh-sixfold-5234031008",
@@ -27995,6 +28001,7 @@
     "gh-waymo-8113233",
     "gh-waymo-8127006",
     "gh-waymo-8148444",
+    "gh-waymo-8152556",
     "gh-wayve-8382427002",
     "gh-wayve-8435254002",
     "gh-wayve-8449034002",
@@ -41514,5 +41521,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-24T19:11:36.513134+00:00"
+  "updated_at": "2026-08-24T19:44:17.194440+00:00"
 }
