@@ -8555,6 +8555,9 @@
     "gh-barbaricum-5349216008",
     "gh-barbaricum-5372500008",
     "gh-barbaricum-5396484008",
+    "gh-barbaricum-5404632008",
+    "gh-barbaricum-5404639008",
+    "gh-barbaricum-5404643008",
     "gh-bark-7957591",
     "gh-baselayer-5209345008",
     "gh-baselayer-5226295008",
@@ -10424,6 +10427,7 @@
     "gh-clickhouse-6014112004",
     "gh-clickhouse-6101325004",
     "gh-clickhouse-6122325004",
+    "gh-clickhouse-6128891004",
     "gh-clickhouse-6130149004",
     "gh-clickhouse-6130197004",
     "gh-clicktherapeutics-8534499002",
@@ -16226,6 +16230,7 @@
     "gh-keyfactorinc-5986267004",
     "gh-keyfactorinc-6093779004",
     "gh-keyfactorinc-6119682004",
+    "gh-keyfactorinc-6161145004",
     "gh-keyfactorinccampusrecruiting-6092897004",
     "gh-keystonestrategy-7895037",
     "gh-keystonestrategy-7946456",
@@ -16928,6 +16933,7 @@
     "gh-loenbro-4366970009",
     "gh-loenbro-4369364009",
     "gh-loenbro-4378221009",
+    "gh-loenbro-4381581009",
     "gh-loftfederal-5212151008",
     "gh-logicgate-4703645005",
     "gh-logicgate-4711024005",
@@ -22169,6 +22175,7 @@
     "gh-scaleai-4722512005",
     "gh-schimenticonstructioncompany-6099647004",
     "gh-schimenticonstructioncompany-6109890004",
+    "gh-schimenticonstructioncompany-6161144004",
     "gh-schonfeld-7381166",
     "gh-schonfeld-7544203",
     "gh-schonfeld-7589451",
@@ -41714,5 +41721,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-25T11:53:41.784524+00:00"
+  "updated_at": "2026-08-25T13:15:38.573263+00:00"
 }
