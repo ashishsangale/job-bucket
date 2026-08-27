@@ -34581,8 +34581,10 @@
     "lever-bolster-2447e7e7-3c7d-48e6-825d-30d9520f9f09",
     "lever-bosonai-2b520a0f-556a-4dc2-a5a7-d8845a921335",
     "lever-bounteous-0a8b2e44-f151-4d03-aeaf-c36562622928",
+    "lever-bounteous-1bd50276-f69e-4669-8c0d-0f0a4676290c",
     "lever-bounteous-48dbaea4-c2ee-4e98-a5cb-3588eafb5ef0",
     "lever-bounteous-96f26c0d-2217-4c39-b96c-76c4b01540fb",
+    "lever-bounteous-b97a2f71-57cd-434a-a330-0b7cb3d7b973",
     "lever-bounteous-cb7c993b-49df-41b6-8573-3a365aa5b6c4",
     "lever-bounteous-efa39bac-21db-417e-86d5-0a6f40ef9945",
     "lever-boxbot-4083604f-947f-4209-b03e-72a902d68376",
@@ -35357,6 +35359,7 @@
     "lever-shieldai-a0d0acf8-5c01-43d0-9bb7-3a0433280302",
     "lever-shieldai-a9afa909-29ae-4f20-a9cc-b0c3cd31e0e2",
     "lever-shieldai-aa3d2845-c311-4132-bd4d-7992f9affa7b",
+    "lever-shieldai-b3bb2565-135f-4bb7-93b3-2599bab544dc",
     "lever-shieldai-b455a69a-a2c7-4f24-aec1-46ca5f5ec0be",
     "lever-shieldai-b6dcf09f-1fb2-4ac1-b2e6-9fab8acb4e79",
     "lever-shieldai-c0593ffd-e4c8-45fe-92f3-fc0561a1b3f6",
@@ -35551,6 +35554,7 @@
     "lever-velo3d-629f99d2-0bcd-4ee1-86e4-817d785fe65c",
     "lever-velo3d-94854d7d-3c0d-4801-8d0a-c9abf71e6a4f",
     "lever-velo3d-ba88bb6a-27fa-425f-87c9-f679b3bd6b9c",
+    "lever-venusaero-1a9a3209-3e1f-4fd1-bf15-222abeebc76a",
     "lever-verkor-91e64332-df87-4fca-ba9b-58233aa189f5",
     "lever-verkor-a097bbad-f23e-4565-889c-e257e2934248",
     "lever-verkor-d4714c6b-2e29-4130-a40d-3fcee930f332",
@@ -35714,6 +35718,7 @@
     "lever-zoox-44136143-ba13-4839-bdc5-26a7633080a3",
     "lever-zoox-44256995-b7d1-4c4a-b83b-3c55b69dedf7",
     "lever-zoox-51838a63-2dde-44dc-9c3e-757f35b9690f",
+    "lever-zoox-5981f7a6-8df4-424a-a611-692def60c34a",
     "lever-zoox-5ab0cc36-0d91-4acd-9cf3-c38a273293cb",
     "lever-zoox-7206fd97-14e4-43a0-b903-ba65dfeee53e",
     "lever-zoox-7522162e-a518-444e-8fe7-49b8b45bbdd3",
@@ -42570,5 +42575,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-27T09:54:38.051113+00:00"
+  "updated_at": "2026-08-27T10:06:09.218761+00:00"
 }
