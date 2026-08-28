@@ -35061,6 +35061,7 @@
     "lever-field-ai-826b596d-3c91-44b8-83fc-fc42f5d04ac6",
     "lever-field-ai-8c170269-262c-400f-81d3-18a9ae6d9b86",
     "lever-field-ai-94897802-d3d0-4d3f-b5bb-5b2869663605",
+    "lever-field-ai-94bf09fd-ebd3-4b96-8c72-4139aad1405b",
     "lever-field-ai-95ff2df3-4408-47f3-a2c5-295d8067bb30",
     "lever-field-ai-96de65f3-7de0-453f-a9a6-def6f6beebd9",
     "lever-field-ai-9a92c550-5f4c-48c6-b4d4-f44a0a146a15",
@@ -35139,6 +35140,7 @@
     "lever-goswift-ae7b1e71-b783-4677-9cfa-dcce51333dfa",
     "lever-gouspack-e01b857f-a29f-49ee-91e6-c78362ad1711",
     "lever-grailbio-0cdd9516-2b17-4811-80b9-cca88ccb8ca4",
+    "lever-grailbio-36b40389-6f5d-467f-b4b0-e220ca73e89d",
     "lever-grailbio-37fda9fa-9dfc-445c-bc08-c538d6746a73",
     "lever-grailbio-475f2338-6a6a-450b-a851-f47c93a33e69",
     "lever-grailbio-6e64995e-49f5-4f0a-bf88-7ce6bfe68661",
@@ -35459,6 +35461,8 @@
     "lever-penumbrainc-3a2507b0-7ed6-4385-8262-fee3ac0104a5",
     "lever-penumbrainc-872adff7-f42f-42a7-b264-d7d56f4020ad",
     "lever-penumbrainc-a6660b10-6e7c-4bf4-92f2-08e21c0551f7",
+    "lever-penumbrainc-c3f03be8-3cbe-475d-9b32-77039799254f",
+    "lever-penumbrainc-e98a1def-0286-4d64-be0b-60485a252fd3",
     "lever-perforce-000e5faa-188d-45e7-a046-b01fb6cce9ee",
     "lever-picklerobot-153b0294-90cf-4caf-a5b6-508e9a96d9b7",
     "lever-picklerobot-19dec4f1-ec88-4095-bac8-dd5fb19d2ec1",
@@ -35852,6 +35856,7 @@
     "lever-verygoodsecurity-ecdf920d-9ff2-49ce-9dbd-28aad6f36433",
     "lever-viaseparations-53e63c8e-ec65-4966-98e7-54b34398319c",
     "lever-voltus-58a0d4db-bae6-4649-9628-aa5d44072ceb",
+    "lever-waabi-1bee72f9-6b1e-4042-8723-d0bd387c56c6",
     "lever-waabi-1fb790ab-2a32-4314-a1fd-907f7ce0e6e6",
     "lever-waabi-84d01cde-e651-473f-a6ca-78e48d9b8401",
     "lever-waabi-8655f69b-a3eb-42b6-afed-2cfc262212f2",
@@ -42896,5 +42901,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer---Java_R19196",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-08-28T05:24:25.979170+00:00"
+  "updated_at": "2026-08-28T05:33:26.543298+00:00"
 }
