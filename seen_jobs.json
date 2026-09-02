@@ -37000,6 +37000,8 @@
     "wd-abb-external_career_page-/job/USA-OH-Cleveland/R-D-Associate-Engineer_JR00024853",
     "wd-abbott-abbottcareers-/job/United-States---California---Alameda/Staff-Software-Test-Engineer_31147399-1",
     "wd-abbott-abbottcareers-/job/United-States---California---Alameda/Staff-Software-Test-Engineer_31160101-2",
+    "wd-abbott-abbottcareers-/job/United-States---California---Pleasanton/Associate-Staff-Software-Engineer_31160768-1",
+    "wd-abbott-abbottcareers-/job/United-States---California---Pleasanton/Staff-Software-Engineer---Pleasanton--CA---Sunnyvale--CA_31160634-1",
     "wd-abbott-abbottcareers-/job/United-States---California---Pleasanton/Staff-Software-Systems-Engineer_31141284-1",
     "wd-abbott-abbottcareers-/job/United-States---California---San-Diego/Software-Cyber-Security-Engineer_31159447-1",
     "wd-abbott-abbottcareers-/job/United-States---California---San-Diego/Staff-Software-Engineer_35000134-2",
@@ -37026,6 +37028,8 @@
     "wd-abbott-abbottcareers2-/job/United-States---California---Alameda/Decision-Support-Tools-Engineer_31144056",
     "wd-abbott-abbottcareers2-/job/United-States---California---Alameda/Staff-Software-Test-Engineer_31147399",
     "wd-abbott-abbottcareers2-/job/United-States---California---Alameda/Staff-Software-Test-Engineer_31160101-1",
+    "wd-abbott-abbottcareers2-/job/United-States---California---Pleasanton/Associate-Staff-Software-Engineer_31160768",
+    "wd-abbott-abbottcareers2-/job/United-States---California---Pleasanton/Staff-Software-Engineer---Pleasanton--CA---Sunnyvale--CA_31160634",
     "wd-abbott-abbottcareers2-/job/United-States---California---Pleasanton/Staff-Software-Systems-Engineer_31141284",
     "wd-abbott-abbottcareers2-/job/United-States---California---San-Diego/Software-Cyber-Security-Engineer_31159447",
     "wd-abbott-abbottcareers2-/job/United-States---California---San-Diego/Staff-Software-Engineer_35000134-1",
@@ -37167,6 +37171,7 @@
     "wd-accenture-accenturecareers-/job/Kolkata/Custom-Software-Engineer_ATCI-5617210-S2027813-1",
     "wd-accenture-accenturecareers-/job/Kolkata/Performance-Engineer_ATCI-5466763-S1997519-1",
     "wd-accenture-accenturecareers-/job/Kronberg-Campus-Kronberg-1/AI-Native-Software-Engineering--Junior-_R00345665",
+    "wd-accenture-accenturecareers-/job/Leeds/Quality-Automation-Engineer---Leeds_R00289257-1",
     "wd-accenture-accenturecareers-/job/Leeds/Software-Engineer---Leeds_R00288598",
     "wd-accenture-accenturecareers-/job/London/AI-Native-SW-Engineering_R00344633",
     "wd-accenture-accenturecareers-/job/London/AI-Native-SW-Engineering_R00344691",
@@ -37216,6 +37221,7 @@
     "wd-accenture-accenturecareers-/job/Roma/AI-Native-Software-Engineering_R00344568",
     "wd-accenture-accenturecareers-/job/Roma/Forward-Deployed-Engineer-Specialist_R00345231",
     "wd-accenture-accenturecareers-/job/Saint-Herblain-Liberty-A/AI-Native-Engineer_R00346086-1",
+    "wd-accenture-accenturecareers-/job/Saint-Herblain-Liberty-A/Junior-AI-Native-Engineer_R00346080",
     "wd-accenture-accenturecareers-/job/Taguig/ServiceNow-Developer-Upskilling---For-Developers-Skilled-in-JavaScript--Python--Angular--or-Similar-Skills_R00323856",
     "wd-accenture-accenturecareers-/job/Vienna/Applied-AI-Engineer--all-genders-_R00350621",
     "wd-accenture-accenturecareers-/job/Vilnius/AI-ML-Computational-Scientist_R00344140",
@@ -37401,6 +37407,7 @@
     "wd-ag-airbus-/job/Wichita-KS/Stress-Engineer-I_JR10436177",
     "wd-agilent-agilent_careers-/job/Taiwan-Remote-Location/Field-Service-Engineer_4038288",
     "wd-agilent-agilent_careers-/job/Taiwan-Remote-Location/Field-Service-Engineer_4039210",
+    "wd-agilent-agilent_careers-/job/Taiwan-Remote-Location/Field-Service-Engineer_4039400",
     "wd-agilent-agilent_careers-/job/US-CA-Carpinteria/Validation-Engineer_4038052",
     "wd-agilent-agilent_careers-/job/US-CA-Los-Angeles/Field-Service-Engineer---GC-GCMS_4038545-1",
     "wd-agilent-agilent_careers-/job/US-CA-Remote-Location/Field-Service-Engineer---Pathology_4038589",
@@ -44409,5 +44416,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-02T04:48:14.122633+00:00"
+  "updated_at": "2026-09-02T05:00:00.954984+00:00"
 }
