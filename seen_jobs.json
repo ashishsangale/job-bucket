@@ -38631,6 +38631,7 @@
     "wd-asml-asmlext1-/job/San-Diego-CA-USA/Competence-Engineer_J-00337087",
     "wd-asml-asmlext1-/job/San-Diego-CA-USA/Competence-Engineer_J-00345894",
     "wd-asml-asmlext1-/job/San-Diego-CA-USA/Machine-Learning-Scientist---Physics_J-00345223",
+    "wd-asml-asmlext1-/job/San-Diego-CA-USA/PLC-Development-Engineer_J-00350734",
     "wd-asml-asmlext1-/job/San-Diego-CA-USA/Plasma-and-Laser-Physics-Engineer_J-00350019",
     "wd-asml-asmlext1-/job/San-Diego-CA-USA/Senior-IT-Applications-Engineer_J-00325431",
     "wd-asml-asmlext1-/job/San-Jose-CA-USA/High-Performance-Computing-Engineer_J-00348765-1",
@@ -38743,6 +38744,7 @@
     "wd-att-attgeneral-/job/USATXPlano--W-Plano-Pkwy---Adm--Dat2900-W-Plano-Pkwy/Sr-Specialist-Software-Engineering_R-120199",
     "wd-att-attgeneral-/job/USAWABothell--20309-North-Creek-Pkwy---Adm-bothell-720309-N-Creek-Pkwy--Bldg-L/Sr-Specialist-Member-of-Technical-Staff---AI-Workflow-Automation_R-113786",
     "wd-auroragov-careers-/job/Aurora-Municipal-Center/Network-Engineer_JR108895",
+    "wd-auroragov-careers-/job/Daniel-P-Mikesell-Building-Southeast-Area-Maintenance-Facility--SEAM/Project-Engineer_JR109241",
     "wd-austalusa-austal-/job/Charlottesville/Project-Test-Engineer---AAT_R0011277",
     "wd-austalusa-austal-/job/Danville-VA/Quality-Engineer-II_R0011417-1",
     "wd-austalusa-austal-/job/Mobile-AL/Desktop-Engineer_R0011847",
@@ -39925,6 +39927,7 @@
     "wd-cadence-univ_careers-/job/AUSTIN/Software-Engineer-II--AI-Compiler-Engineer_R55175-3",
     "wd-cadence-univ_careers-/job/BOSTON-02/Software-Engineer-II--New-College-Grad-2026-_R54895-2",
     "wd-cadence-univ_careers-/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894-1",
+    "wd-cadence-univ_careers-/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738-2",
     "wd-cadence-univ_careers-/job/SAN-JOSE/Software-Engineer--Synthesis_R52773",
     "wd-cadence-univ_careers-/job/SAN-JOSE/Software-Engineer-II--AI-Platform_R55030",
     "wd-cadence-univ_careers-/job/SAN-JOSE/Software-Engineer-II--Synthesis_R55632",
@@ -39934,6 +39937,7 @@
     "wd-cadence-univ_careers-/job/SAN-JOSE/Software-Engineer-II_R55509",
     "wd-cadence-university_talent-/job/BOSTON-02/Software-Engineer-II--New-College-Grad-2026-_R54895-1",
     "wd-cadence-university_talent-/job/Burlington-MA/Software-Engineer--New-College-Grad-2026--Undergrads-_R54894",
+    "wd-cadence-university_talent-/job/SAN-JOSE/Software-Engineer---new-college-grad-Dec-2026-_R55738-1",
     "wd-cae-career-/job/Altus-OK-USA/ATS-Software-Engineer_122982",
     "wd-cae-career-/job/Altus-OK-USA/ATS-Software-Engineer_122983-1",
     "wd-cae-career-/job/Altus-OK-USA/Visual-Database-Engineer_122979",
@@ -45168,5 +45172,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-03T21:48:59.169569+00:00"
+  "updated_at": "2026-09-03T23:31:38.769554+00:00"
 }
