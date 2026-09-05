@@ -2051,6 +2051,7 @@
     "ashby-formenergy-b420a09e-4381-4d9d-88e3-982bf1a449e0",
     "ashby-formenergy-c477217a-50fb-4ff3-a704-aeb2afac5581",
     "ashby-formenergy-c7192ece-f2fc-4eba-963a-479f9c5d3e0e",
+    "ashby-formenergy-ce728d4e-e21d-489a-a5be-53846b424487",
     "ashby-formenergy-d3fe6cbc-eade-47f4-91f4-08af3e5bdcf3",
     "ashby-formenergy-e1d90b76-609a-455e-a5f2-2091b154d7ac",
     "ashby-formenergy-e26a0733-907e-4fdc-ad58-21faeffd57d7",
@@ -2648,6 +2649,7 @@
     "ashby-lavendo-a9370980-9b1e-45fe-85dd-f84c0ae17fb2",
     "ashby-lavendo-a9794e04-aed3-4e6c-961b-c08367308b5a",
     "ashby-lavendo-a9e4c285-cf15-4d7f-975d-20faed3b184b",
+    "ashby-lavendo-cb58b10a-f2b2-44ab-8f09-61f2f3fe1fe7",
     "ashby-lavendo-d0abd8d2-6a99-406c-a7cf-448fbc7ad576",
     "ashby-lavendo-d23ea3cc-3a71-4372-aff8-4d66f8a60f66",
     "ashby-lavendo-e5cf20c8-5beb-4ef8-82d7-d7c053454010",
@@ -2831,6 +2833,7 @@
     "ashby-mem0-77259c2d-aaa7-4d6d-a206-75f1a36f997d",
     "ashby-mercor-03662092-4f6b-4c82-8d6d-5e7e839c31d7",
     "ashby-mercor-160c8177-765b-4bdc-a5be-5f646dccc98a",
+    "ashby-mercor-296c4031-5e98-4772-95f5-a9eb5bd7746d",
     "ashby-mercor-2b1d7c4b-721b-4ed7-b61b-7bdceeaaa702",
     "ashby-mercor-35e1923b-3c1c-4bb4-94d6-ef3a529ef871",
     "ashby-mercor-3750ee8a-64d1-46ac-b4f9-6a823f949034",
@@ -4668,8 +4671,10 @@
     "ashby-writer-fec4202f-23ed-4378-a10a-62e55a762ff0",
     "ashby-wundergraph-3ad4fca5-ff71-4e02-b5bd-f1134168137e",
     "ashby-wynd-labs-216d74ef-d925-4bf1-ae4f-9eedc3e145f8",
+    "ashby-wynd-labs-8aa370f3-8e80-44d4-aa9f-c28296d43efd",
     "ashby-wynd-labs-900e79ba-5668-4a43-9065-3f4bf7db6aa4",
     "ashby-wynd-labs-a148c710-7685-4184-9be8-c4d46a0a8f04",
+    "ashby-wynd-labs-e7ffd2fb-23cb-4d21-ac89-06b846a2f728",
     "ashby-xero-ffdd6429-8dd6-465e-9881-48dbe0c53b7d",
     "ashby-xona-space-1be20d16-a932-458f-aee8-be1be4a17eb4",
     "ashby-xona-space-1dd03951-79fa-4a0e-8ce6-c230d607fec3",
@@ -45547,5 +45552,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-05T04:21:42.545141+00:00"
+  "updated_at": "2026-09-05T04:35:37.421797+00:00"
 }
