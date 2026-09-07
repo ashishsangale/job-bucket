@@ -8551,6 +8551,7 @@
     "gh-asteralabs-4706552005",
     "gh-asteralabs-4718443005",
     "gh-asteralabs-4720171005",
+    "gh-asteralabs-4724488005",
     "gh-astranis-4004153006",
     "gh-astranis-4005770006",
     "gh-astranis-4006970006",
@@ -12600,6 +12601,7 @@
     "gh-devtechnology-8746115002",
     "gh-devtechnology-8768969002",
     "gh-devtechnology-8783496002",
+    "gh-devtechnology-8783712002",
     "gh-dexisconsultinggroup-4706867005",
     "gh-dexisconsultinggroup-4729017005",
     "gh-dexory-4856828101",
@@ -12626,6 +12628,8 @@
     "gh-dialpad-8633544002",
     "gh-dialpad-8633547002",
     "gh-dialpad-8727517002",
+    "gh-dialpad-8785454002",
+    "gh-dialpad-8785456002",
     "gh-didi-7975368",
     "gh-didi-7975371",
     "gh-didi-7975374",
@@ -19845,6 +19849,7 @@
     "gh-netskope-8119463",
     "gh-netskope-8123532",
     "gh-netskope-8131789",
+    "gh-netskope-8164266",
     "gh-netskope-8175777",
     "gh-networkoptix-5114803007",
     "gh-neuehealth-6001751004",
@@ -45659,5 +45664,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-07T19:22:09.963192+00:00"
+  "updated_at": "2026-09-07T20:36:49.346658+00:00"
 }
