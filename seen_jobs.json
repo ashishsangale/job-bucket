@@ -1845,8 +1845,10 @@
     "ashby-embedding-vc-4b7b35d9-6a2c-43a2-8c36-2bf6974e3b0f",
     "ashby-embedding-vc-53e1a6e9-b422-4b08-b42b-195a050bebcf",
     "ashby-embedding-vc-5c8433ea-c7e6-4350-bbd5-2889e7fdb2b1",
+    "ashby-embedding-vc-5d382f97-5444-45b6-b491-140e88d151a7",
     "ashby-embedding-vc-746ef195-8f9f-41d5-8207-e19346ac1089",
     "ashby-embedding-vc-930fea63-4fcb-4b84-96ec-9aa5da111329",
+    "ashby-embedding-vc-b49531ff-4850-4bab-8fbf-72a8ec299e60",
     "ashby-embedding-vc-f7e71416-4a84-4690-906e-83b0fd637242",
     "ashby-envoy-50af5e24-e841-4ac9-9ab8-bab95fbcf02f",
     "ashby-envoy-724fe1ce-e41f-4fce-a386-f1c8fca63a2f",
@@ -2160,6 +2162,9 @@
     "ashby-general-medicine-a686dcc6-1f7e-43f6-89fc-afc76c749a8d",
     "ashby-general-medicine-bf71b5f5-a87e-4969-9b69-f6188108f53a",
     "ashby-generalintelligencecompany-75232c77-90dc-46dc-837c-095ab4ed0b4c",
+    "ashby-generalrobotics-1acc15e9-f249-49c8-a0bb-5453da71327d",
+    "ashby-generalrobotics-a2de17d6-ad9e-49ae-9ed3-db7dd7dd87fa",
+    "ashby-generalrobotics-fe8a5cf8-0932-49a5-9a29-82b7a9d9dac2",
     "ashby-genmo-0f8462cc-c351-41b0-a794-3558c63646e2",
     "ashby-genmo-9b5477f4-97af-4aaa-b855-910c982ce191",
     "ashby-gigaml-cbe0ddad-a47c-420b-bf77-73721959d4fa",
@@ -2194,6 +2199,7 @@
     "ashby-greptile-1995303e-eaed-4081-8dc4-9c59c18c8335",
     "ashby-greptile-294bbe1d-5a40-4aec-ab3c-517832e8f2b8",
     "ashby-greptile-43c301c3-9416-4cf7-ac0b-5c30e6c6ac4b",
+    "ashby-greptile-4cd025e1-dc19-4d78-bc3b-677e117d26f6",
     "ashby-greptile-5aa4ce54-8344-48f6-bc4b-7dc9adb1ca7d",
     "ashby-greptile-6be58456-a668-4f66-9a08-394dd9eb4842",
     "ashby-greptile-6e55fc50-514a-47be-bb5a-5e68f2a5f5cf",
@@ -4342,6 +4348,7 @@
     "ashby-sweatpals-65de64b3-7a62-4710-8829-60eeceac3ecd",
     "ashby-sygaldry-technologies-5ada4013-8792-463e-b490-1d1e21e8d84b",
     "ashby-synthesia-3e67c3b7-4d84-4c00-b40e-53bc6ab55eef",
+    "ashby-synthesia-637a0f3b-fd23-409a-b66b-917d1411d56e",
     "ashby-synthesia-c3c79cb1-3ead-46ac-abf2-04502e4655bd",
     "ashby-tabs-1220f7ec-7e1d-445a-9891-87d5700df346",
     "ashby-tabs-234ef4f0-d673-4c00-85f0-402910bf1367",
@@ -46048,5 +46055,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-09T11:19:25.009573+00:00"
+  "updated_at": "2026-09-09T11:28:46.216016+00:00"
 }
