@@ -1605,6 +1605,7 @@
     "ashby-crosby-81acae55-8c8e-40d9-b601-7ba99e22a6e2",
     "ashby-crosby-a3c23aa9-8aa7-440e-aa19-798ca54474e3",
     "ashby-crosby-a49ac6e4-4baa-4980-b9e8-8aa6b8dcde86",
+    "ashby-crusoe-0aae94c4-9fe6-4275-be3c-6c397345f7f4",
     "ashby-crusoe-0e20425d-d3e9-4bff-a2bb-12f86dffba14",
     "ashby-crusoe-13f64cc5-77f1-4b04-99a3-c49aaef0e7ca",
     "ashby-crusoe-1eb50f41-8a4b-4db0-953e-1bee91e3f40e",
@@ -1746,6 +1747,7 @@
     "ashby-deposco-0d3c955b-3fbb-43a1-9e6e-bf04b6ef1b3f",
     "ashby-designworkstalent-21faa885-0c84-44c7-bd72-dc4c32bc054b",
     "ashby-designworkstalent-2d7018b3-bf31-4cd4-a7a6-d864ca8348a9",
+    "ashby-designworkstalent-30c3fbd5-48a3-4d3e-b0da-89e7fe571eb6",
     "ashby-designworkstalent-55d219b3-12c6-44cb-bfc4-596c194da514",
     "ashby-designworkstalent-97f1089d-c83f-423b-93a8-9b09414d4c31",
     "ashby-designworkstalent-a5540625-7ad0-458f-8110-d462447b714a",
@@ -2192,6 +2194,7 @@
     "ashby-greptile-43c301c3-9416-4cf7-ac0b-5c30e6c6ac4b",
     "ashby-greptile-5aa4ce54-8344-48f6-bc4b-7dc9adb1ca7d",
     "ashby-greptile-6be58456-a668-4f66-9a08-394dd9eb4842",
+    "ashby-greptile-6e55fc50-514a-47be-bb5a-5e68f2a5f5cf",
     "ashby-greptile-87de72d7-b4be-406a-bcf5-4b3d601bdd37",
     "ashby-greptile-c37f77f1-0cc1-404a-9902-a53bf83d2d5f",
     "ashby-greptile-c6493034-10a9-4c0a-b937-6c2e4c7777d4",
@@ -2563,6 +2566,7 @@
     "ashby-kayak-85165d45-de15-444d-8a5e-b7fdb8f3cf1e",
     "ashby-kayak-9a924167-ab7b-4f93-99a1-978f7075f6ad",
     "ashby-kin-4f7daf21-eedd-4ca3-8575-5599390df49d",
+    "ashby-kin-56db2161-84b4-42ab-b1c6-adae6c1f325c",
     "ashby-kin-5f0a596b-b3c7-44b0-bb06-8bd17bafc29b",
     "ashby-kira-7f42ae05-e3db-4b78-8b76-04693772727a",
     "ashby-knowtex-1fcb49c6-b959-44d3-9c06-1c03fead25c9",
@@ -3252,6 +3256,7 @@
     "ashby-openai-5c3a17db-62f1-4145-93b0-2f207d4d4af8",
     "ashby-openai-5ebd5f66-75db-4a96-8d39-babc14f1c582",
     "ashby-openai-5ed99d32-eed1-4679-b7b4-037de073e57c",
+    "ashby-openai-60573bf4-13ad-4933-aba7-729f428e9f69",
     "ashby-openai-65780e7c-6cbd-4e01-a437-2142363d855d",
     "ashby-openai-66288824-8b77-4774-bc57-6825d3e6221e",
     "ashby-openai-6b47238e-025a-4350-b270-2f3564002fcc",
@@ -3762,6 +3767,7 @@
     "ashby-ramp-6a7e382f-240a-4952-b9e5-7fe2b3856bc9",
     "ashby-ramp-8d61885c-0f08-4267-8ace-69e28b1d3f38",
     "ashby-ramp-8efd3a0a-fc66-46e2-9415-bffba10e2919",
+    "ashby-ramp-9916e9da-7491-4c99-afd1-e4b8158fa58b",
     "ashby-ramp-b614563f-3ce6-4dca-b5ba-0e5a6c8bda27",
     "ashby-ramp-c01a2ed9-fcb4-48c0-ad7a-c59476d9c986",
     "ashby-ramp-d818443f-d4c5-4eab-892d-3715a935c165",
@@ -3902,6 +3908,7 @@
     "ashby-rollstack-da40d360-66f6-4d4b-b96b-aa5eb2cd8b37",
     "ashby-root-access-2f6ce424-fc4f-436a-9493-7fb74aff9017",
     "ashby-rothys-bcb45279-5121-42ee-9025-b10b0eced3ed",
+    "ashby-rowan-ddec8cf3-5181-4281-9705-f09d66c9a059",
     "ashby-rox-data-corp-00c7e27e-20c4-4310-a9de-a05154516c20",
     "ashby-rox-data-corp-265f9a37-167b-4c92-ac1b-8522f18225be",
     "ashby-rox-data-corp-49a62752-3d88-46d1-8c43-48a4a0840d91",
@@ -45994,5 +46001,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-09T00:11:51.377501+00:00"
+  "updated_at": "2026-09-09T00:20:35.910682+00:00"
 }
