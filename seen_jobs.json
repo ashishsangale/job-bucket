@@ -250,6 +250,8 @@
     "amzn-10533654",
     "amzn-10534469",
     "amzn-10535234",
+    "amzn-10536442",
+    "amzn-10536479",
     "apple-200555687-3543",
     "apple-200608388-3337",
     "apple-200619215-3760",
@@ -321,6 +323,10 @@
     "apple-200657425-0157",
     "apple-200657425-3543",
     "apple-200657613-0157",
+    "apple-200657834",
+    "apple-200657834-3401",
+    "apple-200657839",
+    "apple-200657839-3401",
     "apple-200658482-3956",
     "apple-200658959-0240",
     "apple-200658959-3401",
@@ -333,6 +339,8 @@
     "apple-200660063-3401",
     "apple-200660063-3543",
     "apple-200660259-3956",
+    "apple-200660813-0157",
+    "apple-200660813-3543",
     "apple-200660851-0157",
     "apple-200661302-3337",
     "apple-200661978-3543",
@@ -1454,6 +1462,7 @@
     "ashby-cerebras-c35a389c-807e-45fb-bfda-03f6b1361871",
     "ashby-cerebras-cf45f13c-b6a9-4df2-b6c3-eefea14a024f",
     "ashby-cerebras-d114d16b-3c5f-44a1-9a15-26b37fb45369",
+    "ashby-cerebras-e62f91e4-3079-45aa-87ff-b848b56c54e6",
     "ashby-cerebras-f25b9677-32fa-41ed-84d1-0ed704a98533",
     "ashby-chaidiscovery-ce8aab39-6604-4268-b705-46c441221550",
     "ashby-chainalysis-careers-4808108e-6a69-46c4-b9da-930070562608",
@@ -46573,5 +46582,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-10T18:39:06.557995+00:00"
+  "updated_at": "2026-09-10T19:43:09.373522+00:00"
 }
