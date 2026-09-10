@@ -117,7 +117,9 @@ EXCLUDE_KEYWORDS: list[str] = [
     "roadway", "hydraulics", "bridge", "controls", "electromagnetic", "thermal",
     "part-time", "thermo", "buyer", "supplier", "electronics", "fire", "building",
     "environmental", "bioinformetics", "ts/sci", "fluid", "welding", "commissioning",
-    "chemical", "purity", 
+    "chemical", "purity", "airfield", "power", "Proto", "road", "structural", "structure",
+    "traffic", "safety", "distinguished", "coatings", "resident", "GTM", "industrial", "highway",
+    "audio"
 ]
 
 REMOTE_ONLY: bool = False

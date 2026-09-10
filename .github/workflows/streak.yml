@@ -1,0 +1,29 @@
+name: Momentum Streak
+
+on:
+  schedule:
+    - cron: "0 3 * * *"    # 11pm ET — end of day recap of the day's momentum
+  workflow_dispatch:
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run streak
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DIGEST_DISCORD_WEBHOOK_URL: ${{ secrets.DIGEST_DISCORD_WEBHOOK_URL }}
+          APPLIED_STATUS_NAME: ${{ vars.APPLIED_STATUS_NAME }}
+        run: python digest.py streak

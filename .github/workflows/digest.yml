@@ -1,0 +1,29 @@
+name: Job Digest
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # 9am ET morning digest
+    - cron: "0 23 * * *"   # 7pm ET evening digest
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run digest
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DIGEST_DISCORD_WEBHOOK_URL: ${{ secrets.DIGEST_DISCORD_WEBHOOK_URL }}
+        run: python digest.py digest

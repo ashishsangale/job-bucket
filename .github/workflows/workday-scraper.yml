@@ -38,21 +38,42 @@ jobs:
       - name: Run tests
         run: pytest tests/ -v
 
+      - name: Determine batch offset
+        id: offset
+        run: |
+          if [ -n "${{ inputs.batch_offset }}" ]; then
+            OFFSET="${{ inputs.batch_offset }}"
+          else
+            OFFSET=$(python -c "import json; print(json.load(open('workday_offset.json'))['offset'])")
+          fi
+          echo "offset=$OFFSET" >> "$GITHUB_OUTPUT"
+
       - name: Run scraper
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           NOTION_TOKEN:        ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID:  ${{ secrets.NOTION_DATABASE_ID }}
           SCRAPER_MODE:        workday
-          BATCH_OFFSET:        ${{ inputs.batch_offset || '0' }}
+          BATCH_OFFSET:        ${{ steps.offset.outputs.offset }}
           BATCH_SIZE:          ${{ inputs.batch_size || '1000' }}
         run: python scraper.py
 
-      - name: Commit updated seen_jobs.json
+      - name: Advance batch offset for next run
+        run: |
+          python -c "
+          import json
+          total = len(json.load(open('workday.json')))
+          batch_size = int('${{ inputs.batch_size || '1000' }}')
+          offset = int('${{ steps.offset.outputs.offset }}')
+          next_offset = (offset + batch_size) % total if total else 0
+          json.dump({'offset': next_offset}, open('workday_offset.json', 'w'), indent=2)
+          "
+
+      - name: Commit updated seen_jobs.json and offset
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull origin master
-          git add seen_jobs.json
-          git diff --staged --quiet || git commit -m "chore: update seen_jobs [skip ci]"
+          git add seen_jobs.json workday_offset.json
+          git diff --staged --quiet || git commit -m "chore: update seen_jobs and workday offset [skip ci]"
           git push
