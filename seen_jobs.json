@@ -1580,6 +1580,7 @@
     "ashby-cognition-b6f96827-ce14-44f4-98fa-b1b8640858b6",
     "ashby-cognition-d50d94b0-60c8-4dae-9c36-234f072ee4e3",
     "ashby-cognition-e8086415-62bc-4cc0-96a4-84bb56182d35",
+    "ashby-cohere-1b909aeb-1221-476f-88fe-8300a2065975",
     "ashby-cohere-1fa01a03-9253-4f62-8f10-0fe368b38cb9",
     "ashby-cohere-9baccd88-c051-474f-bfe8-6867fca54cee",
     "ashby-cohere-b0bcef37-1d20-414f-aade-c54942d63df9",
@@ -2202,6 +2203,7 @@
     "ashby-g2i-7e15b6bf-f2f1-47e3-8cc0-8be82363ab17",
     "ashby-g2i-8b0a6c91-efb3-42d8-88ce-82a7f4f26980",
     "ashby-g2i-8c71e2fd-999c-4f95-a496-b058b6ff562a",
+    "ashby-g2i-8f165746-ca4c-45df-91e1-9315222f4d9a",
     "ashby-g2i-9cc976f9-1772-48e0-b6aa-35b7215de10d",
     "ashby-g2i-b0064deb-f86c-44b1-a074-fbba11782130",
     "ashby-g2i-b35912a6-df65-41b6-bf46-42468284ce7d",
@@ -2544,6 +2546,8 @@
     "ashby-horizon3ai-7ba09c64-7d14-43c1-9f0a-fcf2d8449857",
     "ashby-horizon3ai-95044547-e65e-494f-b04c-ea1853ac1369",
     "ashby-horizon3ai-c0802b07-3cfb-4a9e-b0da-c41751b4b095",
+    "ashby-horizon3ai-c87e8623-770a-489f-9ab1-1be4a37a3263",
+    "ashby-horizon3ai-e4d89cc9-262e-4c51-896e-ac94217eeb2f",
     "ashby-horizon3ai-efb7a52e-2884-43f6-ad7e-a03b5998aa19",
     "ashby-hubstaff-28cde190-c0c7-4a84-b5df-9bf8ffa372a1",
     "ashby-hubstaff-5113c564-191c-48df-ad3c-4557b590a2a3",
@@ -3659,6 +3663,7 @@
     "ashby-persona-d2356d47-66a2-48ca-b635-d2bba251b9e6",
     "ashby-persona-ed38a449-505e-4509-9a04-b9914181324b",
     "ashby-persona-fc9e26c9-0123-4cd1-a8da-c1836ab68a0b",
+    "ashby-phantom-1075b491-988e-4c24-8806-9e5e840cbe5a",
     "ashby-phantom-1a7b0f14-556b-4bb0-b1c1-43702d6b56c3",
     "ashby-phantom-1abf3c00-bb38-4590-ae01-098acf510acd",
     "ashby-phantom-1ddd1eb8-9b2d-4f2a-9e70-4f76bb764e7f",
@@ -4503,6 +4508,7 @@
     "ashby-sygaldry-technologies-5ada4013-8792-463e-b490-1d1e21e8d84b",
     "ashby-synthesia-3e67c3b7-4d84-4c00-b40e-53bc6ab55eef",
     "ashby-synthesia-637a0f3b-fd23-409a-b66b-917d1411d56e",
+    "ashby-synthesia-8d3e4a1a-9e84-4785-ba0f-98154a5b259f",
     "ashby-synthesia-c3c79cb1-3ead-46ac-abf2-04502e4655bd",
     "ashby-tabs-1220f7ec-7e1d-445a-9891-87d5700df346",
     "ashby-tabs-234ef4f0-d673-4c00-85f0-402910bf1367",
@@ -47687,5 +47693,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-14T15:16:48.202295+00:00"
+  "updated_at": "2026-09-14T15:23:19.252098+00:00"
 }
