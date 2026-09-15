@@ -2755,6 +2755,7 @@
     "ashby-lambda-83e77f46-c393-47ae-83ed-db4b0daf6e18",
     "ashby-lambda-8714b844-7754-429a-a22f-2f849dbf9621",
     "ashby-lambda-904bd81c-7826-4728-a597-9138cd812c8f",
+    "ashby-lambda-a06bbf3e-e148-4396-be41-efe3d5c82d5c",
     "ashby-lambda-c7ecb434-fdc0-434e-a455-9c200055cda0",
     "ashby-lambda-d0a418f5-4dc9-402f-9f12-fb2f3ee36ab6",
     "ashby-lambda-d84c4397-8b15-414b-b488-99ea0180bf18",
@@ -2841,6 +2842,7 @@
     "ashby-legora-2f319477-5a33-4190-9c96-147df3f0caba",
     "ashby-legora-42de977d-201e-4ef1-854a-91d422047b73",
     "ashby-legora-5284eb8c-7c33-4c74-bac2-5212a53e0769",
+    "ashby-legora-5b2b44f6-c330-439a-8a96-1b5865e28f5a",
     "ashby-legora-a7d29888-3159-4651-915a-d1a4814d1916",
     "ashby-legora-b8bc380d-a403-4e55-8ea9-7fd8228f2176",
     "ashby-legora-c7a8d50e-c7f9-4a65-984d-dfa9239335e7",
@@ -2977,6 +2979,8 @@
     "ashby-materialsecurity-5ae1888b-4d48-42e8-9751-95f9ccab1667",
     "ashby-matia-fe8b612c-9396-458c-a243-d5a2d3436792",
     "ashby-maticrobots-8f91de7e-64bc-4530-94b4-1f115d921639",
+    "ashby-matter-intelligence-0b6a6644-18e4-4212-9f26-1cf69c72953c",
+    "ashby-matter-intelligence-d563c94e-5bf5-4492-8b0a-7cc11c1b4ea1",
     "ashby-matter-labs-6fa4f013-5321-4f8d-88ff-9d89ac7b9d5b",
     "ashby-matter-labs-a7b55498-adf4-43d4-a1b6-0c97c8794d76",
     "ashby-matterworks-02f5d512-49f7-43c7-b989-b9ddd1b43923",
@@ -3394,6 +3398,7 @@
     "ashby-openai-44abed05-4b45-4aa0-bee6-45d113bbef66",
     "ashby-openai-485cda77-5d8f-4aaa-bca5-916b011477e6",
     "ashby-openai-48993416-b5f5-4c3f-b7c8-b8ca7c2395e0",
+    "ashby-openai-4923fd3e-acf2-4551-91ad-5a92ca81455b",
     "ashby-openai-4948533f-1df6-49f7-af9e-a2da0e02ebca",
     "ashby-openai-4d1ede8c-3d4c-4503-8408-81e4b68c5c91",
     "ashby-openai-4ef5bf23-cf0e-4b97-a639-11f963c99b88",
@@ -3524,6 +3529,7 @@
     "ashby-openrouter-c8ee3a10-ae18-4d8b-9390-369ebea7b03f",
     "ashby-opensea-8c242715-3ea6-47e9-8a9c-9972b57683a7",
     "ashby-oplabs-a9ecb4f8-ef35-426f-8527-daf37305bdc9",
+    "ashby-opusclip-02c5fdd5-5818-4a7f-999c-6071ddbe00fe",
     "ashby-orb-32543c53-7e7d-43e5-8673-9601a244bcb0",
     "ashby-orb-38eddf8e-8e9d-4b82-a0b5-d08d186f1671",
     "ashby-orb-7685a986-beb2-42b9-a9fb-fa44114b97c1",
@@ -47988,5 +47994,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-15T01:39:47.653050+00:00"
+  "updated_at": "2026-09-15T05:00:56.090038+00:00"
 }
