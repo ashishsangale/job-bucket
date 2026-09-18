@@ -39150,6 +39150,7 @@
     "lever-alluxio-61977f52-5288-43fa-b4ca-dc604595a89d",
     "lever-alluxio-7aaad6a6-b103-463b-a3b4-a407a940ea72",
     "lever-ambirobotics-0b3bbc91-6cfa-4718-b3c1-1da6055ff57e",
+    "lever-ambirobotics-b0c26bcd-7c90-49a3-848f-0ffc0e31c27c",
     "lever-amityfdn-1c81b41d-291c-47a3-b5c9-baace5669c48",
     "lever-amityfdn-948f6e5f-9c85-4dfe-acec-e01752697f9f",
     "lever-amityfdn-c017aa88-8d81-41e8-a619-d3b5cc057564",
@@ -39276,6 +39277,7 @@
     "lever-bhhc-bc3e6c4e-aa97-486e-95e4-3fc4371e3221",
     "lever-bioagilytix-512cf268-0629-4ccd-b3cc-ee4fa17a01bd",
     "lever-bioagilytix-b36c396a-51a6-4891-9e4e-3b2ff3e3f5a6",
+    "lever-blinkux-47c561a4-0757-4eaa-9416-e758a59a9c61",
     "lever-bluecatnetworks-978f9afd-7399-4eed-a09e-61b2245dd10a",
     "lever-bluelightconsulting-116ab9b0-2cfb-4016-9e06-3d0e8496cd24",
     "lever-bluelightconsulting-160aacf7-dfd8-4ace-bfcb-b905bd57d1f0",
@@ -39789,6 +39791,7 @@
     "lever-jmawireless-e14259c4-18a4-4d62-b3cd-dd0b83c73118",
     "lever-joltcharge-2818d7fc-fa56-47f7-9d47-67fadbacd40e",
     "lever-joltcharge-40f4b8b0-c2cc-4236-af85-3a012afcd6d8",
+    "lever-jumpcloud-90522edf-3575-4b45-a631-988e5771abb3",
     "lever-jupiterintel-a5004b2b-3724-417d-bdca-eaba0d760e93",
     "lever-jupiterintel-f84b5eec-fe7d-42a1-bc0e-787ca8a1883f",
     "lever-kariusdx-b461f3e4-c5b3-496d-9d30-0a9c655c0ba7",
@@ -40428,6 +40431,7 @@
     "lever-tramgroup-7179e3b3-afb9-4c4b-bb41-49e9804cfaf2",
     "lever-trevipay-6dbd06f9-3077-4c9b-b19d-668e324328a0",
     "lever-trevipay-eb705cc0-171b-440a-85ad-db57033e4919",
+    "lever-tri-6433edb6-76be-409f-9a73-9b9d9c207f9f",
     "lever-triallibrary-0200ec4a-9d4d-42f5-999d-e8eb1b187394",
     "lever-triallibrary-65f38112-d401-433d-9be7-d9f0392ff0c2",
     "lever-triallibrary-a43aee5e-2085-42df-a0a2-d7c8d0d24062",
@@ -40748,6 +40752,7 @@
     "lever-xsolla-660a3d26-b0cd-4473-832e-308dd2e02db8",
     "lever-xsolla-e4d9543a-af24-4caa-97ab-78cff02e3037",
     "lever-zaimler-28868c70-2d24-4446-9d9f-fa89f0649b02",
+    "lever-zaimler-5a208caa-1069-48b6-ab5f-a2391b2e8f8d",
     "lever-zaimler-6a8c9e21-ca3b-4a74-81d3-0307f838b0ec",
     "lever-zeeco-43b1e2d1-de0b-474a-9680-669f6c6881ee",
     "lever-zeeco-4d1b1f2d-7ec4-4fb4-adaf-d01feb8b9edc",
@@ -49537,5 +49542,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-18T00:24:58.346925+00:00"
+  "updated_at": "2026-09-18T00:33:37.295909+00:00"
 }
