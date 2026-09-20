@@ -45460,6 +45460,8 @@
     "wd-gevernova-only_confidential_executive_recruiting-/job/Bellevue/Systems-Integration-Engineer_R5051492-2",
     "wd-gevernova-only_confidential_executive_recruiting-/job/Charleroi-USA/Robotics---Automation-Engineer_R5050250-3",
     "wd-gevernova-only_confidential_executive_recruiting-/job/Clinton-SC-USA/Engineer---Testing_R5050420",
+    "wd-gevernova-only_confidential_executive_recruiting-/job/Houston/GE-Vernova-Aero-Product-Definition-Engineer_R5052670-1",
+    "wd-gevernova-only_confidential_executive_recruiting-/job/Houston/GE-Vernova-Aero-Product-Definition-Engineer_R5052971-2",
     "wd-gevernova-only_confidential_executive_recruiting-/job/La-Prairie/Application-Engineer----Service-Engineering_R5044158-1",
     "wd-gevernova-only_confidential_executive_recruiting-/job/Remote/ADMS-Implementation-Engineer_R5052344-1",
     "wd-gevernova-only_confidential_executive_recruiting-/job/Remote/Grid-Automation---Software-Intern_R5041706-3",
@@ -45487,6 +45489,8 @@
     "wd-gevernova-vernova_externalsite-/job/Bellevue/Systems-Integration-Engineer_R5051492-3",
     "wd-gevernova-vernova_externalsite-/job/Charleroi-USA/Robotics---Automation-Engineer_R5050250",
     "wd-gevernova-vernova_externalsite-/job/Clinton-SC-USA/Engineer---Testing_R5050420-1",
+    "wd-gevernova-vernova_externalsite-/job/Houston/GE-Vernova-Aero-Product-Definition-Engineer_R5052670-2",
+    "wd-gevernova-vernova_externalsite-/job/Houston/GE-Vernova-Aero-Product-Definition-Engineer_R5052971-3",
     "wd-gevernova-vernova_externalsite-/job/Remote/ADMS-Implementation-Engineer_R5052344-2",
     "wd-gevernova-vernova_externalsite-/job/Remote/Grid-Automation---Software-Intern_R5041706",
     "wd-gevernova-vernova_externalsite-/job/Remote/Grid-Automation---Software-Intern_R5049276-2",
@@ -45616,6 +45620,7 @@
     "wd-globalhr-private_posting_no_tmp-/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/XMLNAME-2027-Software-Engineer-Intern--Onsite-_01866914",
     "wd-globalhr-private_posting_no_tmp-/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/XMLNAME-2027-Software-Engineering-Intern--Onsite-_01864698",
     "wd-globalhr-private_posting_no_tmp-/job/US-MA-CAMBRIDGE-BBN06--10--50-Moulton-St--MOULTON-B6/Infrastructure-Workplace-Services-I--Onsite-_01867768",
+    "wd-globalhr-private_posting_no_tmp-/job/US-MA-CAMBRIDGE-BBN06--10--50-Moulton-St--MOULTON-B6/Software-Engineer-Intern--Summer-2027----Onsite_01873017",
     "wd-globalhr-private_posting_no_tmp-/job/US-MA-MARLBOROUGH-MA1--1001-Boston-Post-Rd--BLDG-1/Systems-Engineer-I--Onsite_01870325-1",
     "wd-globalhr-private_posting_no_tmp-/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Software-Engineer-I--Onsite-_01867811",
     "wd-globalhr-private_posting_no_tmp-/job/US-MA-MARLBOROUGH-MA3--1001-Boston-Post-Rd--BLDG-3/Software-Engineer-II---Onsite_01872880",
@@ -45974,6 +45979,7 @@
     "wd-globalhr-rec_rtx_ext_gateway-/job/US-TX-MCKINNEY-513WH--2501-W-University-Dr--WING-H-BLDG/Software-Engineer-II--Onsite-_01859794",
     "wd-globalhr-rec_rtx_ext_gateway-/job/US-TX-MCKINNEY-513WH--2501-W-University-Dr--WING-H-BLDG/Software-Systems-Quality-Engineer-onsite-McKinney--TX_01875452-1",
     "wd-globalhr-rec_rtx_ext_gateway-/job/US-TX-MCKINNEY-513WZ--2501-W-University-Dr--WING-Z-BLDG/Sr-RF-Engineer_01856127",
+    "wd-globalhr-rec_rtx_ext_gateway-/job/US-TX-MCKINNEY-513WZ--2501-W-University-Dr--WING-Z-BLDG/Sr-RF-Test-Engineer_01875984",
     "wd-globalhr-rec_rtx_ext_gateway-/job/US-TX-MCKINNEY-513WZ--2501-W-University-Dr--WING-Z-BLDG/XMLNAME-2026-Raytheon-Full-Time---Systems-Engineer-II---McKinney--TX--Onsite-_01830926",
     "wd-globalhr-rec_rtx_ext_gateway-/job/US-TX-MCKINNEY-513WZS--2501-W-University-Dr--WZS-BLDG/RF-Test-Systems-Engineer-II---Test-Software_01869019",
     "wd-globalhr-rec_rtx_ext_gateway-/job/US-TX-PLANO-465--465-Independence-Pkwy--INDEPENDENCE/Algorithm-Systems-Engineer-II--Onsite-_01873389",
@@ -50165,5 +50171,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-20T00:13:22.526874+00:00"
+  "updated_at": "2026-09-20T05:20:16.658208+00:00"
 }
