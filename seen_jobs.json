@@ -1313,6 +1313,7 @@
     "ashby-base-power-143f8b1f-5f25-4ca6-bb52-b3d8d9c6557f",
     "ashby-base-power-1808c00d-7b0e-490c-b102-b9844a8bf4cf",
     "ashby-base-power-1bd01038-1fc7-42e5-9c0f-64357382f3e7",
+    "ashby-base-power-2a07a712-ae15-4e1b-87a7-375b75a1c7c7",
     "ashby-base-power-454d2748-2eea-4742-a8a2-329d0b7da6b7",
     "ashby-base-power-484820b3-5bcc-4736-9ce4-f8d956bf4f8c",
     "ashby-base-power-5353ea33-57d4-46fa-9a96-e392a3f841bc",
@@ -2853,6 +2854,7 @@
     "ashby-ironcladhq-ffad759b-ff33-47bd-98d2-3da2827697be",
     "ashby-jampack-ai-8668f920-0640-42b9-8bb4-d322c14e97a9",
     "ashby-jampack-ai-fe5ceb6d-d0d8-420c-acda-f33a5c320fa2",
+    "ashby-jamssoftware-3b284d06-92a0-41e4-84ed-28cf2d812b22",
     "ashby-jane-5593b32c-c690-4b5c-bb69-2a847737cd2f",
     "ashby-jellyfish-255c6eee-7ab8-431b-a007-4b637dccee40",
     "ashby-jellyfish-464c3e43-8532-40c8-a118-6ff657027e70",
@@ -5099,6 +5101,7 @@
     "ashby-vanta-dad058bc-c45a-4723-9e22-405b65c07a3a",
     "ashby-vanta-e76ea2d6-a514-458c-87fd-0792e50ae6bf",
     "ashby-vantage-67cfe507-3e6b-4c39-b2f7-9d900c59aa60",
+    "ashby-vapi-00ee0249-bd57-4245-9a4f-a884b655dc73",
     "ashby-vapi-03532365-7180-4999-b534-24595884aeb9",
     "ashby-vapi-0d4f1420-2590-4a38-aac4-3efda12eadb0",
     "ashby-vapi-1edbb1a0-40ba-4d25-b19c-c4d5639bb3fb",
@@ -50614,5 +50617,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-22T16:47:48.161231+00:00"
+  "updated_at": "2026-09-22T17:02:41.060049+00:00"
 }
