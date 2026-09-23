@@ -1707,6 +1707,7 @@
     "ashby-clipboard-d77b2224-307f-48b1-a0ea-ab67153993c0",
     "ashby-cloudzero-67d05b86-beb1-4032-b435-9014c5f90bb6",
     "ashby-coastal-047ed860-0bec-4127-97ef-6cf6a7e3e8a5",
+    "ashby-coastal-48c2e3dd-42fb-4776-93b9-ff4ae76cc35f",
     "ashby-cobot-1751a0ba-5564-4f43-ab57-748ec1b58df8",
     "ashby-cocodelivery-fe478a18-6a9c-49a8-9c77-967a75da4aa2",
     "ashby-coder-44d219cc-c54f-48f6-a118-17909461ed30",
@@ -1893,6 +1894,7 @@
     "ashby-crusoe-f650cb2b-d20f-45a2-bdf1-af9ddec74116",
     "ashby-crusoe-f84de7ef-c151-4454-88e5-8afe40d0a300",
     "ashby-crusoe-fba46650-1906-44a3-9382-193b532e5c23",
+    "ashby-cruxclimate-3588802b-d553-41a2-9eec-a7543a750376",
     "ashby-cube-9a2e55cb-5802-4809-b3eb-87c1385ee4c1",
     "ashby-cursor-0d7426d6-37fb-443d-b5e6-2a94a1375888",
     "ashby-cursor-167f0e93-6915-4d56-803a-be89d1441fb5",
@@ -2169,6 +2171,7 @@
     "ashby-fieldguide-be1e42b6-015f-4a4e-8c8e-a30fd5b26189",
     "ashby-fieldguide-c7af5e2a-7522-4c8c-91f0-2c3542d42548",
     "ashby-fieldguide-ec60ae0f-7638-4859-b65a-6c8446fdd7db",
+    "ashby-fieldguide-f64d35a3-8d9b-4b63-a2db-406d531deb48",
     "ashby-finch-legal-2730c92f-1d27-4b48-994c-b718a1e00fab",
     "ashby-finch-legal-b47e5b69-d767-42e2-b6f4-31af1f72be6c",
     "ashby-finch-legal-ef102794-bc67-4e41-96ba-91f9f4cdc284",
@@ -3969,8 +3972,10 @@
     "ashby-picogrid-941e3d90-82f7-4bcd-b25a-efa3be31394a",
     "ashby-picogrid-e952a0e7-841c-4fb9-ac2e-a9bb2f35bce5",
     "ashby-pika-534bf2f8-b420-403c-b07c-a903b7062bd4",
+    "ashby-pika-6891d634-18ce-4851-bc98-73b6841038ac",
     "ashby-pika-82835e51-284c-47af-b254-088fff23acd5",
     "ashby-pika-8dab8b44-71cd-4ed9-a598-34111d534ac1",
+    "ashby-pika-c3e5e920-3ff1-4fdf-a43c-552c94ac5b03",
     "ashby-pika-fb9e43d7-36b8-46c7-93cd-2b7504e30363",
     "ashby-pinecone-2cf3b58f-a912-497f-9bfe-84144c4a1e3d",
     "ashby-pirros-00a801c4-4fca-4be8-bf29-d0bd870c61f5",
@@ -4259,6 +4264,7 @@
     "ashby-reframesystems-5eae0428-7296-46a4-82de-b46a5e73b662",
     "ashby-reframesystems-c651981d-017b-4041-9e01-dbce5633b54d",
     "ashby-reframesystems-d60fb6a3-5352-4dcd-9255-2f1e463f14ea",
+    "ashby-regent-698d38b7-c47e-40a1-bf78-31d59c395c23",
     "ashby-regent-d1245600-5f09-4b41-8c0b-75aa669d1b33",
     "ashby-regent-f1e01a59-53fa-4410-9d4c-24811a0b6000",
     "ashby-rehire-c6c6d13d-e360-4e80-bf10-f49fadf7d6cd",
@@ -5166,6 +5172,7 @@
     "ashby-virtuous-dea2b10c-f138-4787-865c-e17d82d37676",
     "ashby-virtuous-f255294d-1eb6-46f3-a3b8-811e2d173698",
     "ashby-vital-lyfe-43a79d8f-a8bb-4c57-a411-1bac946128af",
+    "ashby-vital-lyfe-c39b72aa-9ad5-43e7-a3fd-8ef2e152ee4b",
     "ashby-vitalize-92db2056-c01c-4f57-88b3-4513330e7bb6",
     "ashby-vitalize-e3090ccc-0424-414e-aa1b-dc76c9b3d35e",
     "ashby-vitl-89aa9bfb-f035-492a-a6e3-428264cf68cd",
@@ -50910,5 +50917,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-23T00:29:02.888564+00:00"
+  "updated_at": "2026-09-23T00:39:19.906081+00:00"
 }
