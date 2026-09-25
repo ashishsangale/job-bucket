@@ -1467,6 +1467,7 @@
     "ashby-bjakcareer-31ee3ad8-8846-4a58-821e-60acdfcbd4af",
     "ashby-bjakcareer-320caacb-87b5-4a8a-b23c-2300cfb6c56f",
     "ashby-bjakcareer-36eaa0e8-c898-410a-8024-2ef40fa0bd0c",
+    "ashby-bjakcareer-462582df-b0c6-4371-8edb-8a7b492b3eb5",
     "ashby-bjakcareer-463e7547-d743-4d1c-9486-1c70d6cc7afa",
     "ashby-bjakcareer-46a3fbe6-27b7-41f5-9587-4a6dae54b582",
     "ashby-bjakcareer-4b7a62bd-8ab8-4051-8499-2de021c8166a",
@@ -3551,8 +3552,10 @@
     "ashby-nory-co-73341e82-e336-481a-bca7-a37768d8a154",
     "ashby-nory-co-8e356172-0540-44c4-975d-6ecf92692b3b",
     "ashby-nory-co-a16307bf-b090-42bf-acdc-3f4663153a08",
+    "ashby-nory-co-a8f8b13f-7b4f-406b-9dce-c65ae6020d6b",
     "ashby-nory-co-af00bca7-8b90-4094-b41e-f87eb07c3ecc",
     "ashby-nory-co-cc0271a8-f80f-4aac-8978-5699d2c0f9cf",
+    "ashby-nory-co-d0300b18-1d55-4201-a695-67db3c072342",
     "ashby-nory-co-d3d7401c-278c-495f-8dbe-6183c879f7bd",
     "ashby-nory-co-dbc13796-6cf8-4cf7-8578-8a8afb9fd8ef",
     "ashby-nory-co-e9ed604a-f854-4576-9a22-2a71cd62110f",
@@ -4730,6 +4733,7 @@
     "ashby-snowflake-44ca2f15-1af0-49e3-92f1-1f96a9f6a616",
     "ashby-snowflake-494fcbd0-1cf3-4248-b5cf-b35d982ced00",
     "ashby-snowflake-4b494244-50fe-4c55-837c-5c347ff5235b",
+    "ashby-snowflake-4be290ae-dd9d-488c-9d90-56fcd69101ca",
     "ashby-snowflake-4de1b10f-c34c-4d2c-99d1-abcf17541530",
     "ashby-snowflake-50d4f7da-1ae2-4ffb-b9ac-176bbc7a22cc",
     "ashby-snowflake-52925922-7cfc-4ee5-bcd2-a52850a7c067",
@@ -4742,6 +4746,7 @@
     "ashby-snowflake-7219c781-c9c4-48d2-a47c-113253e33f5d",
     "ashby-snowflake-74466b25-9cc8-4e9b-b60b-234c539c455c",
     "ashby-snowflake-768bc008-b6a6-4b1d-a8ac-3d44d052d6ba",
+    "ashby-snowflake-7bd393df-67d7-4009-ba4f-1cd79a82b0be",
     "ashby-snowflake-7c0fa868-20c5-4727-9f22-a5ab4bfbc08b",
     "ashby-snowflake-7d626629-fe04-4cce-94c1-0b1a13c1d1fd",
     "ashby-snowflake-81de2dde-0255-4c9f-8db5-e22e5a96891e",
@@ -4937,6 +4942,7 @@
     "ashby-supabase-f44742fb-18c6-478f-bf78-63707ed57db7",
     "ashby-supabase-f6035bf8-4f44-4425-9944-d5509a3c8652",
     "ashby-superdial-be6a3484-cccd-4baf-8741-7ab368c8f964",
+    "ashby-superpower-6ecd0142-eb4e-404d-be5b-31c7cf10cf4d",
     "ashby-swap-644b345e-cefe-42d7-ac11-2764817b14b6",
     "ashby-sweatpals-45d01293-c1d1-4aec-b4ac-d87a0c5cc3c2",
     "ashby-sweatpals-65de64b3-7a62-4710-8829-60eeceac3ecd",
@@ -51905,5 +51911,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-25T07:44:28.592816+00:00"
+  "updated_at": "2026-09-25T07:54:10.187293+00:00"
 }
