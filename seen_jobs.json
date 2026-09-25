@@ -41441,6 +41441,7 @@
     "lever-palantir-98c244fc-444b-43ba-b152-30227191170b",
     "lever-palantir-9e40d77f-b07c-437b-98e7-def9b0184d89",
     "lever-palantir-a2e9ab0f-4dd1-4744-92b9-edc7ae393c58",
+    "lever-palantir-a576c5ef-2a51-4522-9c98-bca5ac2abbb3",
     "lever-palantir-a80afc2b-2564-4a98-84c2-34cdcc0402df",
     "lever-palantir-c288bb43-3c63-4557-bd96-600ef0d1b7a6",
     "lever-palantir-cf5f44ff-1b0b-4752-bcd4-2dc88798f25b",
@@ -41471,6 +41472,7 @@
     "lever-picklerobot-44a2d3e8-54d3-4a41-9085-0e7a2cbefc7d",
     "lever-pingwind-24c3af2f-cc3d-41f8-952a-e009643b07b3",
     "lever-pingwind-2dac953a-fac7-4c44-b296-41e19236fa1d",
+    "lever-pingwind-31c825cd-d084-4079-864d-832183080833",
     "lever-pingwind-32ba500f-319a-477a-9912-8009b0652e45",
     "lever-pingwind-34dd101b-867b-4c59-8323-194c62c2dbd2",
     "lever-pingwind-363e7f1e-6258-447d-b778-2da6cc837ec8",
@@ -41482,8 +41484,10 @@
     "lever-pingwind-80cdb7ee-9626-46df-af20-8362aaa78f86",
     "lever-pingwind-830b9039-49bc-4efc-8b2b-1bd44cb9bb7c",
     "lever-pingwind-8ce9f947-761d-40d6-bc42-65ba2369db4a",
+    "lever-pingwind-b43c7351-62c6-4f28-99f5-a39f72f829d3",
     "lever-pingwind-b9a2b4d6-d862-4dfb-91ff-9962af0c92d8",
     "lever-pingwind-dc946d36-d50f-44cb-a6b9-8454ff60aac1",
+    "lever-pingwind-e8f28af2-3648-4224-9603-19f32ca806d5",
     "lever-pingwind-efed6847-f486-4155-85a9-5042a9e4581b",
     "lever-piplabs-1f7df85d-fe7e-4929-bdee-ee43e14dc48e",
     "lever-pivotal-9fe618b9-cf87-4418-9953-31c5e4da56be",
@@ -51922,5 +51926,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-25T13:53:23.294141+00:00"
+  "updated_at": "2026-09-25T14:02:22.312825+00:00"
 }
