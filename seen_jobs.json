@@ -45300,6 +45300,7 @@
     "wd-capitalone-capital_one-/job/Chicago-IL/Full-stack-Engineer-4_R1001741-2",
     "wd-capitalone-capital_one-/job/Chicago-IL/Full-stack-Engineer-5--Go--TypeScript-and-Angular-_R1001271-1",
     "wd-capitalone-capital_one-/job/Chicago-IL/Full-stack-Engineer-5--Golang--Java--AWS-_R1001479-1",
+    "wd-capitalone-capital_one-/job/Chicago-IL/Full-stack-Engineer-5_R1001878-1",
     "wd-capitalone-capital_one-/job/Chicago-IL/Machine-Learning-Engineer-4_R1001327-2",
     "wd-capitalone-capital_one-/job/McLean-VA/Data-Engineer-5_R1001640-1",
     "wd-capitalone-capital_one-/job/McLean-VA/Distinguished-Engineer_R241036-1",
@@ -45322,8 +45323,11 @@
     "wd-capitalone-capital_one-/job/McLean-VA/Full-stack-Engineer-4_R1001417-2",
     "wd-capitalone-capital_one-/job/McLean-VA/Full-stack-Engineer-4_R1001538-1",
     "wd-capitalone-capital_one-/job/McLean-VA/Full-stack-Engineer-4_R1001540-1",
+    "wd-capitalone-capital_one-/job/McLean-VA/Full-stack-Engineer-4_R1002191-1",
+    "wd-capitalone-capital_one-/job/McLean-VA/Full-stack-Engineer-4_R1002223-1",
     "wd-capitalone-capital_one-/job/McLean-VA/Full-stack-Engineer-5---Python--AWS-_R1001359-2",
     "wd-capitalone-capital_one-/job/McLean-VA/Full-stack-Engineer-5--Java--Scala--AWS-_R1001474-1",
+    "wd-capitalone-capital_one-/job/McLean-VA/Full-stack-Engineer-5_R1001899-1",
     "wd-capitalone-capital_one-/job/McLean-VA/Machine-Learning-Engineer-4_R1001312",
     "wd-capitalone-capital_one-/job/McLean-VA/Machine-Learning-Engineer-5_R1001268-1",
     "wd-capitalone-capital_one-/job/McLean-VA/Sr-Distinguished-Engineer_R233513-1",
@@ -45334,6 +45338,7 @@
     "wd-capitalone-capital_one-/job/New-York-NY/Full-stack-Engineer-4---Intelligent-Foundations-and-Experiences--IFX-_R1001580-1",
     "wd-capitalone-capital_one-/job/New-York-NY/Full-stack-Engineer-4---Intelligent-Foundations-and-Experiences--IFX-_R1001596-1",
     "wd-capitalone-capital_one-/job/New-York-NY/Full-stack-Engineer-4--Python--Typescript-_R1001274-2",
+    "wd-capitalone-capital_one-/job/New-York-NY/Full-stack-Engineer-4_R1002218-1",
     "wd-capitalone-capital_one-/job/New-York-NY/Machine-Learning-Engineer-4---Intelligent-Foundations-and-Experiences--IFX-_R1001617-1",
     "wd-capitalone-capital_one-/job/Plano-TX/Data-Engineer-4_R1001699-1",
     "wd-capitalone-capital_one-/job/Plano-TX/Distinguished-Engineer_R239652",
@@ -45366,6 +45371,7 @@
     "wd-capitalone-capital_one-/job/Richmond-VA/Full-stack-Engineer-4--Python--Java-_R1001276-1",
     "wd-capitalone-capital_one-/job/Richmond-VA/Full-stack-Engineer-4_R1001265-1",
     "wd-capitalone-capital_one-/job/Richmond-VA/Full-stack-Engineer-4_R1001306-1",
+    "wd-capitalone-capital_one-/job/Richmond-VA/Full-stack-Engineer-4_R1002215",
     "wd-capitalone-capital_one-/job/San-Francisco--CA/Full-Stack-Engineer-4--Java--Python--AWS--Spark-_R1001289-2",
     "wd-capitalone-capital_one-/job/San-Francisco--CA/Staff-Software-Engineer---Card-Tech_R1000057-1",
     "wd-cardinalhealth-ext-/job/MA-Mansfield-West-Building/Sr-R-D-Engineer_20184057",
@@ -45610,6 +45616,7 @@
     "wd-circle-circle-/job/Taipei-City---remote-first-in-Taiwan/Software-Engineer-II_JR101098",
     "wd-circles-circles-/job/IN-Gurgaon/Data-Engineer---Platform_R-100376",
     "wd-circles-circles-/job/United-States-of-America/Forward-Deployed-Engineer--FDE----8-15-Years_R-100380",
+    "wd-cisco-cisco_careers-/job/Allentown-Pennsylvania-US/Reliability-Component-Engineer---Optics-Silicon-Photonics_2025733",
     "wd-cisco-cisco_careers-/job/Ann-Arbor-Michigan-US/Software-Engineer--Duo-Desktop_2023332-1",
     "wd-cisco-cisco_careers-/job/Annapolis-Junction-Maryland-US/Software-Engineer--Hybrid-_2023750",
     "wd-cisco-cisco_careers-/job/Boulder-Colorado-US/Software-Engineer_2019428",
@@ -46015,6 +46022,7 @@
     "wd-crowdstrike-crowdstrikecareers-/job/USA---New-York-NY/Principal-Engineer--Hybrid-_R23913",
     "wd-crowdstrike-crowdstrikecareers-/job/USA---New-York-NY/Software-Engineer-III---Cloud-Security---FCS-Registration--Hybrid-_R29327-1",
     "wd-crowdstrike-crowdstrikecareers-/job/USA---New-York-NY/Sr-Backend-Engineer---Cloud--Hybrid-_R29007",
+    "wd-crowdstrike-crowdstrikecareers-/job/USA---New-York-NY/Sr-Backend-Engineer--Hybrid--NYC-_R30219",
     "wd-crowdstrike-crowdstrikecareers-/job/USA---New-York-NY/Sr-Cloud-Engineer--Falcon-Cloud-Security--Hybrid-_R29484",
     "wd-crowdstrike-crowdstrikecareers-/job/USA---New-York-NY/Sr-Software-Engineer--Cloud---Analytics-Platform_R29257",
     "wd-crowdstrike-crowdstrikecareers-/job/USA---Redmond-WA/Software-Engineer--Cloud---E2E-Test_R28957",
@@ -52403,5 +52411,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-28T05:41:11.410272+00:00"
+  "updated_at": "2026-09-28T05:47:53.283815+00:00"
 }
