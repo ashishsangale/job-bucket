@@ -1128,6 +1128,7 @@
     "ashby-airwallex-d028d728-2474-41f9-a48f-f9c65ae207a1",
     "ashby-airwallex-f0e85c9a-19bc-4219-85a8-364d5e6b695d",
     "ashby-airwallex-f66897bd-2b57-4dbb-9d9f-5594861e3ebf",
+    "ashby-airwallex-f9531500-512d-4fce-922c-97e7045e76ff",
     "ashby-aiwyn-49908399-0335-44ed-ba29-c8f87e336700",
     "ashby-aiwyn-4a2aacbc-0614-4161-9d79-419a1eb4b45a",
     "ashby-aiwyn-4b253d6a-aa87-408c-8966-2ba199fa078c",
@@ -2174,6 +2175,7 @@
     "ashby-ello-f843ac3e-8106-4cb0-bb77-72caa489ab23",
     "ashby-ema-6f816cca-bf17-4061-b751-033a14e433cb",
     "ashby-ema-ab094389-25ec-417b-b646-06969d166d06",
+    "ashby-ema-b38c0fdf-26d6-4505-91d5-25da7962997b",
     "ashby-embedding-vc-04efadc4-6802-4f31-be18-327c95339042",
     "ashby-embedding-vc-4b7b35d9-6a2c-43a2-8c36-2bf6974e3b0f",
     "ashby-embedding-vc-53e1a6e9-b422-4b08-b42b-195a050bebcf",
@@ -3102,6 +3104,9 @@
     "ashby-lassie-5a16b995-9ce2-4c8b-885d-6adce3df25fb",
     "ashby-lassie-9b8258f2-996e-414d-b7c5-01109d227fb6",
     "ashby-lassie-f4269e1a-328b-4cec-8960-f398a68ac64f",
+    "ashby-latent-233bbaac-d589-49f4-a8eb-6bb16673b060",
+    "ashby-latent-648fa6e1-52b8-4c43-8cf9-ab80260ecb1d",
+    "ashby-latent-bbd1a8e3-b943-4c8c-b239-e87951504f71",
     "ashby-laurel-01c650a8-48b5-4baa-bd54-041b1f92f664",
     "ashby-laurel-1f181f7d-e3d1-4a28-b3e0-4de80520ddd8",
     "ashby-laurel-449bafbb-6cf1-4361-b6ef-6d0ef79933a0",
@@ -52672,5 +52677,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-29T08:26:58.523081+00:00"
+  "updated_at": "2026-09-29T08:36:28.482845+00:00"
 }
