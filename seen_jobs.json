@@ -2195,6 +2195,7 @@
     "ashby-elliptic-fb3723ef-f971-4d57-9acd-94659dec4a1c",
     "ashby-ello-a4827212-53cb-463e-a1e5-0f1abcc5646e",
     "ashby-ello-f843ac3e-8106-4cb0-bb77-72caa489ab23",
+    "ashby-eloquentai-78c360e2-abd0-498b-ac59-d0907b71a801",
     "ashby-ema-6f816cca-bf17-4061-b751-033a14e433cb",
     "ashby-ema-ab094389-25ec-417b-b646-06969d166d06",
     "ashby-ema-b38c0fdf-26d6-4505-91d5-25da7962997b",
@@ -4271,6 +4272,7 @@
     "ashby-pragmatike-fd7bd509-9bd1-4385-beaf-86fd036f8f61",
     "ashby-prefect-1c7dc702-510c-4d41-96f3-21187d6c7171",
     "ashby-prefect-2ea26851-744d-4693-bd79-43d25d0d7d96",
+    "ashby-prefect-515cc394-1a2e-492d-a80d-f569185501f5",
     "ashby-prefect-595b2329-290b-4134-a12e-79bec67c1f01",
     "ashby-prefect-77b15c02-eb1c-45f2-baf4-177657921220",
     "ashby-prefect-85e3149e-950b-4813-ad66-023093621399",
@@ -4457,6 +4459,7 @@
     "ashby-reflect-orbital-c394615d-26c6-4435-ad84-3ca3269c2952",
     "ashby-reflect-orbital-d2ad1427-89aa-404d-8678-7b8e6dace5e2",
     "ashby-reflectionai-239d357b-806f-4d36-9eb8-9e95ba05a120",
+    "ashby-reflectionai-8b05b1e6-0286-464b-9fff-c6ac44c35b8c",
     "ashby-reflectionai-af9706e4-0bcb-45cf-ac72-b6150875c12b",
     "ashby-reflectionai-b8754754-e927-41db-8c33-3a5f72653631",
     "ashby-reflectionai-d5e3d318-79b4-4104-9e72-5a48ddfad114",
@@ -4800,6 +4803,7 @@
     "ashby-simspace-corporation-68824f16-73d0-407e-87e4-8bea99d7f234",
     "ashby-simspace-corporation-9a62baea-e996-4707-b92b-b151073bf808",
     "ashby-simspace-corporation-eaec6858-11ea-4e33-882f-0256f025309b",
+    "ashby-skelar-80131e56-d4ad-4fb5-b99b-982419567cab",
     "ashby-skimmer-26347076-0ed6-4886-8f64-d691909e43c4",
     "ashby-skydio-0f71bdbb-a645-49f6-8890-dd5c052772c3",
     "ashby-skydio-417e884e-6760-41c6-ada4-db09dd7fd1c2",
@@ -53187,5 +53191,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-09-30T13:44:18.559332+00:00"
+  "updated_at": "2026-09-30T16:29:11.977833+00:00"
 }
