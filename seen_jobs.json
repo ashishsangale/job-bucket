@@ -42031,6 +42031,7 @@
     "lever-extremenetworks-2ae69db1-c9f0-4740-9d47-fd4df33c9d9c",
     "lever-extremenetworks-515bd060-38da-4273-b75d-f26a90721ca0",
     "lever-extremenetworks-528e47ff-0996-4ac9-b772-7155ed785b59",
+    "lever-extremenetworks-539a2035-a501-4ee5-9520-bd7e05f80450",
     "lever-extremenetworks-a2e0d718-b0ec-4490-8727-d41157cbb0b9",
     "lever-extremenetworks-b093c745-a9f6-47f7-aca3-078cb8f816cc",
     "lever-extremenetworks-e89e4090-5e15-4af7-af96-3852d07958c9",
@@ -42038,6 +42039,7 @@
     "lever-extremenetworks-e9f9b404-2a6a-4c47-911d-dac78f5a6c8e",
     "lever-extremenetworks-f8473428-837c-4837-bb54-1d0738bb51ec",
     "lever-fehrandpeers-371fc35e-1351-4d1a-a319-2c56f33199ba",
+    "lever-field-ai-02d9f383-7b5f-49a2-bed1-15792c602afa",
     "lever-field-ai-034be341-94c1-49d4-be5a-5d9d20c53091",
     "lever-field-ai-09def7d8-26bf-451f-a4f2-bd8fd4c5f5cf",
     "lever-field-ai-0a7c00e9-9ae2-497c-a3a4-83c04439c22c",
@@ -42379,6 +42381,8 @@
     "lever-lightedge-c6f74c14-8807-4a6c-b36f-3a46ea20f7c3",
     "lever-lightedge-cb15a26a-8d5e-41f2-a39a-3278ad6284b7",
     "lever-lightedge-cea837be-ffba-4268-a80a-eb652348223f",
+    "lever-lightship-67872353-deb9-4563-802c-805d83e110e5",
+    "lever-lightship-92646384-cebf-4c46-a428-6fb406738209",
     "lever-lightship-d9461585-60c4-4c5c-9d8c-ff1682724cfd",
     "lever-lindblad-expeditions-5d94dd00-a947-49d3-91c8-fcdef41e5e13",
     "lever-lindblad-expeditions-6d709d43-209c-4a59-b541-694b97be7c06",
@@ -53831,5 +53835,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Software-Engineer_R19581",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-01T23:57:37.654456+00:00"
+  "updated_at": "2026-10-02T00:05:09.281602+00:00"
 }
