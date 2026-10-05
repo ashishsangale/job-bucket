@@ -42331,8 +42331,10 @@
     "lever-cti-md-336befbf-7e74-45ba-bef7-df2f0b898b26",
     "lever-cti-md-52696ad4-c140-409e-980c-c12690f92c32",
     "lever-cti-md-5299c568-c2c8-40db-b9e3-b017c9070746",
+    "lever-cti-md-68dc4e23-c6b4-40e2-aca4-236357e5cbd6",
     "lever-cti-md-6e589b54-c6ad-4da0-b9c5-dc5a5e976daf",
     "lever-cti-md-721e3df5-ec95-48b0-9f5c-876cb04d183f",
+    "lever-cti-md-740781bc-eb81-401a-af8b-d524691040e5",
     "lever-cti-md-7cfdffb6-fd8a-440d-ae52-53a8df2d373b",
     "lever-cti-md-7e28c7d1-20ea-4758-a4c4-caf387cee837",
     "lever-cti-md-7ea0a41a-ceba-4eb5-9a11-c869b824e118",
@@ -43059,6 +43061,7 @@
     "lever-pointclickcare-794046ff-e6cc-45cb-ad8f-09a730e485fd",
     "lever-pointclickcare-e56d6df3-16fb-4652-9d97-c6140700d2e0",
     "lever-pointclickcare-f6dcb46b-64cb-4354-b7a9-b1b6609eb88a",
+    "lever-postera-c7d50a36-db0a-4574-bfe4-8700b74a22c0",
     "lever-primee-2d7067cc-bf5d-4895-8062-04ff8807e827",
     "lever-primee-693fbfe6-6569-41ee-99b0-b60fbe7dd094",
     "lever-prolific-machines-249699c1-10a7-427a-a90a-432d9f986d7b",
@@ -43364,6 +43367,7 @@
     "lever-sonatype-85cfea61-4f64-4b41-baf7-726b42f043a5",
     "lever-sonatype-eb00465e-e137-4d67-a0bc-30c2c70fdaa2",
     "lever-sonatype-f88d2bf6-9fe9-4159-a13d-af21b2331c86",
+    "lever-sophos-286924f3-11cc-4de0-934e-4094ef99081f",
     "lever-sophos-5bfcf672-0553-4a1a-bb26-d26aab8d7b6f",
     "lever-spear-6a1eb04f-040d-43c9-81ef-27a160aee4ce",
     "lever-spiria-2de26364-8e55-460b-b4fb-5de6fa488e68",
@@ -54570,5 +54574,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-05T15:59:43.310416+00:00"
+  "updated_at": "2026-10-05T16:18:33.821641+00:00"
 }
