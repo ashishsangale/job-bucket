@@ -42779,6 +42779,7 @@
     "lever-cfsenergy-52d9d5d1-9c2c-44b0-be6e-12727f917274",
     "lever-cfsenergy-7ddc68f4-aab5-4f1e-8e1c-fc9c1badfd5a",
     "lever-cfsenergy-811bf778-96c0-4942-9bbb-849899ca276f",
+    "lever-cfsenergy-813c6b07-bc02-49d1-85c5-6033abd2483c",
     "lever-cfsenergy-997e3a0f-42c6-4f97-a7ae-2d95ebfabef5",
     "lever-cfsenergy-a9fe141d-21cb-447c-b2e5-9b22a9cb80d1",
     "lever-cfsenergy-bb9ddf23-0827-439d-869b-57beee157b99",
@@ -43700,11 +43701,13 @@
     "lever-redhorsecorp-6c310e25-40c8-491a-9619-ba474b079f72",
     "lever-redhorsecorp-7c55a7ed-573a-4088-a9c2-628c1bcf3557",
     "lever-redhorsecorp-7e25f5b6-1f91-47ef-8fd1-24663fa7a77b",
+    "lever-redhorsecorp-85c14fbc-7a7a-41e9-915f-692c8857a31b",
     "lever-redhorsecorp-abbb3252-50b9-4045-94e7-afd811415788",
     "lever-redhorsecorp-aeb9c701-f68b-4b86-b0ee-4f07ffaba79a",
     "lever-redhorsecorp-b182e461-c592-42f7-bc38-d8e3439e8103",
     "lever-redhorsecorp-b1b768aa-70aa-47d8-a6a1-a0f0510f77ed",
     "lever-redhorsecorp-c6e4d905-4b49-424a-b221-d539220d691f",
+    "lever-redhorsecorp-cc403f25-eade-48cd-b5de-cdbb64c94b89",
     "lever-redhorsecorp-cddc38ab-e7e8-4211-8b4c-345a6a323d30",
     "lever-redhorsecorp-d7ed4589-b010-4665-a80c-47e8017802ff",
     "lever-redhorsecorp-d8f0b543-ab18-41e8-b17a-68b359f16568",
@@ -43964,6 +43967,7 @@
     "lever-synergyecp-ed5bebd6-0a6f-461f-905c-bf92ca2bcff5",
     "lever-syntronic-57b099cb-0f8c-422b-8a2e-bbded9366c86",
     "lever-sysdig-be1e6236-eadb-4840-8424-3b6ad33e0b94",
+    "lever-tag-2a84a35e-a0ea-4e10-b665-210a4379f3e7",
     "lever-tagup-d48f519b-821b-46ec-ab49-6139e9f0a730",
     "lever-teamsnap-077075ce-80a4-4429-96ab-dd4c22b62136",
     "lever-teamsnap-58d0ad09-5a31-47c2-8cd0-251815b207d9",
@@ -44386,6 +44390,7 @@
     "lever-zoox-87877cf4-3ac8-45d5-90fb-2ef7f223c068",
     "lever-zoox-887c7590-e98d-4997-b85d-e3956381fd57",
     "lever-zoox-89410e34-6554-4d41-89e3-35f403d72fe8",
+    "lever-zoox-89518ce8-5b07-4750-90c9-4988e27daa3c",
     "lever-zoox-896f37b9-80b7-4077-a937-e499151ce5f2",
     "lever-zoox-89d5927e-db67-443b-9dd2-53d367c11f9b",
     "lever-zoox-998ca0ca-4e3a-409f-bc84-f364d5451e01",
@@ -55321,5 +55326,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-07T13:50:21.652501+00:00"
+  "updated_at": "2026-10-07T16:47:26.818840+00:00"
 }
