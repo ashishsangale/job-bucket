@@ -1398,6 +1398,7 @@
     "ashby-april-808159d1-ee75-4553-bc5b-a29d2f7731ac",
     "ashby-arb-interactive-8db4b678-1df4-46e1-8592-10ef67fe4df4",
     "ashby-arb-interactive-a6022d0c-9e0f-4310-9f61-ebde4227353b",
+    "ashby-arbiter-ai-02c0a4a8-9d61-4708-bd0c-ec32f43cdc3a",
     "ashby-arbiter-ai-e16c9a6c-698a-4dc9-8649-7b087c3f4e2c",
     "ashby-arcadeai-01ee7cc9-74b4-4082-ba03-4f7fce6b6f92",
     "ashby-arcadeai-2bdc3f0b-b768-4444-be03-ac59e21a4fdc",
@@ -2689,6 +2690,7 @@
     "ashby-fullstory-95f96318-76e8-46b7-8dd9-a74379582e6f",
     "ashby-fundamentalresearchlabs-8d460b28-233d-4305-a708-cf547ec3285e",
     "ashby-furtherai-ee018fd3-bc2b-4bfd-8142-1a5421020952",
+    "ashby-fuse-09f1be75-8a26-49f1-8f32-ada2aa711b3f",
     "ashby-fuse-15f6df32-c737-49e2-8513-053914874d21",
     "ashby-fuse-7f0dec30-a531-4b55-aa06-0927359eb80d",
     "ashby-fuse-bac78943-8667-4650-a193-0005cd7841f5",
@@ -4670,6 +4672,7 @@
     "ashby-radiant-industries-597f9ea4-ce34-4cac-a1fc-32485cc6f753",
     "ashby-radiant-industries-63dd2f25-8650-4ce9-a88b-ec1fc224ba1c",
     "ashby-radiant-industries-73092ec3-e9b7-4532-ad6e-50cf17f6c9fd",
+    "ashby-radiant-industries-75159ba3-fa50-448f-92ea-54c260d44200",
     "ashby-radiant-industries-94511251-ae6a-466d-96a6-95a26ead6ad6",
     "ashby-radiant-industries-9658e0e7-b93f-4370-98bf-db422750a563",
     "ashby-radiant-industries-96d81794-765f-4d35-9370-2f1bba4a4241",
@@ -4870,6 +4873,7 @@
     "ashby-rocketsciencegg-5fb5718b-2e28-4735-9036-f8f8ddf56977",
     "ashby-rocketsciencegg-d6034ce0-a0e7-4d02-a016-63a15537cb7a",
     "ashby-rogerhealthcare-5c5a96ca-819b-4fe2-97c3-50e7245f8937",
+    "ashby-rogerhealthcare-a9083b49-a21f-4200-87d8-365638e0ce49",
     "ashby-rogo-04777127-53d6-49cb-9372-4332280857a1",
     "ashby-rogo-46da838e-af45-4cb9-bb15-d1818613a876",
     "ashby-rogo-4ba0410d-e51e-4ad2-b850-ffa62d58c24b",
@@ -5022,6 +5026,7 @@
     "ashby-serverobotics-a0fa5927-9612-48f2-a0e8-9f92ef3b3b15",
     "ashby-serverobotics-bd5e90ca-134d-45b9-9ad7-4615174ecd70",
     "ashby-serverobotics-d562a0f5-d276-4f53-99ae-a04cdca53c43",
+    "ashby-sesame-0124ec66-71c2-4e60-929a-5868f8b02bac",
     "ashby-sesame-04780842-fd58-41d9-87a1-f65e818eebab",
     "ashby-sesame-08ade360-a4bc-4584-9c40-04dc380276a5",
     "ashby-sesame-32dab4cd-c4f9-421f-9fa1-eb4916f4337a",
@@ -5116,6 +5121,7 @@
     "ashby-simspace-corporation-142e3cb5-e583-4d99-8058-6b8c62f13f90",
     "ashby-simspace-corporation-1fe45060-cb65-459a-aaf2-99be56d148fc",
     "ashby-simspace-corporation-21ab3ede-89f0-4f94-b773-2743766c686a",
+    "ashby-simspace-corporation-2e5f2a94-3357-4cac-a57b-db32baeae7e4",
     "ashby-simspace-corporation-68824f16-73d0-407e-87e4-8bea99d7f234",
     "ashby-simspace-corporation-9a62baea-e996-4707-b92b-b151073bf808",
     "ashby-simspace-corporation-a2c8536d-b6ee-4fd6-87e0-383f9a90121d",
@@ -55623,5 +55629,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-08T02:42:57.495424+00:00"
+  "updated_at": "2026-10-08T06:10:38.002980+00:00"
 }
