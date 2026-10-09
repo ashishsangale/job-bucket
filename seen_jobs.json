@@ -43332,6 +43332,7 @@
     "lever-cfsenergy-811bf778-96c0-4942-9bbb-849899ca276f",
     "lever-cfsenergy-813c6b07-bc02-49d1-85c5-6033abd2483c",
     "lever-cfsenergy-997e3a0f-42c6-4f97-a7ae-2d95ebfabef5",
+    "lever-cfsenergy-a05832ae-41df-4e2d-ab86-dd3e2c4877d4",
     "lever-cfsenergy-a9fe141d-21cb-447c-b2e5-9b22a9cb80d1",
     "lever-cfsenergy-bb9ddf23-0827-439d-869b-57beee157b99",
     "lever-cfsenergy-c9d16c3a-9a46-4e17-884c-b8fb99c9f9d9",
@@ -43422,6 +43423,7 @@
     "lever-cti-md-fae2e1c0-3656-481a-b985-d6df5d34100f",
     "lever-curai-8feec1bd-841b-41ad-8693-b29022ad2763",
     "lever-cyderes-41f5ac57-4eec-46c4-98e1-bf5dd053fc93",
+    "lever-cyderes-c7c140b1-57b0-4487-a26d-a3084c0a8560",
     "lever-cyngn-e6d50b73-7689-4740-8ebf-33bf2d1a2968",
     "lever-dailywire-af3a6f98-0446-4604-84d3-a49310d84edb",
     "lever-datalabusa-22b2cba2-f110-48aa-83c3-fd016bdea7f1",
@@ -43723,6 +43725,7 @@
     "lever-healx-c1dc1b43-066f-427f-a299-0a0b0dc4748f",
     "lever-hermeus-1602c0e0-10fe-4fc9-ac0f-22ce2a2c0d18",
     "lever-hermeus-29c10a11-aa02-4d64-83d0-00001cbd3ac0",
+    "lever-hermeus-37949ec4-9801-41cf-9cf6-c987fcd1d425",
     "lever-hermeus-445db430-6f81-41cf-847a-56a947afb936",
     "lever-hermeus-4651315a-9255-465d-8067-749f4c309869",
     "lever-hermeus-4b1f62d7-4a70-4d79-b83d-f8a6cae6ccaa",
@@ -44162,6 +44165,7 @@
     "lever-pmaconsultants-9b5bc81c-c977-4d8a-b63a-320fa5fa0803",
     "lever-pmaconsultants-fa3ea817-ae4f-4835-b268-8132f2d2f52e",
     "lever-pointclickcare-08ba62e8-23ca-4fe2-bf0e-1406701dd73e",
+    "lever-pointclickcare-6c8f4d1f-c1c7-480f-bd17-45927fd23741",
     "lever-pointclickcare-794046ff-e6cc-45cb-ad8f-09a730e485fd",
     "lever-pointclickcare-e56d6df3-16fb-4652-9d97-c6140700d2e0",
     "lever-pointclickcare-f6dcb46b-64cb-4354-b7a9-b1b6609eb88a",
@@ -44392,7 +44396,9 @@
     "lever-shieldai-7be83c8f-ec05-4302-ae83-31349d5fa805",
     "lever-shieldai-7f7e2632-717e-4684-a7a5-058e94360d81",
     "lever-shieldai-82c0fcad-9d7e-4eed-a1c8-b2ce99895f16",
+    "lever-shieldai-851c8729-ad87-40bd-9081-eff169d972ea",
     "lever-shieldai-8afc41da-27a5-4054-a3c7-87b3ceb6cf0a",
+    "lever-shieldai-8c213d66-730b-4604-91b1-97dca42a59e3",
     "lever-shieldai-8c616778-17fe-48ae-9ab8-548d92872dfb",
     "lever-shieldai-8c850c75-081d-4d09-bebf-096379a93010",
     "lever-shieldai-8d073a4a-e819-4b37-a8f2-8db97516e082",
@@ -44789,6 +44795,7 @@
     "lever-workwave-6032fc28-6183-4e4a-8310-c07860e82ef5",
     "lever-workwave-d600f58c-5ff9-4a41-a788-004e8cca904e",
     "lever-woven-by-toyota-4afeadd3-5418-41d8-b292-0c65a2ce8191",
+    "lever-woven-by-toyota-5c46ddc8-a963-47f9-9138-c74c54d2414a",
     "lever-woven-by-toyota-785284b4-b77f-4eba-880a-b70d6b50993e",
     "lever-woven-by-toyota-b65d2e76-ece7-4423-83bb-0ef521c482a1",
     "lever-woven-by-toyota-ba39a024-c4c3-4966-a696-95db0e1dc445",
@@ -56245,5 +56252,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-09T19:33:39.318361+00:00"
+  "updated_at": "2026-10-09T21:08:53.452449+00:00"
 }
