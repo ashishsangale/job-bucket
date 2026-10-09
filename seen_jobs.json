@@ -43824,10 +43824,13 @@
     "lever-loftorbital-531e74b5-128c-4c44-8b3b-aebd86c0de7a",
     "lever-loftorbital-56c2054d-f930-40d7-a3db-5c0107d319a0",
     "lever-loftorbital-5ba40598-5853-4af3-80e1-58b59332dcea",
+    "lever-loftorbital-7755a71b-9e11-4c1b-9748-1771bf6f28d3",
     "lever-loftorbital-77f3135f-9b35-49cc-b7de-0f55b88191fb",
     "lever-loftorbital-7a866d4c-7c79-4a0e-ab85-d090126150ca",
     "lever-loftorbital-7e444994-afab-443b-b7eb-4ed6f745bf6a",
     "lever-loftorbital-82b97af9-b18a-4862-b56c-58906e0605e9",
+    "lever-loftorbital-9d2f6ab7-e2c0-444c-84c6-d5618cb8547c",
+    "lever-loftorbital-addb5bb4-a363-4391-9fb5-630474662c6c",
     "lever-loftorbital-b32ca611-ba12-4b0b-ac7f-0585e7d1f620",
     "lever-loftorbital-efcaba8e-6bbb-4322-884c-c10c03469669",
     "lever-loftorbital-f20a9d15-39b8-410d-887b-071b0b9058cf",
@@ -43867,6 +43870,7 @@
     "lever-magnetforensics-7a86a5a7-79a6-41fd-8ac4-e668ae34665f",
     "lever-magnetforensics-b9398342-bc38-4ade-b37d-2d7f660ffa09",
     "lever-magnetforensics-d069536a-4a62-421d-b3f2-01be0c925ded",
+    "lever-magnetforensics-efd7e6e1-2cde-4010-8b75-b9500cfdf748",
     "lever-magnopus-b0271ea8-efea-4288-b576-5402079c6472",
     "lever-mainspringenergy-4ab4270a-2869-42f6-ac65-530f4a90e231",
     "lever-mainspringenergy-5881b2d4-da01-43e8-95cc-f6ea2f8b22f8",
@@ -44355,6 +44359,7 @@
     "lever-shieldai-fbc93066-79e1-4262-8f7f-d7a5c8d13823",
     "lever-shopback-2-640ac3fb-dae5-4738-95b9-9cb80cc7ad15",
     "lever-shopback-2-e5f5e276-e7f7-43e0-a224-5259d242fe98",
+    "lever-significanceinc-0ae594c0-3af9-4f91-a521-ca5363822cd6",
     "lever-sitetracker-073f1c3a-abaa-4df1-9132-52d34487b0ff",
     "lever-skygrid-bf9d586e-57c5-4a48-92a0-005e74069251",
     "lever-skywarditsolutions-36bff103-2113-400f-bac8-d47465dfc3df",
@@ -56087,5 +56092,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-09T13:11:07.668992+00:00"
+  "updated_at": "2026-10-09T16:28:44.944717+00:00"
 }
