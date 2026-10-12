@@ -1257,6 +1257,7 @@
     "ashby-airops-01f88dc8-5f04-4c68-8df1-64f8e6089f09",
     "ashby-airops-a2583e53-e8e9-44c9-8660-43c75592ded9",
     "ashby-airwallex-0c33f286-3f00-4b2b-8f8b-70e1fd7ff7ff",
+    "ashby-airwallex-1c1e3ac3-56c9-41bf-837d-2700120f4e1a",
     "ashby-airwallex-281e3717-87dc-4036-ab1c-5d35bb83b319",
     "ashby-airwallex-298d3a2a-44e4-4f7b-ab9f-094664b474bd",
     "ashby-airwallex-3111e077-f7fa-4b1f-8621-57204ffce2e5",
@@ -1771,6 +1772,7 @@
     "ashby-braintrust-d1756ad8-be7c-4acd-961e-7e81e4f69024",
     "ashby-branchlab-cbeee57b-7f22-4da8-a205-4a85059a1b80",
     "ashby-breakmark-87526a4d-b026-4bef-9a03-dc257a40ffa6",
+    "ashby-breakmark-97c77dc5-0a9d-43c3-8fcb-849867eeb222",
     "ashby-breakmark-ca9320e9-5216-4ce0-a704-748c9905b6bd",
     "ashby-brellium-3b05346b-38c2-4ffb-af3e-997d2bd6f896",
     "ashby-brellium-65f55c9f-4614-4b41-a64b-0cdb6a55792e",
@@ -2420,6 +2422,7 @@
     "ashby-embedding-vc-930fea63-4fcb-4b84-96ec-9aa5da111329",
     "ashby-embedding-vc-b49531ff-4850-4bab-8fbf-72a8ec299e60",
     "ashby-embedding-vc-f7e71416-4a84-4690-906e-83b0fd637242",
+    "ashby-empirical-security-1d3037a7-76df-4ebf-9a06-462902a9b8d8",
     "ashby-envoy-50af5e24-e841-4ac9-9ab8-bab95fbcf02f",
     "ashby-envoy-724fe1ce-e41f-4fce-a386-f1c8fca63a2f",
     "ashby-envoy-775648a2-f908-4285-843b-c5b731626161",
@@ -2844,6 +2847,7 @@
     "ashby-goteleport-973e9912-d411-46d5-b6af-e38b9ff20eba",
     "ashby-goteleport-e53553a4-ef67-4fb1-a380-c6bed9e95b82",
     "ashby-govdash-4b275301-77c7-4a45-aa8b-acdad45624d1",
+    "ashby-goventi-98736e8c-cee2-41b1-9d0a-4894a1116150",
     "ashby-goventi-e853d65d-f346-47db-bb93-b0f50e9cb231",
     "ashby-govwell-4d5a429f-5d8c-42b4-a39a-6f1c7868b648",
     "ashby-govwell-81a23971-e007-44db-9812-6d6903ab7688",
@@ -4426,6 +4430,7 @@
     "ashby-percepta-e2dd1d63-dcc1-463e-8564-40a3106f6847",
     "ashby-perchwell-194eec78-26db-4d8e-850f-a99ea2733e9f",
     "ashby-perchwell-9d34fc9d-e235-44fc-bdf9-42e75223839a",
+    "ashby-perfect-venue-4a2e290f-e855-4e69-8196-002dbbb0600b",
     "ashby-periodic-labs-1bab7e17-20fd-4b82-a152-98b96375a626",
     "ashby-periodic-labs-20b122c9-b8ec-4fb0-aaf4-9b45902affe0",
     "ashby-periodic-labs-489cf02a-3098-4b41-b985-7e718f963ad5",
@@ -5533,6 +5538,7 @@
     "ashby-taptapsend-a96ce6ce-0e8c-424d-9870-6efa74d82b85",
     "ashby-tavus-08ba99c2-3cc2-4d7f-8c4c-b16a1900a88d",
     "ashby-tavus-6aefde62-2113-40c2-ac36-14da660bd6a3",
+    "ashby-taxo-bd011487-1c7b-4065-ab28-a355fb01c43d",
     "ashby-teambridge-9583f575-d55f-4f2e-8f1f-1136ba3a391c",
     "ashby-teamdynamix-1088519a-4a7b-44b8-814c-bf31faa02083",
     "ashby-teamdynamix-43a0ab48-c438-499c-b106-6b46d8f62c0c",
@@ -5773,6 +5779,7 @@
     "ashby-uipath-ff9a56e9-2532-4f7b-94ad-d41adee63323",
     "ashby-ultralytics-753c6edd-a39b-4fd6-984b-3259610bc46e",
     "ashby-ultralytics-b11b11d3-f69d-418f-8a1c-f915fe3476ed",
+    "ashby-ultralytics-bd36dfdb-2ccd-4eee-a4a6-6b04c471be72",
     "ashby-ultralytics-efcdc6b9-80ac-4975-b766-f105b371bd4a",
     "ashby-unify-07590b87-dc35-4375-8738-6482ea9998dd",
     "ashby-unify-6a5b351f-8893-435f-951f-2458b24b6d3c",
@@ -56576,5 +56583,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-12T11:18:21.271769+00:00"
+  "updated_at": "2026-10-12T15:32:45.391919+00:00"
 }
