@@ -43601,6 +43601,7 @@
     "lever-ableserve-cfa91218-3100-4aca-a4e7-fa7b96444638",
     "lever-ableserve-e242ee34-f9e4-4f94-bbc2-d3dfaa51d4e7",
     "lever-ableserve-f051d6af-5dd9-4877-9010-13d760a27591",
+    "lever-acceldata-c12c39cb-68c1-45ae-9a88-601e297957b1",
     "lever-acds-079308f9-11b0-4ca0-93a8-c6fb6ed70a23",
     "lever-acds-5a872bb7-8d9f-46e3-9e72-f5c69445e787",
     "lever-acds-65b739c3-02ad-4814-ad24-24abecbc83f4",
@@ -44033,6 +44034,7 @@
     "lever-cti-md-7e28c7d1-20ea-4758-a4c4-caf387cee837",
     "lever-cti-md-7ea0a41a-ceba-4eb5-9a11-c869b824e118",
     "lever-cti-md-8e66ae78-05e7-4848-87a3-eadd54a0ac9a",
+    "lever-cti-md-928ca1f6-562a-4a3a-af7a-33ca3005912d",
     "lever-cti-md-960ac8cf-f4e7-486a-9661-943484b57108",
     "lever-cti-md-ad9d3c45-be24-4c04-b086-d20b15fb6524",
     "lever-cti-md-bb25e3fa-d07f-4f3e-b38c-1d32aacc26eb",
@@ -44321,6 +44323,7 @@
     "lever-hashtagpaid-4ad22640-5ae4-4c84-ab01-bde21903af4f",
     "lever-hatchit-01dc3371-523c-451b-b4e7-14f5b5d7ef9b",
     "lever-hatchit-1484c805-0c16-408c-bb28-7788b4147473",
+    "lever-hatchit-47acbed4-4c8f-4004-a838-12a1b1fe3adb",
     "lever-hatchit-60c36015-1d9c-4f3a-b0c8-054ff0187e55",
     "lever-hatchit-6ba35e9d-29bb-4625-afd1-e229e5abf022",
     "lever-hatchit-7f2e771d-2363-4e85-b62f-ca130c478a97",
@@ -45149,6 +45152,7 @@
     "lever-spotify-cb31f2e9-7218-42b0-91f0-afe0ca6a0fef",
     "lever-spotify-e3dda73a-b575-4ed8-9062-3e07bbf8766e",
     "lever-spreedly-38115545-8190-4a18-95ec-08c5b7bb4d04",
+    "lever-spreedly-3a6264ff-2a29-41d4-95fa-fa52b86e9c69",
     "lever-spreetail-45e04ad7-7779-4a43-ac81-d623dae3d55d",
     "lever-spreetail-8e132723-065b-4f0d-9c5c-4535dee969cf",
     "lever-sprymethods-0e63db92-e146-4ddc-adcd-5bffd24e1689",
@@ -45327,10 +45331,12 @@
     "lever-valkyrietrading-d5d3c739-fc8f-43d7-9076-5263d21f7a91",
     "lever-veeva-1e141fa7-d296-4e16-ba2d-894da2c26b02",
     "lever-veeva-383df24e-e549-4889-b5d8-1163eed92bef",
+    "lever-veeva-7d78e2b9-7916-4d30-b1e4-3ecfb41206e2",
     "lever-veeva-8b0e15e6-9584-4cde-96bc-381338208f4f",
     "lever-veeva-8e4b8273-783e-420a-8f93-af521a341d1e",
     "lever-veeva-9101c159-13e1-44cd-b37c-3d724130f599",
     "lever-veeva-943c9241-1990-43e8-a312-81210ddab613",
+    "lever-veeva-a35bb73f-41fb-4a2d-be86-bba12a7d74d8",
     "lever-veeva-deb0a6c4-1f8e-42fb-9e76-6f6c6f7dc44d",
     "lever-veeva-e38ab928-18d3-4907-901e-e3dc889aab1c",
     "lever-velo3d-3866748d-2fda-435f-832d-151e19709c43",
@@ -57216,5 +57222,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-14T13:48:36.473022+00:00"
+  "updated_at": "2026-10-14T13:59:16.682261+00:00"
 }
