@@ -2440,7 +2440,9 @@
     "ashby-elevenlabs-9aca205e-b2bc-405b-85d6-3d2aadbe49b1",
     "ashby-elevenlabs-a03536c8-8728-4007-aef2-460def03173e",
     "ashby-elevenlabs-b8a111fa-9fd5-44d0-97ed-8fd1280be4ef",
+    "ashby-elevenlabs-ce3d5a59-fb8c-482b-bc3f-60e44576c5e0",
     "ashby-elevenlabs-db88ce4f-44a0-425c-88c4-1951c467c627",
+    "ashby-elevenlabs-e4e0450f-d139-4f8e-b210-2f326a680d90",
     "ashby-elicit-152b8541-c6d9-4b2f-a4f2-f906b82ec2ed",
     "ashby-eliseai-1c0bbef2-9c17-49b0-9285-1378381e09e0",
     "ashby-eliseai-469230dd-a9f3-4fc1-9904-04d3e052253b",
@@ -3574,6 +3576,7 @@
     "ashby-leland-fb7c38b8-207c-4b2a-be2e-fa49b8a0c5d4",
     "ashby-lendable-1302b44d-3634-4355-8ebd-d732eae19b44",
     "ashby-lendable-9f9dd206-8e7f-403b-af23-b28ead786238",
+    "ashby-lendable-ac527b20-e9fc-41d1-841c-bc881e2abef6",
     "ashby-lendable-e4232014-a03d-4b1c-8e1a-1f845150d952",
     "ashby-levelpath-948e5c71-a188-4b19-ac51-d5548a5b4a6c",
     "ashby-levelpath-c53c51c1-9ea3-4b8f-88e9-502dea61afbd",
@@ -4649,6 +4652,7 @@
     "ashby-plaud-c4b99f9b-1436-458b-809f-fdfe3fa1bd14",
     "ashby-plaud-e0b1ba1a-01c9-494e-b622-cb8eb95aa6ab",
     "ashby-playground-87721a6e-9bdd-4a6f-91a3-d91418baaf80",
+    "ashby-pluralis-research-8293ce8f-a4c0-499f-971a-761153c14a85",
     "ashby-pluralis-research-d470fc83-fdf1-4c84-b284-7f5c084f0efd",
     "ashby-pod-network-b350711f-2c1e-49aa-b66c-4813da4425c9",
     "ashby-point-one-navigation-38dc5f58-bb8e-47ad-9fa0-2aea0e11c0e9",
@@ -5217,6 +5221,7 @@
     "ashby-shepherd-af908695-0556-4840-b582-e9c62cee8023",
     "ashby-shepherd-e6cc505c-f923-436f-88af-909e6e4ee19f",
     "ashby-shiftkey-2d49484b-f266-4250-a24c-013d8e274559",
+    "ashby-shiftkey-6fb312bb-52e6-44d6-9ed8-23d326b7a3ce",
     "ashby-sierra-000618f7-e0d0-43dc-ae15-2b20d948852f",
     "ashby-sierra-032c8ab4-1911-4477-bc39-9cfcd701d5a9",
     "ashby-sierra-149f368c-52d5-408f-ba26-ad888f318a00",
@@ -57211,5 +57216,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-14T12:19:30.923465+00:00"
+  "updated_at": "2026-10-14T13:48:36.473022+00:00"
 }
