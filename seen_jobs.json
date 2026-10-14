@@ -43693,6 +43693,7 @@
     "lever-agile-defense-4038afcd-e3e8-49b8-a9ed-a00c88770e7f",
     "lever-agile-defense-45d8560d-1321-4603-a2fc-db27f1bd3425",
     "lever-agile-defense-49bfefa5-b6f6-49fd-9548-cea453483eb7",
+    "lever-agile-defense-4abc50f5-206e-401c-b451-df06376caf91",
     "lever-agile-defense-4ac86a23-3302-41ea-bac8-58f716f8a19b",
     "lever-agile-defense-4d5254dd-8366-4983-9156-a7f989fea964",
     "lever-agile-defense-4e73ee21-938a-4594-99e7-55026b711583",
@@ -44002,6 +44003,7 @@
     "lever-cfsenergy-0ba3ba76-efe5-48a7-b757-557786f569f5",
     "lever-cfsenergy-195a6795-0b2a-4b8f-bd39-9d522efcba61",
     "lever-cfsenergy-1c5352d0-5384-4f03-8832-8342f3176e89",
+    "lever-cfsenergy-1cc2df24-4ac5-457b-bf6c-04eeba54c6bc",
     "lever-cfsenergy-2149d604-b29e-4adc-9e98-789d2ca53374",
     "lever-cfsenergy-41ced08d-7830-4aa5-b587-26de3bed605d",
     "lever-cfsenergy-501c94eb-a10a-4682-9dc7-f6f77e2576b3",
@@ -44159,6 +44161,7 @@
     "lever-dodmg-f097cef6-6f81-4134-8e40-cecf740271e9",
     "lever-drivemode-017c4856-bc6c-4622-b272-cd66fbaf9a04",
     "lever-drivemode-a289405d-f147-412d-993e-b9436713bd35",
+    "lever-drivetrain-66195a65-cbef-4f2e-b893-1bb58c001d23",
     "lever-duetti-18ca625b-1bf1-4d6b-9e05-b228a8f63bed",
     "lever-dutch-ef1c88fa-7c07-44d8-95ef-56f45dd4e1e5",
     "lever-dwolla-1105d103-d55d-44ec-8175-5edb3955c87e",
@@ -44844,6 +44847,7 @@
     "lever-pivotenergy-3632a3c5-977b-4fcc-a0b2-06eff66a96ba",
     "lever-planettechnologies-66a668f3-d524-43e5-a37b-b8ed485c0854",
     "lever-planettechnologies-6f4a228f-2b58-4e34-861a-ecf047ab44b6",
+    "lever-planettechnologies-b66feb42-9ec8-436b-b92e-42521028941d",
     "lever-planettechnologies-ceac7385-ca95-4bad-9cbc-33d4ba5e6c56",
     "lever-planettechnologies-f5024816-5805-402f-b738-c2aee95a5d93",
     "lever-plus-2-0c342721-601c-4466-b503-5b18438064c2",
@@ -44989,6 +44993,7 @@
     "lever-reply-77d1b33a-b294-4fc0-a707-e496058bbc3f",
     "lever-reply-906d8bd0-e58a-437e-8d0f-3d7bebc33ad8",
     "lever-reply-9d96e412-1f35-4c6c-b29c-b1702f12bd5c",
+    "lever-reply-d24a1372-b895-4835-80ab-3ca3ef6c97e6",
     "lever-reply-e41bbe15-781d-482a-a9e9-84a327310628",
     "lever-reply-fc8fc5b1-4782-497a-9501-c2c9d826a949",
     "lever-revealtech-0f23d22e-6143-4ee4-b050-4fe73279b837",
@@ -57335,5 +57340,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-14T18:43:12.587393+00:00"
+  "updated_at": "2026-10-14T18:50:37.052236+00:00"
 }
