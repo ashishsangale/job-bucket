@@ -44043,6 +44043,8 @@
     "lever-bannerbank-116082b5-ba83-4428-8c39-94cf33860cae",
     "lever-bannerbank-8f8a0021-9ea6-4188-8a0b-559dabe926c5",
     "lever-bannerbank-a4ecddfa-d63d-40e6-8886-37661236865a",
+    "lever-basis-edae0098-def4-4b91-b8a3-212244439120",
+    "lever-basis-f50da94e-d3fb-4d1b-970e-d934cf29c6cf",
     "lever-bellese-06f71894-60f4-4119-9f48-b37d81f89ab3",
     "lever-bellese-104a1619-f855-414c-b885-0fe98e3949ca",
     "lever-bellese-111d0849-7e33-4469-9e9a-bf02a54158ea",
@@ -44317,7 +44319,9 @@
     "lever-disher-476014b7-e51f-44d0-9d49-7540fbee10a5",
     "lever-disher-59662b85-c10e-4a7f-b8c0-c9de61534f45",
     "lever-disher-81537b67-a730-418a-9a28-d0bcb17a6fb0",
+    "lever-disher-92afa874-dfa8-4ecb-9eb1-81ac78df4122",
     "lever-disher-9f34c488-8151-4062-a80d-52329d633e6e",
+    "lever-disher-be5e48e5-53db-42bb-949e-6cc8335b98d2",
     "lever-disher-c1fdcadf-ac80-40e8-9bca-feafd7278d70",
     "lever-disher-e676174d-3a15-493d-890b-f8aaa42b4437",
     "lever-disher-ea1c06ba-55b0-49ff-8d5b-a8dd3cbb556c",
@@ -45684,6 +45688,7 @@
     "lever-whoop-de38a7c3-db3b-43eb-bf6d-326837c986ab",
     "lever-windfalldata-4697e53e-9b3d-449c-86b3-572754884711",
     "lever-windfalldata-4b214e29-a517-4e72-bfd4-9bd0ccfc38fb",
+    "lever-windfalldata-d610fae0-2664-44e7-9e5f-94dae55a5723",
     "lever-windfalldata-f331c56b-2b33-4341-8646-06e28d50e32a",
     "lever-wisecode-390e192c-a84b-4e75-918d-fa2e2b4cdde1",
     "lever-woodardcurran-255c759e-a59a-4a77-ae8e-63fa0b60b341",
@@ -57627,5 +57632,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-15T17:06:59.082891+00:00"
+  "updated_at": "2026-10-15T17:17:42.763723+00:00"
 }
