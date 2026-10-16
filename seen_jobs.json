@@ -1548,6 +1548,7 @@
     "ashby-atomic-b2bfa182-5a40-4545-9e03-980ededc979e",
     "ashby-atomic-financial-1935d724-6d90-46ac-8dd1-32f88872b045",
     "ashby-atomic-financial-7e781781-c559-4dde-a006-32f6da25937f",
+    "ashby-atomic-invest-18b03b39-1e28-4ccf-8a70-222a981528f5",
     "ashby-atomic-invest-d6941647-471e-4bcf-9fca-d38beb51b6fd",
     "ashby-atomicsemi-724e96f3-73bf-4430-875d-2741d488e64f",
     "ashby-atomicsemi-870f5f72-7488-41a9-82f3-8054aa4a4525",
@@ -1663,6 +1664,7 @@
     "ashby-bayesianhealth-38d24101-08b4-40f8-8331-d354b43cb908",
     "ashby-bayesianhealth-f3d96335-cfb0-4bc5-9109-5925516da5d1",
     "ashby-beam-up-16e0b7e6-2339-4fad-9b5e-91993931590f",
+    "ashby-bedrock-robotics-0a515d83-d06f-4fac-8e6b-4e02c2161ed0",
     "ashby-bedrock-robotics-18001e6d-4431-4da4-8484-d2a46926f625",
     "ashby-bedrock-robotics-1871fdc6-6eba-4397-8725-c4e5c036ab54",
     "ashby-bedrock-robotics-1dcb4a02-a789-4d15-a42f-6de115410397",
@@ -2506,6 +2508,7 @@
     "ashby-elicit-152b8541-c6d9-4b2f-a4f2-f906b82ec2ed",
     "ashby-eliseai-1c0bbef2-9c17-49b0-9285-1378381e09e0",
     "ashby-eliseai-469230dd-a9f3-4fc1-9904-04d3e052253b",
+    "ashby-eliseai-49862861-ead9-4fef-a3bf-6c5026bf913f",
     "ashby-eliseai-49e9c0b6-fd1e-4a5e-a66f-1b4874193efb",
     "ashby-eliseai-579a3b37-0c48-4147-89c8-d1d4e728b124",
     "ashby-eliseai-5b6f3775-3e79-4269-a255-47ee3057265d",
@@ -3044,6 +3047,7 @@
     "ashby-hadrian-automation-6dd23bb6-8db1-4f1d-9d52-616b7fa12c22",
     "ashby-hadrian-automation-72ebe5de-b705-4dcc-8f9e-955f81219cf6",
     "ashby-hadrian-automation-7b1d500c-3c2e-48b3-9974-917a96b65e32",
+    "ashby-hadrian-automation-7cd509b3-5e8b-476b-9a36-8293671a2454",
     "ashby-hadrian-automation-81aa9da8-eaff-4644-ae5b-a0d105509a0a",
     "ashby-hadrian-automation-94970f47-f88e-4e71-90ae-0e52b1d75c6b",
     "ashby-hadrian-automation-94a7f0c4-deb4-4406-8685-5f620b29210f",
@@ -3411,6 +3415,7 @@
     "ashby-infisical-351240fc-0dd3-48c3-a46e-e8861cae27cd",
     "ashby-infisical-a9a1c650-a79c-4baf-90c7-5c4460969818",
     "ashby-infisical-ea02168a-4f91-432e-a9da-8401909cf4f5",
+    "ashby-influxdata-72a6fb9f-16e9-4d32-ab07-03a44eccbce1",
     "ashby-influxdata-c2b30d69-ba41-427a-b789-e811f566e177",
     "ashby-injective-1774439c-c692-4de9-a4f4-87b713e9d5d4",
     "ashby-injective-412a0e3c-f0f8-4f55-a0ec-ed092272ec1c",
@@ -4936,6 +4941,7 @@
     "ashby-radai-1379cf08-88cb-45b2-b940-e54a5523e7e7",
     "ashby-radai-2697a7e4-b706-4f91-884d-2f2d87b7009a",
     "ashby-radai-67267484-919c-40be-950c-1237cfe017dc",
+    "ashby-radai-df814c1f-2d46-49b9-89d7-4b211a05b751",
     "ashby-radai-eac0980c-6e8d-40ad-9329-0b338bada6be",
     "ashby-radiant-industries-0fea3334-e41f-45ee-b5e8-f54ce00f6539",
     "ashby-radiant-industries-1ba14607-047c-4613-89bb-64233aa1f5f3",
@@ -5011,6 +5017,7 @@
     "ashby-ready-586fd053-b5b9-463f-a9dd-2df68856adb0",
     "ashby-ready-a1170cea-84b7-43d3-9cd6-6d701e430791",
     "ashby-ready-c1d45bc6-85f5-4dfc-8cb0-8728abc0999c",
+    "ashby-realitydefender-929e2408-f5aa-4944-b27c-7ccb8ee07237",
     "ashby-realitydefender-9774a0ea-48f5-4c81-9a77-e18c13d366ae",
     "ashby-realitydefender-a067e5cc-1d44-4903-9002-f48c076cea28",
     "ashby-realitydefender-cd81dfae-424b-4b7e-9a6a-a84c90340f70",
@@ -58096,5 +58103,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-16T21:03:14.227298+00:00"
+  "updated_at": "2026-10-16T21:14:01.898522+00:00"
 }
