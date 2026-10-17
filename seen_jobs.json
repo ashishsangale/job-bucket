@@ -11523,6 +11523,7 @@
     "gh-barbaricum-5412528008",
     "gh-barbaricum-5412541008",
     "gh-barbaricum-5412545008",
+    "gh-barbaricum-5456014008",
     "gh-bark-7957591",
     "gh-baselayer-5209345008",
     "gh-baselayer-5226295008",
@@ -11750,6 +11751,7 @@
     "gh-billcom-6180061004",
     "gh-billcom-6202740004",
     "gh-billcom-6206053004",
+    "gh-billcom-6223092004",
     "gh-billcom-6223339004",
     "gh-billiontoone-4305991005",
     "gh-billiontoone-4482409005",
@@ -17550,6 +17552,7 @@
     "gh-faradayfuture-7776923003",
     "gh-faradayfuture-7780385003",
     "gh-faradayfuture-7819907003",
+    "gh-faradayfuture-8036218003",
     "gh-fartherfinance-4629896005",
     "gh-fartherfinance-4647635005",
     "gh-fartherfinance-4647646005",
@@ -18817,6 +18820,7 @@
     "gh-globalhealthcareexchangeinc-4726991005",
     "gh-globalhealthcareexchangeinc-4729404005",
     "gh-globalhealthcareexchangeinc-4741984005",
+    "gh-globalhealthcareexchangeinc-4742669005",
     "gh-globalityinc-8368793002",
     "gh-globalityinc-8461002002",
     "gh-globalityinc-8589764002",
@@ -22288,6 +22292,10 @@
     "gh-lyft-8817974002",
     "gh-lyft-8843341002",
     "gh-lyft-8856443002",
+    "gh-lyft-8896654002",
+    "gh-lyft-8896671002",
+    "gh-lyft-8896675002",
+    "gh-lyft-8896679002",
     "gh-lynxanalytics-8554439002",
     "gh-lynxanalytics-8647264002",
     "gh-lyratechgroup-5145796008",
@@ -58273,5 +58281,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-17T00:34:12.524374+00:00"
+  "updated_at": "2026-10-17T04:18:46.693225+00:00"
 }
