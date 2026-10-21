@@ -382,6 +382,7 @@
     "amzn-10584479",
     "amzn-10584882",
     "amzn-10585037",
+    "amzn-10585658",
     "apple-200555687-3543",
     "apple-200608388-3337",
     "apple-200619215-3760",
@@ -421,6 +422,7 @@
     "apple-200641263-3337",
     "apple-200641941-3401",
     "apple-200641998-2459",
+    "apple-200643421-0157",
     "apple-200644094-0157",
     "apple-200644291-3401",
     "apple-200645051-3401",
@@ -1260,6 +1262,10 @@
     "apple-200690476-3337",
     "apple-200690516-3543",
     "apple-200690585-3956",
+    "apple-200690683-0157",
+    "apple-200690683-3956",
+    "apple-200690790-0157",
+    "apple-200690790-3543",
     "ashby-0g-89ef45ce-0f81-4ef3-a31b-adc38311824b",
     "ashby-1mind-052ca544-28c4-4fcb-a0a2-63140ccf0212",
     "ashby-1mind-74c26a72-8ec2-4269-b1d4-568d32cb0648",
@@ -2037,6 +2043,7 @@
     "ashby-cerebras-bf6f81b2-f079-483a-9238-295a184b3f0f",
     "ashby-cerebras-c0d8fa46-fd9e-49b5-80c9-040bbd0da916",
     "ashby-cerebras-c35a389c-807e-45fb-bfda-03f6b1361871",
+    "ashby-cerebras-c6f607ce-306c-4deb-8825-4175201a7cd4",
     "ashby-cerebras-ce441c5a-5c03-465a-8447-2bf1fdabf370",
     "ashby-cerebras-cf45f13c-b6a9-4df2-b6c3-eefea14a024f",
     "ashby-cerebras-d114d16b-3c5f-44a1-9a15-26b37fb45369",
@@ -59610,5 +59617,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-21T21:57:03.881773+00:00"
+  "updated_at": "2026-10-21T22:40:15.850363+00:00"
 }
