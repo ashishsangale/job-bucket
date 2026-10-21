@@ -1446,6 +1446,7 @@
     "ashby-antares-e15e1f34-a1ff-4d6e-a2ce-78f2e8bb3815",
     "ashby-antares-e92ae489-1b1a-4616-a9c8-7c2390698af8",
     "ashby-antares-ec96a761-509f-44e9-90aa-e1fee5388aa1",
+    "ashby-antares-f3a4b06e-3d83-4c2b-9091-9a0cb9025d7f",
     "ashby-antares-f4d323da-c799-40d6-85b7-92e0802e74e6",
     "ashby-antares-f530ad09-21b2-49a5-a133-bd24fb97cede",
     "ashby-antares-f9c1158a-55db-4a6c-91a0-36a6f7f57869",
@@ -2592,6 +2593,7 @@
     "ashby-eloquentai-78c360e2-abd0-498b-ac59-d0907b71a801",
     "ashby-ema-1119c04d-6cbe-4edc-96f5-9cc3a6c16741",
     "ashby-ema-6f816cca-bf17-4061-b751-033a14e433cb",
+    "ashby-ema-9728a171-9617-4533-9f03-10c14c3b6ca5",
     "ashby-ema-a3e07250-51f9-4518-ad2e-19d7825f5234",
     "ashby-ema-ab094389-25ec-417b-b646-06969d166d06",
     "ashby-ema-b38c0fdf-26d6-4505-91d5-25da7962997b",
@@ -2627,6 +2629,7 @@
     "ashby-etched-494546ec-de37-46a2-b450-692c23b7b0c8",
     "ashby-etched-56400dde-55ea-43c8-862c-cb0b14eb063c",
     "ashby-etched-5cc7effb-c1d8-4cb8-a0c3-0bd4f7045fe5",
+    "ashby-etched-5e24c2af-4911-43be-b961-9396d40ad473",
     "ashby-etched-778a762d-4a30-4a8b-aad9-ee18855ce75c",
     "ashby-etched-82622c6f-9b8f-44d1-b8fc-2d4634f5abbf",
     "ashby-etched-831bfa22-d883-450b-9b10-2a16421525a0",
@@ -3540,6 +3543,7 @@
     "ashby-jobber-e9ca1044-a1c3-462a-8eb3-372ff9e6431f",
     "ashby-juicebox-1af7ec98-9c2e-4101-868e-58e6f35cd23a",
     "ashby-juicebox-373bcadb-163c-477d-908e-f4ecca0369e1",
+    "ashby-julius-8e228c39-4a79-4202-bdbf-dddb703693cc",
     "ashby-jump-app-8f96b791-a170-4959-a772-74e1872f5841",
     "ashby-jump-ccc855ba-1a6f-4eb6-a502-9adb3648e561",
     "ashby-junior-23ee686b-d305-4ac9-860d-16c99ddb4891",
@@ -3867,6 +3871,7 @@
     "ashby-mach9-622a014b-ff77-45bd-9caa-61a6506884ed",
     "ashby-mach9-6ce8c1ee-382e-406c-b7c8-27bec18008e1",
     "ashby-mach9-95b6b89b-4c39-4e10-97eb-f29aa463c894",
+    "ashby-mach9-b5aaabd0-d286-440c-8e95-c650fceb0fa8",
     "ashby-mach9-d417fcf4-f9c2-46f9-a081-1d408cd109ca",
     "ashby-mach9-e09c4604-583b-424f-9526-9f62f42439de",
     "ashby-madhive-2c373c9f-ae85-482d-8a8a-e92626f27404",
@@ -4742,6 +4747,7 @@
     "ashby-permitflow-036ad66d-a31e-4f08-9533-838345641335",
     "ashby-permitflow-08035d47-a610-4a5a-92bc-105ae3d18fc8",
     "ashby-permitflow-59bc7a80-a622-49b7-b47d-51d70a7c1075",
+    "ashby-perplexity-0113c03a-69d0-489d-bd11-451d11a9f64b",
     "ashby-perplexity-0a74edd7-830a-4825-946c-28801a057127",
     "ashby-perplexity-0d722589-0f8c-4500-ae79-d3bba5c8a0ea",
     "ashby-perplexity-0f14dc7f-84c3-4447-a28a-e926fa8b053b",
@@ -59333,5 +59339,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-21T05:15:08.134095+00:00"
+  "updated_at": "2026-10-21T07:44:55.281162+00:00"
 }
