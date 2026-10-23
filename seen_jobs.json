@@ -45763,6 +45763,8 @@
     "lever-atomcomputing-e5aab58b-8c79-4a5a-9d78-f3de6c4a24ea",
     "lever-atomcomputing-e6db0921-3a50-4c45-931a-deffbfa8d826",
     "lever-auw-43b6fed6-33a6-4d40-8382-5baf87060347",
+    "lever-auw-6f317af6-4362-4dea-accc-e86ec1d102a5",
+    "lever-auw-9234d6e2-f306-48d9-9cd6-9192d34d889c",
     "lever-auw-c248f217-45ac-41ae-8ea6-8c3d911f4a02",
     "lever-avalerehealth-690e65f2-2081-42d2-9bae-f246572ab331",
     "lever-avalerehealth-fc7cf2dd-2a68-4aef-b502-22f4afc54f9c",
@@ -46237,6 +46239,7 @@
     "lever-foth-78b0d9ad-0b7b-4ede-a580-f8791534c804",
     "lever-foth-7f630e10-d565-4e16-be74-609e2de45dc7",
     "lever-foth-c930389b-41a4-418d-aaef-8ee34a450fcc",
+    "lever-foth-cbfb63d8-eb49-48e0-9930-7bf7df4fb115",
     "lever-foth-f4ab8511-20d6-4f69-b6e6-c19811a22ae5",
     "lever-foxitsoftware-a55a5d61-7cbb-4244-b3ed-9fa1ff4af4c6",
     "lever-freedompay-25687cfe-d074-4b0d-936b-9621f8165894",
@@ -46633,6 +46636,7 @@
     "lever-masterborn-2-332ac8c0-01bb-44f6-b7e3-f9260ea1f532",
     "lever-masterborn-2-4daf6015-6e99-4b8b-bc8b-9bc3cdf804c6",
     "lever-masterborn-2-7145dd89-1fd6-4300-896d-08b84340c56b",
+    "lever-matchgroup-1d6cd00b-9847-4410-a74b-7a86d2b49908",
     "lever-matchgroup-26725d4e-c597-4434-95d3-e6b86472d8a4",
     "lever-matchgroup-2e3029e9-7fda-4a61-9866-b731f289f0ff",
     "lever-matchgroup-32b18f00-af1a-4067-ad7d-9cba43711d2e",
@@ -46765,6 +46769,7 @@
     "lever-penumbrainc-213db410-8bbb-4bcd-9502-b653b9411d5d",
     "lever-penumbrainc-299f3607-0a1a-4a5d-bada-3db58982b835",
     "lever-penumbrainc-3a2507b0-7ed6-4385-8262-fee3ac0104a5",
+    "lever-penumbrainc-42be630d-d9d1-41fd-b9f7-ffae5a08844c",
     "lever-penumbrainc-872adff7-f42f-42a7-b264-d7d56f4020ad",
     "lever-penumbrainc-a6660b10-6e7c-4bf4-92f2-08e21c0551f7",
     "lever-penumbrainc-c3f03be8-3cbe-475d-9b32-77039799254f",
@@ -47022,6 +47027,7 @@
     "lever-shieldai-0915a15c-9f24-4851-a375-006bab31d6c6",
     "lever-shieldai-0cdcb67f-0550-4f14-987f-82cc6d17ea6e",
     "lever-shieldai-0ecceb36-b4a8-4714-a484-0ff4cee1844d",
+    "lever-shieldai-0edc2cfa-d7df-497e-ae42-a4aa88867c06",
     "lever-shieldai-10343ad3-79ee-4ef8-a0da-154908c915bf",
     "lever-shieldai-1039fc07-1b3c-4e72-870a-494cd0f1d5a8",
     "lever-shieldai-104a9e83-0848-49c7-9d82-64618bbb39cb",
@@ -47085,6 +47091,7 @@
     "lever-shieldai-90a28307-769a-49f8-bd19-a0d8b4385e11",
     "lever-shieldai-91ef13ca-c052-457b-b4d7-be601214647f",
     "lever-shieldai-920ddfc2-b289-4ca6-8d33-e10bfa7e575f",
+    "lever-shieldai-935bdcec-dc17-4fa3-9dc0-1c2ecd35ca0b",
     "lever-shieldai-93f53ebc-7b99-468e-956b-07a82af2a315",
     "lever-shieldai-942cf840-e5da-489d-9086-e1e8ae09821a",
     "lever-shieldai-94a05ffd-7376-4794-8d4b-80f6c56d151d",
@@ -47106,6 +47113,7 @@
     "lever-shieldai-b6dcf09f-1fb2-4ac1-b2e6-9fab8acb4e79",
     "lever-shieldai-b7078f80-3ad8-45d8-8bc4-69a143cd1ed8",
     "lever-shieldai-bcf7d048-3982-4558-bd9b-c355282b7f78",
+    "lever-shieldai-bef440ce-0365-4de7-9b1e-b1288cdaf7f3",
     "lever-shieldai-c0593ffd-e4c8-45fe-92f3-fc0561a1b3f6",
     "lever-shieldai-c28e98ff-88ce-4e56-ada5-4cee7d417885",
     "lever-shieldai-c572c4ac-5a16-40a7-ad56-aee3ebead2ef",
@@ -60316,5 +60324,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-23T21:37:37.740811+00:00"
+  "updated_at": "2026-10-23T22:29:15.843118+00:00"
 }
