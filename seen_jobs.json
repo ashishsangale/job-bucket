@@ -1735,6 +1735,7 @@
     "ashby-base-power-e0c632cd-2375-4e0f-8a9f-11dbb820e885",
     "ashby-base-power-e232a0d2-50d9-4406-a805-1dd7b6d086e1",
     "ashby-base-power-f0f024b0-2c68-44fe-a6dd-3095bfbbccb6",
+    "ashby-base-power-f237f793-855e-4045-b553-df72c1119d5a",
     "ashby-base-power-f7f3523e-70c0-4c4f-bf5d-6f8e39f68d1a",
     "ashby-baseten-08bededd-d362-453e-b014-384a2003cbf1",
     "ashby-baseten-14c4a663-0b1f-4c11-93ff-1359741ee456",
@@ -3997,6 +3998,7 @@
     "ashby-mach9-d417fcf4-f9c2-46f9-a081-1d408cd109ca",
     "ashby-mach9-e09c4604-583b-424f-9526-9f62f42439de",
     "ashby-madhive-2c373c9f-ae85-482d-8a8a-e92626f27404",
+    "ashby-madhive-b95e6485-c017-49a0-a966-61f68404279c",
     "ashby-madhive-d54b7fb5-63c3-4453-bdcc-7bca4ad931e8",
     "ashby-magical-84db7e49-b2b3-4d1e-9587-2bd9c35ea75d",
     "ashby-magicschool-a52c722c-20fb-43aa-882d-c6ecb08d35b4",
@@ -5255,6 +5257,7 @@
     "ashby-rain-d801cb1d-0500-487f-8732-39a4afe3c741",
     "ashby-rain-f4fc9289-e16d-4d4a-afb7-deedab74d3ac",
     "ashby-rainforest-pay-8c1702bc-70c9-4631-9c7b-ae0019e9ec14",
+    "ashby-rainforest-pay-937e60eb-f695-4e97-b0df-0948659fd7ce",
     "ashby-ramp-09360e92-fc95-4ba6-9611-dfefd60b13ce",
     "ashby-ramp-0ed80a29-6cca-42d7-b7e0-066d4fa7b37f",
     "ashby-ramp-16fb536d-fe10-4ea7-8956-d6d0cbddd6f5",
@@ -60636,5 +60639,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-26T14:37:23.226370+00:00"
+  "updated_at": "2026-10-26T15:16:55.261127+00:00"
 }
