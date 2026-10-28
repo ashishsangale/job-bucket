@@ -46153,6 +46153,7 @@
     "lever-agile-defense-3bb95132-8699-4807-97ec-10fa83b57dad",
     "lever-agile-defense-3bc4054f-2fd0-411c-a87f-70cb6919216c",
     "lever-agile-defense-4038afcd-e3e8-49b8-a9ed-a00c88770e7f",
+    "lever-agile-defense-436ac084-5ce2-41f5-ab8a-7cb68ac5c7a3",
     "lever-agile-defense-4377cbc7-83da-42de-85c6-291c24d5d180",
     "lever-agile-defense-43a9f021-393b-463c-808a-882d00997cee",
     "lever-agile-defense-4550ffd9-cade-439d-b51b-d85a793287ff",
@@ -46664,8 +46665,10 @@
     "lever-disher-81537b67-a730-418a-9a28-d0bcb17a6fb0",
     "lever-disher-92afa874-dfa8-4ecb-9eb1-81ac78df4122",
     "lever-disher-9f34c488-8151-4062-a80d-52329d633e6e",
+    "lever-disher-af921672-743f-4a1c-8df7-5591f37596b1",
     "lever-disher-be5e48e5-53db-42bb-949e-6cc8335b98d2",
     "lever-disher-c1fdcadf-ac80-40e8-9bca-feafd7278d70",
+    "lever-disher-e55d2089-a9eb-4345-ae74-261bc6d19520",
     "lever-disher-e676174d-3a15-493d-890b-f8aaa42b4437",
     "lever-disher-ea1c06ba-55b0-49ff-8d5b-a8dd3cbb556c",
     "lever-disher-f144dd80-488f-4881-85e5-b9f77f9c8f4d",
@@ -47342,6 +47345,7 @@
     "lever-palantir-29630180-0f10-4826-801f-12e226d3c7f1",
     "lever-palantir-3b4ae28e-c4f2-4654-83b4-64366bfe72fa",
     "lever-palantir-3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
+    "lever-palantir-491a0133-b580-45c3-9fd4-2314faf82fb9",
     "lever-palantir-4df4cca5-e361-498b-806d-05f21638c93a",
     "lever-palantir-5614a901-ef96-4b9c-928d-4a9c338c8aad",
     "lever-palantir-5b0f37e6-8569-4a62-9e38-c5a4edc67dcf",
@@ -47980,6 +47984,7 @@
     "lever-tsmg-cbef245a-5e6e-4204-b2b5-fd9fec71f50c",
     "lever-tsmg-cc820ea0-541d-4a5c-a538-a3468a333e59",
     "lever-tsmg-ce52135f-6dca-438e-b16f-6fc35bcaa57f",
+    "lever-tsmg-db4e27e4-d6e9-4382-bca9-77635d9134ac",
     "lever-tsmg-e4696011-f372-4d3f-8fac-f3e25a7c42b7",
     "lever-tsmg-e991b9ed-a9d5-44ee-8fb0-100faa4dc264",
     "lever-ttecdigital-349d978b-1b05-472f-b529-25bb91af55e0",
@@ -61279,5 +61284,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-28T12:57:42.706592+00:00"
+  "updated_at": "2026-10-28T14:26:40.069854+00:00"
 }
