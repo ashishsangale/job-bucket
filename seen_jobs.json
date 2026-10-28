@@ -17121,6 +17121,7 @@
     "gh-energysolutions-5222430007",
     "gh-energysolutions-5222431007",
     "gh-energysolutions-5222432007",
+    "gh-energysolutions-5265637007",
     "gh-enformion-5263750007",
     "gh-engine-7593837003",
     "gh-engine-7690579003",
@@ -27680,6 +27681,8 @@
     "gh-questdefensesystemssolutionsinc-5252794007",
     "gh-questdefensesystemssolutionsinc-5256792007",
     "gh-questdefensesystemssolutionsinc-5261503007",
+    "gh-questdefensesystemssolutionsinc-5266015007",
+    "gh-questdefensesystemssolutionsinc-5266023007",
     "gh-questdefensesystemssolutionsinc-5266935007",
     "gh-questdefensesystemssolutionsinc-5267112007",
     "gh-questdefensesystemssolutionsinc-5267117007",
@@ -28307,6 +28310,7 @@
     "gh-relativity-8917327002",
     "gh-relativity-8917347002",
     "gh-relativity-8917854002",
+    "gh-relativity-8920809002",
     "gh-relaynetwork-8121578",
     "gh-relaypayments-7800069003",
     "gh-relaypro-6140280",
@@ -33535,6 +33539,7 @@
     "gh-starrez-5221829008",
     "gh-starrez-5223287008",
     "gh-startree-6127313004",
+    "gh-startree-6235909004",
     "gh-stashinvest-7979793",
     "gh-stashinvest-8080033",
     "gh-stashinvest-8213807",
@@ -33862,6 +33867,7 @@
     "gh-stripe-8314235",
     "gh-stripe-8314283",
     "gh-stripe-8325807",
+    "gh-stripe-8329718",
     "gh-strivehealth-4680792006",
     "gh-strivehealth-4714721006",
     "gh-strivehealth-4719233006",
@@ -37657,6 +37663,10 @@
     "gh-xai-5043570007",
     "gh-xai-5050657007",
     "gh-xai-5051966007",
+    "gh-xai-5051970007",
+    "gh-xai-5051984007",
+    "gh-xai-5051985007",
+    "gh-xai-5052027007",
     "gh-xai-5052038007",
     "gh-xai-5052040007",
     "gh-xai-5058161007",
@@ -61222,5 +61232,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-28T06:06:37.214112+00:00"
+  "updated_at": "2026-10-28T08:24:12.105137+00:00"
 }
