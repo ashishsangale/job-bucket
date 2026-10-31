@@ -12090,6 +12090,7 @@
     "gh-axon-8008876003",
     "gh-axon-8010012003",
     "gh-axon-8010019003",
+    "gh-axon-8010024003",
     "gh-axon-8010025003",
     "gh-axon-8011724003",
     "gh-axon-8013549003",
@@ -12771,6 +12772,7 @@
     "gh-bluerivertech-8155631",
     "gh-bluerivertech-8212518",
     "gh-bluerivertech-8260048",
+    "gh-bluerivertech-8338309",
     "gh-blueroseresearch-5007142004",
     "gh-blueroseresearch-5567644004",
     "gh-blueroseresearch-6194289004",
@@ -14664,6 +14666,8 @@
     "gh-chime-8726050002",
     "gh-chime-8782503002",
     "gh-chime-8840205002",
+    "gh-chime-8868948002",
+    "gh-chime-8922481002",
     "gh-christfellowship-8485688002",
     "gh-christfellowship-8519012002",
     "gh-cialfo-5782633004",
@@ -32345,6 +32349,7 @@
     "gh-spacex-8924393002",
     "gh-spacex-8924709002",
     "gh-spacex-8924747002",
+    "gh-spacex-8924763002",
     "gh-spacex-8924773002",
     "gh-spacex-8925448002",
     "gh-spacex-8925449002",
@@ -35828,6 +35833,7 @@
     "gh-trueanomalyinc-5258862007",
     "gh-trueanomalyinc-5260547007",
     "gh-trueanomalyinc-5261715007",
+    "gh-trueanomalyinc-5262525007",
     "gh-trueanomalyinc-5269081007",
     "gh-trueanomalyinc-5271710007",
     "gh-trueanomalyinc-5272878007",
@@ -37268,6 +37274,7 @@
     "gh-voyagertechnologiesinc-4470886009",
     "gh-voyagertechnologiesinc-4471229009",
     "gh-voyagertechnologiesinc-4471246009",
+    "gh-voyagertechnologiesinc-4474576009",
     "gh-vscfiresecurityinc-5233779008",
     "gh-vsco39-7959658002",
     "gh-vsco39-8483933002",
@@ -62360,5 +62367,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-10-31T02:14:26.920900+00:00"
+  "updated_at": "2026-10-31T05:30:36.357936+00:00"
 }
