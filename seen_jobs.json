@@ -1919,7 +1919,9 @@
     "ashby-base-power-65680fa8-65b2-4c19-bb69-085bf71402ec",
     "ashby-base-power-6bc9fc24-8e22-49f5-b26e-68c2daea0fdf",
     "ashby-base-power-6c56e236-888e-423d-9f68-764bd9a4742d",
+    "ashby-base-power-6d34e4ff-fd0d-46da-b01a-62be7f1e33e0",
     "ashby-base-power-72bd23ca-8c21-4b82-95f9-96265978112f",
+    "ashby-base-power-7db510a0-a9be-4eca-a361-702fdc784b32",
     "ashby-base-power-7ec26a2c-f2b7-47fc-9881-51bdcd4915eb",
     "ashby-base-power-8526b173-27e7-4dac-a96f-c71214906758",
     "ashby-base-power-8603ced0-1031-4092-ab9a-380d918b0934",
@@ -2647,6 +2649,7 @@
     "ashby-crusoe-e9f2ba2c-e9af-4565-bd88-3dada421226f",
     "ashby-crusoe-ef99771f-c1a6-44eb-94f3-fae7652d7a47",
     "ashby-crusoe-ef99c43f-8aef-495c-84e7-36663cd73369",
+    "ashby-crusoe-f3d7e76e-5356-48c2-968b-0c8b632a5d47",
     "ashby-crusoe-f50a0b31-5099-440a-b425-524360ed592c",
     "ashby-crusoe-f650cb2b-d20f-45a2-bdf1-af9ddec74116",
     "ashby-crusoe-f84de7ef-c151-4454-88e5-8afe40d0a300",
@@ -2900,6 +2903,7 @@
     "ashby-elevenlabs-1f668ed5-49e9-4726-881f-7818733103b1",
     "ashby-elevenlabs-35813150-a851-4821-b732-a037b4e6c4fe",
     "ashby-elevenlabs-38bac641-02de-414d-96f3-d0adb603cb89",
+    "ashby-elevenlabs-3abf96ca-2937-4290-9d23-5208aece08b2",
     "ashby-elevenlabs-41b892ba-b530-44cb-9ae1-178908fc324c",
     "ashby-elevenlabs-6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6",
     "ashby-elevenlabs-750a8325-7ce1-45ea-b0b1-61dab78a456e",
@@ -5055,6 +5059,7 @@
     "ashby-openai-bbad4315-1f13-4b2f-b595-cf1287274f2f",
     "ashby-openai-bc0d4a9f-235f-4a4b-a854-c6cb0322ccaa",
     "ashby-openai-bc88df2f-6268-45bc-966d-032bd05c9ad6",
+    "ashby-openai-bd1ac97f-20f9-4727-9f92-7064035a416f",
     "ashby-openai-be7b1bf5-37ab-40f7-9ec1-e9732244f12a",
     "ashby-openai-c1a28411-266b-487b-8ef3-03efb254fc36",
     "ashby-openai-c2aeb70d-3eca-4c4f-a414-6394b30fea80",
@@ -5785,6 +5790,7 @@
     "ashby-reframesystems-661bd313-e71f-4d89-8ddc-5568c6bfa50d",
     "ashby-reframesystems-c651981d-017b-4041-9e01-dbce5633b54d",
     "ashby-reframesystems-d60fb6a3-5352-4dcd-9255-2f1e463f14ea",
+    "ashby-regent-1eec51d3-41c8-445f-817a-65c732a573a2",
     "ashby-regent-4ea4b164-d78b-44b3-975f-dddc55ea7c5e",
     "ashby-regent-532aa378-26fa-4c89-af83-573feedd09dd",
     "ashby-regent-698d38b7-c47e-40a1-bf78-31d59c395c23",
@@ -5889,6 +5895,7 @@
     "ashby-roboflow-31f1e901-483c-4ee5-a427-65b849fc8b32",
     "ashby-roboflow-3962be8a-60e3-4fc3-9bb6-3a84addb8e08",
     "ashby-roboflow-4805afd6-8e01-4cc8-bad1-3ac46c24d8f6",
+    "ashby-rocketsciencegg-22bc2181-4340-4cc0-88fc-1c4d42761a4a",
     "ashby-rocketsciencegg-35edbb83-22f4-4882-8849-5247babd772a",
     "ashby-rocketsciencegg-5fb5718b-2e28-4735-9036-f8f8ddf56977",
     "ashby-rocketsciencegg-d6034ce0-a0e7-4d02-a016-63a15537cb7a",
@@ -64054,5 +64061,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-06T15:22:39.143281+00:00"
+  "updated_at": "2026-11-06T16:00:12.186211+00:00"
 }
