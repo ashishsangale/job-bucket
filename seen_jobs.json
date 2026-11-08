@@ -1917,6 +1917,7 @@
     "ashby-basata-e85b68b5-cb2f-4f9b-b816-e5bc0feafd39",
     "ashby-base-operations-c23f88f8-b476-4a43-b12c-8773086e65a1",
     "ashby-base-power-01d90134-1fc2-4a24-89b9-e79fe5b001ad",
+    "ashby-base-power-02ca6e34-9827-4183-b05c-b73d06038640",
     "ashby-base-power-074434ca-1e44-4902-878b-d045e74b3e31",
     "ashby-base-power-095df108-3edd-44d5-818e-86283d98705f",
     "ashby-base-power-0f7fefdb-7218-40c6-893f-859b08fb3935",
@@ -1951,6 +1952,7 @@
     "ashby-base-power-e04bf38a-a344-4861-a2d3-27d2a495711f",
     "ashby-base-power-e0c632cd-2375-4e0f-8a9f-11dbb820e885",
     "ashby-base-power-e232a0d2-50d9-4406-a805-1dd7b6d086e1",
+    "ashby-base-power-e60a8f23-b542-43df-a4b5-c17b1afa4c25",
     "ashby-base-power-f0f024b0-2c68-44fe-a6dd-3095bfbbccb6",
     "ashby-base-power-f237f793-855e-4045-b553-df72c1119d5a",
     "ashby-base-power-f7f3523e-70c0-4c4f-bf5d-6f8e39f68d1a",
@@ -3406,6 +3408,7 @@
     "ashby-gamma-76767d60-e375-456d-a195-984854b256ce",
     "ashby-gamma-ec461546-f994-46ec-a4b1-659dce3e4703",
     "ashby-gamma-fa99107a-c458-45fa-b856-add887b0a255",
+    "ashby-garage-5119e260-d0e4-4ad1-b264-1951f7dcc3f8",
     "ashby-garage-dba79415-f4eb-48fd-acf8-9c2086d58a54",
     "ashby-garage-f4018670-2c66-4da9-acac-2aa0af432abb",
     "ashby-gardens-4ed7aa48-6e56-4435-bdb4-2e0bd9179a32",
@@ -64507,5 +64510,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-08T19:54:42.584669+00:00"
+  "updated_at": "2026-11-08T22:10:55.500110+00:00"
 }
