@@ -63626,6 +63626,7 @@
     "wd-unisys-external-/job/Fresno-CA-United-States-of-America/Computer-Field-Engineer-in-Fresno--CA_REQ575595",
     "wd-unisys-external-/job/Hershey-PA-United-States-of-America/L2-Network-Support-Engineer---Hershey_REQ575611-1",
     "wd-unisys-external-/job/Memphis-TN-United-States-of-America/Data-Center-Engineer---Memphis--TN_REQ576100",
+    "wd-unisys-external-/job/Plano-TX-United-States-of-America/Onsite-Service-Engineer---Data-Center_REQ577032",
     "wd-unisys-external-/job/Reading-PA-United-States-of-America/L2-Network-Support-Engineer---Hershey_REQ575611-1",
     "wd-unisys-external-/job/Remote-PA-United-States-of-America/Automation-Engineer_REQ576529",
     "wd-unisys-external-/job/Remote-PA-United-States-of-America/Monitoring-Engineer_REQ576532",
@@ -63636,6 +63637,8 @@
     "wd-unisys-external-/job/Santa-Clara-CA-United-States-of-America/Network-Engineer---Santa-Clara--CA_REQ576443-1",
     "wd-unisys-external-/job/Sparks-NV-United-States-of-America/Onsite-Service-Engineer---Data-Center_REQ576377",
     "wd-unisys-external-/job/Tarrytown-NY-United-States-of-America/Field-Engineer-in-Tarrytown--NY_REQ575838",
+    "wd-unisys-external-/job/USA-CT-Remote/Automation-Engineer_REQ576951",
+    "wd-unisys-external-/job/USA-CT-Remote/Automation-Engineer_REQ576952",
     "wd-unisys-external-/job/USA-MN-Remote/Support-Services-Engineer---USA_REQ574472",
     "wd-unisys-external-/job/USA-Remote/Sr-Cloud-Engineer--OCI-and-DevOps-_REQ575003",
     "wd-unisys-external-/job/USA-Remote/VMWare-System-Engineer_REQ573834",
@@ -63667,6 +63670,7 @@
     "wd-usacs-usacscareers-/job/USACS-OH-Canton/Desktop-Support-Engineer_R0002395",
     "wd-usbank-elavon_careers-/job/Atlanta-GA/Software-Engineer-2---iOS-Developer_2026-0022176",
     "wd-usbank-elavon_careers-/job/Atlanta-GA/Software-engineer-2--Java-Developer-_2026-0022172",
+    "wd-usbank-us_bank_careers-/job/Atlanta-GA/Automation-Engineer-4--SDET-API-automation-_2026-0027233",
     "wd-usbank-us_bank_careers-/job/Atlanta-GA/Software-Engineer-2--NET---Java-Spring-Boot---AWS-_2026-0026293",
     "wd-usbank-us_bank_careers-/job/Charlotte-NC/Sr-Software-Engineer---HOGAN-Deposits--Multiple-openings--in-Charlotte--NC_2026-0033363-1",
     "wd-usbank-us_bank_careers-/job/Chicago-IL/Full-Stack-Developer--Agile-AI-ML-Software-Developer---multiple-positions--in-Chicago--IL_2026-0033976",
@@ -64149,6 +64153,7 @@
     "wd-wexinc-wexinc-/job/US---Remote/Sr-Staff---Data-Platform-Engineer_R20514",
     "wd-wexinc-wexinc-/job/US---Remote/Sr-Staff-AI-Platform-Engineer_R22688",
     "wd-wexinc-wexinc-/job/US---Remote/Staff-AI-Engineer---L4-_R22452",
+    "wd-wexinc-wexinc-/job/US---Remote/Staff-Engineer_R22991",
     "wd-wexinc-wexinc-/job/Washington-State/Software-Engineer-Mgmt-5_R23226",
     "wd-wf-wellsfargojobs-/job/CHARLOTTE-NC/Full-Stack-Developer_R-580480",
     "wd-wf-wellsfargojobs-/job/CHARLOTTE-NC/Software-Engineer_R-576173",
@@ -64177,6 +64182,7 @@
     "wd-wgu-external-/job/Salt-Lake-City-UT/Software-Engineer-II_JR-025504",
     "wd-wgu-external-/job/Salt-Lake-City-UT/Software-Engineer-II_JR-025985",
     "wd-wgu-external-/job/Salt-Lake-City-UT/Software-Engineer-II_JR-026551",
+    "wd-wgu-external-/job/Salt-Lake-City-UT/Software-Engineer-II_JR-026554-1",
     "wd-wgu-external-/job/Salt-Lake-City-UT/Software-Engineer-I_JR-025400",
     "wd-wgu-external-/job/Salt-Lake-City-UT/Staff-Quality-Assurance-Engineer_JR-025344-1",
     "wd-wgu-external-/job/Salt-Lake-City-UT/Staff-Software-Engineer---Agentic-AI-Infrastructure_JR-025474",
@@ -64229,6 +64235,7 @@
     "wd-wmeimg-wme-/job/CA-Beverly-Hills---9601-Wilshire/Staff-Software-Engineer_JR28690-2",
     "wd-wonder-grubhub_careers-/job/New-York-NY/Sr-Software-Engineer---Platform-Engineering_JR101350",
     "wd-wonder-grubhub_careers-/job/New-York-NY/Staff-Engineer_JR101285",
+    "wd-wonder-grubhub_careers-/job/New-York-NY/Staff-Machine-Learning-Engineer--Model-Platform_JR101436-2",
     "wd-wonder-grubhub_careers-/job/New-York-NY/Staff-Site-Reliability-Engineer_JR101369",
     "wd-woodmac-woodmaccareers-/job/Boston-US/Software-Engineer---Data-Engineering-Platform--Python---SQL---PostGIS_JR3246",
     "wd-woodward-woodward-/job/Windsor-CO-US/Engineer-Analyst_JR111166-1",
@@ -64529,5 +64536,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-09T11:54:56.388021+00:00"
+  "updated_at": "2026-11-09T12:02:25.290465+00:00"
 }
