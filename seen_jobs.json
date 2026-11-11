@@ -48604,6 +48604,7 @@
     "lever-ableserve-e242ee34-f9e4-4f94-bbc2-d3dfaa51d4e7",
     "lever-ableserve-f051d6af-5dd9-4877-9010-13d760a27591",
     "lever-acceldata-c12c39cb-68c1-45ae-9a88-601e297957b1",
+    "lever-acceldata-c8159071-1e61-4781-8208-2d378baea04f",
     "lever-acds-079308f9-11b0-4ca0-93a8-c6fb6ed70a23",
     "lever-acds-5a872bb7-8d9f-46e3-9e72-f5c69445e787",
     "lever-acds-65b739c3-02ad-4814-ad24-24abecbc83f4",
@@ -49144,6 +49145,7 @@
     "lever-cyderes-606c58a1-5827-490f-b782-5dc3e38e017a",
     "lever-cyderes-c7c140b1-57b0-4487-a26d-a3084c0a8560",
     "lever-cyngn-e6d50b73-7689-4740-8ebf-33bf2d1a2968",
+    "lever-dadavidson-96edb695-ac23-4eea-90ff-cc1cba378ad9",
     "lever-dadavidson-c94fa097-977b-494f-aa38-1de75c7cf719",
     "lever-dailywire-af3a6f98-0446-4604-84d3-a49310d84edb",
     "lever-daniels-sharpsmart-79b7c6d7-6bb6-42a5-92dd-55b8858ef651",
@@ -49352,6 +49354,7 @@
     "lever-finix-6056d77a-6959-4fc9-9397-79e06b03985a",
     "lever-finix-70465320-7d2e-4de8-bb04-0d53b2d33643",
     "lever-finquery-09533ec9-0b8d-44a1-b71f-6b20256c3d55",
+    "lever-finquery-26115b30-d787-4002-b8fb-44096b4774f4",
     "lever-finquery-8923ced1-721c-4ee5-9288-9b80d509655d",
     "lever-finquery-d545ab4f-8c02-41c5-aed7-5f1d8a03efb7",
     "lever-finquery-fa8261d2-4d3c-42e0-9784-228491d85f93",
@@ -49836,6 +49839,8 @@
     "lever-mcaconnect-5df445f4-cf12-4970-8ab7-7cf46a7aab3c",
     "lever-mcchrystalgroup-461c34e0-ceb5-4797-9403-9f9cad4b9da9",
     "lever-meds-d5ec1d14-0472-4742-a45d-6a2795f8675d",
+    "lever-megaport-13f4b82d-4cee-440a-b4ac-b0fbbcf2da5c",
+    "lever-megaport-395e4505-37e3-43f9-9e2f-2fa112b05e02",
     "lever-megaport-7b9d1ac6-159f-4efc-875c-72ce324139d7",
     "lever-megaport-fd271bfa-6432-4aae-97ea-4a4b51d98d8f",
     "lever-mendix-acd9f6de-8c4a-4226-b5fc-c164ebe39760",
@@ -50538,6 +50543,7 @@
     "lever-tri-9c48b236-e6ad-4b97-9380-c675e5432415",
     "lever-tri-be41a03c-460e-4ff7-b817-f012aa1c4b37",
     "lever-tri-d4184c04-b963-489a-9a0b-91bc57d6267e",
+    "lever-tri-da4b4832-36e7-4703-9841-c319efd6d495",
     "lever-tri-dbdce3b6-fc88-47d2-a78c-9ec34c66e6d1",
     "lever-tri-e7cc38d2-2b08-4349-b322-4d56cac9fb1b",
     "lever-tri-f8c9ed26-4574-4ad2-954b-b7f5ec365495",
@@ -50723,6 +50729,7 @@
     "lever-wadetrim-2d2e7ee3-aa2f-4890-8bd1-eb24a3f56f5f",
     "lever-wadetrim-2f20c177-e5db-4699-b7f4-e45974c57a49",
     "lever-wadetrim-2f3d70ce-24ed-446f-9c51-a59d85c1bf39",
+    "lever-wadetrim-4369ca95-c13b-4687-a29a-8bd93fcbd0f3",
     "lever-wadetrim-6b7fee7d-53e1-4e6e-b144-a9e20db6bb0b",
     "lever-wadetrim-6b851223-7bb5-476d-b3e3-08efbd9f8740",
     "lever-wadetrim-7350e2ef-ad3f-4319-838b-923c977f0fbe",
@@ -65359,5 +65366,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-11T21:27:08.275886+00:00"
+  "updated_at": "2026-11-11T22:57:11.699946+00:00"
 }
