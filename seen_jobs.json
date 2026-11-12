@@ -2595,6 +2595,7 @@
     "ashby-commure-0e3440aa-4ddc-4a43-b4c3-804e60a1b2ff",
     "ashby-commure-1002932f-21a8-4098-9975-22afb02274e7",
     "ashby-commure-12623528-dbce-490c-b2f5-2c4a1ffa6acb",
+    "ashby-commure-1aecff61-dbce-4ad1-9f95-a1c369de340d",
     "ashby-commure-259988fe-0389-461f-823c-36d81840d465",
     "ashby-commure-260bc248-ed7d-4d10-bcc5-158139231a38",
     "ashby-commure-288a59e7-27d6-49e2-af00-87f02fc3b3ed",
@@ -3257,6 +3258,7 @@
     "ashby-flowengineering-df49e713-ce33-40a8-8d6d-3759f61f4ea5",
     "ashby-flox-132d3ea8-d91b-4da1-b564-0cf1ccd7b2a8",
     "ashby-flox-2eb9a62d-38e9-4c7a-a533-c2e73a1c4790",
+    "ashby-fluidstack-0189d03c-30ff-453b-b673-a7c14f15fefe",
     "ashby-fluidstack-027daffa-5f75-4efa-b294-283876770240",
     "ashby-fluidstack-02926c75-9ce1-49e3-807c-d44d38bef223",
     "ashby-fluidstack-0316fdd1-3ea6-4614-a390-06ceb22c9115",
@@ -3301,6 +3303,7 @@
     "ashby-fluidstack-7528afd0-2aae-4cab-8d47-9c3e5d004813",
     "ashby-fluidstack-78365bf7-7a0e-4e15-b30f-827d68c9b8b8",
     "ashby-fluidstack-78af92ee-45c3-48de-929d-86f6993bbbad",
+    "ashby-fluidstack-79aa74cc-a97e-465e-b464-0cb5c7490f52",
     "ashby-fluidstack-79ff5d3e-e307-4d9d-a51e-3297c2ea2c7c",
     "ashby-fluidstack-7a527b3f-0f4e-4c98-a67f-4a95437ac7c8",
     "ashby-fluidstack-7e0c0ca1-c6ea-47f4-987c-bfb71ca88384",
@@ -3613,6 +3616,7 @@
     "ashby-govworx-7bad3c33-9ad1-45e3-bf15-4c2de306e671",
     "ashby-govworx-b8ee9849-9e0a-4994-829b-0f06913346b2",
     "ashby-granted-a8101edf-3947-4743-8ef4-6ef4200fc5d5",
+    "ashby-granted-cc514efc-3a4d-4ebc-847c-a0aa26774dd6",
     "ashby-graymatter-robotics-02452707-28f3-4fb3-a61d-b9c8c371b1c6",
     "ashby-graymatter-robotics-0f5acd77-6b34-4444-9ddc-1ce91cad177c",
     "ashby-graymatter-robotics-1cdbf03d-438b-46f8-808e-76fb6cfd4320",
@@ -6105,6 +6109,7 @@
     "ashby-rillet-af9e5c38-7382-4531-8b1f-12a979d45bde",
     "ashby-rillet-e5db93a3-4fb4-4231-a409-c90171c63391",
     "ashby-rillet-f5d21c85-4fd2-461b-b5aa-3ece7d9f6bac",
+    "ashby-rillet-f731c59e-bba1-4328-9b4a-d7dce3b10e2f",
     "ashby-roboflow-13df0a39-1845-4634-846d-d01f2a573b54",
     "ashby-roboflow-14daee80-ceb4-49e0-8f3e-be1f1f3308bd",
     "ashby-roboflow-31f1e901-483c-4ee5-a427-65b849fc8b32",
@@ -6310,6 +6315,7 @@
     "ashby-sevenai-d4df00fb-323d-4e0a-a65c-ddfc3ef0f3c1",
     "ashby-sewer-ai-2e60c0f9-8d15-4d65-a520-9a8ac728e30f",
     "ashby-sewer-ai-6e2ce43b-de4d-43ad-81dc-0b7d0d10a50d",
+    "ashby-sfcompute-2134c7b5-0190-41ea-be7c-3d827d52b4f1",
     "ashby-sfcompute-2d723ede-00f6-4353-ae88-531f86dc2db8",
     "ashby-sfcompute-2f72be9e-cdea-4a82-bf73-a1809053f329",
     "ashby-shepherd-123bc115-b814-43b2-8fca-8fe1585e60db",
@@ -6674,6 +6680,7 @@
     "ashby-starbridge-fe9f5e0e-1563-4bec-9079-1364d12edf06",
     "ashby-stedi-0f71daf2-0281-4827-b21e-33274db590a7",
     "ashby-stedi-37601657-6445-481a-b624-0950f239bc56",
+    "ashby-stedi-488b2bb4-d181-4b9c-b697-08df8826fec2",
     "ashby-stedi-ac38a5f4-1f2f-4cd0-8898-1e835a0fe110",
     "ashby-stellar-07709fec-6c5e-41bd-ae3f-212027f1f509",
     "ashby-stellar-0d2561fc-dce4-499d-8e93-e8cf3d70516e",
@@ -65436,5 +65443,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-12T09:28:55.538055+00:00"
+  "updated_at": "2026-11-12T09:55:20.083475+00:00"
 }
