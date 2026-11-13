@@ -3017,6 +3017,7 @@
     "ashby-duffel-1afeadbe-a05e-49a7-b3f1-ab11ad4cb282",
     "ashby-duna-62135483-73c9-41b1-990c-1606bffe292c",
     "ashby-duna-b6793ba5-383e-406d-9b46-ad1a462ae615",
+    "ashby-dust-3d40a4e8-4d40-42b5-80b1-6940ea3b6649",
     "ashby-dust-7207f358-42a5-4c4d-b7ee-142b1d9dba04",
     "ashby-duvo-23feed80-3cae-4a73-a578-780ed0bc0f4a",
     "ashby-dyna-robotics-2cdf8c99-54ee-4520-9b76-4806e335b7e9",
@@ -6295,6 +6296,7 @@
     "ashby-second-front-systems-e75017ca-8bfb-4c2f-bdce-b0f0cc8bf4ef",
     "ashby-second-nature-2b92ffd7-dd45-45db-8def-8b13d0281c36",
     "ashby-second-nature-30798d80-7661-4ad4-8c0a-1245b119b317",
+    "ashby-second-nature-7d4c6719-4c9d-46c2-8a4e-19f29d74ecf3",
     "ashby-second-nature-88fc670b-d2ff-46a9-af53-280037931613",
     "ashby-second-nature-9bc8e6af-d2bf-4754-b910-467eff1cb32c",
     "ashby-securebio-c5f6b96a-8a79-4298-9d6d-2581fc58903b",
@@ -6453,6 +6455,7 @@
     "ashby-simple-ai-652b88c5-199e-41d1-86f6-c367d737a84e",
     "ashby-simple-ai-9a5f5694-e066-4087-9a13-b1a62d8d8025",
     "ashby-simple-ai-bc8b4fee-f2df-4c15-9e91-c87cf1afd08c",
+    "ashby-simpleclosure-59fe28bf-c22a-47c9-82a1-d0d30bdc5b81",
     "ashby-simpleclosure-614c05ea-148b-4813-9639-54e7b313c1ee",
     "ashby-simpleclosure-9c227bc2-ea89-4d6f-9fb1-bfeaa134a75b",
     "ashby-simspace-corporation-142e3cb5-e583-4d99-8058-6b8c62f13f90",
@@ -6542,6 +6545,7 @@
     "ashby-snowflake-50d4f7da-1ae2-4ffb-b9ac-176bbc7a22cc",
     "ashby-snowflake-52925922-7cfc-4ee5-bcd2-a52850a7c067",
     "ashby-snowflake-54e19e48-9d91-4d8d-bfb8-041a5db6dc21",
+    "ashby-snowflake-57131f28-cdf8-4776-aa87-8f9339e494ab",
     "ashby-snowflake-5c3d7798-787c-4ef6-8118-161d6ce2d852",
     "ashby-snowflake-5ca0fa74-9e43-4468-8f1c-0a3aa0a993ec",
     "ashby-snowflake-5ed76bcd-cb61-4222-900b-ad9fa89a472e",
@@ -6584,6 +6588,7 @@
     "ashby-snowflake-b470bf43-46b4-4a31-a164-7181e7372d29",
     "ashby-snowflake-b59a856f-2132-4c4e-957b-d51304bc4631",
     "ashby-snowflake-b6fed204-3317-43ba-b87b-f045e4cf8d68",
+    "ashby-snowflake-b861ddac-1fc4-4e42-9cde-a81be6f00fe2",
     "ashby-snowflake-b93dd7ef-bb2b-4cc5-aef6-19576a7157fb",
     "ashby-snowflake-b99ba76c-0938-4a41-931b-d1fb2543126c",
     "ashby-snowflake-bab0bb6f-9eab-4dbb-a72d-dec05ac59d8c",
@@ -65818,5 +65823,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-13T07:54:11.361623+00:00"
+  "updated_at": "2026-11-13T09:36:39.606076+00:00"
 }
