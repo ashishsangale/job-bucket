@@ -9164,6 +9164,7 @@
     "gh-airbnb-8332157",
     "gh-airbnb-8334372",
     "gh-airbnb-8334926",
+    "gh-airbnb-8360478",
     "gh-airbnb-8386065",
     "gh-airbnb-8386083",
     "gh-airbnb-8397762",
@@ -15863,6 +15864,7 @@
     "gh-clickhouse-6130149004",
     "gh-clickhouse-6130197004",
     "gh-clicktherapeutics-8534499002",
+    "gh-climatecabinet-5299216007",
     "gh-clinicalarchitecture-5144130007",
     "gh-clinicalarchitecture-5150229007",
     "gh-clinicalarchitecture-5150286007",
@@ -28346,6 +28348,7 @@
     "gh-pathrobotics-8926017002",
     "gh-pathrobotics-8939588002",
     "gh-pathrobotics-8944480002",
+    "gh-pathrobotics-8949716002",
     "gh-pathstream-7776541003",
     "gh-pathstream-7776672003",
     "gh-pathstream-8200448003",
@@ -31884,6 +31887,7 @@
     "gh-scoutmotors-5287136007",
     "gh-scoutmotors-5291381007",
     "gh-scoutmotors-5293675007",
+    "gh-scoutmotors-5298483007",
     "gh-scoutspace-4062497008",
     "gh-scoutspace-4497924008",
     "gh-seatgeek-7858968",
@@ -32943,6 +32947,7 @@
     "gh-sonyinteractiveentertainmentglobal-6233298004",
     "gh-sonyinteractiveentertainmentglobal-6237074004",
     "gh-sonyinteractiveentertainmentglobal-6239791004",
+    "gh-sonyinteractiveentertainmentglobal-6240810004",
     "gh-sonyinteractiveentertainmentglobal-6248628004",
     "gh-sonyinteractiveentertainmentglobal-6250753004",
     "gh-sonyinteractiveentertainmentglobal-6250762004",
@@ -66730,5 +66735,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-18T12:08:47.218238+00:00"
+  "updated_at": "2026-11-18T13:55:21.367653+00:00"
 }
