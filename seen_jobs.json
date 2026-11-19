@@ -454,6 +454,8 @@
     "amzn-10606779",
     "amzn-10607536",
     "amzn-10607584",
+    "amzn-10607721",
+    "amzn-10607758",
     "amzn-10608182",
     "amzn-10608278",
     "amzn-10608286",
@@ -1634,7 +1636,10 @@
     "apple-200695740-0157",
     "apple-200695767-0157",
     "apple-200695771-0157",
+    "apple-200695785-3956",
+    "apple-200695814-0157",
     "apple-200695825-3337",
+    "apple-200695877-0157",
     "ashby-0g-89ef45ce-0f81-4ef3-a31b-adc38311824b",
     "ashby-1mind-052ca544-28c4-4fcb-a0a2-63140ccf0212",
     "ashby-1mind-74c26a72-8ec2-4269-b1d4-568d32cb0648",
@@ -66976,5 +66981,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-19T03:47:45.598028+00:00"
+  "updated_at": "2026-11-19T08:50:26.891700+00:00"
 }
