@@ -52707,6 +52707,7 @@
     "wd-accenture-accenturecareers-/job/Braga-Polo-de-Negocios-de-Braga/Junior-AI-Engineer_R00347452",
     "wd-accenture-accenturecareers-/job/Brussels/Junior-Infrastructure-AI-Specialist_R00341952-1",
     "wd-accenture-accenturecareers-/job/Budapest/Java-developer_R00301827-1",
+    "wd-accenture-accenturecareers-/job/Chennai/Custom-Software-Engineer_14932730",
     "wd-accenture-accenturecareers-/job/Chennai/Custom-Software-Engineer_ATCI-5501228-S2005598-1",
     "wd-accenture-accenturecareers-/job/Chennai/Custom-Software-Engineer_ATCI-5547830-S2020354-1",
     "wd-accenture-accenturecareers-/job/Chennai/Custom-Software-Engineer_ATCI-5547831-S2020350-1",
@@ -53426,6 +53427,7 @@
     "wd-alteryx-alteryxcareers-/job/US---Remote/AI-Platform-Engineer_R12336",
     "wd-alteryx-alteryxcareers-/job/US---Remote/DevOps-Platform-Engineer_R12389",
     "wd-alteryx-alteryxcareers-/job/US---Remote/Forward-Deployed-Engineer_R12254",
+    "wd-alteryx-alteryxcareers-/job/US---Remote/Forward-Deployed-Engineer_R12630",
     "wd-alteryx-alteryxcareers-/job/US---Remote/Software-Development-Engineer-in-Test_R11901",
     "wd-alteryx-alteryxcareers-/job/US---Remote/Software-Development-Engineer-in-Test_R11902",
     "wd-alteryx-alteryxcareers-/job/US---Remote/Software-Development-Engineer-in-Test_R11939",
@@ -66161,7 +66163,10 @@
     "wd-unisys-external-/job/USA-CT-Remote/Automation-Engineer---Patching_REQ576950",
     "wd-unisys-external-/job/USA-CT-Remote/Automation-Engineer_REQ576951",
     "wd-unisys-external-/job/USA-CT-Remote/Automation-Engineer_REQ576952",
+    "wd-unisys-external-/job/USA-CT-Remote/Linux-Patching-Engineer_REQ577107-1",
+    "wd-unisys-external-/job/USA-CT-Remote/Middleware-Patching-Engineer_REQ576954",
     "wd-unisys-external-/job/USA-CT-Remote/Monitoring-Engineer_REQ576953",
+    "wd-unisys-external-/job/USA-CT-Remote/Windows-Patching-Engineer_REQ577106",
     "wd-unisys-external-/job/USA-MN-Remote/Support-Services-Engineer---USA_REQ574472",
     "wd-unisys-external-/job/USA-Remote/Sr-Cloud-Engineer--OCI-and-DevOps-_REQ575003",
     "wd-unisys-external-/job/USA-Remote/VMWare-System-Engineer_REQ573834",
@@ -66338,6 +66343,7 @@
     "wd-veralto-videojetjobs-/job/IRL---Remote/Field-Service-Engineer--Northern-Ireland-_R10268498-1",
     "wd-veralto-videojetjobs-/job/Washington---Remote-United-States-of-America/Field-Service-Engineer_R10269169",
     "wd-veralto-videojetjobs-/job/Wood-Dale-Illinois-United-States/AI-Solutions-Engineer_R10267794",
+    "wd-verawholehealth-castlight-/job/US---Remote/Staff-Data-Engineer_M105370",
     "wd-verawholehealth-castlight-/job/US---Remote/Staff-Frontend-Engineer_M105367",
     "wd-verawholehealth-castlight-/job/US---Remote/Staff-Full-Stack-Engineer_M105365",
     "wd-verawholehealth-external-/job/Fort-Myers-FL/Software-Developer_M104449",
@@ -66410,6 +66416,7 @@
     "wd-viavisolutions-careers-/job/Minnetonka-MN-USA/Staff-Software-Engineer---Apex-Platform-for-Network-Observability-and-Cybersecurity_260005070-1",
     "wd-viavisolutions-careers-/job/Morrisville-NC-USA/Early-Careers-Rotational-Program-Development-Engineer---Software-Engineering-AI-Track_260004987-1",
     "wd-viavisolutions-careers-/job/Santa-Rosa-CA-USA/Information-Security-Engineer-2_260005148",
+    "wd-vibrant-veh_external_career_site-/job/Remote-USA/DevOps-Engineer-I_JR100314-1",
     "wd-vincitgroup-vincit_external_1-/job/Chattanooga-TN/Applications-Engineer_R7524",
     "wd-visa-visa-/job/IN---Remote---IND/Staff-SW-Engineer--6---Golang-_REF088241W",
     "wd-visa-visa-/job/US---Ashburn-VA/Software-Engineer--Intern---2027-Ashburn--VA_REF088577W-1",
@@ -67102,5 +67109,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-20T00:40:44.953640+00:00"
+  "updated_at": "2026-11-20T02:32:25.560696+00:00"
 }
