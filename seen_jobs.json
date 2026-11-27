@@ -2885,6 +2885,7 @@
     "ashby-creditgenie-1fe564fe-dd61-4a39-91a5-9db697c0b35c",
     "ashby-creditgenie-2385c5a6-7f15-483e-9a30-2b8f66eb4a90",
     "ashby-creditgenie-27ffcad7-e8a1-4d98-9fdd-ff11ad0d830e",
+    "ashby-creditgenie-b4845cb7-a56d-4d25-90aa-d71575f0b8ea",
     "ashby-creditgenie-da8def19-53d8-4112-85e5-7bc33d701dc1",
     "ashby-creditgenie-ecff45ce-f688-4109-b545-8b3e1c47bb38",
     "ashby-critical-energy-245b056b-ac9f-4369-8e3e-e1879c9434af",
@@ -4015,6 +4016,7 @@
     "ashby-harmattan-ai-39f9170e-e714-4dae-a860-ef45a1dd68a1",
     "ashby-harmattan-ai-43fa251c-2c0f-4a7b-a472-5887e2419060",
     "ashby-harmattan-ai-601a96cb-d4e4-4aff-9530-4a3b0f2f2088",
+    "ashby-harmattan-ai-62daa321-d231-46ea-bf58-1b13c544d667",
     "ashby-harmattan-ai-650e8bfe-7db4-492d-a0a2-1523113f159c",
     "ashby-harmattan-ai-6599d95c-22f7-4342-991d-facf45107a89",
     "ashby-harmattan-ai-79e1f46d-4b97-4eee-acc3-cbc805d209ca",
@@ -4037,6 +4039,7 @@
     "ashby-harmattan-ai-e1341aa3-00bb-4c76-8f6a-6c20ec489c57",
     "ashby-harmattan-ai-e797faf2-88d4-48ff-8a8d-917b50ed207e",
     "ashby-harmattan-ai-f72486da-7ca7-476e-a664-095d5ba174b0",
+    "ashby-harmattan-ai-facb5764-6287-4f20-beb9-1faf4acd4178",
     "ashby-harmattan-ai-fafd93bb-834e-4794-babe-bbb87339c116",
     "ashby-harmattan-ai-fcd212df-e6ba-42d8-b42c-c8556d8ad4f0",
     "ashby-harmonic-5e759f93-e90c-43a9-8c88-af25428237ca",
@@ -7410,6 +7413,7 @@
     "ashby-terac-35341d8b-cf86-416a-8b2e-4b4ea51a04ac",
     "ashby-terac-3aecff2c-6fdf-439b-bb67-a6e62910f6f3",
     "ashby-terac-427c06b5-a02a-4624-b398-f7cd970edcaf",
+    "ashby-terac-46b0651e-86df-484a-9061-4fb6de4e97d3",
     "ashby-terac-4812e7ea-22f7-40cb-a124-e38e52442e82",
     "ashby-terac-4bef8805-4a29-4cc5-b9bd-e2023216d29e",
     "ashby-terac-5112693f-e8c4-4fe5-a7e8-96e8c536ad68",
@@ -7424,6 +7428,7 @@
     "ashby-terac-a7a2dcb8-0637-4c4d-a8b8-7325e5074f88",
     "ashby-terac-aefe0338-8095-4a58-9a84-fc3c42526561",
     "ashby-terac-c083d890-532d-4615-860e-98c552b44584",
+    "ashby-terac-c0e0de9c-8462-4fc1-aea4-92eeaf512699",
     "ashby-terac-c51173b9-76bb-4726-ae1e-4ba736aaf7cb",
     "ashby-terac-cfb3d5ad-835e-47a0-a0a2-430e020ee083",
     "ashby-terac-d95b4313-44ac-4ac9-9032-3ab4d06a3927",
@@ -68252,5 +68257,5 @@
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R18761-1",
     "wd-zoom-zoom-/job/Seattle-WA/Staff-AI-Engineer_R19381-1"
   ],
-  "updated_at": "2026-11-27T22:13:49.627331+00:00"
+  "updated_at": "2026-11-27T22:53:10.140589+00:00"
 }
